@@ -9,7 +9,7 @@ Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
 <li>Hernoem de folder YOUR_ADMIN naar de naam van uw eigen adminfolder.</li>
 <li>Kopie&euml;er alle folders naar de root folder van uw site (dat is degene waar u al een includes folder, een images, cache, media en een aantal ander folders ziet).</li>
 <li>Upload alle files van dit pakket naar uw live server.</li>
-<li>Als u <b>upgrade</b> vanaf Zen cart 1.39h kunt u de vogende files van uw live server verwijderen, deze zitten <strong>standaard</strong> niet meer in Zen Cart:
+<li>Als u <b>upgrade</b> vanaf Zen cart 1.39h kunt u de volgende files van uw live server verwijderen, deze zitten <strong>standaard</strong> niet meer in Zen Cart:
 <ul>
 <li>/admin/includes/languages/dutch/cache.php</li>
 <li>/admin/includes/languages/dutch/email_welcome.php</li>
@@ -18,6 +18,11 @@ Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
 <li>/includes/languages/english/tell_a_friend.php</li>
 <li>/includes/languages/english/modules/shipping/ups.php</li>
 <li>/includes/languages/english/modules/shipping/usps.php</li>
+</ul>
+</li>
+<li>Als u <b>upgrade</b> vanaf Zen cart 1.5.0 kunt u de volgende files van uw live server verwijderen, deze zitten <strong>standaard</strong> niet meer in Zen Cart:
+<ul>
+<li></li>
 </ul>
 </li>
 </ol>
