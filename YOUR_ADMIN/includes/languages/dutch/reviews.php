@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2009 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: reviews.php 14139 2009-08-10 13:46:02Z wilt $
  */
 

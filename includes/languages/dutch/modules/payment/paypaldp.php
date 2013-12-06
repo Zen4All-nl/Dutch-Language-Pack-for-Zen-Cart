@@ -5,7 +5,7 @@
  * @copyright Portions Copyright 2005 CardinalCommerce
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version GIT: $Id: Author: DrByte  Thu Aug 16 01:57:33 2012 -0400 Modified in v1.5.1 $
  */
 

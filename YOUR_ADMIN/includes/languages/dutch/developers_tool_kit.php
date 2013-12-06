@@ -1,11 +1,11 @@
 <?php
 /**
  * @package admin
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @version $Id: dutch translation voor zen cart 1.5.2
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: developers_tool_kit.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version GIT: $Id: Author: DrByte  Mon Jul 1 14:52:11 2013 -0400 Modified in v1.5.2 $
  */
   define('HEADING_TITLE', 'Tool Kit ontwikkelaar');
   define('TABLE_CONFIGURATION_TABLE', 'Zoek CONSTANT definities');
@@ -81,4 +81,22 @@
 
   define('TEXT_CASE_SENSITIVE', 'Hoofdlettergevoelig?');
 
-?>
+// Nog te vertalen
+  //Search Configuration Keys
+  define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Search in Configuration Settings/Keys</strong>');
+  define('SEARCH_CFG_KEYS_SEARCH_BOX_TEXT', '<strong>Phrase to search:</strong> (This will search configuration setting names and descriptions, and also configuration_keys if exact match)');
+  define('SEARCH_CFG_KEYS_TABLE_SECTION', 'Section');
+  define('SEARCH_CFG_KEYS_TABLE_GROUP','Group');
+  define('SEARCH_CFG_KEYS_TABLE_TITLE', 'Title');
+  define('SEARCH_CFG_KEYS_TABLE_DESCRIPTION','Description');
+  define('SEARCH_CFG_KEYS_TABLE_VALUE','Value');
+  define('SEARCH_CFG_KEYS_TABLE_KEY_NAME', 'Key Name');
+  define('SEARCH_CFG_KEYS_TABLE_EDIT','Edit');
+  define('SEARCH_CFG_KEYS_NOT_FOUND_KEYS', 'No configuration key(s) found.');
+  define('SEARCH_CFG_KEYS_FOUND_KEYS', 'configuration key(s) found.');
+  define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Enter words to find in settings');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Search');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Search (sorted by key)');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'View All');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_RESET', 'Reset');
+

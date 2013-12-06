@@ -1,7 +1,6 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
-
+// @version $Id: dutch translation voor zen cart 1.5.2
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+

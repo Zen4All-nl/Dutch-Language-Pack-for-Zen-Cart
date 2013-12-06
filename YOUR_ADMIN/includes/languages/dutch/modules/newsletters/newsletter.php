@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: newsletter.php 4385 2006-09-04 04:10:48Z drbyte $
  */
 

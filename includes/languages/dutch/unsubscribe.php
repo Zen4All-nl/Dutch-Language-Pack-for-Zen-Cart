@@ -7,7 +7,7 @@
  * @copyright Modified by Jim Keebaugh for OsCommerce
  * @copyright Adapted for Zen Cart
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: unsubscribe.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 

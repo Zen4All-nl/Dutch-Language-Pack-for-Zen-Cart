@@ -3,10 +3,10 @@
  * Authorize.net AIM Payment Module Language definitions
  *
  * @package languageDefines
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: authorizenet_aim.php 18695 2011-05-04 05:24:19Z drbyte $
  */
 
@@ -77,3 +77,4 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS', 'Opmerking (word getoond binnen de bestelhistorie):');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE', 'Transactie geannuleerd');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX', 'Verificaties moeten zijn uitgevoerd voordat de oorspronkelijke transactie in de dagelijkse verwerking kan worden meegenomen.');
+

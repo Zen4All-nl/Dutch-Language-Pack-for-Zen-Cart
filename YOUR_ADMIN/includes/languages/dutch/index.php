@@ -1,11 +1,11 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version GIT: $Id: Author: DrByte  Wed Sep 5 10:59:13 2012 -0400 Modified in v1.5.1 $
+ * @version $Id: dutch translation voor zen cart 1.5.2
+ * @version GIT: $Id: Author: Ian Wilson  Sat Aug 10 18:43:55 2013 +0100 Modified in v1.5.2 $
  */
 
 define('HEADING_TITLE', 'Kies een actie...');
@@ -64,8 +64,28 @@ define('BOX_TITLE_CUSTOMERS', 'Klanten');
 define('BOX_ENTRY_CUSTOMERS_NORMAL', '- Volledige accounts:');
 define('BOX_ENTRY_CUSTOMERS_COWOA', '- Zonder accounts:');
 define('BOX_ENTRY_CUSTOMERS_TOTAL', 'Totaal aantal klantaccounts:');
-define('BOX_ENTRY_CUSTOMERS_TOTAL_DISTINCT', 'Totaal aantal verschillende klanten:');
-define('BOX_ENTRY_CUSTOMERS_COWOA_DISTINCT', '- Zonder accounts :');
-define('BOX_CONFIGURATION_COWOA', 'Cowoa configuratie');//for 1.5
-define('COWOA_WITHOUT_ACCOUNT', '(Zonder account)');
 
+// Nog te vertalen
+define('TEXT_REMOVE', 'Remove');
+define('TEXT_UPDATE', 'Update');
+define('TEXT_CONFIRM_REMOVE', 'Are you sure you want to remove this widget from the dashboard?');
+define('TEXT_WIDGET_UPDATE_HEADER', 'Widget Settings have been updated');
+
+define ('TEXT_TIMER_SELECT_NONE', 'No Refresh');
+define ('TEXT_TIMER_SELECT_1MIN', 'Refresh every Minute');
+define ('TEXT_TIMER_SELECT_5MIN', 'Refresh every 5 Minutes');
+define ('TEXT_TIMER_SELECT_10MIN', 'Refresh every 10 Minutes');
+define ('TEXT_TIMER_SELECT_15MIN', 'Refresh every 15 Minutes');
+
+define ('TEXT_NO_WIDGETS_TO_INSTALL', 'There are currently no widgets available to install.');
+define('TEXT_FORM_ERROR_CHOOSE_ZONE', 'Please choose a Zone');
+define('TEXT_WARNING_SUPERUSER_REQUIRED', 'Only a Superuser can complete the initial setup. You will not be able to use your Admin until this is done.');
+define('TEXT_HEADING_SETUP_WIZARD', 'Initial Setup Wizard');
+
+define('TEXT_FORM_LEGEND_REQUIRED_SETUP', 'Required Setup Information');
+define('TEXT_FORM_LABEL_STORE_NAME', 'Store Name');
+define('TEXT_FORM_LABEL_STORE_OWNER', 'Store Owner');
+define('TEXT_FORM_LABEL_STORE_OWNER_EMAIL', 'Store Owner Email');
+define('TEXT_FORM_LABEL_STORE_COUNTRY', 'Store Country');
+define('TEXT_FORM_LABEL_STORE_ZONE', 'Store Zone');
+define('TEXT_FORM_LABEL_STORE_ADDRESS', 'Store Address');

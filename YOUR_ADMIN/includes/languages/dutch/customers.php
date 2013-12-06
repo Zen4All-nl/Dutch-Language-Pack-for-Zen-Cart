@@ -1,10 +1,10 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: customers.php 6352 2007-05-20 21:05:01Z drbyte $
  */
 
@@ -57,13 +57,4 @@ define('ADDRESS_BOOK_TITLE', 'Ingeving Adres Boek');
 define('PRIMARY_ADDRESS', '(primaire adres)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOOT:</strong></span> Een maximum van %s adres boek ingevingen zijn toegestaan.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 van  ');
-
-// Title of column in customer overview admin page
-define('TABLE_HEADING_COWOA', 'Account Type');
-
-// Title of section in customer details admin page
-define('COWOA_SECTION_HEADING', 'Account Status');
-
-// Detail output on customer details page 
-define('COWOA_STATUS_TRUE', 'Afrekenen zonder een account');
-define('COWOA_STATUS_FALSE', 'Voledige account aangemaakt');
+?>

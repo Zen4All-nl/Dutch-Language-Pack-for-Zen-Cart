@@ -1,11 +1,11 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version GIT: $Id: Author: DrByte  Wed Sep 5 10:59:13 2012 -0400 Modified in v1.5.1 $
+ * @version $Id: dutch translation voor zen cart 1.5.2
+ * @version GIT: $Id: Author: DrByte  Mon Oct 28 23:52:35 2013 -0400 Modified in v1.5.2 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -17,6 +17,32 @@ define('HEADER_ALT_TEXT', 'Admin Powered by Zen Cart :: The Art of E-Commerce');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
+
+// look in your $PATH_LOCALE/locale directory for available locales..
+$locales = array('en_US', 'en_US.utf8', 'en', 'English_United States.1252');
+@setlocale(LC_TIME, $locales);
+define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
+define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
+define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
+define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
+define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Alleen 'dd', 'MM' and 'yyyy' gebruiken, in de gewenste volgorde
+define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
+////
+// Return date in raw format
+// $date should be in format mm/dd/yyyy
+// raw date is in format YYYYMMDD, or DDMMYYYY
+function zen_date_raw($date, $reverse = false) {
+  if ($reverse) {
+    return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
+  } else {
+    return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
+  }
+}
+
+// removed for meta tags
+// page title
+//define('TITLE', 'Zen Cart');
 
 // include template specific meta tags defines
   if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
@@ -31,6 +57,12 @@ define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
 define('ICON_METATAGS_OFF', 'Meta tags niet gedefinieërd');
 define('TEXT_LEGEND_META_TAGS', 'Meta tags gedefinieërd:');
 define('TEXT_INFO_META_TAGS_USAGE', '<strong>Opmerking:</strong> De Site/Tagline is de beschrijving van de site in the meta_tags.php file.');
+
+// Global entries for the <html> tag
+define('HTML_PARAMS','dir="ltr" lang="nl"');
+
+// charset for web pages and emails
+define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Admin Home');
@@ -52,6 +84,8 @@ define('TEXT_GV_REDEEM','Inwisselcode');
 // text for gender
 define('MALE', 'De heer');
 define('FEMALE', 'Mevrouw');
+
+define('NONE', 'Geen');
 
 // configuration box text
 define('BOX_HEADING_CONFIGURATION', 'Configuratie');
@@ -80,7 +114,6 @@ define('BOX_CONFIGURATION_ALL_LISTING', 'Alles weergave');
 define('BOX_CONFIGURATION_INDEX_LISTING', 'Index weergave');
 define('BOX_CONFIGURATION_DEFINE_PAGE_STATUS', 'Define paginastatus');
 define('BOX_CONFIGURATION_EZPAGES_SETTINGS', 'EZ-Pagina-instellingen');
-define('BOX_CONFIGURATION_COWOA', 'Cowoa Configuratie');//voor 1.5.1
 
 // modules box text
 define('BOX_HEADING_MODULES', 'Modules');
@@ -422,6 +455,19 @@ define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kan het taalbestand 
 define('ERROR_MODULE_REMOVAL_PROHIBITED', 'Fout: Module verwijdering niet toegestaan: ');
 define('WARNING_REVIEW_ROGUE_ACTIVITY', 'Waarschuwing: Onderzoek alstublieft op eventuele XSS activiteit:');
 
+define('_JANUARY', 'januari');
+define('_FEBRUARY', 'februari');
+define('_MARCH', 'maart');
+define('_APRIL', 'april');
+define('_MAY', 'mei');
+define('_JUNE', 'juni');
+define('_JULY', 'juli');
+define('_AUGUST', 'augustus');
+define('_SEPTEMBER', 'september');
+define('_OCTOBER', 'oktober');
+define('_NOVEMBER', 'november');
+define('_DECEMBER', 'december');
+
 define('TEXT_DISPLAY_NUMBER_OF_GIFT_VOUCHERS', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> cadeaubonnen)');
 define('TEXT_DISPLAY_NUMBER_OF_COUPONS', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> kortingsbonnen');
 
@@ -531,6 +577,7 @@ define('TEXT_LEGEND_STATUS_ON', 'Status AAN');
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de<br /> artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
 define('TEXT_YES', 'Ja');
 define('TEXT_NO', 'Nee');
+define('TEXT_CANCEL', 'Annuleren');
 
 // shipping error messages
 define('ERROR_SHIPPING_CONFIGURATION', '<strong>Configuratie verzendmethoden foutmelding!</strong>');
@@ -563,6 +610,8 @@ define('TEXT_INFO_SET_MASTER_CATEGORIES_ID_WARNING', '<strong>Waarschuwing:</str
 
 define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Informeer naar prijs ');
 define('PRODUCTS_PRICE_IS_FREE_TEXT','Artikel is gratis');
+
+define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
 
 // min, max, units
 define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
@@ -628,7 +677,7 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
 
   define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');//nog vertalen
   define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Display Global Features - ON');//nog vertalen
-define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');//nog vertalen
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');//nog vertalen
 
 // moved from categories and all product type language files
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fout: Gekoppelde artikelen kunnen niet in dezelfde categorie gekoppeld worden.');
@@ -672,6 +721,9 @@ define('TEXT_EMAIL', 'E-mail');
 define('TEXT_NOEMAIL', 'Geen e-mail');
 
 define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
+
+define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: There appears to be a problem with the database. Maintenance is required.</a>');//nog vertalen
+
 
 ///////////////////////////////////////////////////////////
 // include additional files:

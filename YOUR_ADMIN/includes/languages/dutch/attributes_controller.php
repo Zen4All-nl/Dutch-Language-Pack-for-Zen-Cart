@@ -4,11 +4,11 @@
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: attributes_controller.php 15883 2010-04-11 16:41:26Z wilt $
  */
 
-define('HEADING_TITLE', 'CATEGORIEëN: ');
+define('HEADING_TITLE', 'CATEGORIEËN: ');
 
 define('HEADING_TITLE_OPT', 'Opties');
 define('HEADING_TITLE_VAL', 'Optiewaarde(n)');

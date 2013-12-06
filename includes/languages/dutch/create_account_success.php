@@ -1,11 +1,11 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version $Id: create_account_success.php 4816 2006-10-23 04:08:52Z drbyte $
+ * @version $Id: dutch translation voor zen cart 1.5.2
+ * @version GIT: $Id: Author: DrByte  Sun Feb 17 23:22:33 2013 -0500 Modified in v1.5.2 $
  */
 
 define('NAVBAR_TITLE_1', 'Maak een account');

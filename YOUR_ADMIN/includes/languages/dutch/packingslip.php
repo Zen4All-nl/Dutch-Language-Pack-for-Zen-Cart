@@ -1,6 +1,6 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @version $Id: dutch translation voor zen cart 1.5.2
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -25,6 +25,7 @@ define('TABLE_HEADING_COMMENTS', 'Commentaar');
 define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant geïnformeerd');
 define('TABLE_HEADING_DATE_ADDED', 'Datum Toegevoegd');
 define('TABLE_HEADING_STATUS', 'Status');
+
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
 define('TABLE_HEADING_PRODUCTS', 'Artikelen');
 

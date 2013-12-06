@@ -1,6 +1,6 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @version $Id: dutch translation voor zen cart 1.5.2
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,6 +20,7 @@
 // +----------------------------------------------------------------------+
 //  $Id: invoice.php 5961 2007-03-03 17:17:39Z ajeh $
 //
+
 define('TABLE_HEADING_COMMENTS', 'Commentaar');
 define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant geïnformeerd');
 define('TABLE_HEADING_DATE_ADDED', 'Datum Toegevoegd');

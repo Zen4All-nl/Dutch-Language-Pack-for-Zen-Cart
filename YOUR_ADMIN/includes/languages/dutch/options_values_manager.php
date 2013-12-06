@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: options_values_manager.php 15883 2010-04-11 16:41:26Z wilt $
  */
 
@@ -37,9 +37,9 @@ define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','Optie en optiewaarde komen niet
 define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Mogelijk duplicaat optie toegevoegd'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Mogelijke duplicaat optiewaarde toegevoegd'); // Options Value Duplicate warning
 
-define('PRODUCTS_ATTRIBUTES_EDITING','WIJZIGEN eigenschappen');
-define('PRODUCTS_ATTRIBUTES_DELETE','VERWIJDEREN eigenschappen');
-define('PRODUCTS_ATTRIBUTES_ADDING','Toevoegen nieuwe eigenschappen');
+define('PRODUCTS_ATTRIBUTES_EDITING','WIJZIGEN eigenschappen'); // titel
+define('PRODUCTS_ATTRIBUTES_DELETE','VERWIJDEREN eigenschappen'); // titel
+define('PRODUCTS_ATTRIBUTES_ADDING','Toevoegen nieuwe eigenschappen'); // titel
 define('TEXT_DOWNLOADS_DISABLED','<strong>Opmerking:</strong> downloads zijn uitgezet');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Dagen:');

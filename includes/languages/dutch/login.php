@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2009 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: login.php 14280 2009-08-29 01:33:18Z drbyte $
  * @version $Id: login.php 14280 2009-08-29 $ Integrated COWOA v2.2 - 2007 - 2012
  */
