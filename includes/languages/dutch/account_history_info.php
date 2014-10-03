@@ -23,7 +23,7 @@ define('HEADING_DELIVERY_ADDRESS', 'Afleveradres');
 define('HEADING_SHIPPING_METHOD', 'Verzendmethode');
 
 define('HEADING_PRODUCTS', 'Artikelen');
-define('HEADING_TAX', 'BTW');
+define('HEADING_TAX', 'Btw');
 define('HEADING_TOTAL', 'Totaal');
 define('HEADING_QUANTITY', 'Aantal');
 

@@ -284,7 +284,7 @@
 
   define('TEXT_NO_NEW_PRODUCTS', 'Binnenkort meer nieuwe artikelen. Kom snel weer kijken.');
 
-  define('TEXT_UNKNOWN_TAX_RATE', 'BTW');
+  define('TEXT_UNKNOWN_TAX_RATE', 'Btw');
 
   define('TEXT_REQUIRED', '<span class="errorText">Verplicht</span>');
 

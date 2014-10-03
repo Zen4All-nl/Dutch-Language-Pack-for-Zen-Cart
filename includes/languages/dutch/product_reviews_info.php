@@ -10,11 +10,11 @@
 
 define('NAVBAR_TITLE', 'Recensies');
 //define('SUB_TITLE_PRODUCT', 'Product:');
-//define('SUB_TITLE_FROM', 'From:');
-//define('SUB_TITLE_DATE', 'Date:');
+//define('SUB_TITLE_FROM', 'Van:');
+//define('SUB_TITLE_DATE', 'Datum:');
 //define('SUB_TITLE_REVIEW', 'Review:');
 //define('SUB_TITLE_RATING', 'Rating:');
 define('TEXT_OF_5_STARS', '');
-define('TEXT_PRODUCT_INFO', 'Artikelinfo lezen');
+define('TEXT_PRODUCT_INFO', 'Artikelinformatie lezen');
 define('TEXT_REVIEW_ADDITIONAL', 'Meer recensie\'s');
 ?>

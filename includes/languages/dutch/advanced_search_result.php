@@ -27,7 +27,7 @@ define('NAVBAR_TITLE_2', 'Zoek resultaten');
 //define('HEADING_TITLE_1', 'Uitgebreid zoeken');
 define('HEADING_TITLE', 'Uitgebreid zoeken');
 
-define('HEADING_SEARCH_CRITERIA', 'zoek criteria');
+define('HEADING_SEARCH_CRITERIA', 'Zoekcriteria');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'Zoek in productomschrijving');
 define('ENTRY_CATEGORIES', 'Categorieën:');

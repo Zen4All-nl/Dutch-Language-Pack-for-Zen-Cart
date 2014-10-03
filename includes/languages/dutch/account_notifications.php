@@ -9,20 +9,20 @@
  */
 
 define('NAVBAR_TITLE_1', 'Mijn account');
-define('NAVBAR_TITLE_2', 'Productinfo');
+define('NAVBAR_TITLE_2', 'Productnotificaties');
 
-define('HEADING_TITLE', 'Productinfo');
+define('HEADING_TITLE', 'Productnotificaties');
 
-define('MY_NOTIFICATIONS_TITLE', 'Mijn productinfo');
-define('MY_NOTIFICATIONS_DESCRIPTION', 'Het artikelinfo overzicht stelt u instaat op de hoogte te blijven van de voor u interresante artikelen.<br /><br />Om artikelinfo te ontvangen voor het gehele assortiment selecteert u <strong>algemene artikelinfo</strong>.');
+define('MY_NOTIFICATIONS_TITLE', 'Mijn productnotificaties');
+define('MY_NOTIFICATIONS_DESCRIPTION', 'Het productnotificatie overzicht stelt u instaat op de hoogte te blijven van de voor u interresante artikelen.<br /><br />Om productnotificaties te ontvangen voor het gehele assortiment selecteert u <strong>algemene productnotificatie</strong>.');
 
-define('GLOBAL_NOTIFICATIONS_TITLE', 'Algemene artikelinfo');
-define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Ontvang artikelinfo van het gehele assortiment.');
+define('GLOBAL_NOTIFICATIONS_TITLE', 'Algemene productnotificatie');
+define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Ontvang productnotificaties van het gehele assortiment.');
 
 define('NOTIFICATIONS_TITLE', 'Productinfo');
-define('NOTIFICATIONS_DESCRIPTION', 'Om geen artikelinfo meer te ontvangen vink het selectievakje voor het betreffende artikel uit en klik op opslaan.');
-define('NOTIFICATIONS_NON_EXISTING', 'Momenteel ontvangt u geen productinfo.<br /><br />Om artikelen toe te voegen aan uw productinfo overzicht, klik vanuit de uitgebreide artikelinfo pagina op de artikelinfo link.');
+define('NOTIFICATIONS_DESCRIPTION', 'Om geen productnotificaties meer te ontvangen vink het selectievakje voor het betreffende artikel uit en klik op opslaan.');
+define('NOTIFICATIONS_NON_EXISTING', 'Momenteel ontvangt u geen productnotificaties.<br /><br />Om artikelen toe te voegen aan uw productnotificatie overzicht, klik vanuit de uitgebreide artikelinfo pagina op de artikelinfo link.');
 define('TEXT_NO_PURCHASES', 'Geen aankopen');
 
-define('SUCCESS_NOTIFICATIONS_UPDATED', 'Uw artikelinfo instellingen zijn opgeslagen.');
+define('SUCCESS_NOTIFICATIONS_UPDATED', 'Uw productnotificatie instellingen zijn opgeslagen.');
 ?>

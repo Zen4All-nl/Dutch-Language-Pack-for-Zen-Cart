@@ -13,4 +13,3 @@ define('NAVBAR_TITLE_2', 'Succesvol');
 define('HEADING_TITLE', 'Uw account is aangemaakt!');
 define('TEXT_ACCOUNT_CREATED', 'Proficiat! Uw account is succesvol aangemaakt! U kunt nu als lid gebruik maken van speciale leden privileges die het online winkelen bij ons makkelijker zullen maken. Als u iets niet duidelijk is, stel dan gerust al uw vragen aan onze <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">klantenservice</a>.<br /><br />Een bevestiging van uw inschrijving is gestuurd naar het door u opgegeven e-mailadres. Als u deze bevestiging niet binnen een uur heeft ontvangen controleer dan of u het juiste e-mailadres heeft opgegeven en controleer uw spam folder(s)/instellingen. Als het niet is gelukt neem dan <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">contact op met ons</a>.');
 define('PRIMARY_ADDRESS_TITLE', 'Standaardadres');
-?>
