@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.5.2
+// @package admin languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -28,12 +29,12 @@ define('TABLE_HEADING_STATUS', 'Status');
 
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
 define('TABLE_HEADING_PRODUCTS', 'Artikelen');
-define('TABLE_HEADING_TAX', 'BTW');
+define('TABLE_HEADING_TAX', 'Btw');
 define('TABLE_HEADING_TOTAL', 'Totaal');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Prijs <br />(excl. BTW)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Prijs <br />(incl. BTW)');
-define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Totaal <br />(excl. BTW)');
-define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Totaal <br />(incl. BTW)');
+define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Prijs <br />(excl. Btw)');
+define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Prijs <br />(incl. Btw)');
+define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Totaal <br />(excl. Btw)');
+define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Totaal <br />(incl. Btw)');
 
 define('ENTRY_CUSTOMER', 'Klant:');
 
@@ -41,7 +42,7 @@ define('ENTRY_SOLD_TO', 'Factuuradres:');
 define('ENTRY_SHIP_TO', 'Afleveradres:');
 define('ENTRY_PAYMENT_METHOD', 'Betaalmethode:');
 define('ENTRY_SUB_TOTAL', 'Subtotaal:');
-define('ENTRY_TAX', 'BTW:');
+define('ENTRY_TAX', 'Btw:');
 define('ENTRY_SHIPPING', 'Verzendkosten:');
 define('ENTRY_TOTAL', 'Totaal:');
 define('ENTRY_DATE_PURCHASED', 'Besteldatum:');

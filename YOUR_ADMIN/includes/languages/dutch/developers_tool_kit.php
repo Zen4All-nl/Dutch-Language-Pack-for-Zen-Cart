@@ -1,7 +1,8 @@
 <?php
 /**
  * @package admin
- * @version $Id: dutch translation voor zen cart 1.5.2
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -83,20 +84,20 @@
 
 // Nog te vertalen
   //Search Configuration Keys
-  define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Search in Configuration Settings/Keys</strong>');
+  define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Zoek in Configuratie instellingen/Keys</strong>');
   define('SEARCH_CFG_KEYS_SEARCH_BOX_TEXT', '<strong>Phrase to search:</strong> (This will search configuration setting names and descriptions, and also configuration_keys if exact match)');
   define('SEARCH_CFG_KEYS_TABLE_SECTION', 'Section');
-  define('SEARCH_CFG_KEYS_TABLE_GROUP','Group');
-  define('SEARCH_CFG_KEYS_TABLE_TITLE', 'Title');
-  define('SEARCH_CFG_KEYS_TABLE_DESCRIPTION','Description');
+  define('SEARCH_CFG_KEYS_TABLE_GROUP','Groep');
+  define('SEARCH_CFG_KEYS_TABLE_TITLE', 'Titel');
+  define('SEARCH_CFG_KEYS_TABLE_DESCRIPTION','Omschrijvong');
   define('SEARCH_CFG_KEYS_TABLE_VALUE','Value');
   define('SEARCH_CFG_KEYS_TABLE_KEY_NAME', 'Key Name');
-  define('SEARCH_CFG_KEYS_TABLE_EDIT','Edit');
+  define('SEARCH_CFG_KEYS_TABLE_EDIT','Wijzig');
   define('SEARCH_CFG_KEYS_NOT_FOUND_KEYS', 'No configuration key(s) found.');
   define('SEARCH_CFG_KEYS_FOUND_KEYS', 'configuration key(s) found.');
   define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Enter words to find in settings');
-  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Search');
-  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Search (sorted by key)');
-  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'View All');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Zoek');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Zoek (gesorteerd opp key)');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_RESET', 'Reset');
 
