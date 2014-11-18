@@ -1,7 +1,7 @@
 Zen-Cart-Dutch-Language-Pack BETA
 ============================
 
-Dit is Het nieuwe BETA Nederlandse taalpakket 1.5.2 voor Zen Cart 1.5.2 Beta
+Dit is het Nederlandse taalpakket 1.5.3 voor Zen Cart 1.5.3
 
 <h3>Installeer de files</h3>
 <ol>
