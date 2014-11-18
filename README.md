@@ -1,7 +1,7 @@
 Zen-Cart-Dutch-Language-Pack BETA
 ============================
 
-Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
+Dit is Het nieuwe BETA Nederlandse taalpakket 1.5.1 voor Zen Cart 1.5.1
 
 <h3>Installeer de files</h3>
 <ol>
@@ -37,8 +37,6 @@ Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
 <li>Set as default: vink deze box aan als u deze taal als standaard wilt instellen - anders kunt u het vinkje leeg laten</li>
 <li>klik op de "insert" knop</li>
 </ol>
-<h3>locale.php</h3>
-<p>Nieuw in 1.6 is het gebruik van de locale.php file. Hiering staan een aantal variabel/constanten die aangepast worden aan de lokale standaard, zoals datum formaat, gewichten. Deze stonden eerst in dutch.php, maar zijn nu verhuist naar locale.php voor een overzichtelijker en makkerlijker aanpassen.</p>
 <h3>Aanpassingen maken</h3>
 <p>Als u van plan bent aanpassingen te maken aan een van de defines in de files van dit pakket, sla de veranderde files dan op in de template override folder. Als voorbeeld: includes/languages/dutch.php wordt dan includes/languages/YOUR_TEMPLATE/dutch.php, waarbij YOUR_TEMPLATE voor uw template naam staat Het wordt afgeraden om bestaande core files te overschrijven, omdat dit toekomstige upgrades lastiger maakt. Voor informatie over hoe u het override systeem moet gebruiken, kunt u <a href="http://www.zen-cart.com/wiki/index.php/The_override_system_simplified" target="_blank"><b>deze tutorial</b></a> bekijken.</p>
 <h3>Valuta toekennen aan dit taalpakket</h3>
