@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2005 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: checkout_payment_address.php 2315 2005-11-07 08:41:46Z drbyte $
  */
 
