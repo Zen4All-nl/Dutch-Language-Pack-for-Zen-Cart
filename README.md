@@ -1,8 +1,7 @@
-Zen-Cart Dutch Language Pack
-============================
--- DUTCH --
-Dit is het Nederlandse taalpakket 1.5.3 voor Zen Cart 1.5.3
-
+<h1>Zen-Cart Dutch Language Pack</h1>
+<hr />
+<p>-- DUTCH --</p>
+<h2>Dit is het Nederlandse taalpakket 1.5.3 voor Zen Cart 1.5.3</h2>
 <h3>Installeer de files</h3>
 <ol>
 <li>Unzip het pakket naar een folder.</li>
@@ -44,7 +43,7 @@ Dit is het Nederlandse taalpakket 1.5.3 voor Zen Cart 1.5.3
 <p>Als u wilt dat uw klanten automatisch veranderen van valuta naar Euro als ze voor de Nederlandse taal kiezen in uw winkel, gan dan in de Admin naar Configuration => My Store en verander 'Switch To Default Language Currency' naar true. Dan wordt de valuta automatisch aangepast als er van taal veranderd wordt.</p>
 <p>Als u problemen ondervind met deze add-on module, bekijk dan eerst de <a href="http://www.zen-cart.com/showthread.php?215272-Dutch-language-pack-support-thread&p=1264776" target="_blank"><b>Support thread</b></a>, om te kijken of uw vraag al beantwoord is. Als dat niet het geval is kunt u een vraag plaatsen. Alle support gaat via het Zen Cart support forum zodat alle gebruikers van Zen Cart er van kunnen profiteren.</p>
 
--- ENGLISH --
+<p>-- ENGLISH --</p>
 
 <li><h3>Install the files</h3>
 <ol>
