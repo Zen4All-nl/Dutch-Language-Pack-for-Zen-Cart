@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.5.2
+// @package admin languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -55,11 +56,11 @@
   define('TEXT_DISPLAY_NUMBER_OF_TRANSACTIONS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> IPN(s))');
 
   //Details section
-  define('HEADING_DEATILS_CUSTOMER_REGISTRATION_TITLE', 'PayPal Customer Registration Details');
+  define('HEADING_DEATILS_CUSTOMER_REGISTRATION_TITLE', 'PayPal Klantregistratie Details');
   define('HEADING_DETAILS_REGISTRATION_TITLE', 'PayPal Instant Payment Notification');
   define('TEXT_INFO_ENTRY_ADDRESS', 'Adres');
   define('TEXT_INFO_ORDER_NUMBER', 'Bestelnummer');
-  define('TEXT_INFO_TXN_TYPE', 'Transaction Type');
+  define('TEXT_INFO_TXN_TYPE', 'Transactie Type');
   define('TEXT_INFO_PAYMENT_STATUS', 'Status betaling');
   define('TEXT_INFO_PAYMENT_AMOUNT', 'Bedrag');
   define('ENTRY_FIRST_NAME', 'Voornaam');
