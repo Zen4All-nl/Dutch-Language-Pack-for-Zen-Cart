@@ -1,10 +1,10 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.5.2
  * @version GIT: $Id: Author: ajeh  Mon Dec 3 19:32:36 2012 -0500 Modified in v1.5.2 $
  */
 
@@ -84,8 +84,8 @@ define('ERROR_COUPON_EXISTS', '<strong>Foutmelding:</strong> een kortingsbon met
 define('COUPON_NAME_HELP', 'Een korte naam voor de kortingsbon (bijv. NK1eB= NieuweKlant1eBezoek).');
 define('COUPON_AMOUNT_HELP', 'De korting die deze bon geeft. Dit kan een vast bedrag zijn (bijv. &euro;5) of percentage (bijv. 3%) op het eindbedrag.');
 define('COUPON_CODE_HELP', 'Indien niets ingevuld wordt er automatisch een code voor de kortingsbon aangemaakt en anders kun je zelf een code samenstellen.');
-define('COUPON_STARTDATE_HELP', 'Startdatum is de 1e dag waarop deze kortingsbon geldig is. Kan ook in de toekomst liggen door gebruik bij een actie (bijv. Sinterklaas, Kerst, Pasen, jubileum, etc)');
-define('COUPON_FINISHDATE_HELP', 'Vervaldatum is de eerste dag waarop deze kortingsbon niet meer ingewisseld kan worden. Bij internationale klanten moet je rekening houden met tijdsverschil. Tijd op de geïnstalleerde server is leidend bij acceptatie door systeem.');
+define('COUPON_STARTDATE_HELP', 'Deze coupon is geldig vanaf');
+define('COUPON_FINISHDATE_HELP', 'Deze coupon verloopt op');
 define('COUPON_FREE_SHIP_HELP', 'De kortingsbon geeft recht op <strong>gratis</strong> verzenden. <strong>Opmerking:</strong> dit gaat voor de waarde ingevuld bij COUPON_AMOUNT maar houd wel rekening met de minimale waarde van een bestelling.');
 define('COUPON_DESC_HELP', 'Een beschrijving van de kortingsbon als uitleg voor de klant.');
 define('COUPON_MIN_ORDER_HELP', 'Minimum waarde van de bestelling voordat de kortingsbon geldig is en gebruikt kan worden (bijv. vanaf €50 bestelling excl. verzenden en BTW.)');

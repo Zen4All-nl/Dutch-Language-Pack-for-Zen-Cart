@@ -1,10 +1,10 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: attributes_controller.php 15883 2010-04-11 16:41:26Z wilt $
  */
 
@@ -17,11 +17,11 @@ define('HEADING_TITLE_ATRIB_SELECT','Selecteer een categorie voor het tonen van 
 
 define('TEXT_PRICES_AND_WEIGHTS', 'Prijzen en gewichten');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR', 'Prijsfactor: ');
-define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET', 'Offset: ');//nog vertalen
+define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET', 'Offset: ');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_ONETIME', 'éénmalige kosten:');
 
 define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_ONETIME', 'Eénmalige factor: ');
-define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET_ONETIME', 'Offset: ');// nog vertalen
+define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET_ONETIME', 'Offset: ');
 
 define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES', 'Kwantumkorting voor opties:');
 define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES_ONETIME', 'Eenmalige kwantumkorting voor opties:');
