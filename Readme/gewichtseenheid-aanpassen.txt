@@ -1,0 +1,19 @@
+Een lijstje van de bestanden welke aangepast moeten worden om kg om te zetten naar gr of omgekeerd.
+
+includes\languages\dutch.php  (2 Found)
+
+admin\includes\languages\dutch.php  (1 Found)
+
+admin\includes\languages\dutch\categories.php  (1 Found)
+
+admin\includes\languages\dutch\document_product.php  (1 Found)
+
+admin\includes\languages\dutch\product.php  (1 Found)
+
+admin\includes\languages\dutch\product_free_shipping.php  (1 Found)
+
+admin\includes\languages\dutch\product_music.php  (1 Found)
+
+includes\languages\dutch\modules\shipping\zones.php  (1 Found)
+
+Correcties en/of aanvullingen hierop gaarne melden via http://www.zen-cart.nl/forums/index.php?topic=3206.0
