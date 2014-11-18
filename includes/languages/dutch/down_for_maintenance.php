@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.5.2
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -27,5 +28,5 @@ define('HEADING_TITLE', 'Niet beschikbaar ivm gepland onderhoud...');
 define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'De website is op dit moment niet bereikbaar ivm gepland onderhoud. Probeer het binnenkort weer.');
 define('TEXT_MAINTENANCE_ON_AT_TIME', 'De webbeheerder heeft onderhoud gepland vanaf : ');
 define('TEXT_MAINTENANCE_PERIOD', 'Duur onderhoud: ');
-define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'Om de status van de site te controleren... klik hier:');
+define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'Om de status van de site te controleren... Klik hier:');
 ?>

@@ -1,12 +1,11 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2009 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: login.php 14280 2009-08-29 01:33:18Z drbyte $
- * @version $Id: login.php 14280 2009-08-29 $ Integrated COWOA v2.2 - 2007 - 2012
  */
 
 define('NAVBAR_TITLE', 'Inloggen');
@@ -23,8 +22,6 @@ define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Maak nu een inlogaccount aa
 define('HEADING_RETURNING_CUSTOMER', 'Bestaande klant: alstublieft inloggen');
 define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Bestaande klant');
 
-define('TEXT_RATHER_COWOA', 'For a faster checkout experience, we offer the option to checkout without creating an account.<br />');
-define('COWOA_HEADING', 'Afrekenen zonder account');
 define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Om door te gaan alstublieft inloggen met uw <strong>' . STORE_NAME . '</strong> account.');
 
 define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
@@ -37,6 +34,5 @@ define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">
 define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">Ik heb de privayverklaring gelezen en ga met de inhoud ervan akkoord.</span>');
 
 define('ERROR_SECURITY_ERROR', 'Er was een beveiligingsfout bij het aanmelden.');
-
 
 define('TEXT_LOGIN_BANNED', 'Fout: Toegang geweigerd.');

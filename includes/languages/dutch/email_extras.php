@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.5.2
  * @version $Id: email_extras.php 19690 2011-10-04 16:41:45Z drbyte $
  */
 
@@ -47,6 +47,3 @@
 // e-mails t.b.v. laag voorraadnivo
   define('EMAIL_TEXT_SUBJECT_LOWSTOCK','Letop: Voorraadniveau laag');
   define('SEND_EXTRA_LOW_STOCK_EMAIL_TITLE','Rapport laag voorraadniveau: ');
-
-// als gethost is uitgeschakeld
-  define('OFFICE_IP_TO_HOST_ADDRESS', 'Uitgeschakeld');
