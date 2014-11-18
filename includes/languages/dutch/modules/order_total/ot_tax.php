@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.5.2
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -21,6 +22,6 @@
 // $Id: ot_tax.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'BTW');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'BTW bestelling');
+  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Btw');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Btw bestelling');
 ?>

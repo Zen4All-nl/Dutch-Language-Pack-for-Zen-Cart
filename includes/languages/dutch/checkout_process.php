@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.5.2
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -32,7 +33,7 @@ define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier voor een gespecificeerde reken
 define('EMAIL_TEXT_DATE_ORDERED', 'Datum besteld:');
 define('EMAIL_TEXT_PRODUCTS', 'Artikelen');
 define('EMAIL_TEXT_SUBTOTAL', 'Subtotaal:');
-define('EMAIL_TEXT_TAX', 'BTW:        ');
+define('EMAIL_TEXT_TAX', 'Btw:        ');
 define('EMAIL_TEXT_SHIPPING', 'Verzendkosten: ');
 define('EMAIL_TEXT_TOTAL', 'Totaal:    ');
 define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Afleveradres');

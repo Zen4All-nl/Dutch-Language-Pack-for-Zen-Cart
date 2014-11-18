@@ -1,6 +1,7 @@
 <?php
 /**
- * @package languageDefines Dutch
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -16,12 +17,14 @@
   define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // kijk in je $PATH_LOCALE/locatie directorie voor beschikbare locatie instellingen..
-  @setlocale(LC_TIME, 'dutch');
+  $locales = array('nl_NL', 'nl_NL.utf8', 'nl', 'Dutch');
+  @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
   define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
   define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
+////
 // Datum in onopgemaakt formaat
 // $date moet alsvolgt zijn dd/mm/yyyy
 // onopgemaakte datum is YYYYMMDD, of DDMMYYYY
@@ -63,6 +66,9 @@
   define('FEMALE', 'Vrouw');
   define('MALE_ADDRESS', 'Dhr.');
   define('FEMALE_ADDRESS', 'Mevr.');
+
+// text for date of birth example
+  define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // defineer de tekst voor de kop van sideboxes
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[lees meer]');
@@ -185,6 +191,8 @@
   define('ENTRY_LAST_NAME_ERROR', 'Uw achternaam moet voor ons systeem minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' letters hebben.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Geboortedatum:');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem verwacht een datum in dit formaat: DD/MM/YYYY (bijvoorbeeld 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
@@ -369,6 +377,10 @@
 
   define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
 
+// Verzending
+  define('TEXT_SHIPPING_WEIGHT','kg');
+  define('TEXT_SHIPPING_BOXES', 'Dozen');
+
 // Actiebesparing
   define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');
   define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','%');
@@ -376,6 +388,9 @@
 
 // Aanbiedingsprijsen
   define('PRODUCT_PRICE_SALE','Aanbieding:&nbsp;');
+
+//algemene symbolen
+  define('TEXT_NUMBER_SYMBOL', '# ');
 
 // banner_box
   define('BOX_HEADING_BANNER_BOX','Advertentie');
@@ -446,6 +461,8 @@
 
 // Downloadmanager
   define('DOWNLOADS_CONTROLLER_ON_HOLD_MSG','LET OP: Downloads zijn pas beschikbaar nadat de betaling is ontvangen en gecontroleerd');
+  define('TEXT_FILESIZE_BYTES', ' bytes');
+  define('TEXT_FILESIZE_MEGS', ' MB');
 
 // fouten winkelwagentje
   define('ERROR_PRODUCT','Artikel: ');
@@ -462,6 +479,7 @@
   define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ...maximum aantal fout - ');
 
   define('WARNING_SHOPPING_CART_COMBINED', 'NB: Voor uw gemak hebben wij de inhoud van het winkelwagen van uw laatste bezoek alvast toegevoegd aan uw huidige winkelwagen. Controleer de inhoud van uw winkelwagen alvorens af te rekenen.');
+  define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Het aantal is aangepast aan het aantal op voorraad. ');
 
 // fout tijdens betalingverwerking $_SESSION['customers_id' komt niet voor in de tabel customers
   define('ERROR_CUSTOMERS_ID_INVALID', 'Klant gegevens kunnen niet worden gevonden!<br />Alstublieft inloggen of een nieuw account aanmaken...');
@@ -567,6 +585,9 @@
   define('TEXT_DOWNLOADS_UNLIMITED', 'Onbeperkt');
   define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
 
+// misc
+  define('COLON_SPACER', ':&nbsp;&nbsp;');
+
 // Tabel kopteksten van winkelwagentje en binnenkort verwachte artikelen
   define('TABLE_HEADING_QUANTITY', 'Aantal');
   define('TABLE_HEADING_PRODUCTS', 'Artikel');
@@ -582,12 +603,15 @@
   define('TABLE_HEADING_LOGIN_DETAILS', 'Logingegevens');
   define('TABLE_HEADING_REFERRAL_DETAILS', 'Bent u op ons geattendeerd?');  // beter vertalen
 
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Excuus, maar we accepteren geen factuur- en verzendadressen meer in "%s".  Graag dit adres aampassen om verder te kunnen gaan.');
+
   define('ENTRY_EMAIL_PREFERENCE','Nieuwsbrief en e-mail voorkeuren');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
   define('ENTRY_EMAIL_TEXT_DISPLAY','Alleen tekst');
   define('EMAIL_SEND_FAILED','FOUT: E-mail versturen naar: "%s" <%s> met onderwerp: "%s" is mislukt!');
 
   define('DB_ERROR_NOT_CONNECTED', 'Fout - kan geen verbinding maken met de database');
+  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Er lijkt en probleem met de database te zijn. er is onderhoud nodig.</a>');
 
 // EZ-PAGINAS waarschuwingen
   define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'LETOP: EZ-PAGINAS KOP - alleen weergegeven voor het admin ip adres');
