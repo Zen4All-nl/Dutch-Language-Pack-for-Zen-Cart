@@ -11,7 +11,7 @@
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'Afhalen winkel');
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'Afhalen bestelling op adres winkel');
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', 'Afhalen');
-?>
+
 
 // The following is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.
 // The content of the MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS definition should be the same as the multiple locations in the shipping module's settings in your admin, just with names changed.

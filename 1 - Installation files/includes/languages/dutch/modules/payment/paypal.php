@@ -57,7 +57,8 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS', 'Systeemopmerkingen: ');
 
 
-  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_TITLE', 'Alle items in uw winkelwagen (bekijk de details in de webshop en op uw  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_ITEMNUM', STORE_NAME . ' Bestelling');
+  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_TITLE', 'Alle items in uw winkelwagen (bekijk de details in de webshop en op uw factuur).');
+  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_ITEMNUM', STORE_NAME . ' Bestelling');
   define('MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_ONETIME_CHARGES_PREFIX', 'Eenmalige kosten behorend bij ');
   define('MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_SURCHARGES_SHORT', 'Toeslag');
   define('MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_SURCHARGES_LONG', 'Administratie en verzendkosten');
