@@ -20,3 +20,13 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.bmp binary
+*.bz2 binary
+*.jar binary
+*.jpe binary
+*.tar.gz binary
+*.zip binary
