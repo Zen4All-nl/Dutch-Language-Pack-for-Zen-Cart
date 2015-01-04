@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.4
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Sun Jul 1 16:59:57 2012 -0400 Modified in v1.5.1 $
+ * @version GIT: $Id: Author: Ian Wilson   Modified in v1.5.4 $
  */
 
 define('HEADING_TITLE_ALL_PROFILES', 'Gebruikersprofielen');
@@ -31,3 +31,5 @@ define('TEXT_NO_PROFILES_FOUND', 'Er zijn nog geen gebruikersprofielen gedefiniÃ
 
 define('IMAGE_ADD_PROFILE', 'Voeg gebruikersprofiel toe');
 define('IMAGE_RENAME', 'Hernoemen');
+
+define('TEXT_CONFIRM_DELETE', 'Het gevraagde verwijderen. Graag bevestigen: ');
