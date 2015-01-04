@@ -22,8 +22,8 @@
 //   * @version $Id: Integrated COWOA v2.2 - 2007 - 2012
 //
 
-define('NAVBAR_TITLE', TEXT_GV_NAME . ' inwisselen);
-define('HEADING_TITLE', TEXT_GV_NAME . ' inwisselen);
+define('NAVBAR_TITLE', TEXT_GV_NAME . ' inwisselen');
+define('HEADING_TITLE', TEXT_GV_NAME . ' inwisselen');
 define('TEXT_INFORMATION', 'Meer informatie over de ' . TEXT_GV_NAME . ' kun u vinden op <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>');
 define('TEXT_INVALID_GV', 'De ' . TEXT_GV_NAME . ' inwisselcode %s lijkt geen geldige code, is niet langer geldig of is reeds ingewisseld. Bij vragen kunt u contact opnemen de <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">klantenservice</a>.');
 define('TEXT_VALID_GV', 'Gefeliciteerd, u heeft een ' . TEXT_GV_NAME . ' ingewisseld ter waarde van %s.');
