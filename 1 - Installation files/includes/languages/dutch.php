@@ -1,10 +1,10 @@
 <?php
 /**
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch.php based on english.php 19690 2011-10-04 16:41:45Z drbyte $
+ * @version GIT: $Id: Author: ajeh  Modified in v1.5.4 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -566,6 +566,10 @@
   define('TABLE_HEADING_BYTE_SIZE','Bestandsgrootte');
   define('TEXT_DOWNLOADS_UNLIMITED', 'Onbeperkt');
   define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
+
+// misc
+  define('COLON_SPACER', ':&nbsp;&nbsp;');
+  define('PAYMENT_JAVASCRIPT_DISABLED', 'We could not continue with checkout as Javascript is disabled. You must enable it to continue');
 
 // Tabel kopteksten van winkelwagentje en binnenkort verwachte artikelen
   define('TABLE_HEADING_QUANTITY', 'Aantal');
