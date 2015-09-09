@@ -2,6 +2,7 @@
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
+ * @package languageDefines Dutch
  * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -587,6 +588,7 @@
 
 // misc
   define('COLON_SPACER', ':&nbsp;&nbsp;');
+  define('PAYMENT_JAVASCRIPT_DISABLED', 'We could not continue with checkout as Javascript is disabled. You must enable it to continue');
 
 // Tabel kopteksten van winkelwagentje en binnenkort verwachte artikelen
   define('TABLE_HEADING_QUANTITY', 'Aantal');
