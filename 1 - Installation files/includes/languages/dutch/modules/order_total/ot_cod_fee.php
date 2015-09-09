@@ -1,14 +1,29 @@
 <?php
-/**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
- * @copyright Portions Copyright 2003 osCommerce
- * @copyright Portions Copyright (c) 2002 Thomas Plänkers http://www.oscommerce.at
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Fri Apr 5 19:06:27 2013 -0400 Modified in v1.5.2 $
- */
+//
+// @version $Id: dutch translation voor zen cart 1.6.x
+// +----------------------------------------------------------------------+
+// |zen-cart Open Source E-commerce                                       |
+// +----------------------------------------------------------------------+
+// | Copyright (c) 2003 The zen-cart developers                           |
+// |                                                                      |
+// | http://www.zen-cart.com/index.php                                    |
+// |                                                                      |
+// | Portions Copyright (c) 2003 osCommerce                               |
+// | Portions Copyright (c) 2002 Thomas Plänkers                          |
+// |                             http://www.oscommerce.at                 |
+// +----------------------------------------------------------------------+
+// | This source file is subject to version 2.0 of the GPL license,       |
+// | that is bundled with this package in the file LICENSE, and is        |
+// | available through the world-wide-web at the following url:           |
+// | http://www.zen-cart.com/license/2_0.txt.                             |
+// | If you did not receive a copy of the zen-cart license and are unable |
+// | to obtain it through the world-wide-web, please send a note to       |
+// | license@zen-cart.com so we can mail you a copy immediately.          |
+// +----------------------------------------------------------------------+
+// $Id: ot_cod_fee.php 1969 2005-09-13 06:57:21Z drbyte $
+//
 
   define('MODULE_ORDER_TOTAL_COD_TITLE', 'Rembourskosten');
   define('MODULE_ORDER_TOTAL_COD_DESCRIPTION', 'Rembourskosten');
   define('TEXT_INFO_COD_FEES', '<strong>Note:</strong> Rembourskosten kunnen van toepassing zijn');
+?>

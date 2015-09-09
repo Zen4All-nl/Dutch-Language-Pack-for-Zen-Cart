@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 <h1>Zen-Cart Dutch Language Pack</h1>
 <hr />
 <p>-- DUTCH --</p>
 <h2>Dit is het Nederlandse taalpakket 1.5.3 voor Zen Cart 1.5.3</h2>
+=======
+Zen-Cart-Dutch-Language-Pack BETA
+============================
+
+Dit is Het nieuwe BETA Nederlandse taalpakket 1.5.1 voor Zen Cart 1.5.1
+
+>>>>>>> master
 <h3>Installeer de files</h3>
 <ol>
 <li>Unzip het pakket naar een folder.</li>
@@ -36,11 +44,15 @@
 <li>Set as default: vink deze box aan als u deze taal als standaard wilt instellen - anders kunt u het vinkje leeg laten</li>
 <li>klik op de "insert" knop</li>
 </ol>
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 <h3>Aanpassingen maken</h3>
 <p>Als u van plan bent aanpassingen te maken aan een van de defines in de files van dit pakket, sla de veranderde files dan op in de template override folder. Als voorbeeld: includes/languages/dutch.php wordt dan includes/languages/YOUR_TEMPLATE/dutch.php, waarbij YOUR_TEMPLATE voor uw template naam staat Het wordt afgeraden om bestaande core files te overschrijven, omdat dit toekomstige upgrades lastiger maakt. Voor informatie over hoe u het override systeem moet gebruiken, kunt u <a href="http://www.zen-cart.com/wiki/index.php/The_override_system_simplified" target="_blank"><b>deze tutorial</b></a> bekijken.</p>
 <h3>Valuta toekennen aan dit taalpakket</h3>
 <p>Als u wilt dat uw klanten automatisch veranderen van valuta naar Euro als ze voor de Nederlandse taal kiezen in uw winkel, gan dan in de Admin naar Configuration => My Store en verander 'Switch To Default Language Currency' naar true. Dan wordt de valuta automatisch aangepast als er van taal veranderd wordt.</p>
+<<<<<<< HEAD
 <p>Als u problemen ondervind met deze add-on module, bekijk dan eerst de <a href="http://www.zen-cart.com/showthread.php?215272-Dutch-language-pack-support-thread&p=1264776" target="_blank"><b>Support thread</b></a>, om te kijken of uw vraag al beantwoord is. Als dat niet het geval is kunt u een vraag plaatsen. Alle support gaat via het Zen Cart support forum zodat alle gebruikers van Zen Cart er van kunnen profiteren.</p>
 
 <p>-- ENGLISH --</p>
@@ -81,3 +93,6 @@
 <p>If you want your customers to automatically switch to the Dutch default currency Euro when they select the German language at your store front, then go to Admin => Configuration => My Store and set 'Switch To Default Language Currency' to true. This will automatically switch to the language's currency when it is changed</p>
 <h2>Additional Help</h2>
 <p>If you have any problems using this add-on module, then first review its <a href="http://www.zen-cart.com/showthread.php?215272-Dutch-language-pack-support-thread&p=1264776" target="_blank"><b>support thread</b></a> to see if the question has already been answered. If not post a query there. What support we can offer will be through the Zen Cart support forum so that all users can benefit.</p>
+=======
+<p>Als u problemen ondervind met deze add-on module, bekijk dan eerst de <a href="http://www.zen-cart.nl/forums/index.php/topic,5796.0.html" target="_blank"><b>Nederlandse support thread</b></a>, om te kijken of uw vraag al beantwoord is. Als dat niet het geval is kunt u een vraag plaatsen. Alle support gaat via het Zen Cart support forum zodat alle gebruikers van Zen Cart er van kunnen profiteren.</p>
+>>>>>>> master
