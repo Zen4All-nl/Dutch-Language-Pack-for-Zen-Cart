@@ -15,9 +15,9 @@ Dit is Het nieuwe Nederlandse taalpakket 1.5.4 voor Zen Cart 1.5.4
 <li>/admin/includes/languages/dutch/email_welcome.php</li>
 <li>/admin/includes/languages/dutch/extra_definitions/editors_list.php (geleegd - file kan verwijderd worden)</li>
 <li>/admin/includes/languages/dutch/extra_definitions/onlyFor139.php (geleegd - file kan verwijderd wordend)</li>
-<li>/includes/languages/english/tell_a_friend.php</li>
-<li>/includes/languages/english/modules/shipping/ups.php</li>
-<li>/includes/languages/english/modules/shipping/usps.php</li>
+<li>/includes/languages/dutch/tell_a_friend.php</li>
+<li>/includes/languages/dutch/modules/shipping/ups.php</li>
+<li>/includes/languages/dutch/modules/shipping/usps.php</li>
 </ul>
 </li>
 </ol>
