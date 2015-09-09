@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -27,7 +28,7 @@ define('NAVBAR_TITLE_2', 'Zoek resultaten');
 //define('HEADING_TITLE_1', 'Uitgebreid zoeken');
 define('HEADING_TITLE', 'Uitgebreid zoeken');
 
-define('HEADING_SEARCH_CRITERIA', 'zoek criteria');
+define('HEADING_SEARCH_CRITERIA', 'Zoekcriteria');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'Zoek in productomschrijving');
 define('ENTRY_CATEGORIES', 'Categorieën:');

@@ -1,11 +1,12 @@
 <?php
 /**
  * @package admin
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: developers_tool_kit.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version GIT: $Id: Author: DrByte  Mon Jul 1 14:52:11 2013 -0400 Modified in v1.5.2 $
  */
   define('HEADING_TITLE', 'Tool Kit ontwikkelaar');
   define('TABLE_CONFIGURATION_TABLE', 'Zoek CONSTANT definities');
@@ -81,4 +82,21 @@
 
   define('TEXT_CASE_SENSITIVE', 'Hoofdlettergevoelig?');
 
-?>
+  //Search Configuration Keys
+  define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Zoek in Configuratie instellingen/Keys</strong>');
+  define('SEARCH_CFG_KEYS_SEARCH_BOX_TEXT', '<strong>De te zoeken zin:</strong> (This will search configuration setting names and descriptions, and also configuration_keys if exact match)');
+  define('SEARCH_CFG_KEYS_TABLE_SECTION', 'Sectie');
+  define('SEARCH_CFG_KEYS_TABLE_GROUP','Groep');
+  define('SEARCH_CFG_KEYS_TABLE_TITLE', 'Titel');
+  define('SEARCH_CFG_KEYS_TABLE_DESCRIPTION','Omschrijving');
+  define('SEARCH_CFG_KEYS_TABLE_VALUE','Value');
+  define('SEARCH_CFG_KEYS_TABLE_KEY_NAME', 'Key Name');
+  define('SEARCH_CFG_KEYS_TABLE_EDIT','Wijzig');
+  define('SEARCH_CFG_KEYS_NOT_FOUND_KEYS', 'Geen configuration key(s) gevonden.');
+  define('SEARCH_CFG_KEYS_FOUND_KEYS', 'configuration key(s) gevonden.');
+  define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Geef de woorden op die gevonden moeten worden in "instellingen"');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Zoek');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Zoek (gesorteerd opp key)');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_RESET', 'Reset');
+

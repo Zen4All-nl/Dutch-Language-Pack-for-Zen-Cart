@@ -1,10 +1,10 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: coupon_restrict.php 16174 2010-05-02 14:10:30Z drbyte $
  */
 
@@ -27,10 +27,10 @@ define('IMAGE_REMOVE', 'Verwijderen');
 define('TEXT_ALL_CATEGORIES', 'Alle Categorieën');
 
 define('MAX_DISPLAY_RESTRICT_ENTRIES', 20);
-define('TEXT_ALL_PRODUCTS_ADD', 'Add All Category Products');//nog te vertalen
-define('TEXT_ALL_PRODUCTS_REMOVE', 'Remove All Category Products');//nog te vertalen
-define('TEXT_INFO_ADD_DENY_ALL', '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />
-                    For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>');//nog te vertalen
+define('TEXT_ALL_PRODUCTS_ADD', 'Voeg alle producten uit deze categorie toe');
+define('TEXT_ALL_PRODUCTS_REMOVE', 'Verwijder alle producten uit deze categorie');
+define('TEXT_INFO_ADD_DENY_ALL', '<strong>Voor voeg alle producten uit een categorie toe, geld alleen voor producten die nog geen restrictie hebben.<br />
+                    Voor verwijder alle producten uit een catgorie, geld dat alleen producten die aangegeven zijn als Deny or Allow, verwijderd zullen worden.</strong>');
 
 define('TEXT_MANUFACTURER', 'Fabrikant: ');
 define('TEXT_CATEGORY', 'Categorie: ');

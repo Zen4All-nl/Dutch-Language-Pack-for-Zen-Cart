@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -24,5 +25,5 @@
 define('NAVBAR_TITLE', 'Algemene voorwaarden');
 define('HEADING_TITLE', 'Algemene voorwaarden');
 
-define('TEXT_INFORMATION', 'De Algemene (leverings)voorwaarden van uw bedrijf kunt u kwijt op deze pagina [includes\languages\dutch\conditions.php]. Hou hierbij rekening met de colportage wetgeving (koop op afstand). U kunt hierover het e.e.a. nalezen op:                       http://www.postbus51.nl/index.cfm?t=Koop_op_afstand&vid=5DEF460D-C295-519D-1BDAF2679C8DA850 of gratis bellen met de Postbus 51 Infolijn via 0800-8051. Verder kunt u hier http://www.ecp.nl/download/cocdraft4.0NL.pdf een rapport downloaden van ecp.nl');
+define('TEXT_INFORMATION', 'De Algemene (leverings)voorwaarden van uw bedrijf kunt u kwijt op deze pagina [includes\languages\dutch\conditions.php]. Hou hierbij rekening met de colportage wetgeving (koop op afstand). U kunt hierover het e.e.a. nalezen op: http://www.postbus51.nl/index.cfm?t=Koop_op_afstand&vid=5DEF460D-C295-519D-1BDAF2679C8DA850 of gratis bellen met de Postbus 51 Infolijn via 0800-8051. Verder kunt u hier http://www.ecp.nl/download/cocdraft4.0NL.pdf een rapport downloaden van ecp.nl');
 ?>

@@ -1,21 +1,16 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: checkout_shipping.php 18697 2011-05-04 14:35:20Z wilt $
- * @version $Id: Integrated COWOA v2.2 - 2007 - 2012
  */
-if($_SESSION['COWOA']) $COWOA=TRUE;
 
 define('NAVBAR_TITLE_1', 'Afrekenen');
 define('NAVBAR_TITLE_2', 'Verzendmethode');
 
-if($COWOA)
-define('HEADING_TITLE', 'Stap 2 van 5 - Verzendinformatie');
-else
 define('HEADING_TITLE', 'Stap 1 van 3 - Verzendinformatie');
 
 define('TABLE_HEADING_SHIPPING_ADDRESS', 'Afleveradres');
@@ -31,9 +26,6 @@ define('TEXT_NO_SHIPPING_AVAILABLE','<span class="alert">Excuus op dit moment ve
 
 define('TABLE_HEADING_COMMENTS', 'Speciale instructies of opmerkingen voor deze bestelling');
 
-if($COWOA)
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Doorgaan naar Stap 3');
-else
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Doorgaan naar Stap 2');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- kies uw betaalmethode.');
 

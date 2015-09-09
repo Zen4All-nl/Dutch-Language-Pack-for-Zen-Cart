@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: index.php 19537 2011-09-20 17:14:44Z drbyte $
  */
 
@@ -12,7 +12,7 @@ define('TEXT_MAIN','Dit is de algemene tekst voor de door <a href="http://zen-ca
 
 // Showroom vs winkel
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', 'Welkom <span class="greetUser">gast!</span> Wilt u zich <a href="%s">aanmelden</a>?');
+  define('TEXT_GREETING_GUEST', 'Welkom <span class="greetUser">bezoeker!</span> Wilt u zich <a href="%s">aanmelden</a>?');
 } else {
   define('TEXT_GREETING_GUEST', 'Welkom, kijk rustig rond in onze showroom.');
 }

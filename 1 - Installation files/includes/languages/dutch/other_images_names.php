@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: other_images_names.php 3056 2006-02-21 06:41:36Z birdbrain $
  */
 
@@ -43,7 +43,7 @@ define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Vijf sterren');
 define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Vier sterren');
 define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Drie sterren');
 define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Twee sterren');
-define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', '&Eacuteén ster');
+define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'Één ster');
 //define('OTHER_xxx_ALT', '');
 
 ?>

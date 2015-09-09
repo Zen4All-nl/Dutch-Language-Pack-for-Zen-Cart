@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version GIT: $Id: Author: DrByte  Thu Aug 16 01:57:33 2012 -0400 Modified in v1.5.1 $
  */
 
@@ -19,7 +19,7 @@
   // to show the PayPal logo as the payment option name, use this:  https://www.paypal.com/en_US/i/logo/PayPal_mark_37x23.gif
   // to show CC icons with PayPal, use this instead:  https://www.paypal.com/en_US/i/bnr/horizontal_solution_PPeCheck.gif
   // You should only use choices listed on this page: https://ppmts.custhelp.com/app/answers/detail/a_id/632
-  define('MODULE_PAYMENT_PAYPAL_MARK_BUTTON_IMG', 'https://www.paypal.com/en_US/i/logo/PayPal_mark_37x23.gif');
+  define('MODULE_PAYMENT_PAYPAL_MARK_BUTTON_IMG', 'https://www.paypal.com/nl_NL/i/logo/PayPal_mark_37x23.gif');
   define('MODULE_PAYMENT_PAYPAL_MARK_BUTTON_ALT', 'Betalen met PayPal of Credit Card');
   define('MODULE_PAYMENT_PAYPAL_ACCEPTANCE_MARK_TEXT', 'Snel en veilig betalen via PayPal of met een Credit Card.');
 
@@ -41,23 +41,23 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYER_STATUS', 'Status koper:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_STATUS', 'Status adres:');
 
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_TYPE', 'Payment Type:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_STATUS', 'Payment Status:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_TYPE', 'Betaalwijze:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_STATUS', 'Status betaling:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PENDING_REASON', 'Pending Reason:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_INVOICE', 'Factuur:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_DATE', 'Payment Date:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_DATE', 'Betaaldatum:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CURRENCY', 'Valuta:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_GROSS_AMOUNT', 'Gross Amount:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_FEE', 'Payment Fee:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_EXCHANGE_RATE', 'Exchange Rate:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_CART_ITEMS', 'Cart items:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_GROSS_AMOUNT', 'Bruto hoeveelhied:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_FEE', 'Toeslag betaalwijze:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_EXCHANGE_RATE', 'Wisselkoers:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_CART_ITEMS', 'Items in winkelwagen:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_TXN_TYPE', 'Trans. Type:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_TXN_ID', 'Trans. ID:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PARENT_TXN_ID', 'Parent Trans. ID:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS', 'Systeemcommentaar: ');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS', 'Systeemopmerkingen: ');
 
 
-  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_TITLE', 'Alle items in uw winkelwagen (bekijk de details in de webshop wen op uf factuur).');
+  define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_TITLE', 'Alle items in uw winkelwagen (bekijk de details in de webshop en op uw factuur).');
   define('MODULE_PAYMENT_PAYPAL_PURCHASE_DESCRIPTION_ITEMNUM', STORE_NAME . ' Bestelling');
   define('MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_ONETIME_CHARGES_PREFIX', 'Eenmalige kosten behorend bij ');
   define('MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_SURCHARGES_SHORT', 'Toeslag');

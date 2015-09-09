@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -21,8 +22,8 @@
 // $Id: cookie_usage.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Gebruik cookies');
-define('HEADING_TITLE', 'Gebruik cookies');
+define('NAVBAR_TITLE', 'Cookie gebruik');
+define('HEADING_TITLE', 'Het gebruik van cookies');
 
 define('TEXT_INFORMATION', 'Op dit moment staat het gebruik van cookies uitgeschakeld in uw webbrowser of het gebruik van cookies wordt niet ondersteund.');
 define('TEXT_INFORMATION_2', 'Om uw bestelling mogelijk te maken zult u het gebruik van cookies aan moeten zetten in uw webbrowser.');

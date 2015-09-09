@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2009 Zen Cart Development Team
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version $Id: popup_coupon_help.php 14141 2009-08-10 19:34:47Z wilt $
+ * @version GIT: $Id: Author: DrByte  Wed Nov 6 20:54:59 2013 -0500 Modified in v1.5.2 $
  */
 
 define('HEADING_COUPON_HELP', 'Kortingsbon Help');
@@ -26,6 +26,7 @@ define('TEXT_DENY', 'Niet toegestaan');
 define('TEXT_ALLOWED', ' (Toegestaan)');
 define('TEXT_DENIED', ' (Niet toegestaan)');
 
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze bon geldig voor bepaalde artikelen.');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Deze bon is geldig voor alle categorieën.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Deze bon is geldig voor alle artikelen.</p>');
 
@@ -33,4 +34,4 @@ define('TEXT_NO_PROD_RESTRICTIONS', '<p>Deze bon is geldig voor alle artikelen.<
 define('TEXT_COUPON_GV_RESTRICTION','Kortingsbonnen kunnen niet worden gebruikt om ' . TEXT_GV_NAMES . '. te kopen.');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Factuuradres restricties zijn van toepassing.');
-?>
+

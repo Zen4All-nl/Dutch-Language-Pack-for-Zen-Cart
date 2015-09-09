@@ -1,6 +1,7 @@
 <?php
-// @version $Id: dutch translation voor zen cart 1.6.x
-
+// @package admin languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -27,9 +28,9 @@ define('TEXT_SELECTED_PRODUCTS', 'Geselecteerde artikelen');
 
 define('JS_PLEASE_SELECT_PRODUCTS', 'Selecteer enkele artikelen.');
 
-define('BUTTON_GLOBAL', 'Totale assortiment');
+define('BUTTON_GLOBAL', 'Gehele assortiment');
 define('BUTTON_SELECT', '>>>');
 define('BUTTON_UNSELECT', '<<<');
 define('BUTTON_SUBMIT', 'Verstuur');
-define('BUTTON_CANCEL', 'Wijzigen');
+define('BUTTON_CANCEL', 'Annuleer');
 ?>

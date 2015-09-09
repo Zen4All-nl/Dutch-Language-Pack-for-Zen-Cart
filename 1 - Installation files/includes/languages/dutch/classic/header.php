@@ -1,10 +1,10 @@
 <?php
 /**
- * @package languageDefines
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2005 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: header.php 2848 2006-01-14 09:47:08Z wilt $
  */
 
@@ -17,7 +17,6 @@ define('HEADER_TITLE_TOP', 'Boven');
 define('HEADER_TITLE_CATALOG', 'Home');
 define('HEADER_TITLE_LOGOFF', 'Uitloggen');
 define('HEADER_TITLE_LOGIN', 'Inloggen');
-define('HEADER_TITLE_ORDER_STATUS', 'Order Status');
 
 // toegevoegde defenities voor kop alt en tekst
 define('HEADER_ALT_TEXT', 'Gerealiseerd met Zen Cart :: De kunst van eCommerce [home link]');

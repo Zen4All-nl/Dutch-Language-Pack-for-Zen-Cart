@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,7 +20,6 @@
 // | license@zen-cart.com so we can mail you a copy immediately.          |
 // +----------------------------------------------------------------------+
 // $Id: checkout_process.php 1969 2005-09-13 06:57:21Z drbyte $
-// @version $Id: Integrated COWOA v2.2 - 2007 - 2012
 //
 
 define('EMAIL_TEXT_SUBJECT', 'Bevestigen bestelling');
@@ -28,21 +28,12 @@ define('EMAIL_TEXT_FROM',' van ');  //toegevoegd aan EMAIL_TEXT_HEADER, alleen b
 define('EMAIL_THANKS_FOR_SHOPPING','Hartelijk bedankt voor Uw bestelling!');
 define('EMAIL_DETAILS_FOLLOW','Hieronder staan de details van uw bestelling.');
 define('EMAIL_TEXT_ORDER_NUMBER', 'Bestelnummer:');
-//IF COWOA ACCOUNT CHANGE TO ORDER STATUS
-if($_SESSION['COWOA']) $COWOA=TRUE;
-if($COWOA)
 define('EMAIL_TEXT_INVOICE_URL', 'Controleer orderstatus:');
-else
-define('EMAIL_TEXT_INVOICE_URL', 'Gespecificeerde rekening:');
-if($COWOA)
-define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier om de status van uw bestelling te controleren');
-else
 define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier voor een gespecificeerde rekening');
-// END IF COWOA ACCOUNTS
 define('EMAIL_TEXT_DATE_ORDERED', 'Datum besteld:');
 define('EMAIL_TEXT_PRODUCTS', 'Artikelen');
 define('EMAIL_TEXT_SUBTOTAL', 'Subtotaal:');
-define('EMAIL_TEXT_TAX', 'BTW:        ');
+define('EMAIL_TEXT_TAX', 'Btw:        ');
 define('EMAIL_TEXT_SHIPPING', 'Verzendkosten: ');
 define('EMAIL_TEXT_TOTAL', 'Totaal:    ');
 define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Afleveradres');
@@ -56,4 +47,4 @@ define('TEXT_EMAIL_VIA', 'via');
 define('EMAIL_ORDER_NUMBER_SUBJECT', ' Nr.: ');
 define('HEADING_ADDRESS_INFORMATION','Adresinformatie');
 define('HEADING_SHIPPING_METHOD','Verzendmethode');
-// eof
+?>

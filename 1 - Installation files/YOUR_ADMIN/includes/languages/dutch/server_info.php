@@ -1,14 +1,14 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2007 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: server_info.php 5954 2007-03-03 08:09:35Z drbyte $
  */
-
-define('HEADING_TITLE', 'Server Informatie');
+ 
+define('HEADING_TITLE', 'Serverinformatie');
 
 define('TITLE_SERVER_HOST', 'Server Host:');
 define('TITLE_SERVER_OS', 'Server OS:');

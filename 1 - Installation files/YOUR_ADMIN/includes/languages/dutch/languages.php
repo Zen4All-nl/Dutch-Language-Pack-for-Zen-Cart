@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package admin languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -24,12 +25,12 @@
 define('HEADING_TITLE', 'Talen');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Taal');
-define('TABLE_HEADING_LANGUAGE_CODE', 'ISO code');
+define('TABLE_HEADING_LANGUAGE_CODE', 'Code');
 define('TABLE_HEADING_ACTION', 'Actie');
 
 define('TEXT_INFO_EDIT_INTRO', 'Maak de noodzakelijke wijziging(en)');
 define('TEXT_INFO_LANGUAGE_NAME', 'Taal:');
-define('TEXT_INFO_LANGUAGE_CODE', 'ISO code:');
+define('TEXT_INFO_LANGUAGE_CODE', 'Code:');
 define('TEXT_INFO_LANGUAGE_IMAGE', 'Afbeelding:');
 define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Directory:');
 define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Rangschikking:');
@@ -40,5 +41,5 @@ define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Wijzig taal');
 define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Verwijder taal');
 
 define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Foutmelding: De taal die is ingesteld als standaard kan niet worden verwijderd. Kies eerst een andere taal als standaard en probeer het dan nogmaals.');
-define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Foutmelding: een taal met die ISO code is al opgeslagen.');
+define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Foutmelding: een taal met die code is al opgeslagen.');
 ?>

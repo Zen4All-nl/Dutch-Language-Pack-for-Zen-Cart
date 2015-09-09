@@ -1,6 +1,7 @@
 <?php
 //
-// @version $Id: dutch translation voor zen cart 1.6.x
+// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,7 +21,6 @@
 // +----------------------------------------------------------------------+
 // $Id: document_general.php 1969 2005-09-13 06:57:21Z drbyte $
 //
-
 
 DEFINE('BOX_HEADING_DOCUMENT_CATEGORIES', 'Documenten');
 ?>

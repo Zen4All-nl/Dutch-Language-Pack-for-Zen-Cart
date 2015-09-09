@@ -2,11 +2,11 @@
 /**
  * Authorize.net SIM Payment Module
  *
- * @package languageDefines
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
+ * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: authorizenet.php 15868 2010-04-11 01:14:50Z drbyte $
  */
 

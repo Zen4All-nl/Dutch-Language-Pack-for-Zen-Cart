@@ -1,10 +1,10 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
  * @version $Id: products_to_categories.php 18698 2011-05-04 14:50:06Z wilt $
  */
 
@@ -35,7 +35,7 @@ define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER',
 'Het geselecteerde artikel is momenteel gekoppeld aan de categorieën die in bovenstaand overzicht zijn aangevinkt.<br />De gekoppelde hoofdcategorie is te herkennen aan een geel icoon. Indien dit icoon niet	zichtbaar is betekent dit dat er geen hoofdcategorie is geselecteerd. Ieder artikel moet, vanwege prijs strategie, in een hoofdcategorie worden geplaatst ongeacht het aantal subcategorieën die reeds zijn gekoppeld. 
 De keuze voor een hoofdcategorie kan gemaakt worden in het dropdown menu boven het overzicht.<br /><br />
 Om een categorie te selecteren zet een vink naast de categorie. Om een artikel uiteen gekoppelde categorie te verwijderen, kun je simpelweg het vinkje naast de categorie weghalen.	Als je categorieën hebt aan- of uitgevinkt druk dan op de knop ' . BUTTON_UPDATE_CATEGORY_LINKS .'<br /> om deze vast te leggen.
-');
+);
 
 define('HEADER_CATEGORIES_GLOBAL_CHANGES', 'Algemene categoriekoppeling en hoofdcategorie ID wijzigingen');
 

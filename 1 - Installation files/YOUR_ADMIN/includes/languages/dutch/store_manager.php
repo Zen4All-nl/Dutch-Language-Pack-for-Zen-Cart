@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version $Id: store_manager.php 19689 2011-10-04 15:51:25Z drbyte $
+ * @version GIT: $Id: Author: DrByte  Mon Sep 24 14:38:59 2012 -0400 Modified in v1.5.2 $
  */
 
   define('HEADING_TITLE', 'Winkelmanager');
@@ -28,10 +28,10 @@
   define('TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE', '<strong>Stel voor alle artikelen de hoofdcategorie ID in</strong><br />te gebruiken voor gekoppelde artikelen en prijzen ');
 
   define('TEXT_NEW_ORDERS_ID', 'Nieuwe bestelling ID');
-  define('TEXT_INFO_SET_NEXT_ORDER_NUMBER', '<strong>Set next order number</strong><br />NOTE: You cannot set the order number to a value lower than any existing order already in the database.');
-  define('TEXT_MSG_NEXT_ORDER', 'The next order number has been set to %s');
-  define('TEXT_MSG_NEXT_ORDER_MAX', 'Due to existing order data, the next order number is currently: %s');
-  define('TEXT_MSG_NEXT_ORDER_TOO_LARGE', 'Due to database limitations, you cannot set the next order number higher than 2000000000. Please choose a lower value.');
+  define('TEXT_INFO_SET_NEXT_ORDER_NUMBER', '<strong>Pas het volgende ordernummer aan</strong><br />Opmerking: Je kant het ordernummer niet een lagere waarde geven dan een bestaande order in de database.');
+  define('TEXT_MSG_NEXT_ORDER', 'Het volgende ordernummer is op %s gezet');
+  define('TEXT_MSG_NEXT_ORDER_MAX', 'Vanwege al bestaande orderdata, is op dit moment het volgende ordernummer: %s');
+  define('TEXT_MSG_NEXT_ORDER_TOO_LARGE', 'Vanwege database beperkingen, kun je het volgende ordernummer niet hoger zetten dan 2000000000. Kies alstublieft een lagere waarde.');
 
   define('TEXT_CONFIGURATION_CONSTANT', '<strong>Zoek <u>CONSTANTS</u> of taal gerelateerde <u>defines</u></strong>');
   define('TEXT_CONFIGURATION_KEY', 'Key of Naam:');
@@ -61,8 +61,8 @@
   define('TEXT_INFO_CONFIGURATION_HIDDEN', ' of, VERBORGEN');
 
   define('TEXT_INFO_DATABASE_OPTIMIZE', '<strong>Optimaliseer de Database</strong> om ongebruikte ruimte van verwijderde records vrij te maken.<br />Optioneel draai maandelijks of weekelijks deze optimalisatie op een drukke database.<br />(Het beste om dit uit te voeren als het minder druk is.)');
-  define('TEXT_INFO_OPTIMIZING_DATABASE_TABLES', 'Database table optimization in progress. This may take a few minutes. Please wait. The previous menu will re-appear when finished ... ');
+  define('TEXT_INFO_OPTIMIZING_DATABASE_TABLES', 'Database tabel optimimalisatie wordt uitgevoerd. Dit kan enkele minuten duren. Even geduld. Het voorgaande menu zal weer verschijnen als de bewerking klaar is ... ');
   define('SUCCESS_DB_OPTIMIZE', 'Database Optimalisatie - Tabellen verwerkt: ');
 
-  define('TEXT_INFO_PURGE_DEBUG_LOG_FILES', '<strong>Cleanup Debug Log Files</strong><br /><strong>CAUTION: </strong>Zen Cart records PHP error messages for debugging purposes, and many payment modules can be set to log debug data to diagnose communication problems. <br />Clicking this purge option will *permanently* remove *ALL* debug logs associated with PHP errors and payment modules from the /logs/ folder.');
-  define('SUCCESS_CLEAN_DEBUG_FILES', 'Debug Log Files Purged');
+  define('TEXT_INFO_PURGE_DEBUG_LOG_FILES', '<strong>Debug Log Files opschonen</strong><br /><strong>Let op: </strong>Zen Cart slaat PHP foutmeldingen op voor debugging doeleinden en veel betaalmethodes kunnen ingesteld worden om debug data op te slaan, om diagnoses te kunnen doen in geval van communicatie problemen. <br />Door op bijwerken te klikken zullen alle debug logs, betreffende PHP fouten en betaal modules, permanent verwijdert worden uit de /logs/ folder.');
+  define('SUCCESS_CLEAN_DEBUG_FILES', 'Debug Log Files opgeschoond');
