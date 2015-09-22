@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: orders.php 6214 2007-04-17 02:24:25Z ajeh $
+ * @version $Id: orders.php  Modified in v1.5.5 $
  */
 
 define('HEADING_TITLE', 'Bestellingen');
@@ -71,7 +71,6 @@ define('TEXT_PAID', 'Betaald');
 define('TEXT_UNPAID', 'Onbetaald');
 
 define('TEXT_ALL_ORDERS', 'Alle bestellingen');
-define('TEXT_NO_ORDER_HISTORY', 'Geen bestelhistorie beschikbaar');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('EMAIL_TEXT_SUBJECT', 'Wijziging bestelling');
@@ -119,4 +118,4 @@ define('TEXT_INFO_EXPIRED_COUNT', 'Verlopen Telling:<br />');
 define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Klant<br />Commentaar');
 define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
-?>
+

@@ -1,6 +1,6 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -247,6 +247,7 @@ define('JS_COUNTRY', '* Het <strong>land</strong> moet worden ingevuld.\n');
 define('JS_TELEPHONE', '* Het  <strong>telefoonnummer</strong> moet minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tekens bevatten.\n');
 
 define('JS_ORDER_DOES_NOT_EXIST', 'Bestelnummer %s komt niet voor!');
+define('TEXT_NO_ORDER_HISTORY', 'Geen orderhistorie beschikbaar');
 
 define('CATEGORY_PERSONAL', 'Persoonlijke gegevens');
 define('CATEGORY_ADDRESS', 'Adres');
@@ -429,10 +430,6 @@ define('TEXT_SET_DEFAULT', 'Stel in als standaardinstelling');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Verplicht</span>');
 
 define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Foutmelding: er is op dit moment geen valuta als standaard ingesteld. Dit kunt u doen via Admin -> Taal & Valuta -> Valuta');
-
-define('TEXT_CACHE_CATEGORIES', 'Categorieën Box');
-define('TEXT_CACHE_MANUFACTURERS', 'Fabrikanten Box');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Ook aangeschaft Module');
 
 define('TEXT_NONE', '--geen--');
 define('TEXT_TOP', 'Top');
