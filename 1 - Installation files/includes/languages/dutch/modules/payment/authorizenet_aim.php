@@ -2,9 +2,9 @@
 /**
  * Authorize.net AIM Payment Module Language definitions
  *
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: authorizenet_aim.php 18695 2011-05-04 05:24:19Z drbyte $
@@ -35,6 +35,7 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DECLINED_MESSAGE', 'Uw creditcard kon om deze reden niet worde geverifieerd. Corrigeer de door u ingevoerde informatie en probeer het nogmaals of neem contact met ons op voor asistentie.');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR', 'Creditcard fout!');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_AUTHENTICITY_WARNING', 'LETOP: Probleem met beveiligde sleutel. Neem onmiddelijk contact met ons op! uw betaling is *niet* volledig verwerkt.');
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_COMM_ERROR', 'Unable to process payment due to a communications error. You may try again or contact us for assistance.');
 
 // admin tools:
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_BUTTON_TEXT', 'Crediteer');
@@ -77,4 +78,3 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS', 'Opmerking (word getoond binnen de bestelhistorie):');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE', 'Transactie geannuleerd');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX', 'Verificaties moeten zijn uitgevoerd voordat de oorspronkelijke transactie in de dagelijkse verwerking kan worden meegenomen.');
-

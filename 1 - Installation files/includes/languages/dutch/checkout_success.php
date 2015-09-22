@@ -27,3 +27,28 @@ define('TEXT_YOUR_ORDER_NUMBER', '<strong>Uw bestelnummer is:</strong> ');
 
 define('TEXT_CHECKOUT_LOGOFF_GUEST', 'NB: Om uw bestelling te ontvangen is een tijdelijk inlog account voor u gemaakt. Als u wil uitloggen klik dan op de knop Uitloggen. Uitloggen zorgt er tevens voor dat uw factuur en aankoopinfo niet zichtbaar is voor de volgende persoon die deze pc gebruikt. Uitloggen is vooral aanbevolen bij het gebruik van een publieke computers zoals in een internetcafé ed. Als u verder wil winkelen, feel free! U kunt ten alle tijde uitloggen door op de link uitloggen te klikken boven aan de site.');
 define('TEXT_CHECKOUT_LOGOFF_CUSTOMER', 'Hartelijk bedankt voor uw bestelling! Klik alstublieft op uitloggen om er zeker van te zijn dat uw bestelinfo niet zichtbaar is voor de volgende persoon achter deze computer.');
+
+
+define('HEADING_ORDER_NUMBER', 'Order #%s');
+define('HEADING_ORDER_DATE', 'Besteldatum:');
+define('HEADING_ORDER_TOTAL', 'Order Totaal:');
+
+define('HEADING_DELIVERY_ADDRESS', 'Bezorgadres');
+define('HEADING_SHIPPING_METHOD', 'Verzendmethode');
+
+define('HEADING_PRODUCTS', 'Producten');
+define('HEADING_TAX', 'Btw');
+define('HEADING_TOTAL', 'Totaal');
+define('HEADING_QUANTITY', 'Aant.');
+
+define('HEADING_BILLING_ADDRESS', 'Factuuradres');
+define('HEADING_PAYMENT_METHOD', 'Betaalmethode');
+
+define('HEADING_ORDER_HISTORY', 'Statushistorie &amp; Opmerkingen');
+define('TEXT_NO_COMMENTS_AVAILABLE', 'Geen opmerkingen beschikbaar.');
+define('TABLE_HEADING_STATUS_DATE', 'Datum');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Orderstatus');
+define('TABLE_HEADING_STATUS_COMMENTS', 'Opmerkingen');
+define('QUANTITY_SUFFIX', '&nbsp;x  ');
+define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
+define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
