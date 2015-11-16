@@ -1,8 +1,8 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: whos_online.php 18698 2011-05-04 14:50:06Z wilt $
@@ -55,3 +55,6 @@ define('TEXT_WHOS_ONLINE_TIMER_FREQ1', '5 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ2', '15 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ3', '30 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ4', '1 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ5', '5 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ6', '10 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ7', '14 min');

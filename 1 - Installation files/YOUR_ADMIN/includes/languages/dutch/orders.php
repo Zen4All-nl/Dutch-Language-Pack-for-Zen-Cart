@@ -119,3 +119,4 @@ define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Klant<br />Commentaar');
 define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
 
+define('TEXT_CUSTOMER_LOOKUP', 'Klant opzoeken');

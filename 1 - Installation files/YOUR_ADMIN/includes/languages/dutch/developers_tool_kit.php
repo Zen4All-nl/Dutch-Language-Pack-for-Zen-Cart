@@ -79,8 +79,18 @@
   define('TEXT_ALL_FILES_LOOKUP_CSS', 'alleen .css');
   define('TEXT_ALL_FILES_LOOKUP_HTMLTXT', '.html en .txt');
   define('TEXT_ALL_FILES_LOOKUP_JS', 'alleen .js');
+  define('TEXT_ALL_FILES_LOOKUP_ALL_TYPES', 'Alles');
 
   define('TEXT_CASE_SENSITIVE', 'Hoofdlettergevoelig?');
+  define('TEXT_CONTEXT_LINES', 'Context lines: ');
+  define('TEXT_SEARCH_LOOKUP_PLACEHOLDER', 'Enter search phrase or pattern');
+  define('TEXT_SEARCH_KEY_PLACEHOLDER', 'Enter key name or phrase to search for');
+  define('TEXT_SEARCH_PHRASE_PLACEHOLDER', 'Enter search phrase');
+  define('TEXT_BUTTON_SEARCH', 'Zoek');
+  define('TEXT_BUTTON_SEARCH_ALT', 'Execute Search');
+  define('TEXT_BUTTON_REGEX_SEARCH', 'Grep');
+  define('TEXT_BUTTON_REGEX_SEARCH_ALT', 'Search using Regex pattern');
+  define('TEXT_ERROR_REGEX_FAIL', 'ALERT: An error occurred during search. If you were doing a regex/grep search, please inspect your regex pattern for syntax errors.');
 
   //Search Configuration Keys
   define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Zoek in Configuratie instellingen/Keys</strong>');
@@ -97,6 +107,6 @@
   define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Geef de woorden op die gevonden moeten worden in "instellingen"');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Zoek');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Zoek (gesorteerd opp key)');
-  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles (Alle instellingen)');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_RESET', 'Reset');
-
+  define('TEXT_RESET_BUTTON_ALT', 'Wis alle zoekvelden, om opnieuw te beginnen.');

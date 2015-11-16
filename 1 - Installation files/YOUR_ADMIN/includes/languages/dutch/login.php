@@ -1,8 +1,8 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version GIT: $Id: Author: DrByte  Mon Jul 16 14:10:24 2012 -0400 Modified in v1.5.1 $
@@ -22,7 +22,7 @@ define('ERROR_SECURITY_ERROR', 'Er heeft zich een veiligheidsfout voorgedaan toe
 
 define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
 
-define('LOGIN_EXPIRY_NOTICE', 'Houdt u er rekening mee dat na 15 minuten inactiviteit, u verplicht opnieuw moet inloggen.<br /><br />Let op: Alle wachtwoorden verlopen elke 90 dagen.');
+define('LOGIN_EXPIRY_NOTICE', '');
 define('ERROR_PASSWORD_EXPIRED', 'LET OP: Uw wachtwoord is verlopen. Selecteer een nieuw wachtwoord. Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
 define('TEXT_TEMPORARY_PASSWORD_MUST_BE_CHANGED', 'Om veiligheidsredenen, dient uw tijdelijke wachtwoord te worden gewijzigd. Selecteer een nieuw wachtwoord.<br />Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
 

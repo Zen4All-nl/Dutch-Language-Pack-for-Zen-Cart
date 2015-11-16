@@ -85,6 +85,8 @@ define('TEXT_GV_REDEEM','Inwisselcode');
 define('MALE', 'De heer');
 define('FEMALE', 'Mevrouw');
 
+define('TEXT_CHECK_ALL', 'Check Alles');
+define('TEXT_UNCHECK_ALL', 'Uncheck Alles');
 define('NONE', 'Geen');
 
 // configuration box text
@@ -345,6 +347,7 @@ define('IMAGE_PERMISSIONS', 'Verander bevoegdheden');
 define('IMAGE_PREVIEW', 'Voorvertoning');
 define('IMAGE_RESTORE', 'Herstel');
 define('IMAGE_RESET', 'Reset');
+define('IMAGE_RESET_PWD', 'Reset wachtwoord');
 define('IMAGE_SAVE', 'Opslaan');
 define('IMAGE_SEARCH', 'Zoeken');
 define('IMAGE_SELECT', 'Selecteren');
@@ -513,7 +516,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('IMAGE_UPDATE_SORT','Bijwerk sorteer order');
   define('IMAGE_EDIT_PRODUCT','Wijzig artikel');
   define('IMAGE_EDIT_ATTRIBUTES','Wijzig opties van artikel');
-  define('TEXT_NEW_PRODUCT', 'Artikel in categorie: &quot;%s&quot;');
+  define('TEXT_NEW_PRODUCT', 'Artikel in categorie: %s');
   define('IMAGE_OPTIONS_VALUES','Optienamen en optiewaarden');
   define('TEXT_PRODUCTS_PRICE_MANAGER','Artikelprijs manager');
   define('TEXT_PRODUCT_EDIT','Wijzig artikel');
@@ -648,7 +651,7 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('TEXT_SORT_CATEGORIES_SORT_ORDER_PRODUCTS_NAME', 'Categorie sorteervolgorde, categorienaam');
   define('TEXT_SORT_CATEGORIES_NAME', 'Categorienaam');
 
-
+  define('TEXT_SELECT_MAIN_DIRECTORY', 'Main Image Directory');
 
   define('TABLE_HEADING_YES','Ja');
   define('TABLE_HEADING_NO','Nee');
@@ -702,6 +705,12 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('WARNING_ADMIN_ACTIVITY_LOG_DATE', 'Waarschuwing: de Admin Activity Log tabel bevat records die ouder dan 2 maanden zijn en moet opgeschoond worden ... ');
   define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', 'Waarschuwing: de Admin Activity Log tabel bevat meer dan 50.000 records en moet opgeschoond worden ... ');
   define('RESET_ADMIN_ACTIVITY_LOG', 'U kunt de Admin Activity details bekijken en archiveren via het Admin Activiteiten Logboeken menu, als u de juiste rechten heeft.');
+  define('TEXT_ACTIVITY_LOG_ACCESSED', 'Admin Activity Log accessed. Output format: %s. Filter: %s. %s');
+  define('TEXT_ERROR_FAILED_ADMIN_LOGIN_FOR_USER', 'Failed admin login attempt: ');
+  define('TEXT_ERROR_ATTEMPTED_TO_LOG_IN_TO_LOCKED_ACCOUNT', 'Attempted to log into locked account:');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Attempted login without CSRF token.');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Attempted login without username.');
+  define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Incorrect password while attempting a password reset for: ');
 
   define('CATEGORY_HAS_SUBCATEGORIES', 'Let op: Categorie heeft Subcategorieën<br />Artikel kan niet toegevoegd worden');
 
@@ -720,6 +729,11 @@ define('TEXT_NOEMAIL', 'Geen e-mail');
 define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
 
 define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Er lijkt een probllem te zijn met de database. Er is onderhoud nodig.</a>');//nog vertalen
+
+// moved from currencies file:
+define('TEXT_INFO_CURRENCY_UPDATED', 'The exchange rate for %s (%s) was updated successfully to %s via %s.');
+define('ERROR_CURRENCY_INVALID', 'Error: The exchange rate for %s (%s) was not updated via %s. Is it a valid currency code?');
+define('WARNING_PRIMARY_SERVER_FAILED', 'Warning: The primary exchange rate server (%s) failed for %s (%s) - trying the secondary exchange rate server.');
 
 
 ///////////////////////////////////////////////////////////

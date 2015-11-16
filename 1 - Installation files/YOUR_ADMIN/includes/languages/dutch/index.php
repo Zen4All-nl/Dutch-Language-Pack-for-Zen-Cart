@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: Ian Wilson  Sat Aug 10 18:43:55 2013 +0100 Modified in v1.5.2 $
+ * @version $Id: Modified in v1.5.5 $
  */
 
 define('HEADING_TITLE', 'Kies een actie...');
@@ -65,11 +65,10 @@ define('BOX_ENTRY_CUSTOMERS_NORMAL', '- Volledige accounts:');
 define('BOX_ENTRY_CUSTOMERS_COWOA', '- Zonder accounts:');
 define('BOX_ENTRY_CUSTOMERS_TOTAL', 'Totaal aantal klantaccounts:');
 
-// Nog te vertalen
 define('TEXT_REMOVE', 'Verwijderen');
 define('TEXT_UPDATE', 'Update');
-define('TEXT_CONFIRM_REMOVE', 'Are you sure you want to remove this widget from the dashboard?');
-define('TEXT_WIDGET_UPDATE_HEADER', 'Widget Settings have been updated');
+define('TEXT_CONFIRM_REMOVE', 'Weet je zeker dat je deze widget van het dashboard wilt verwijderen?');
+define('TEXT_WIDGET_UPDATE_HEADER', 'Widget instellingen zijn aangepast');
 
 define ('TEXT_TIMER_SELECT_NONE', 'Niet verversen');
 define ('TEXT_TIMER_SELECT_1MIN', 'Ververs elke minuut');
@@ -77,10 +76,10 @@ define ('TEXT_TIMER_SELECT_5MIN', 'Ververs elke  5 minuten');
 define ('TEXT_TIMER_SELECT_10MIN', 'Ververs elke  10 minuten');
 define ('TEXT_TIMER_SELECT_15MIN', 'Ververs elke  15 minuten');
 
-define ('TEXT_NO_WIDGETS_TO_INSTALL', 'There are currently no widgets available to install.');
-define('TEXT_FORM_ERROR_CHOOSE_ZONE', 'Please choose a Zone');
-define('TEXT_WARNING_SUPERUSER_REQUIRED', 'Only a Superuser can complete the initial setup. You will not be able to use your Admin until this is done.');
-define('TEXT_HEADING_SETUP_WIZARD', 'Initial Setup Wizard');
+define ('TEXT_NO_WIDGETS_TO_INSTALL', 'Er zijn op dit moment geen widgets beschikbaar om te installeren.');
+define('TEXT_FORM_ERROR_CHOOSE_ZONE', 'Kies een zone');
+define('TEXT_WARNING_SUPERUSER_REQUIRED', 'Alleen een Superuser kan de initiele setup afmaken. Je kan de admin niet gebruikene totdat dit gedaan is.');
+define('TEXT_HEADING_SETUP_WIZARD', 'Initiele Setup Wizard');
 
 define('TEXT_FORM_LEGEND_REQUIRED_SETUP', 'Vereiste setup informatie');
 define('TEXT_FORM_LABEL_STORE_NAME', 'Winklenaame');
@@ -89,3 +88,12 @@ define('TEXT_FORM_LABEL_STORE_OWNER_EMAIL', 'E-mailadres winkeleigenaar');
 define('TEXT_FORM_LABEL_STORE_COUNTRY', 'Winkel land');
 define('TEXT_FORM_LABEL_STORE_ZONE', 'Winkel provincie');
 define('TEXT_FORM_LABEL_STORE_ADDRESS', 'Winkel adres');
+
+define('TEXT_STORE_NAME', 'Je webwinkelnaam');
+define('TEXT_STORE_OWNER', 'Webwinkel eigenaar');
+define('TEXT_STORE_OWNER_EMAIL', 'Webwinkel eigenaar e-mailadres');
+define('TEXT_STORE_COUNTRY', 'Webwinkel land');
+define('TEXT_STORE_ZONE', 'Webwinkel provincie');
+define('TEXT_STORE_ADDRESS', 'Webwinkel adres');
+define('HEADING_TITLE_WIZARD', 'Initiele Setup Wizard');
+define('TEXT_STORE_DETAILS', 'Geef alstublieft de details van je webwinkel. Alle velden zijn verplicht');
