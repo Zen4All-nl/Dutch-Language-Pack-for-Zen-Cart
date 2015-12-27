@@ -161,7 +161,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_CALL_FOR_PRICE', 'Informeer naar prijs');
   define('TEXT_SAVE_CHANGES','Wijzig en bewaar veranderingen:');
 
-  define('TEXT_INFO_ID', 'ID');
+  define('TEXT_INFO_ID', 'ID#');
   define('TEXT_INFO_ALLOW_ADD_TO_CART_NO', 'Niet toevoegen aan winkelwagen');
 
   define('TEXT_DELETE_ATTRIBUTES_OPTION_NAME_VALUES', 'Bevestig het verwijderen van ALLE artikeloptiewaarden van de optienaam ...');

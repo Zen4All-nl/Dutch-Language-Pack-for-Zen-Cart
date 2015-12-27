@@ -82,8 +82,8 @@ define('HEADER_TITLE_LOGOFF', 'Afmelden');
 define('TEXT_GV_REDEEM','Inwisselcode');
 
 // text for gender
-define('MALE', 'De heer');
-define('FEMALE', 'Mevrouw');
+define('MALE', 'Man');
+define('FEMALE', 'Vrouw');
 
 define('TEXT_CHECK_ALL', 'Check Alles');
 define('TEXT_UNCHECK_ALL', 'Uncheck Alles');
@@ -711,6 +711,7 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Attempted login without CSRF token.');
   define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Attempted login without username.');
   define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Incorrect password while attempting a password reset for: ');
+
 
   define('CATEGORY_HAS_SUBCATEGORIES', 'Let op: Categorie heeft Subcategorieën<br />Artikel kan niet toegevoegd worden');
 

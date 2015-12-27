@@ -16,6 +16,7 @@ define('TEXT_ID', 'ID');
 define('TEXT_NAME', 'Naam');
 define('TEXT_EMAIL', 'E-mail');
 define('TEXT_PROFILE', 'Gebruikersprofiel');
+define('TEXT_CHOOSE_PROFILE', 'Kies Profiel');
 define('TEXT_PASSWORD', 'Wachtwoord');
 define('TEXT_CONFIRM_PASSWORD', 'Bevestig wachtwoord');
 define('TEXT_NO_USERS_FOUND', 'Geen admin gebruikers gevonden');

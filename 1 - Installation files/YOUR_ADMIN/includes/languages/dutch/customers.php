@@ -64,8 +64,8 @@ define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', 'Waarschuwing: de klant moet eerst
 define('EMAIL_CUSTOMER_STATUS_CHANGE_MESSAGE', 'Uw klantstatus is aangepast.');
 define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Klantstatus aangepast');
 
-define('ADDRESS_BOOK_TITLE', 'Ingeving Adres Boek');
-define('PRIMARY_ADDRESS', '(primaire adres)');
+define('ADDRESS_BOOK_TITLE', 'Adresboekvermeldingen');
+define('PRIMARY_ADDRESS', '(primair adres)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOOT:</strong></span> Een maximum van %s adres boek ingevingen zijn toegestaan.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 van  ');
 ?>
