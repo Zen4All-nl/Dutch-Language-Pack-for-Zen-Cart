@@ -1,6 +1,6 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.4
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @package languageDefines Dutch
  * @copyright Copyright 2003-2014 Zen Cart Development Team
@@ -139,7 +139,6 @@
   define('BOX_INFORMATION_CONDITIONS', 'Algemene voorwaarden');
   define('BOX_INFORMATION_SHIPPING', 'Verzenden &amp; retouren');
   define('BOX_INFORMATION_CONTACT', 'Contact');
-  define('BOX_BBINDEX', 'Forum');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Afmelden nieuwsbrief');
 
   define('BOX_INFORMATION_SITE_MAP', 'Sitemap');
@@ -511,6 +510,7 @@
   define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Prijs niet weergegeven');
   define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'WACHT OP AUTORISATIE');
   define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE','Inloggen in webshop');
+  define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Checkout onbeschikbaar - Wacht op goedkeuring');
 
 // tekstprijzen
   define('TEXT_CHARGES_WORD','Berekende toeslag:');

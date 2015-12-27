@@ -1,6 +1,6 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -9,8 +9,9 @@
  */
 
 define('NAVBAR_TITLE', 'Recensies');
+define('HEADING_TITLE', 'Recensies');
+
 define('TEXT_OF_5_STARS', '');
 
 define('TEXT_PRODUCT_INFO', 'Artikel info');
 define('TEXT_READ_REVIEW', 'Lees recensie');
-?>
