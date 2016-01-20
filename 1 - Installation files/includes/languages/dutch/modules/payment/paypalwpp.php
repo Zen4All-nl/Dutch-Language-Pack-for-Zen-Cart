@@ -86,17 +86,21 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_INVALID_ZONE_ERROR', 'We are sorry for the inconvenience; however, at the present time we are unable to use PayPal to process orders from the geographic region you selected as your PayPal address.  Please continue using normal checkout and select from the available payment methods to complete your order.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ORDER_ALREADY_PLACED_ERROR', 'It appears that your order was submitted twice. Please check the My Account area to see the actual order details.  Please use the Contact Us form if your order does not appear here but is already paid from your PayPal account so that we may check our records and reconcile this with you.');
 
-  define('MODULE_PAYMENT_PAYPALWPP_MARK_BUTTON_TXT', 'Checkout with PayPal. The safer, easier way to pay.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_BUTTON_ALTTEXT', 'Click here to pay via PayPal Express Checkout');
 
 // EC buttons -- Do not change these values
 ///// You should only use choices listed on this page: https://developer.paypal.com/docs/classic/api/buttons/ or https://www.paypal-techsupport.com/app/answers/detail/a_id/632
-  define('MODULE_PAYMENT_PAYPALWPP_EC_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/btn/btn_xpressCheckout.gif');
+  //define('MODULE_PAYMENT_PAYPALWPP_EC_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/btn/btn_xpressCheckout.gif');
+  define('MODULE_PAYMENT_PAYPALWPP_EC_BUTTON_IMG', 'https://www.paypalobjects.com/webstatic/nl_NL/btn/btn_checkout_pp_142x27.png');
   define('MODULE_PAYMENT_PAYPALWPP_EC_BUTTON_SM_IMG', 'https://www.paypalobjects.com/nl_NL/i/btn/btn_xpressCheckoutsm.gif');
+
+  //define('MODULE_PAYMENT_PAYPALWPP_MARK_BUTTON_TXT', 'Checkout with PayPal. The safer, easier way to pay.');
+  define('MODULE_PAYMENT_PAYPALWPP_MARK_BUTTON_TXT', '');
   //define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/logo/PayPal_mark_37x23.gif');
-  define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/logo/PayPal_mark_50x34.gif');
+  //define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/logo/PayPal_mark_50x34.gif');
   //define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/bnr/horizontal_solution_PP.gif');
   //define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/bnr/horizontal_solution_PPeCheck.gif');
+  define('MODULE_PAYMENT_PAYPALEC_MARK_BUTTON_IMG', 'https://www.paypalobjects.com/nl_NL/i/btn/btn1_for_hub.gif');
 
 ////////////////////////////////////////
 // Styling of the PayPal Payment Page. Uncomment to customize.
@@ -124,7 +128,6 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYER_ID', 'Koper ID:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYER_STATUS', 'Status koper:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_STATUS', 'Status adres:');
-
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_TYPE', 'Betaalwijze:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_STATUS', 'Status betaling:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_PENDING_REASON', 'Pending Reason:');

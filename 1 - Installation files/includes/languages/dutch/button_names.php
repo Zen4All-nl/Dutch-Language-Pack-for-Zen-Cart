@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: button_names.php 19690 2011-10-04 16:41:45Z drbyte $
+ * @version $Id: button_names.php drbyte  Modified in v1.5.5 $
  */
 
 
@@ -60,7 +60,7 @@ define('BUTTON_IMAGE_CONTINUE_CHECKOUT', 'button_continue_checkout.gif');
 define('BUTTON_IMAGE_CREATE_ACCOUNT', 'button_create_account.gif');
 define('BUTTON_IMAGE_LOG_OFF', 'button_logoff.gif');
 /*
- * ALT teksten voor knoppen
+ * ALT teksten voor knoppen (tekst gebruikt voor CSS knoppen)
  */
 
 define('BUTTON_CREATE_ACCOUNT_ALT', 'Aanmelden');
@@ -83,6 +83,7 @@ define('BUTTON_DOWNLOAD_ALT', 'Nu downloaden');
 define('BUTTON_EDIT_SMALL_ALT', 'Aanpassen');
 define('BUTTON_IN_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_LOGIN_ALT', 'Inloggen');
+define('BUTTON_LOOKUP_ALT', 'Opzoeken');
 define('BUTTON_NEXT_ALT', 'Volgende');
 define('BUTTON_PREVIOUS_ALT', 'Vorige');
 define('BUTTON_REDEEM_ALT', 'Verzilver');
@@ -103,3 +104,4 @@ define('BUTTON_WRITE_REVIEW_ALT', 'Schrijf een Review');
 define('BUTTON_READ_REVIEWS_ALT', 'Lees de Review');
 define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Ga naar de Productdetails');
 define('BUTTON_MORE_REVIEWS_ALT', 'Lees meer Reviews');
+define('BUTTON_VIEW_ALL_ALT', 'Bekijk alles');

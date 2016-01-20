@@ -270,10 +270,10 @@
   define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
   define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Vorige %d pagina\'s');
   define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
-  define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;Eerste');
-  define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Vorige]');
-  define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&gt;&gt;]');
-  define('PREVNEXT_BUTTON_LAST', 'Laatste&gt;&gt;');
+  define('PREVNEXT_BUTTON_FIRST', '&laquo;Eerste');
+  define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
+  define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
+  define('PREVNEXT_BUTTON_LAST', 'Laatste&raquo;');
 
   define('TEXT_BASE_PRICE','Vanaf: ');
 

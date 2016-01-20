@@ -83,6 +83,7 @@ define('BUTTON_DOWNLOAD_ALT', 'Nu downloaden');
 define('BUTTON_EDIT_SMALL_ALT', 'Aanpassen');
 define('BUTTON_IN_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_LOGIN_ALT', 'Inloggen');
+define('BUTTON_LOOKUP_ALT', 'Opzoeken');
 define('BUTTON_NEXT_ALT', 'Volgende');
 define('BUTTON_PREVIOUS_ALT', 'Vorige');
 define('BUTTON_REDEEM_ALT', 'Verzilver');
