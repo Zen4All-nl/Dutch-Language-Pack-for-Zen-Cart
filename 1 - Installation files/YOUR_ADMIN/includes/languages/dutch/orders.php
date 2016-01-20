@@ -120,3 +120,5 @@ define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
 
 define('TEXT_CUSTOMER_LOOKUP', 'Klant opzoeken');
+
+define('TEXT_INVALID_ORDER_STATUS', '<span class="alert">(Ongeldige Orderstatus)</span>');

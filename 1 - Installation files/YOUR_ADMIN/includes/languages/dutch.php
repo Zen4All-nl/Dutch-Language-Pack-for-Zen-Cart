@@ -2,10 +2,10 @@
 /**
  * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2014 Zen Cart Development Team
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Modified in v1.5.4 $
+ * @version GIT: $Id: Author: DrByte  Modified in v1.5.5 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -210,7 +210,7 @@ define('BOX_COUPON_ADMIN','Kortingsbon administratie');
 define('BOX_COUPON_RESTRICT','Coupon Restrictions');
 
 // admin access box text
-define('BOX_HEADING_ADMIN_ACCESS', 'Admin toegangsbeheer');
+define('BOX_HEADING_ADMIN_ACCESS', 'Admins');
 define('BOX_ADMIN_ACCESS_USERS',  'Admin gebruikers');
 define('BOX_ADMIN_ACCESS_PROFILES', 'Adminprofielen');
 define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Admin paginaregistratie');
@@ -436,6 +436,7 @@ define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Foutmelding: er is op dit moment ge
 
 define('TEXT_NONE', '--geen--');
 define('TEXT_TOP', 'Top');
+define('PLEASE_SELECT', 'Maake een keuze ...');
 
 define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Foutmelding: opgegeven bestemming bestaat niet.');
 define('ERROR_DESTINATION_NOT_WRITEABLE', 'Foutmelding: kan niet schrijven naar de opgegeven bestemming.');
@@ -449,11 +450,17 @@ define('WARNING_DATABASE_VERSION_OUT_OF_DATE','De database is niet van voldoende
 define('WARN_DATABASE_VERSION_PROBLEM','true'); //set to false to turn off warnings about database version mismatches
 define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong>Waarschuwing:</strong> De winkel is nu gesloten ivm onderhoudswerkzaamheden ...<br />Let op: Je kunt nu de meeste Betaal- en verzendmethoden NIET testen');
 define('WARNING_BACKUP_CFG_FILES_TO_DELETE', 'Waarschuwing: Deze bestanden moeten worden verwijdered om het beveiligingsrisico te verkleinen: ');
-define('WARNING_INSTALL_DIRECTORY_EXISTS', 'Waarschuwing: Installatie directory bestaat in: ' . DIR_FS_CATALOG . 'zc_install. Verwijder deze directory ivm beveiligingsredenen.');
-define('WARNING_CONFIG_FILE_WRITEABLE', 'Waarschuwing: Het configuratiebestand: %sincludes/configure.php. Dit is een mogelijk beveiligingsrisico. - Zet de correcte gebruikersrechten op dit bestand (read-only, CHMOD 644 of 444 zijn gebruikelijk).  <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">See this FAQ</a>');
+define('WARNING_INSTALL_DIRECTORY_EXISTS', 'Waarschuwing: Installatie directory bestaat in: %s. Verwijder deze directory ivm beveiligingsredenen.');
+define('WARNING_CONFIG_FILE_WRITEABLE', 'Waarschuwing: Het configuratiebestand: %s is aanpasbaar. Dit is een mogelijk beveiligingsrisico. - Zet de correcte gebruikersrechten op dit bestand (read-only, CHMOD 644 of 444 zijn gebruikelijk). Mogelijk moet u het control panel van uw host gebruiken om de rechten aan te passen. Neem contact op met uw host voor hulp. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">See this FAQ</a>');
 define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kan het taalbestand niet vinden: ');
 define('ERROR_MODULE_REMOVAL_PROHIBITED', 'Fout: Module verwijdering niet toegestaan: ');
 define('WARNING_REVIEW_ROGUE_ACTIVITY', 'Waarschuwing: Onderzoek alstublieft op eventuele XSS activiteit:');
+
+define('ERROR_FILE_NOT_REMOVEABLE', 'Foutmelding: De opgegeven file kon niet worden verwijderd. Mogelijk moet u FTP gebruiken om de file te verwijderen, vanwege een configuratie limitatie op de server rechten.');
+define('WARNING_SESSION_AUTO_START', 'Waarschuwing: session.auto_start staat aan - Zet deze aub uit in php.ini en herstart de webserver.');
+define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Waarschuwing: De download directory voor prducten bestaat niet: ' . DIR_FS_DOWNLOAD . '. Download producten zullen niet werken tot deze folder bestaat.');
+define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Waarschuwing: De SQL cache directory bestaat niet: ' . DIR_FS_SQL_CACHE . '. SQL caching zal niet werken totdat deze folderis aangemaakt.');
+define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Waarschuwing: Het is niet mogelijk in de SQL cache directory te schrijven: ' . DIR_FS_SQL_CACHE . '. SQL caching zal niet werken totdat de juiste rechten aan de folder zijn toegekend.');
 
 define('_JANUARY', 'januari');
 define('_FEBRUARY', 'februari');
@@ -507,7 +514,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('BOX_TOOLS_LAYOUT_CONTROLLER','Box layout controle');
 
 // check GV release queue and alert store owner
-  define('SHOW_GV_QUEUE',true);
+  define('SHOW_GV_QUEUE',true); // !! NIET VERTALEN !!
   define('TEXT_SHOW_GV_QUEUE','%s wacht op vrijgave ');
   define('IMAGE_GIFT_QUEUE', TEXT_GV_NAME . ' wachtrij');
   define('IMAGE_ORDER','Bestelling');
@@ -676,8 +683,8 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('BUTTON_PRODUCTS_TO_CATEGORIES_ALT', 'Kopieer artikel naar meerdere categorieën');
 
   define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');//nog vertalen
-  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Display Global Features - ON');//nog vertalen
-  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');//nog vertalen
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Toon Global Features - AAN');
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Toon Global Features - UIT');
 
 // moved from categories and all product type language files
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fout: Gekoppelde artikelen kunnen niet in dezelfde categorie gekoppeld worden.');
@@ -705,12 +712,12 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('WARNING_ADMIN_ACTIVITY_LOG_DATE', 'Waarschuwing: de Admin Activity Log tabel bevat records die ouder dan 2 maanden zijn en moet opgeschoond worden ... ');
   define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', 'Waarschuwing: de Admin Activity Log tabel bevat meer dan 50.000 records en moet opgeschoond worden ... ');
   define('RESET_ADMIN_ACTIVITY_LOG', 'U kunt de Admin Activity details bekijken en archiveren via het Admin Activiteiten Logboeken menu, als u de juiste rechten heeft.');
-  define('TEXT_ACTIVITY_LOG_ACCESSED', 'Admin Activity Log accessed. Output format: %s. Filter: %s. %s');
-  define('TEXT_ERROR_FAILED_ADMIN_LOGIN_FOR_USER', 'Failed admin login attempt: ');
-  define('TEXT_ERROR_ATTEMPTED_TO_LOG_IN_TO_LOCKED_ACCOUNT', 'Attempted to log into locked account:');
-  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Attempted login without CSRF token.');
-  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Attempted login without username.');
-  define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Incorrect password while attempting a password reset for: ');
+  define('TEXT_ACTIVITY_LOG_ACCESSED', 'Admin Activity Log benaderd. Output formaat: %s. Filter: %s. %s');
+  define('TEXT_ERROR_FAILED_ADMIN_LOGIN_FOR_USER', 'Mislukte admin login poging: ');
+  define('TEXT_ERROR_ATTEMPTED_TO_LOG_IN_TO_LOCKED_ACCOUNT', 'Poging om in te loggen op een geblokkeerde account:');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Poging om in te loggen zonder CSRF token.');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Poging om in te loggen zonder username.');
+  define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Verkeer wachtwoord tijdens een wachtwoord reset voor: ');
 
 
   define('CATEGORY_HAS_SUBCATEGORIES', 'Let op: Categorie heeft Subcategorieën<br />Artikel kan niet toegevoegd worden');
@@ -732,9 +739,9 @@ define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
 define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Er lijkt een probllem te zijn met de database. Er is onderhoud nodig.</a>');//nog vertalen
 
 // moved from currencies file:
-define('TEXT_INFO_CURRENCY_UPDATED', 'The exchange rate for %s (%s) was updated successfully to %s via %s.');
-define('ERROR_CURRENCY_INVALID', 'Error: The exchange rate for %s (%s) was not updated via %s. Is it a valid currency code?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Warning: The primary exchange rate server (%s) failed for %s (%s) - trying the secondary exchange rate server.');
+define('TEXT_INFO_CURRENCY_UPDATED', 'De wisselkoers voor %s (%s) is succesvol aangepast naar %s via %s.');
+define('ERROR_CURRENCY_INVALID', 'Foutmelding: De wisselkoers voor %s (%s) is niet aangepast via %s. Is het een valide valuta code?');
+define('WARNING_PRIMARY_SERVER_FAILED', 'Waarschuwing: De primaire exchange rate server (%s) kan niet gevbruik worden voor %s (%s) - poging via secundaire exchange rate server.');
 
 
 ///////////////////////////////////////////////////////////

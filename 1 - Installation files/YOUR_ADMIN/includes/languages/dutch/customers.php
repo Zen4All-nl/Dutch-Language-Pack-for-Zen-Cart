@@ -1,6 +1,6 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -68,4 +68,3 @@ define('ADDRESS_BOOK_TITLE', 'Adresboekvermeldingen');
 define('PRIMARY_ADDRESS', '(primair adres)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOOT:</strong></span> Een maximum van %s adres boek ingevingen zijn toegestaan.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 van  ');
-?>
