@@ -89,6 +89,8 @@ define('TEXT_CHECK_ALL', 'Check Alles');
 define('TEXT_UNCHECK_ALL', 'Uncheck Alles');
 define('NONE', 'Geen');
 
+define('TEXT_UNKNOWN', 'Onbekend');
+
 // configuration box text
 define('BOX_HEADING_CONFIGURATION', 'Configuratie');
 define('BOX_CONFIGURATION_MY_STORE', 'Mijn winkel');

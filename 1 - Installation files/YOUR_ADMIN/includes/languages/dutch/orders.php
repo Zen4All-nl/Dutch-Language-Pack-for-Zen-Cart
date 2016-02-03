@@ -39,11 +39,12 @@ define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant geïnformeerd');
 define('TABLE_HEADING_DATE_ADDED', 'Datum toegevoegd');
 
 define('ENTRY_CUSTOMER', 'Klant:');
+define('ENTRY_CUSTOMER_ADDRESS', Klant adres:<br><i class="fa fa-2x fa-user"></i>');
 define('ENTRY_SOLD_TO', 'Factuuradres:');
 define('ENTRY_DELIVERY_TO', 'Afleveradres:');
 define('ENTRY_SHIP_TO', 'Afleveradres:');
-define('ENTRY_SHIPPING_ADDRESS', 'Afleveradres:');
-define('ENTRY_BILLING_ADDRESS', 'Factuuradres:');
+define('ENTRY_SHIPPING_ADDRESS', 'Afleveradres:<br><i class="fa fa-2x fa-truck"></i>');
+define('ENTRY_BILLING_ADDRESS', 'Factuuradres:<br><i class="fa fa-2x fa-credit-card"></i>');
 define('ENTRY_PAYMENT_METHOD', 'Betaalmethode:');
 define('ENTRY_CREDIT_CARD_TYPE', 'Type credit card:');
 define('ENTRY_CREDIT_CARD_OWNER', 'Eigenaar credit card:');
@@ -119,6 +120,10 @@ define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Klant<br />Commentaar');
 define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
 
-define('TEXT_CUSTOMER_LOOKUP', 'Klant opzoeken');
+define('TEXT_CUSTOMER_LOOKUP', '<i class="fa fa-search"></i> Klant opzoeken');
 
 define('TEXT_INVALID_ORDER_STATUS', '<span class="alert">(Ongeldige Orderstatus)</span>');
+
+define('BUTTON_TO_LIST', 'Orderlijst');
+define('SELECT_ORDER_LIST', 'Ga naar order:');
+
