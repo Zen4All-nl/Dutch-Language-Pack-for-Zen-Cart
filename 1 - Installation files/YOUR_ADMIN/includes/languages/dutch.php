@@ -377,6 +377,9 @@ define('IMAGE_REMOVE_FEATURED','Verwijder informatie schijnwerper markering');
 define('IMAGE_INSTALL_SPECIAL', 'Markeer als speciale prijs');
 define('IMAGE_INSTALL_FEATURED', 'Markeer als schijnwerperartikel');
 
+define('TEXT_VERSION_CHECK_BUTTON', 'Check voor nieuwe versie');
+define('TEXT_BUTTON_RESET_ACTIVITY_LOG', 'Bekijk Activity Log');
+
 define('ICON_PRODUCTS_PRICE_MANAGER','Prijsbeheer artikelen');
 define('ICON_COPY_TO', 'Kopiëren naar');
 define('ICON_CROSS', 'Niet');

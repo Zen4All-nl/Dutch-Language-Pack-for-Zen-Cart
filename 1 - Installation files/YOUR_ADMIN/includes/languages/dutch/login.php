@@ -11,6 +11,8 @@
 define('HEADING_TITLE', 'Aanmelden Admin Winkel');
 define('HEADING_TITLE_EXPIRED', 'Admin login - wachtwoord verlopen');
 
+define('TEXT_LOGIN','Inloggen');
+define('TEXT_SUBMIT','Verstuur');
 define('TEXT_ADMIN_NAME', 'Admin gebruikersnaam: ');
 define('TEXT_ADMIN_PASS', 'Admin wachtwoord: ');
 define('TEXT_ADMIN_OLD_PASSWORD', 'Oude wachtwoord:');
