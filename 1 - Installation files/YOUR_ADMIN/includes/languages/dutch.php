@@ -565,8 +565,8 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('ERROR_ADMIN_DEMO','Admin Demo is actief ... de mogelijkheden die u probeert te gebruiken zijn 		niet beschikbaar');
 
 // Version Check notices
-  define('TEXT_VERSION_CHECK_NEW_VER','Nieuwe Zen-Cart versie beschikbaar: V');
-  define('TEXT_VERSION_CHECK_NEW_PATCH','Nieuwe PATCH beschikbaar: V');
+  define('TEXT_VERSION_CHECK_NEW_VER','<span class="alertVersionNew">Nieuwe Zen-Cart versie beschikbaar:</span> v');
+  define('TEXT_VERSION_CHECK_NEW_PATCH','<span class="alertVersionNew">Nieuwe PATCH beschikbaar:</span> v');
   define('TEXT_VERSION_CHECK_PATCH','patch');
   define('TEXT_VERSION_CHECK_DOWNLOAD','Download hier');
   define('TEXT_VERSION_CHECK_CURRENT','Deze versie van Zen-Cart&reg; is up-to-date.');

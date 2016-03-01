@@ -28,5 +28,4 @@
 // zoek veld en knop in de kop
   define('HEADER_SEARCH_BUTTON','Zoek');
   define('HEADER_SEARCH_DEFAULT_TEXT', 'Zoektermen...');
-
-?>
+  define('SEARCH_DEFAULT_TEXT', 'zoektermen');
