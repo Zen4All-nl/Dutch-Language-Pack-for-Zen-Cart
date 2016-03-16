@@ -12,7 +12,7 @@ define('HEADING_TITLE', 'Bestellingen');
 define('HEADING_TITLE_DETAILS', 'Order Details');
 define('HEADING_TITLE_SEARCH', 'Zoek bestelling ID:');
 define('HEADING_TITLE_STATUS', 'Status:');
-define('HEADING_TITLE_SEARCH_DETAIL_ORDERS_PRODUCTS', 'Zoek op Artikelnaam of<strong>ID:XX</strong> of Model ');
+define('HEADING_TITLE_SEARCH_DETAIL_ORDERS_PRODUCTS', 'Artikelnaam of ID:XX of Model');
 define('HEADING_TITLE_SEARCH_ALL','Zoek: ');
 define('HEADING_TITLE_SEARCH_PRODUCTS','Zoek product: ');
 define('TEXT_RESET_FILTER', 'Verwijder zoekfilter');

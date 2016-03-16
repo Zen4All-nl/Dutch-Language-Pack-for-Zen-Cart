@@ -204,7 +204,7 @@ define('BOX_LOCALIZATION_LANGUAGES', 'Talen');
 define('BOX_LOCALIZATION_ORDERS_STATUS', 'Orderstatus');
 
 // gift vouchers box text
-define('BOX_HEADING_GV_ADMIN', TEXT_GV_NAME . '/Kortingsbon');
+define('BOX_HEADING_GV_ADMIN', 'Kortingen');
 define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAME . ' wachtrij');
 define('BOX_GV_ADMIN_MAIL', 'E-mail ' . TEXT_GV_NAME);
 define('BOX_GV_ADMIN_SENT', 'Verzonden ' . TEXT_GV_NAME);
@@ -462,7 +462,7 @@ define('ERROR_MODULE_REMOVAL_PROHIBITED', 'Fout: Module verwijdering niet toeges
 define('WARNING_REVIEW_ROGUE_ACTIVITY', 'Waarschuwing: Onderzoek alstublieft op eventuele XSS activiteit:');
 
 define('ERROR_FILE_NOT_REMOVEABLE', 'Foutmelding: De opgegeven file kon niet worden verwijderd. Mogelijk moet u FTP gebruiken om de file te verwijderen, vanwege een configuratie limitatie op de server rechten.');
-define('WARNING_SESSION_AUTO_START', 'Waarschuwing: session.auto_start staat aan - Zet deze aub uit in php.ini en herstart de webserver.');
+define('WARNING_SESSION_AUTO_START', 'Waarschuwing: session.auto_start staat aan - Zet deze aub uit in php.ini (het kan nodig zijn om de webserverte herstarten, om de aanpassingen te activeren).');
 define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Waarschuwing: De download directory voor prducten bestaat niet: ' . DIR_FS_DOWNLOAD . '. Download producten zullen niet werken tot deze folder bestaat.');
 define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Waarschuwing: De SQL cache directory bestaat niet: ' . DIR_FS_SQL_CACHE . '. SQL caching zal niet werken totdat deze folderis aangemaakt.');
 define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Waarschuwing: Het is niet mogelijk in de SQL cache directory te schrijven: ' . DIR_FS_SQL_CACHE . '. SQL caching zal niet werken totdat de juiste rechten aan de folder zijn toegekend.');
@@ -552,7 +552,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
 // search filters
   define('TEXT_INFO_SEARCH_DETAIL_FILTER','Zoekcriteria: ');
   define('HEADING_TITLE_SEARCH_DETAIL','Zoeken: ');
-  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Zoek naar artikel(en) - Gescheiden door komma');
+  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Zoek naar artikel ID's - Gescheiden door komma');
   define('HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL', 'Zoek naar artikel naam/model');
 
   define('PREV_NEXT_PRODUCT', 'Artikelen: ');
