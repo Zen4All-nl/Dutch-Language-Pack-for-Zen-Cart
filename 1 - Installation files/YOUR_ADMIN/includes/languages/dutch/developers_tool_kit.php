@@ -1,12 +1,12 @@
 <?php
 /**
  * @package admin
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Mon Jul 1 14:52:11 2013 -0400 Modified in v1.5.2 $
+ * @version $Id: Author: DrByte  Mon Oct 19 01:39:59 2015 -0400 Modified in v1.5.5 $
  */
   define('HEADING_TITLE', 'Tool Kit ontwikkelaar');
   define('TABLE_CONFIGURATION_TABLE', 'Zoek CONSTANT definities');
@@ -79,8 +79,18 @@
   define('TEXT_ALL_FILES_LOOKUP_CSS', 'alleen .css');
   define('TEXT_ALL_FILES_LOOKUP_HTMLTXT', '.html en .txt');
   define('TEXT_ALL_FILES_LOOKUP_JS', 'alleen .js');
+  define('TEXT_ALL_FILES_LOOKUP_ALL_TYPES', 'Alles');
 
   define('TEXT_CASE_SENSITIVE', 'Hoofdlettergevoelig?');
+  define('TEXT_CONTEXT_LINES', 'Context lines: ');
+  define('TEXT_SEARCH_LOOKUP_PLACEHOLDER', 'Voer zoek woord of patroon in');
+  define('TEXT_SEARCH_KEY_PLACEHOLDER', 'Voer key naam in waarnaar gezocht moet worden');
+  define('TEXT_SEARCH_PHRASE_PLACEHOLDER', 'Voer zoekwoorden in');
+  define('TEXT_BUTTON_SEARCH', 'Zoek');
+  define('TEXT_BUTTON_SEARCH_ALT', 'Start met zoeken');
+  define('TEXT_BUTTON_REGEX_SEARCH', 'Grep');
+  define('TEXT_BUTTON_REGEX_SEARCH_ALT', 'Zoek gebruikmakend van Regex patroon');
+  define('TEXT_ERROR_REGEX_FAIL', 'ALERT: Er is een fout opgetreden tijdens het zoeken. Als u een regex/grep zoekopdracht aan het doen was, inspecteer dan het opgegeven regex patroon op fouten.');
 
   //Search Configuration Keys
   define('SEARCH_CFG_KEYS_HEADING_TITLE','<strong>Zoek in Configuratie instellingen/Keys</strong>');
@@ -94,9 +104,9 @@
   define('SEARCH_CFG_KEYS_TABLE_EDIT','Wijzig');
   define('SEARCH_CFG_KEYS_NOT_FOUND_KEYS', 'Geen configuration key(s) gevonden.');
   define('SEARCH_CFG_KEYS_FOUND_KEYS', 'configuration key(s) gevonden.');
-  define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Geef de woorden op die gevonden moeten worden in "instellingen"');
+  define('SEARCH_CFG_KEYS_FORM_PLACEHOLDER', 'Geef de woorden op die gevonden moeten worden in de configuratie instellingen');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_GROUP', 'Zoek');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_SEARCH_SORTED_BY_KEY', 'Zoek (gesorteerd opp key)');
-  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles');
+  define('SEARCH_CFG_KEYS_FORM_BUTTON_VIEW_ALL', 'Bekijk alles (Alle instellingen)');
   define('SEARCH_CFG_KEYS_FORM_BUTTON_RESET', 'Reset');
-
+  define('TEXT_RESET_BUTTON_ALT', 'Wis alle zoekvelden, om opnieuw te beginnen.');

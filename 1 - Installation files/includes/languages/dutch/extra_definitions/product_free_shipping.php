@@ -1,6 +1,6 @@
 <?php
 //
-// @package languageDefines Dutch Zen Cart Version 1.5.3
+// @package languageDefines Dutch Zen Cart Version 1.5.5
 // @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -25,5 +25,5 @@
 // Commenteer degenen die u niet wilt gebruiken
 // om niks weer te geven, commenteer ze allemaal uit behalve aan het eind een definitie als ''
 // define('TEXT_PRODUCT_FREE_SHIPPING_ICON', 'GRATIS VERZENDEN'); // voor tekst of stel in als '' om niks weer te geven
-define('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen_image(DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'Nooit verzendkosten!')); // voor een afbeeelding
+define('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen_image(DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'Gratis verzending!')); // voor een afbeeelding
 ?>

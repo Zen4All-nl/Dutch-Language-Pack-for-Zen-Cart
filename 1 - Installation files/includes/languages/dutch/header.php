@@ -2,10 +2,10 @@
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: header.php 2940 2006-02-02 04:29:05Z drbyte $
+ * @version $Id: Author: DrByte  Fri Feb 26 00:22:54 2016 -0500 Modified in v1.5.5 $
  */
 
 // menuteksten van de kop in includes/header.php
@@ -28,5 +28,4 @@
 // zoek veld en knop in de kop
   define('HEADER_SEARCH_BUTTON','Zoek');
   define('HEADER_SEARCH_DEFAULT_TEXT', 'Zoektermen...');
-
-?>
+  define('SEARCH_DEFAULT_TEXT', 'zoektermen');

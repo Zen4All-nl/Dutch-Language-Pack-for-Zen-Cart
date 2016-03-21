@@ -2,10 +2,10 @@
 /**
  * @package admin languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Mon Sep 24 14:38:59 2012 -0400 Modified in v1.5.2 $
+ * @version $Id: Author: DrByte  Mon Dec 28 17:31:37 2015 -0500 Modified in v1.5.5 $
  */
 
   define('HEADING_TITLE', 'Winkelmanager');
@@ -21,7 +21,7 @@
   define('ERROR_CONFIGURATION_KEY_NOT_FOUND', '<strong>Foutmelding:</strong> er zijn geen overeenkomstige "configuration keys" gevonden voor ...');
   define('ERROR_CONFIGURATION_KEY_NOT_ENTERED', '<strong>Foutmelding:</strong> er is geen "configuration key" of tekst ingevuld om naar te zoeken... het zoeken is afgebroken.');
 
-  define('TEXT_INFO_COUNTER_UPDATE', '<strong>Wijzig teller</strong><br />nieuwe waarde: ');
+  define('TEXT_INFO_COUNTER_UPDATE', '<strong>Wijzig teller</strong><br />naar een nieuwe waarde: ');
   define('TEXT_INFO_PRODUCTS_PRICE_SORTER_UPDATE', '<strong>Wijzig de sorteervolgorde van de prijzen voor	alle artikelen</strong><br />mogelijkheid tot sorteren op getoonde prijzen: ');
   define('TEXT_INFO_PRODUCTS_VIEWED_UPDATE', '<strong>Stel de waarde in voor alle bekeken artikelen</strong><br />waarde wordt weer 0 ');
   define('TEXT_INFO_PRODUCTS_ORDERED_UPDATE', '<strong>Stel de waarde in voor alle bestelde artikelen</strong><br />waarde wordt weer 0 ');

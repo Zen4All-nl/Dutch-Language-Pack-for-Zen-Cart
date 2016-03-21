@@ -2,9 +2,9 @@
 /**
  * @package admin languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: products_price_manager.php 18695 2011-05-04 05:24:19Z drbyte $
+ * @version $Id: Author: mc12345678  Sun Jan 3 13:54:17 2016 -0500 Modified in v1.5.5 $
  */
 
 define('HEADING_TITLE', 'Artikel Prijsmanager');
@@ -23,6 +23,8 @@ define('TEXT_PRODUCT_INFO', 'Artikel info:');
 define('TEXT_PRODUCTS_PRICE_INFO', 'Prijs info:');
 define('TEXT_PRODUCTS_MODEL','Model:');
 define('TEXT_PRICE', 'Prijs');
+define('TEXT_PRICE_NET', 'Prijs (Netto)');
+define('TEXT_PRICE_GROSS', 'Prijs (Bruto)');
 define('TEXT_PRODUCT_AVAILABLE_DATE', 'Startdatum:');
 define('TEXT_PRODUCTS_STATUS', 'Status:');
 define('TEXT_PRODUCT_AVAILABLE', 'Voorraad');
@@ -57,6 +59,8 @@ define('TEXT_FEATURED_CONFIRM_DELETE', 'Bevestig A.U.B. dat u de Featured-status
 
 define('TEXT_SPECIALS_PRODUCT', 'Artikel:');
 define('TEXT_SPECIALS_SPECIAL_PRICE', 'Aanbiedingsprijs:');
+define('TEXT_SPECIALS_SPECIAL_PRICE_NET', 'Aanbiedingsprijs: (Netto)');
+define('TEXT_SPECIALS_SPECIAL_PRICE_GROSS', 'Aanbiedingsprijs: (Bruto)');
 define('TEXT_SPECIALS_EXPIRES_DATE', 'Vervaldatum:');
 define('TEXT_SPECIALS_AVAILABLE_DATE', 'Startdatum:');
 define('TEXT_SPECIALS_PRICE_TIP', '<b>Opmerkingen bij het maken van aanbiedingen:</b><ul><li>Het invullen van een percentage als aanbiedingskorting is toegestaan. Voorbeeld: <b>20%</b> geeft 20% korting op normale prijs</li><li>Bij het invoeren van een nieuwe prijs moet altijd een punt (\'.\') als decimaal teken worden ingevoerd. Voorbeeld: <b>49.99</b></li><li>Door de vervaldatum van de aanbieding niet in te vullen blijft deze net zolang doorlopen totdat deze handmatig wordt verwijderd of stopgezet.</li></ul>');

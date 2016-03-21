@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: whos_online.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version $Id: Author: DrByte  Mon Oct 19 01:43:02 2015 -0400 Modified in v1.5.5 $
  */
 
 define('HEADING_TITLE', 'Wie is online');
@@ -45,7 +45,7 @@ define('WHOIS_TIMER_INACTIVE', 180); // Aantal seconden waarna status inactief w
 define('WHOIS_TIMER_DEAD', 540); // Aantal seconden waarna gast wordt verwijderd indien inactief  - 540 default = 9 minutes
 define('WHOIS_SHOW_HOST', '1'); // Tonen van laatste klik en hostnaam - standaard = 1 (staat aan)
 define('WHOIS_REPEAT_LEGEND_BOTTOM', '12'); // Toon legenda aan de voet van de pagina als er een bepaald aantal mensen actief zijn - standaard = 12
-define('OFFICE_IP_TO_HOST_ADDRESS', 'OFF'); // Kantoor IP ??
+define('OFFICE_IP_TO_HOST_ADDRESS', 'UIT');
 
 define('TEXT_WHOS_ONLINE_TIMER_UPDATING', 'Verversen ');
 define('TEXT_WHOS_ONLINE_TIMER_EVERY', 'elke %s seconden.&nbsp;&nbsp;');
@@ -55,3 +55,6 @@ define('TEXT_WHOS_ONLINE_TIMER_FREQ1', '5 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ2', '15 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ3', '30 sec');
 define('TEXT_WHOS_ONLINE_TIMER_FREQ4', '1 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ5', '5 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ6', '10 min');
+define('TEXT_WHOS_ONLINE_TIMER_FREQ7', '14 min');

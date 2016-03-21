@@ -102,6 +102,6 @@ define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF','Open nieuw venster - UIT');
 define('IMAGE_ICON_BANNER_ON_SSL_ON','Toon op beveiligde paginas (SSL) - AAN');
 define('IMAGE_ICON_BANNER_ON_SSL_OFF',' Toon op beveiligde paginas (SSL) - UIT');
 
-define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'De status van de banner voor het openen in een nieuw venster is met succes gewijzigd.');
-define('SUCCESS_BANNER_ON_SSL_UPDATED', 'De status van de banner om zichtbaar te zijn op een SSL pagina is met succes gewijzigd.');
+define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Succes: De status van de banner voor het openen in een nieuw venster is met succes gewijzigd.');
+define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Succes: De status van de banner om zichtbaar te zijn op een SSL pagina is met succes gewijzigd.');
 ?>

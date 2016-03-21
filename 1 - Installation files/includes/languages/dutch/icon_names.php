@@ -18,7 +18,7 @@ define('ICON_IMAGE_TINYCART', 'cart.gif');
 
 //alt tags voor knoppen
 define('ICON_ERROR_ALT', 'Fout');
-define('ICON_SUCCESS_ALT', 'Gelukt');
+define('ICON_SUCCESS_ALT', 'Succes');
 define('ICON_WARNING_ALT', 'Let op');
 define('ICON_TRASH_ALT', 'Verwijder dit artikel uit de winkelwagen door op dit icoontje te klikken.');
 define('ICON_UPDATE_ALT', 'Verander het aantal dat u van dit artikel wil bestellen door eerst het huidige aantal te selecteren en een nieuw aantal in te typen. Daarna klikt u op dit icoon om het gewenste aantal te verwerken.');

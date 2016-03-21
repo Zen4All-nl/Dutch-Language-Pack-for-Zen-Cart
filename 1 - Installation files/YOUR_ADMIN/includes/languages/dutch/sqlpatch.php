@@ -18,7 +18,7 @@
   define('ERROR_NOTHING_TO_DO','Foutmelding: niet uitgevoerd - geen query of query-bestand geselecteerd.');
   define('TEXT_CLOSE_WINDOW', '[ sluit venster ]');
   define('SQLPATCH_HELP_TEXT','De SQLPATCH tool maakt het mogelijk om "system patches" te installeren door SQL code direct in het tekstscherm te plakken '.
-                            'of door het ophalen van een bijgeleverd script (.SQL) bestand.<br />'.
+                              'of door het ophalen van een bijgeleverd script (.SQL) bestand.<br />'.
                               'Bij de voorbereiding van scripts die gebruikt worden door deze SQLPATCH tool is het belangrijk er voor te zorgen dat er geen "tabel prefix" wordt bijgevoegd. De benodigde "tabel prefix" wordt '.
                               'automatisch toegevoegd gebaseerd op de instellingen van het bestand '.
                               'admin/includes/configure.php file (DB_PREFIX definition).<br /><br />' .

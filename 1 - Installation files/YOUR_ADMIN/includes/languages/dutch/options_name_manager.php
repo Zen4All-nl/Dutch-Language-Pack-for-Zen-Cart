@@ -51,9 +51,9 @@ define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','Optie en optiewaarde komen niet
 define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Mogelijk duplicaat optie toegevoegd'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Mogelijke duplicaat optiewaarde toegevoegd'); // Options Value Duplicate warning
 
-define('PRODUCTS_ATTRIBUTES_EDITING','WIJZIGEN Artikel eigenschap');
-define('PRODUCTS_ATTRIBUTES_DELETE','VERWIJDEREN Artikel eigenschap');
-define('PRODUCTS_ATTRIBUTES_ADDING','Toevoegen nieuwe eigenschappen');
+define('PRODUCTS_ATTRIBUTES_EDITING','WIJZIGEN Artikel eigenschap'); // titel
+define('PRODUCTS_ATTRIBUTES_DELETE','VERWIJDEREN Artikel eigenschap'); // titel
+define('PRODUCTS_ATTRIBUTES_ADDING','Toevoegen nieuwe eigenschappen'); // titel
 define('TEXT_DOWNLOADS_DISABLED','<strong>Opmerking:</strong> downloads zijn uitgezet');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Dagen:');

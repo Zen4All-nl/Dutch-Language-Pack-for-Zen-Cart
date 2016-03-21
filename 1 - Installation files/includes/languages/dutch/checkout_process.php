@@ -22,8 +22,8 @@
 // $Id: checkout_process.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('EMAIL_TEXT_SUBJECT', 'Bevestigen bestelling');
-define('EMAIL_TEXT_HEADER', 'Bevestigen bestelling');
+define('EMAIL_TEXT_SUBJECT', 'Orderbevestiging');
+define('EMAIL_TEXT_HEADER', 'Orderbevestiging');
 define('EMAIL_TEXT_FROM',' van ');  //toegevoegd aan EMAIL_TEXT_HEADER, alleen bovenaan e-mail in plattetekst indeling
 define('EMAIL_THANKS_FOR_SHOPPING','Hartelijk bedankt voor Uw bestelling!');
 define('EMAIL_DETAILS_FOLLOW','Hieronder staan de details van uw bestelling.');

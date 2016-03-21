@@ -1,17 +1,21 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: orders.php 6214 2007-04-17 02:24:25Z ajeh $
+ * @version $Id: Author: DrByte  Sun Feb 28 02:42:59 2016 -0500 Modified in v1.5.5 $
  */
 
 define('HEADING_TITLE', 'Bestellingen');
+define('HEADING_TITLE_DETAILS', 'Order Details');
 define('HEADING_TITLE_SEARCH', 'Zoek bestelling ID:');
 define('HEADING_TITLE_STATUS', 'Status:');
-define('HEADING_TITLE_SEARCH_DETAIL_ORDERS_PRODUCTS', 'Zoek op Artikelnaam of<strong>ID:XX</strong> of Model ');
+define('HEADING_TITLE_SEARCH_DETAIL_ORDERS_PRODUCTS', 'Artikelnaam of ID:XX of Model');
+define('HEADING_TITLE_SEARCH_ALL','Zoek: ');
+define('HEADING_TITLE_SEARCH_PRODUCTS','Zoek product: ');
+define('TEXT_RESET_FILTER', 'Verwijder zoekfilter');
 define('TEXT_INFO_SEARCH_DETAIL_FILTER_ORDERS_PRODUCTS', 'Zoek Filter: ');
 define('TABLE_HEADING_PAYMENT_METHOD', 'Betaal-<br />Verzend Methode');
 define('TABLE_HEADING_ORDERS_ID','ID');
@@ -39,11 +43,12 @@ define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant geïnformeerd');
 define('TABLE_HEADING_DATE_ADDED', 'Datum toegevoegd');
 
 define('ENTRY_CUSTOMER', 'Klant:');
+define('ENTRY_CUSTOMER_ADDRESS', Klant adres:<br><i class="fa fa-2x fa-user"></i>');
 define('ENTRY_SOLD_TO', 'Factuuradres:');
 define('ENTRY_DELIVERY_TO', 'Afleveradres:');
 define('ENTRY_SHIP_TO', 'Afleveradres:');
-define('ENTRY_SHIPPING_ADDRESS', 'Afleveradres:');
-define('ENTRY_BILLING_ADDRESS', 'Factuuradres:');
+define('ENTRY_SHIPPING_ADDRESS', 'Afleveradres:<br><i class="fa fa-2x fa-truck"></i>');
+define('ENTRY_BILLING_ADDRESS', 'Factuuradres:<br><i class="fa fa-2x fa-credit-card"></i>');
 define('ENTRY_PAYMENT_METHOD', 'Betaalmethode:');
 define('ENTRY_CREDIT_CARD_TYPE', 'Type credit card:');
 define('ENTRY_CREDIT_CARD_OWNER', 'Eigenaar credit card:');
@@ -71,7 +76,6 @@ define('TEXT_PAID', 'Betaald');
 define('TEXT_UNPAID', 'Onbetaald');
 
 define('TEXT_ALL_ORDERS', 'Alle bestellingen');
-define('TEXT_NO_ORDER_HISTORY', 'Geen bestelhistorie beschikbaar');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('EMAIL_TEXT_SUBJECT', 'Wijziging bestelling');
@@ -119,4 +123,10 @@ define('TEXT_INFO_EXPIRED_COUNT', 'Verlopen Telling:<br />');
 define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Klant<br />Commentaar');
 define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
-?>
+
+define('TEXT_CUSTOMER_LOOKUP', '<i class="fa fa-search"></i> Klant opzoeken');
+
+define('TEXT_INVALID_ORDER_STATUS', '<span class="alert">(Ongeldige Orderstatus)</span>');
+
+define('BUTTON_TO_LIST', 'Orderlijst');
+define('SELECT_ORDER_LIST', 'Ga naar order:');

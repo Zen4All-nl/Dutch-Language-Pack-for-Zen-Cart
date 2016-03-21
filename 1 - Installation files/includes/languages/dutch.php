@@ -1,12 +1,12 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2014 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: ajeh  Modified in v1.5.4 $
+ * @version $Id: Author: DrByte  Tue Jan 5 15:06:15 2016 -0500 Modified in v1.5.5 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -72,10 +72,10 @@
   define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // defineer de tekst voor de kop van sideboxes
-  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[lees meer]');
+  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[meer]');
 
 // defineer tekst voor de categorie sidebox in sideboxes/categories.php
-  define('BOX_HEADING_CATEGORIES', 'Categorie');
+  define('BOX_HEADING_CATEGORIES', 'Categorieën');
 
 // Tekst voor de leveranciers/merk sidebox in sideboxes/manufacturers.php
   define('BOX_HEADING_MANUFACTURERS', 'Merken');
@@ -139,7 +139,6 @@
   define('BOX_INFORMATION_CONDITIONS', 'Algemene voorwaarden');
   define('BOX_INFORMATION_SHIPPING', 'Verzenden &amp; retouren');
   define('BOX_INFORMATION_CONTACT', 'Contact');
-  define('BOX_BBINDEX', 'Forum');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Afmelden nieuwsbrief');
 
   define('BOX_INFORMATION_SITE_MAP', 'Sitemap');
@@ -271,10 +270,10 @@
   define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
   define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Vorige %d pagina\'s');
   define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
-  define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;Eerste');
-  define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Vorige]');
-  define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&gt;&gt;]');
-  define('PREVNEXT_BUTTON_LAST', 'Laatste&gt;&gt;');
+  define('PREVNEXT_BUTTON_FIRST', '&laquo;Eerste');
+  define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
+  define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
+  define('PREVNEXT_BUTTON_LAST', 'Laatste&raquo;');
 
   define('TEXT_BASE_PRICE','Vanaf: ');
 
@@ -384,7 +383,7 @@
 
 // Actiebesparing
   define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');
-  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','%');
+  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% korting');
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;korting');
 
 // Aanbiedingsprijsen
@@ -511,6 +510,7 @@
   define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Prijs niet weergegeven');
   define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'WACHT OP AUTORISATIE');
   define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE','Inloggen in webshop');
+  define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Checkout onbeschikbaar - Wacht op goedkeuring');
 
 // tekstprijzen
   define('TEXT_CHARGES_WORD','Berekende toeslag:');

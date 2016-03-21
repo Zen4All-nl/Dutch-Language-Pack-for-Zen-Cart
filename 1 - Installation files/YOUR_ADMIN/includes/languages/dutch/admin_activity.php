@@ -8,7 +8,7 @@
  * @version $Id: admin_activity.php drbyte Modified in v1.5.4 $
  */
 
-define('HEADING_TITLE', 'Admin Activity Log Manager');
+define('HEADING_TITLE', 'Admin Activiteiten Log Manager');
 define('HEADING_SUB1', 'Bekijk of exporteer Logs');
 define('HEADING_SUB2', 'Loggeschiedenis opschonen');
 define('TEXT_ACTIVITY_EXPORT_FORMAT', 'Exporteer bestandsformaat:');
@@ -23,27 +23,27 @@ define('TEXT_INSTRUCTIONS','<u>Instructies</u><br />U kunt deze pagina gebruken 
 <ol><li>Kies om op het scherm te bekijken, of om te exporteren naar een bestand.<li>Geef een bestandsnaam op.<li>Klick Opslaan om verder te gaan.<li>Kies voor opene nof opslaan van het bestand, afhankelijk van wat uw browser aanbied.</ol>');
 
 define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>Leeg de Admin Activity Log tabel in de database<br />WAARSCHUWING: MAAK EERST EEN BACKUP VAN UW DATABASE voordat u deze update uitvoerd!</strong><br />The Admin Activity Log is een volgmethode dat de activiteit in de Admin vastlegt. <br />De log kan heel snel, heel groot worden, en moet van tijd tot tijd opgeschoond worden.<br />Waarschuwingen worden gegeven bij 50,000 records of 60 dagen, welke als eerste zich voordoet.<br /><span class="alert">OPMERKING: Voor PCI Compliance, u bent verplicht om de admin activity log geschiedenis te bewaren voor een periode van 12 maanden.<br />Het is het beste om uw logs te archiveren door te kiezen voor EXPORTEREN NAAT CSV en op save te klikken (zie hierboven), *VOORDAT* de log data geleegd wordt.</span>');
-define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">WARNING!: You are about to DELETE *important* audit trail records from your database.</span></strong><br />You should FIRST confirm that you have a reliable BACKUP of your database before proceeding.<br />By proceeding you accept that this information will be deleted and understand your legal responsibilities regarding this data.<br /><br />I understand my responsibilities, and wish to proceed with the deletion by clicking Reset:<br />');
-define('SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG', '<strong>Completed</strong> erasure of the Admin Activity log');
-define('TEXT_NO_RECORDS_FOUND', 'No Records Found using the filter you selected.');
+define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">Waarschuwing!: U staat op het punt om *belangrijke* audit trail records uit uw database te VERWIJDEREN.</span></strong><br />You should FIRST confirm that you have a reliable BACKUP of your database before proceeding.<br />By proceeding you accept that this information will be deleted and understand your legal responsibilities regarding this data.<br /><br />I understand my responsibilities, and wish to proceed with the deletion by clicking Reset:<br />');
+define('SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG', 'Legen van de Admin Activiteiten Log is <strong>afgerond</strong>');
+define('TEXT_NO_RECORDS_FOUND', 'Geen records gevonden met het door u geselecteerde filter.');
 
 define('TEXT_EXPORTFORMAT0', 'Export als HTML (ideaal voor on-screen viewing)');
 define('TEXT_EXPORTFORMAT1', 'Export naar CSV (ideal voor het importeren in spreadsheets)');
 define('TEXT_EXPORTFORMAT2', 'Export naar TXT');
 define('TEXT_EXPORTFORMAT3', 'Export naar XML');
 
-define('TEXT_ACTIVITY_EXPORT_FILTER', 'Which log data do you want to see?');
-define('TEXT_EXPORTFILTER0', 'All logged data, regardless of severity level.');
-define('TEXT_EXPORTFILTER1', 'INFO - General logged information');
-define('TEXT_EXPORTFILTER2', 'NOTICE - Notable info, which should be reviewed periodically');
-define('TEXT_EXPORTFILTER3', 'WARNING - Activity which should be reviewed daily');
-define('TEXT_EXPORTFILTER4', 'Both NOTICE and WARNING (common combination for review).');
+define('TEXT_ACTIVITY_EXPORT_FILTER', 'Welke log data wilt u zien?');
+define('TEXT_EXPORTFILTER0', 'Alle gelogde data, ongeacht het ernstigheidslevel.');
+define('TEXT_EXPORTFILTER1', 'INFO - Algemeen gelogde informatie');
+define('TEXT_EXPORTFILTER2', 'OPMERKING - Belangrijke info, welke regelmatig bekeken zou moeten worden');
+define('TEXT_EXPORTFILTER3', 'WAARSCHUWING - Activitieten wleke dagelijks bekeken zouden moeten worden');
+define('TEXT_EXPORTFILTER4', 'Zowel een  OPMERKING als WAARSCHUWING (veel voorkomende combinatie om te inspecteren).');
 
 define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</strong><ul>
 <li><strong>Severity</strong> - The standards for logging generally describe severities as follows:<ul>
 <li><strong>INFO</strong> refers to general activity. This may or may not contain remarkable details.</li>
-<li><strong>NOTICE</strong> refers to activity which indicates higher privilege was used, and may include things like creating new admin users or adding new payment modules. It also highlights when any data submitted on the web page includes potentially risky content such as script tags or embedded iframes, where malicious content is being added to your products/categories/pages by unhappy employees or an intruder on your site. These should be reviewed regularly for any anomalies such as unauthorized activity.</li>
-<li><strong>WARNING</strong> is assigned to CRITICAL things such as removal of payment modules or deletion of admin users. These are activities which might suggest pending trouble if not caught quickly. These should be reviewed very frequently; recommended daily.</li>
+<li><strong>OPMERKING</strong> refers to activity which indicates higher privilege was used, and may include things like creating new admin users or adding new payment modules. It also highlights when any data submitted on the web page includes potentially risky content such as script tags or embedded iframes, where malicious content is being added to your products/categories/pages by unhappy employees or an intruder on your site. These should be reviewed regularly for any anomalies such as unauthorized activity.</li>
+<li><strong>WAARSCHUWING</strong> is assigned to CRITICAL things such as removal of payment modules or deletion of admin users. These are activities which might suggest pending trouble if not caught quickly. These should be reviewed very frequently; recommended daily.</li>
 </ul>
 <li><strong>admin_user</strong> - This will show the admin user ID number followed by their admin username. If not logged in, it will show 0.</li>
 <li><strong>page_accessed</strong> - This will indicate the name of the page visited, thus giving hints to the kind of activity taking place.</li>

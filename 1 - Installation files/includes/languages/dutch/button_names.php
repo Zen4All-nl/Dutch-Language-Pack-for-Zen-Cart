@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: button_names.php 19690 2011-10-04 16:41:45Z drbyte $
+ * @version $Id: Author: DrByte  Fri Jan 8 01:41:14 2016 -0500 Modified in v1.5.5 $
  */
 
 
@@ -60,7 +60,7 @@ define('BUTTON_IMAGE_CONTINUE_CHECKOUT', 'button_continue_checkout.gif');
 define('BUTTON_IMAGE_CREATE_ACCOUNT', 'button_create_account.gif');
 define('BUTTON_IMAGE_LOG_OFF', 'button_logoff.gif');
 /*
- * ALT teksten voor knoppen
+ * ALT teksten voor knoppen (tekst gebruikt voor CSS knoppen)
  */
 
 define('BUTTON_CREATE_ACCOUNT_ALT', 'Aanmelden');
@@ -70,27 +70,28 @@ define('BUTTON_ADD_ADDRESS_ALT', 'Adres toevoegen');
 define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Geselecteerde artikelen toevoegen aan winkelwagen');
 define('BUTTON_BACK_ALT', 'Terug');
 define('BUTTON_BUY_NOW_ALT', 'Koop nu');
-define('BUTTON_CANCEL_ALT', 'Herstellen');
+define('BUTTON_CANCEL_ALT', 'Annuleer');
 define('BUTTON_CHANGE_ADDRESS_ALT', 'Verander adres');
 define('BUTTON_CHECKOUT_ALT', 'Afrekenen');
 define('BUTTON_CONFIRM_SEND_ALT', 'Stuur cadeaubon');
 define('BUTTON_CONFIRM_ORDER_ALT', 'Bevestig bestelling');
-define('BUTTON_CONTINUE_ALT', 'Doorgaan');
-define('BUTTON_CONTINUE_SHOPPING_ALT', 'Doorgaan met winkelen');
-define('BUTTON_DELETE_ALT', 'Verwijder');
-define('BUTTON_DELETE_SMALL_ALT', 'Verwijder');
+define('BUTTON_CONTINUE_ALT', 'Verder');
+define('BUTTON_CONTINUE_SHOPPING_ALT', 'Verder winkelen');
+define('BUTTON_DELETE_ALT', 'Verwijderen');
+define('BUTTON_DELETE_SMALL_ALT', 'Verwijderen');
 define('BUTTON_DOWNLOAD_ALT', 'Nu downloaden');
-define('BUTTON_EDIT_SMALL_ALT', 'Wijzigen');
-define('BUTTON_IN_CART_ALT', 'Toevoegen');
+define('BUTTON_EDIT_SMALL_ALT', 'Aanpassen');
+define('BUTTON_IN_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_LOGIN_ALT', 'Inloggen');
+define('BUTTON_LOOKUP_ALT', 'Opzoeken');
 define('BUTTON_NEXT_ALT', 'Volgende');
 define('BUTTON_PREVIOUS_ALT', 'Vorige');
 define('BUTTON_REDEEM_ALT', 'Verzilver');
-define('BUTTON_RETURN_TO_PROD_LIST_ALT', 'Terug naar catalogus');
-define('BUTTON_REVIEWS_ALT', 'Ga naar pagina');
-define('BUTTON_SEARCH_ALT', 'Zoeken');
-define('BUTTON_SEND_ALT', 'Stuur nu');
-define('BUTTON_SEND_ANOTHER_ALT', 'Stuur nog een cadeaubon');
+define('BUTTON_RETURN_TO_PROD_LIST_ALT', 'Ga terug naar de productlijst');
+define('BUTTON_REVIEWS_ALT', 'Ga naar de Reviewspagina');
+define('BUTTON_SEARCH_ALT', 'Zoek');
+define('BUTTON_SEND_ALT', 'Nu versturen');
+define('BUTTON_SEND_ANOTHER_ALT', 'Nog een cadeaubon versturen');
 define('BUTTON_SEND_A_GIFT_CERT_ALT', 'Stuur een cadeaubon');
 define('BUTTON_SHIPPING_ESTIMATOR_ALT', 'Verzendkosten berekenen');
 define('BUTTON_SOLD_OUT_ALT', 'Uitverkocht');
@@ -98,8 +99,9 @@ define('BUTTON_SOLD_OUT_SMALL_ALT', 'Uitverkocht');
 define('BUTTON_SUBMIT_ALT', 'Informatie versturen');
 define('BUTTON_UNSUBSCRIBE', 'Afmelden');
 define('BUTTON_UPDATE_ALT', 'Bijwerken');
-define('BUTTON_VIEW_SMALL_ALT', 'Weergeven');
-define('BUTTON_WRITE_REVIEW_ALT', 'Schrijf recensie');
-define('BUTTON_READ_REVIEWS_ALT', 'Lees recensie');
-define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Lees de uitgebreide productomschrijving');
-define('BUTTON_MORE_REVIEWS_ALT', 'Lees meer recensies');
+define('BUTTON_VIEW_SMALL_ALT', 'Bekijk');
+define('BUTTON_WRITE_REVIEW_ALT', 'Schrijf een Review');
+define('BUTTON_READ_REVIEWS_ALT', 'Lees de Review');
+define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Ga naar de Productdetails');
+define('BUTTON_MORE_REVIEWS_ALT', 'Lees meer Reviews');
+define('BUTTON_VIEW_ALL_ALT', 'Bekijk alles');

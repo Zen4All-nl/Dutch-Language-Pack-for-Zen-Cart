@@ -2,12 +2,12 @@
 /**
  * Authorize.net AIM Payment Module Language definitions
  *
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: authorizenet_aim.php 18695 2011-05-04 05:24:19Z drbyte $
+ * @version $Id: Author: DrByte  Sun Oct 18 01:50:54 2015 -0400 Modified in v1.5.5 $
  */
 
 
@@ -15,9 +15,9 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ADMIN_TITLE', 'Authorize.net (AIM)'); // Naam betalingsmethode zoals weergegevens in het beheerpaneel
 
   if (MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS == 'True') {
-    define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION', '<a target="_blank" href="https://account.authorize.net/">Authorize.net Handelaren login</a>' . (MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE != 'Production' ? '<br /><br />Test informatie:<br /><b>Automatische geaccepteerde creditcard nummers::</b><br />Visa#: 4007000000027<br />MC#: 5424000000000015<br />Discover#: 6011000000000012<br />AMEX#: 370000000000002<br /><br /><b>NB:</b> Deze creditcard nummers worden in productiemodus niet geaccepteerd en in de testmodes wel. Elke toekomstige datum kan worden gebruikt als vervaldatum en elk 3 of 4 cijferig nummer (AMEX) kan worden gebruikt als CVV code.<br /><br /><b>Automatisch afgewezen creditcard nummer:</b><br /><br />Kaartnr.: 4222222222222<br /><br />Dit kaartnummer kan worden gebruikt om berichten van \'afwijzing\' te testen.<br /><br />' : '') . '<br><br>See <a href="http://www.zen-cart.com/content.php?291-how-to-set-up-the-authorizenet-aim-payment-module" target="_blank">the AIM Setup FAQ article</a> for detailed setup instructions.');
+    define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION', '<a target="_blank" href="https://account.authorize.net/">Authorize.net Merchant Login</a>' . (MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE != 'Production' ? '<br /><br />Testing Info:<br /><b>Automatic Approval Credit Card Numbers:</b><br />Visa#: 4007000000027<br />MC#: 5424000000000015<br />Discover#: 6011000000000012<br />AMEX#: 370000000000002<br /><br /><b>Note:</b> These credit card numbers will return a decline in live mode, and an approval in test mode.  Any future date can be used for the expiration date and any 3 or 4 (AMEX) digit number can be used for the CVV Code.<br /><br /><b>Automatic Decline Credit Card Number:</b><br /><br />Card #: 4222222222222<br /><br />This card number can be used to receive decline notices for testing purposes.<br /><br />' : '') . '<br><br>See <a href="http://www.zen-cart.com/content.php?291-how-to-set-up-the-authorizenet-aim-payment-module" target="_blank">the AIM Setup FAQ article</a> for detailed setup instructions.');
   } else {
-    define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION', '<a target="_blank" href="http://reseller.authorize.net/application.asp?id=131345">Klik hier om een account aan te vragen</a><br /><br /><a target="_blank" href="https://account.authorize.net/">Authorize.net handelaren site</a><br /><br /><strong>Benodigd:</strong><br /><hr />*<strong>Authorize.net account</strong> (zie bovenstaande link om u aan te melden)<br />*<strong>CURL is benodigd </strong>en dient VERPLICHT gecompileerd te worden met SSL ondersteuning voor PHP (laat dit doen door uw webhosting bedrijf)<br />*<strong>Authorize.net gebruikersnaam en transactie sleutel</strong>, available from your Merchant Area<br><br>See <a href="http://www.zen-cart.com/content.php?291-how-to-set-up-the-authorizenet-aim-payment-module" target="_blank">the AIM Setup FAQ article</a> for detailed setup instructions.');
+    define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION', '<a target="_blank" href="http://reseller.authorize.net/application.asp?id=131345">Click Here to Sign Up for an Account</a><br /><br /><a target="_blank" href="https://account.authorize.net/">Authorize.net Merchant Area</a><br /><br /><strong>Requirements:</strong><br /><hr />*<strong>Authorize.net Account</strong> (see link above to signup)<br />*<strong>CURL is required </strong>and MUST be compiled with SSL support into PHP by your hosting company<br />*<strong>Authorize.net username and transaction key</strong> available from your Merchant Area<br><br>See <a href="http://www.zen-cart.com/content.php?291-how-to-set-up-the-authorizenet-aim-payment-module" target="_blank">the AIM Setup FAQ article</a> for detailed setup instructions.');
   }
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR_CURL_NOT_FOUND', 'CURL niet gevonden - verplicht voor Authorize.net AIM betalings module');
 
@@ -35,6 +35,7 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DECLINED_MESSAGE', 'Uw creditcard kon om deze reden niet worde geverifieerd. Corrigeer de door u ingevoerde informatie en probeer het nogmaals of neem contact met ons op voor asistentie.');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR', 'Creditcard fout!');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_AUTHENTICITY_WARNING', 'LETOP: Probleem met beveiligde sleutel. Neem onmiddelijk contact met ons op! uw betaling is *niet* volledig verwerkt.');
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_COMM_ERROR', 'Unable to process payment due to a communications error. You may try again or contact us for assistance.');
 
 // admin tools:
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_BUTTON_TEXT', 'Crediteer');
