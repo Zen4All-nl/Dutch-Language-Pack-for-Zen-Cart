@@ -1,12 +1,12 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.4
+ * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2014 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: ajeh  Modified in v1.5.4 $
+ * @version $Id: Author: DrByte  Tue Jan 5 15:06:15 2016 -0500 Modified in v1.5.5 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -72,10 +72,10 @@
   define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // defineer de tekst voor de kop van sideboxes
-  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[lees meer]');
+  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[meer]');
 
 // defineer tekst voor de categorie sidebox in sideboxes/categories.php
-  define('BOX_HEADING_CATEGORIES', 'Categorie');
+  define('BOX_HEADING_CATEGORIES', 'Categorieën');
 
 // Tekst voor de leveranciers/merk sidebox in sideboxes/manufacturers.php
   define('BOX_HEADING_MANUFACTURERS', 'Merken');
@@ -383,7 +383,7 @@
 
 // Actiebesparing
   define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');
-  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','%');
+  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% korting');
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;korting');
 
 // Aanbiedingsprijsen

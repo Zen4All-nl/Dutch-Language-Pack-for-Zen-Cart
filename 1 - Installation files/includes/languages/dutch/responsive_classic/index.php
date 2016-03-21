@@ -2,10 +2,10 @@
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: picaflor-azul Modified in v1.5.5 $
+ * @version $Id: picaflor-azul Sun Dec 13 16:46:52 2015 -0500 New in v1.5.5 $
  */
 
 define('TEXT_MAIN','Dit is de algemene tekst voor de door <a href="http://zen-cart.nl">zen-cart.nl</a> uitgegeven Nederlandse versie (Dutch language) indien geen template is gekozen. Deze tekst kunt u vinden in: <strong>/includes/languages/dutch/index.php</strong>');

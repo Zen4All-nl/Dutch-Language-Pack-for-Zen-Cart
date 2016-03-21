@@ -35,15 +35,15 @@ define('TEXT_EXPORTFORMAT3', 'Export naar XML');
 define('TEXT_ACTIVITY_EXPORT_FILTER', 'Welke log data wilt u zien?');
 define('TEXT_EXPORTFILTER0', 'Alle gelogde data, ongeacht het ernstigheidslevel.');
 define('TEXT_EXPORTFILTER1', 'INFO - Algemeen gelogde informatie');
-define('TEXT_EXPORTFILTER2', 'NOTICE - Notable info, which should be reviewed periodically');
-define('TEXT_EXPORTFILTER3', 'WARNING - Activity which should be reviewed daily');
-define('TEXT_EXPORTFILTER4', 'Both NOTICE and WARNING (common combination for review).');
+define('TEXT_EXPORTFILTER2', 'OPMERKING - Belangrijke info, welke regelmatig bekeken zou moeten worden');
+define('TEXT_EXPORTFILTER3', 'WAARSCHUWING - Activitieten wleke dagelijks bekeken zouden moeten worden');
+define('TEXT_EXPORTFILTER4', 'Zowel een  OPMERKING als WAARSCHUWING (veel voorkomende combinatie om te inspecteren).');
 
 define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</strong><ul>
 <li><strong>Severity</strong> - The standards for logging generally describe severities as follows:<ul>
 <li><strong>INFO</strong> refers to general activity. This may or may not contain remarkable details.</li>
-<li><strong>NOTICE</strong> refers to activity which indicates higher privilege was used, and may include things like creating new admin users or adding new payment modules. It also highlights when any data submitted on the web page includes potentially risky content such as script tags or embedded iframes, where malicious content is being added to your products/categories/pages by unhappy employees or an intruder on your site. These should be reviewed regularly for any anomalies such as unauthorized activity.</li>
-<li><strong>WARNING</strong> is assigned to CRITICAL things such as removal of payment modules or deletion of admin users. These are activities which might suggest pending trouble if not caught quickly. These should be reviewed very frequently; recommended daily.</li>
+<li><strong>OPMERKING</strong> refers to activity which indicates higher privilege was used, and may include things like creating new admin users or adding new payment modules. It also highlights when any data submitted on the web page includes potentially risky content such as script tags or embedded iframes, where malicious content is being added to your products/categories/pages by unhappy employees or an intruder on your site. These should be reviewed regularly for any anomalies such as unauthorized activity.</li>
+<li><strong>WAARSCHUWING</strong> is assigned to CRITICAL things such as removal of payment modules or deletion of admin users. These are activities which might suggest pending trouble if not caught quickly. These should be reviewed very frequently; recommended daily.</li>
 </ul>
 <li><strong>admin_user</strong> - This will show the admin user ID number followed by their admin username. If not logged in, it will show 0.</li>
 <li><strong>page_accessed</strong> - This will indicate the name of the page visited, thus giving hints to the kind of activity taking place.</li>

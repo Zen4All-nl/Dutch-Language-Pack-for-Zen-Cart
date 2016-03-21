@@ -56,7 +56,7 @@ define('ERROR_NO_CUSTOMER_SELECTED', 'Foutmelding: geen klant geselecteerd.');
 define('ERROR_NO_SUBJECT', 'Foutmelding: geen onderwerp ingevuld.');
 
 define('COUPON_NAME', 'Naam kortingsbon:');
-//define('COUPON_VALUE', 'Coupon Value');
+//define('COUPON_VALUE', 'Coupon Waarde');
 define('COUPON_AMOUNT', 'Waarde kortingsbon:');
 define('COUPON_CODE', 'Inwisselcode kortingsbon:');
 define('COUPON_STARTDATE', 'Startdatum:');

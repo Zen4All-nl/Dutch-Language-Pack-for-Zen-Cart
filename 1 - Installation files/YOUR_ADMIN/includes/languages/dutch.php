@@ -108,7 +108,7 @@ define('BOX_CONFIGURATION_GZIP_COMPRESSION', 'GZip Compressie');
 define('BOX_CONFIGURATION_SESSIONS', 'Sessies');
 define('BOX_CONFIGURATION_REGULATIONS', 'Regelgeving');
 define('BOX_CONFIGURATION_GV_COUPONS', 'GV Coupons');
-define('BOX_CONFIGURATION_CREDIT_CARDS', 'Credit Cards');
+define('BOX_CONFIGURATION_CREDIT_CARDS', 'Creditcards');
 define('BOX_CONFIGURATION_PRODUCT_INFO', 'Produktinfo');
 define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Layout-instellingen');
 define('BOX_CONFIGURATION_WEBSITE_MAINTENANCE', 'Websiteonderhoud');
@@ -138,8 +138,8 @@ define('BOX_CATALOG_SPECIALS', 'Aanbiedingen');
 define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte artikelen');
 define('BOX_CATALOG_SALEMAKER', 'VerkoopBevorderingTool');
 define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Prijsbeheer');
-define('BOX_CATALOG_PRODUCT', 'Product');
-define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Products to Categories');
+define('BOX_CATALOG_PRODUCT', 'Produkt');
+define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Produkten in Categorieën');
 
 // customers box text
 define('BOX_HEADING_CUSTOMERS', 'Klanten');
@@ -209,7 +209,7 @@ define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAME . ' wachtrij');
 define('BOX_GV_ADMIN_MAIL', 'E-mail ' . TEXT_GV_NAME);
 define('BOX_GV_ADMIN_SENT', 'Verzonden ' . TEXT_GV_NAME);
 define('BOX_COUPON_ADMIN','Kortingsbon administratie');
-define('BOX_COUPON_RESTRICT','Coupon Restrictions');
+define('BOX_COUPON_RESTRICT','Coupon Restricties');
 
 // admin access box text
 define('BOX_HEADING_ADMIN_ACCESS', 'Admins');
@@ -312,7 +312,7 @@ define('IMAGE_DETAILS', 'Details');
 define('IMAGE_DELETE', 'Verwijderen');
 define('IMAGE_EDIT', 'Wijzigen');
 define('IMAGE_EMAIL', 'E-mail');
-define('IMAGE_GO', 'Go');
+define('IMAGE_GO', 'Ga');
 define('IMAGE_FILE_MANAGER', 'Bestandsbeheer');
 define('IMAGE_ICON_STATUS_GREEN', 'Actief');
 define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Maak actief');

@@ -2,10 +2,10 @@
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.5
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: shopping_cart.php 3183 2006-03-14 07:58:59Z birdbrain $
+ * @version $Id: Author: DrByte  Fri Sep 11 15:56:13 2015 -0400 Modified in v1.5.5 $
  */
 
 define('TEXT_INFORMATION', 'Hier kan u uitleg plaatsen voor het gebruik van het winkelwagen [includes\languages\dutch\shopping_cart.php].');

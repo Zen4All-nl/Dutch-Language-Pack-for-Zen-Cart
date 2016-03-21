@@ -2,10 +2,10 @@
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: credit_cards.php drbyte  Modified in v1.6.0 $
+ * @version $Id: Author: DrByte  Mon Jul 27 18:24:22 2015 -0400 Modified in v1.5.5 $
  */
 /*
 
