@@ -552,7 +552,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
 // search filters
   define('TEXT_INFO_SEARCH_DETAIL_FILTER','Zoekcriteria: ');
   define('HEADING_TITLE_SEARCH_DETAIL','Zoeken: ');
-  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Zoek naar artikel ID's - Gescheiden door komma');
+  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Zoek naar artikel ID\'s - Gescheiden door komma');
   define('HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL', 'Zoek naar artikel naam/model');
 
   define('PREV_NEXT_PRODUCT', 'Artikelen: ');

@@ -13,10 +13,10 @@ define('HEADING_TITLE_EXPIRED', 'Admin login - wachtwoord verlopen');
 
 define('TEXT_LOGIN','Inloggen');
 define('TEXT_SUBMIT','Verstuur');
-define('TEXT_ADMIN_NAME', 'Admin gebruikersnaam: ');
-define('TEXT_ADMIN_PASS', 'Admin wachtwoord: ');
-define('TEXT_ADMIN_OLD_PASSWORD', 'Oude wachtwoord:');
-define('TEXT_ADMIN_NEW_PASSWORD', 'Nieuwe wachtwoord:');
+define('TEXT_ADMIN_NAME', 'Admin gebruikersnaam');
+define('TEXT_ADMIN_PASS', 'Admin wachtwoord');
+define('TEXT_ADMIN_OLD_PASSWORD', 'Oude wachtwoord');
+define('TEXT_ADMIN_NEW_PASSWORD', 'Nieuwe wachtwoord');
 define('TEXT_ADMIN_CONFIRM_PASSWORD', 'Bevestig wachtwoord');
 
 define('ERROR_WRONG_LOGIN', 'De verkeerde gebruikersnaam of het verkeerde wachtwoord is ingevuld.');
