@@ -43,7 +43,7 @@ define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant geïnformeerd');
 define('TABLE_HEADING_DATE_ADDED', 'Datum toegevoegd');
 
 define('ENTRY_CUSTOMER', 'Klant:');
-define('ENTRY_CUSTOMER_ADDRESS', Klant adres:<br><i class="fa fa-2x fa-user"></i>');
+define('ENTRY_CUSTOMER_ADDRESS', 'Klant adres:<br><i class="fa fa-2x fa-user"></i>');
 define('ENTRY_SOLD_TO', 'Factuuradres:');
 define('ENTRY_DELIVERY_TO', 'Afleveradres:');
 define('ENTRY_SHIP_TO', 'Afleveradres:');

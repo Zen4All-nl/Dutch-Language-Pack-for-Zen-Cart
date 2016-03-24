@@ -68,8 +68,8 @@
   define('MALE_ADDRESS', 'Dhr.');
   define('FEMALE_ADDRESS', 'Mevr.');
 
-// text for date of birth example
-  define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
+// defineer de tekst bij geboortedatum
+  define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
 // defineer de tekst voor de kop van sideboxes
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[meer]');

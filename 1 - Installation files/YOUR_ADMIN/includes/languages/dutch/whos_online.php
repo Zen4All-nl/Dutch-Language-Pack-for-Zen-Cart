@@ -45,7 +45,9 @@ define('WHOIS_TIMER_INACTIVE', 180); // Aantal seconden waarna status inactief w
 define('WHOIS_TIMER_DEAD', 540); // Aantal seconden waarna gast wordt verwijderd indien inactief  - 540 default = 9 minutes
 define('WHOIS_SHOW_HOST', '1'); // Tonen van laatste klik en hostnaam - standaard = 1 (staat aan)
 define('WHOIS_REPEAT_LEGEND_BOTTOM', '12'); // Toon legenda aan de voet van de pagina als er een bepaald aantal mensen actief zijn - standaard = 12
-define('OFFICE_IP_TO_HOST_ADDRESS', 'UIT');
+
+define('TEXT_DUPLICATE_IPS', 'Dulpicaat IP Adressen: ');
+define('TEXT_TOTAL_UNIQUE_USERS', 'Totaal Unieke Gebruikers: ');
 
 define('TEXT_WHOS_ONLINE_TIMER_UPDATING', 'Verversen ');
 define('TEXT_WHOS_ONLINE_TIMER_EVERY', 'elke %s seconden.&nbsp;&nbsp;');

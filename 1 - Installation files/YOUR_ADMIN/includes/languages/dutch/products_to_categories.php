@@ -35,7 +35,7 @@ define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER',
 'Het geselecteerde artikel is momenteel gekoppeld aan de categorieën die in bovenstaand overzicht zijn aangevinkt.<br />De gekoppelde hoofdcategorie is te herkennen aan een geel icoon. Indien dit icoon niet	zichtbaar is betekent dit dat er geen hoofdcategorie is geselecteerd. Ieder artikel moet, vanwege prijs strategie, in een hoofdcategorie worden geplaatst ongeacht het aantal subcategorieën die reeds zijn gekoppeld. 
 De keuze voor een hoofdcategorie kan gemaakt worden in het dropdown menu boven het overzicht.<br /><br />
 Om een categorie te selecteren zet een vink naast de categorie. Om een artikel uiteen gekoppelde categorie te verwijderen, kun je simpelweg het vinkje naast de categorie weghalen.	Als je categorieën hebt aan- of uitgevinkt druk dan op de knop ' . BUTTON_UPDATE_CATEGORY_LINKS .'<br /> om deze vast te leggen.
-);
+');
 
 define('HEADER_CATEGORIES_GLOBAL_CHANGES', 'Algemene categoriekoppeling en hoofdcategorie ID wijzigingen');
 
