@@ -447,6 +447,7 @@ define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Foutmelding: opgegeven bestemming be
 define('ERROR_DESTINATION_NOT_WRITEABLE', 'Foutmelding: kan niet schrijven naar de opgegeven bestemming.');
 define('ERROR_FILE_NOT_SAVED', 'Foutmelding: bestand(en) niet opgeslagen.');
 define('ERROR_FILETYPE_NOT_ALLOWED', 'Foutmelding: overbrengen van "%s"-bestand niet toegestaan');
+define('ERROR_FILE_TOO_BIG', 'Waarschuwing: De file is groter dan de toegestane grootte. Controleer de Afbeelding configuratie instellingen.');
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Succes: overgebracht bestand met succes opgeslagen %s');
 define('WARNING_NO_FILE_UPLOADED', 'Waarschuwing: geen files overgebracht naar server.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Waarschuwing: overbrengen van bestanden is uitgezet in de php.ini configuration file.');
