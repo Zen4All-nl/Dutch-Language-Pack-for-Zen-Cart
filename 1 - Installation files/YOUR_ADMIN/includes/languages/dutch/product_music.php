@@ -77,8 +77,8 @@ define('TEXT_PRODUCTS_VIRTUAL', 'Artikel is virtueel:');
 define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', 'Gratis verzenden:');
 define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Toon voorraad:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Startdatum:');
-define('TEXT_PRODUCT_AVAILABLE', 'Op voorraad');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Niet op voorraad');
+define('TEXT_PRODUCT_AVAILABLE', 'Aan');
+define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
 define('TEXT_PRODUCT_IS_VIRTUAL', 'Ja, sla het verzendadres over');
 define('TEXT_PRODUCT_NOT_VIRTUAL', 'Nee, een verzendadres is nodig');
 define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Ja, altijd gratis versturen');
@@ -182,4 +182,3 @@ define('TEXT_COPY_AS_DUPLICATE', 'Dupliceer artikel');
   define('TEXT_META_TAGS_KEYWORDS','<strong>Meta tag trefwoord(en):</strong>');
   define('TEXT_META_TAGS_DESCRIPTION','<strong>Beschrijving meta tag:</strong>');
   define('TEXT_META_EXCLUDED', '<span class="alert">UITGEZONDERD</span>');
-  

@@ -1,16 +1,18 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @package admin languageDefines Dutch Zen Cart Version 1.5.6
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Modified in v1.5.5 $
+ * @version $Id: dutch.php  Modified in v1.5.6 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
   die('Illegal Access');
 }
+
+define('CONNECTION_TYPE_UNKNOWN', '\'%s\' is niet een geldige verbinding voor het genereren van URLs' . PHP_EOL . '%s' . PHP_EOL);
 
 // added defines for header alt and text
 define('HEADER_ALT_TEXT', 'Admin Powered by Zen Cart :: The Art of E-Commerce');
@@ -40,17 +42,18 @@ function zen_date_raw($date, $reverse = false) {
   }
 }
 
-// removed for meta tags
-// page title
-//define('TITLE', 'Zen Cart');
-
 // include template specific meta tags defines
-  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
+//  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
+//    $template_dir_select = $template_dir . '/';
+//  } else {
+//    $template_dir_select = '';
+//  }
+//  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
+
+// used for prefix to browser tabs in admin pages
+define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ');
+// if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
+//define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ' . STORE_NAME);
 
 // meta tags
 define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
@@ -520,7 +523,6 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('BOX_TOOLS_LAYOUT_CONTROLLER','Box layout controle');
 
 // check GV release queue and alert store owner
-  define('SHOW_GV_QUEUE',true); // !! NIET VERTALEN !!
   define('TEXT_SHOW_GV_QUEUE','%s wacht op vrijgave ');
   define('IMAGE_GIFT_QUEUE', TEXT_GV_NAME . ' wachtrij');
   define('IMAGE_ORDER','Bestelling');
@@ -547,7 +549,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('PRODUCTS_QUANTITY_IN_CART_LISTING','In de winkelwagen:');
   define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING','Voeg additioneel toe:');
 
-  define('TEXT_PRODUCTS_MIX_OFF','*Geen MIX mogelijk');	
+  define('TEXT_PRODUCTS_MIX_OFF','*Geen MIX mogelijk');
   define('TEXT_PRODUCTS_MIX_ON','*Wel MIX mogelijk');
 
 // search filters
@@ -571,6 +573,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('TEXT_VERSION_CHECK_PATCH','patch');
   define('TEXT_VERSION_CHECK_DOWNLOAD','Download hier');
   define('TEXT_VERSION_CHECK_CURRENT','Deze versie van Zen-Cart&reg; is up-to-date.');
+  define('ERROR_CONTACTING_PROJECT_VERSION_SERVER','Fout: Er kon geen contact gemaakt worden met de Project Version Server');
 
 // downloads manager
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_DOWNLOADS_MANAGER', 'Download <b>%d</b> tot <b>%d</b> (van <b>%d</b> downloads)');
@@ -635,6 +638,8 @@ define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;uit');
 // Sale Maker Sale Price
   define('PRODUCT_PRICE_SALE','Uitverkoop:&nbsp;');
+
+define('TEXT_PRICED_BY_ATTRIBUTES', 'Prijs door opties');
 
 // Rich Text / HTML resources
 define('TEXT_HTML_EDITOR_NOT_DEFINED','Indien u geen HTML editor heeft gekozen of JavaScript is uitgezet dan kun je hier raw HTML text handmatig invoeren.');

@@ -1,12 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2017 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Tue Jan 5 15:06:15 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: Author: DrByte  Modified in v1.5.6 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -462,7 +461,9 @@
 // Downloadmanager
   define('DOWNLOADS_CONTROLLER_ON_HOLD_MSG','LET OP: Downloads zijn pas beschikbaar nadat de betaling is ontvangen en gecontroleerd');
   define('TEXT_FILESIZE_BYTES', ' bytes');
+  define('TEXT_FILESIZE_KBS', ' KB');
   define('TEXT_FILESIZE_MEGS', ' MB');
+  define('TEXT_FILESIZE_UNKNOWN', 'Onbekend');
 
 // fouten winkelwagentje
   define('ERROR_PRODUCT','Artikel: ');

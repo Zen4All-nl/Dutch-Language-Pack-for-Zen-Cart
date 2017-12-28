@@ -27,8 +27,9 @@ define('TEXT_PRICE_NET', 'Prijs (Netto)');
 define('TEXT_PRICE_GROSS', 'Prijs (Bruto)');
 define('TEXT_PRODUCT_AVAILABLE_DATE', 'Startdatum:');
 define('TEXT_PRODUCTS_STATUS', 'Status:');
-define('TEXT_PRODUCT_AVAILABLE', 'Voorraad');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Geen voorraad');
+define('TEXT_PRODUCT_AVAILABLE', 'Aan');
+define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
+
 
 define('TEXT_PRODUCT_INFO_NONE', 'Selecteer een van bovenstaande artikelen ...');
   define('TEXT_PRODUCT_IS_FREE','Artikel is GRATIS:');

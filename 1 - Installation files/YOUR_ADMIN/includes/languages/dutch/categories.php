@@ -75,8 +75,8 @@ define('TEXT_PRODUCTS_VIRTUAL', 'Artikel is virtueel:');
 define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', 'Gratis verzenden:');
 define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Toon voorraad:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Startdatum:');
-define('TEXT_PRODUCT_AVAILABLE', 'Op voorraad');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Niet op voorraad');
+define('TEXT_PRODUCT_AVAILABLE', 'Aan');
+define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
 define('TEXT_PRODUCT_IS_VIRTUAL', 'Ja, sla het verzendadres over');
 define('TEXT_PRODUCT_NOT_VIRTUAL', 'Nee, er is een verzendadres nodig');
 define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Ja, altijd gratis versturen');
@@ -196,11 +196,11 @@ define('TEXT_PRODUCTS_STATUS_ACTIVE',' actief ');
 define('TEXT_CATEGORIES_DESCRIPTION', 'Beschrijving categorie:');
 
 // Metatags
-  define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Categorie Meta Tags Definitie');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Definieëer Custom Meta Tags');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Titel:');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Keywords:');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Meta Tag Omschrijving:');
+define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Categorie Meta Tags Definities');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Definieëer Custom Meta Tags');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Titel:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Keywords:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Meta Tag Omschrijving:');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'Waarschuwing: Er staan artikelen in de hoogste categorie. Hierdoor worden de artikelen niet goed geprijsd. Gevonden artikelen: ');
 

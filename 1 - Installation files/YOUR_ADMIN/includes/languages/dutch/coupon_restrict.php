@@ -36,3 +36,17 @@ define('TEXT_MANUFACTURER', 'Fabrikant: ');
 define('TEXT_CATEGORY', 'Categorie: ');
 define('ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY', 'Categorie niet klaar');
 define('ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT', 'Produkt niet klaar');
+
+define('HEADER_MANUFACTURER_NAME', '<br> -- OF -- <br>' . 'Fabrikant: ');
+define('TEXT_ALL_MANUFACTURERS_ADD', 'Voeg alle producten van fabrikant toe');
+define('TEXT_ALL_MANUFACTURERS_REMOVE', 'Verwijder alle producten van fabrikant');
+
+define('HEADER_PRODUCT_STATUS', 'Status');
+define('HEADER_PRODUCT_MODEL', 'Model');
+
+define('ERROR_RESET_CATEGORY_MANUFACTURER', 'Categorie en Fabrikant filters reset. Gebruik filters appart.');
+
+define('TEXT_PULLDOWN_ALLOW', 'Toestaan');
+define('TEXT_PULLDOWN_DENY', 'Weigeren');
+define('TEXT_SUBMIT_CATEGORY_ADD', 'Toevoegen');
+define('TEXT_SUBMIT_PRODUCT_UPDATE', 'Update');

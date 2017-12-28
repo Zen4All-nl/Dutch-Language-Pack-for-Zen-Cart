@@ -2,7 +2,7 @@
 /**
  * @package admin languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @copyright Copyright 2003-2017 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: product.php 15883 2010-04-11 16:41:26Z wilt $
@@ -74,8 +74,8 @@ define('TEXT_PRODUCTS_VIRTUAL', 'Artikel is virtueel:');
 define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', 'Gratis verzenden:');
 define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Toon voorraad:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Startdatum:');
-define('TEXT_PRODUCT_AVAILABLE', 'Op voorraad');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Niet op voorraad');
+define('TEXT_PRODUCT_AVAILABLE', 'Aan');
+define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
 define('TEXT_PRODUCT_IS_VIRTUAL', 'Ja, sla het verzendadres over');
 define('TEXT_PRODUCT_NOT_VIRTUAL', 'Nee, een verzendadres is nodig');
 define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Ja, altijd gratis versturen');
@@ -112,8 +112,8 @@ define('TEXT_COPY_AS_DUPLICATE', 'Dupliceer artikel');
   define('TEXT_COPY_ATTRIBUTES_NO','Nee');
 
 // Products and Discount Copy Options
-  define('TEXT_COPY_DISCOUNTS_ONLY','Alleen gebruiken voor gedupliceerde artikelen met korting...');
-  define('TEXT_COPY_DISCOUNTS','Kopieer artikel korting(en) naar duplicaat?');
+  define('TEXT_COPY_DISCOUNTS_ONLY','Alleen gebruiken voor gedupliceerde artikelen met hoeveelheidskorting ...');
+  define('TEXT_COPY_DISCOUNTS','Kopieer artikel met hoeveelheidskorting(en) naar duplicaat?');
   define('TEXT_COPY_DISCOUNTS_YES','Ja');
   define('TEXT_COPY_DISCOUNTS_NO','Nee');
 
