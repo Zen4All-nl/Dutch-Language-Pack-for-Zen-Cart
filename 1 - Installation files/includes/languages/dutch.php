@@ -2,10 +2,10 @@
 /**
  * @ Maintained by Zen4All (https://zen4all.nl)
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2017 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Modified in v1.5.6 $
+ * @version $Id: Author: Zen4All Modified in v1.5.6 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -174,8 +174,8 @@
   define('CATEGORY_PASSWORD', 'Wachtwoord');
   define('CATEGORY_LOGIN', 'Login');
   define('PULL_DOWN_DEFAULT', 'Selecteer uw land');
-  define('PLEASE_SELECT', 'Selecteer...');
-  define('TYPE_BELOW', 'Maak een keuze...');
+  define('PLEASE_SELECT', 'Selecteer ...');
+  define('TYPE_BELOW', 'Maak een keuze ...');
 
   define('ENTRY_COMPANY', 'Bedrijfsnaam:');
   define('ENTRY_COMPANY_ERROR', 'Voer een bedrijfsnaam in.');
@@ -191,7 +191,7 @@
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Geboortedatum:');
   define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem verwacht een datum in dit formaat: DD/MM/YYYY (bijvoorbeeld 21/05/1970)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1995)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
@@ -470,14 +470,14 @@
   define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br />Helaas is dit artikel momenteel niet leverbaar.<br />Het artikel is uit uw winkelwagen verwijderd.');
   define('ERROR_PRODUCT_ATTRIBUTES','<br />Het item: ');
   define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br />Het spijt ons, maar de geselecteerde opties zijn veranderd voor dit product en zijn verwijderd uit onze voorraad op dit moment.<br /> Dit item is verwijderd uit uw winkelwagen.');
-  define('ERROR_PRODUCT_QUANTITY_MIN',' ...Minimum aantal - ');
-  define('ERROR_PRODUCT_QUANTITY_UNITS',' ...hoeveelheden fout - ');
-  define('ERROR_PRODUCT_OPTION_SELECTION','<br /> ...waarde van een optie niet mogelijk ');
+  define('ERROR_PRODUCT_QUANTITY_MIN',' ... Minimum aantal - ');
+  define('ERROR_PRODUCT_QUANTITY_UNITS',' ... hoeveelheden fout - ');
+  define('ERROR_PRODUCT_OPTION_SELECTION','<br /> ... waarde van een optie niet mogelijk ');
   define('ERROR_PRODUCT_QUANTITY_ORDERED','<br /> Totaal aantal artikelen besteld: ');
   define('ERROR_PRODUCT_QUANTITY_MAX',' ...maximum aantal fout - ');
-  define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',' ...minimum aantal fout - ');
-  define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ...hoeveelheden fout - ');
-  define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ...maximum aantal fout - ');
+  define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',' ... minimum aantal fout - ');
+  define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ... hoeveelheden fout - ');
+  define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ... maximum aantal fout - ');
 
   define('WARNING_SHOPPING_CART_COMBINED', 'NB: Voor uw gemak hebben wij de inhoud van het winkelwagen van uw laatste bezoek alvast toegevoegd aan uw huidige winkelwagen. Controleer de inhoud van uw winkelwagen alvorens af te rekenen.');
   define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Het aantal is aangepast aan het aantal op voorraad. ');
@@ -593,12 +593,12 @@
 
 // Tabel kopteksten van winkelwagentje en binnenkort verwachte artikelen
   define('TABLE_HEADING_QUANTITY', 'Aantal');
-  define('TABLE_HEADING_PRODUCTS', 'Artikel');
+  define('TABLE_HEADING_PRODUCTS', 'Artikelnaam');
   define('TABLE_HEADING_TOTAL', 'Totaal');
 
 // aanmaken account - login
   define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Privacyverklaring');
-  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'V&oacute;&oacute;r het verzenden van de bestelling moet u akkoord gaan met onze privacyverklaring door het desbetreffende selectievakje in te schakelen. Onze privacyverklaring kunt u <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">hier [klik]</span></a> lezen.');
+  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Vóór het verzenden van de bestelling moet u akkoord gaan met onze privacyverklaring door het desbetreffende selectievakje in te schakelen. Onze privacyverklaring kunt u <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">hier [klik]</span></a> lezen.');
   define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Ik heb de privacyverklaring aandachtig doorgelezen en ga uitdrukkelijk akkoord met de inhoud.');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Adresgegevens');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Overige contactgegevens');

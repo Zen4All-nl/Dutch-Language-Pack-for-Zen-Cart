@@ -30,7 +30,7 @@ define('HEADING_QUANTITY', 'Aantal');
 define('HEADING_BILLING_ADDRESS', 'Factuuradres');
 define('HEADING_PAYMENT_METHOD', 'Betalingsmethode');
 
-define('HEADING_ORDER_HISTORY', 'Status orderhistorie &amp; opmerkingen');
+define('HEADING_ORDER_HISTORY', 'Status orderhistorie & opmerkingen');
 define('TEXT_NO_COMMENTS_AVAILABLE', 'Geen opmerkingen gevonden.');
 define('TABLE_HEADING_STATUS_DATE', 'Datum');
 define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Orderstatus');

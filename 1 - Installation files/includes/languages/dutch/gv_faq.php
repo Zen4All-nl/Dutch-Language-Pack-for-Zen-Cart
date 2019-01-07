@@ -61,4 +61,3 @@ define('SUB_HEADING_TEXT','Voor het versturen van een ' . TEXT_GV_NAME . ' als v
 
   define('TEXT_GV_REDEEM_INFO', 'Voer uw ' . TEXT_GV_NAME . ' inwisselcode in: ');
   define('TEXT_GV_REDEEM_ID', 'Inwisselcode:');
-?>

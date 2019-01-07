@@ -1,6 +1,5 @@
 <?php
 //
-// @package languageDefines Dutch Zen Cart Version 1.5.5
 // @ Maintained by Zen4All (http://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |

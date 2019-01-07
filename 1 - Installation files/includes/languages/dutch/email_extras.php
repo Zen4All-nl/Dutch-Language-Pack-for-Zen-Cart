@@ -41,6 +41,8 @@ define('EMAIL_TEXT_TELEPHONE', 'Telefoon: ');
 // email disclaimer
 define('EMAIL_DISCLAIMER', 'Dit e-mailbericht is uitsluitend bestemd voor geadresseerde(n). Indien u deze e-mail abusievelijk hebt ontvangen, brengt u ons dan op de hoogte door een e-mail te sturen aan %s');
 define('EMAIL_SPAM_DISCLAIMER','Wij verzenden geen ongevraagde elektronische post en wij leggen daartoe ook geen gegevensbestanden aan. Indien uw e-mailadres uit ons gegevensbestand moet worden verwijderd stuur dan uw verzoek als antwoord op deze e-mail. Uw verzoek wordt zo spoedig mogelijk, zonder verdere vragen, uitgevoerd conform uw wens.');
+// Define a message you'd like to add to an order confirmation email
+define('EMAIL_ORDER_MESSAGE',''); 
 define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 define('TEXT_UNSUBSCRIBE', "\n\nOm geen nieuwsbrieven en promotie mails te ontvangen in de toekomst kunt u op de volgende link klikken en u wordt van de lijst verwijdert: \n");
 
@@ -58,5 +60,5 @@ define('SEND_EXTRA_NEW_ORDERS_EMAILS_TO_SUBJECT','[NIEUWE BESTELLING]');
 define('SEND_EXTRA_CC_EMAILS_TO_SUBJECT','[EXTRA info CC BESTELLING] Nr.');
 
 // e-mails t.b.v. laag voorraadnivo
-define('EMAIL_TEXT_SUBJECT_LOWSTOCK','Letop: Voorraadniveau laag');
+define('EMAIL_TEXT_SUBJECT_LOWSTOCK','Let op: Voorraadniveau laag');
 define('SEND_EXTRA_LOW_STOCK_EMAIL_TITLE','Rapport laag voorraadniveau: ');
