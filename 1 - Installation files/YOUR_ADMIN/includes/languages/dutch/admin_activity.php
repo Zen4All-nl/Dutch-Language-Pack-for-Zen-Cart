@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.6
+ * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: admin_activity.php drbyte Modified in v1.5.6 $
+ * @version $Id: Drbyte Tue Jan 9 13:12:24 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Admin Activiteiten Log Manager');
@@ -39,7 +39,7 @@ define('TEXT_EXPORTFILTER2', 'OPMERKING - Belangrijke info, welke regelmatig bek
 define('TEXT_EXPORTFILTER3', 'WAARSCHUWING - Activitieten wleke dagelijks bekeken zouden moeten worden');
 define('TEXT_EXPORTFILTER4', 'Zowel een  OPMERKING als WAARSCHUWING (veel voorkomende combinatie om te inspecteren).');
 
-define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</strong><ul>
+define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</strong></p><ul>
 <li><strong>Severity</strong> - The standards for logging generally describe severities as follows:
   <ul>
   <li><strong>INFO</strong> refers to general activity. This may or may not contain remarkable details.</li>
@@ -54,4 +54,4 @@ define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</
 <li><strong>attention</strong> - This will contain suggestions related to the kind of suspicious activity which should be reviewed in the "postdata" field if flagged. </li>
 <li><strong>logmessage</strong> - This contains any messages recorded by the system about the activity taking place, such as installation of a certain module.</li>
 <li><strong>postdata</strong> - This contains the raw POST data (with some sensitive information scrubbed) for easy review in case malicious activity is suspected.</li>
-</ul></p>');
+</ul>');

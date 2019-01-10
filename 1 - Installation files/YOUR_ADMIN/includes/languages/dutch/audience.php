@@ -1,7 +1,6 @@
 <?php
 //
-// @package admin languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
+// @ Maintained by Zen4All (https://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -22,9 +21,7 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_SELECT_AN_OPTION', 'Maak een keuze...');
-define('TEXT_SELECT_CUSTOMER', 'Kies een klant');
-define('TEXT_ALL_CUSTOMERS', 'Naar alle klanten');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'Naar alle nieuwsbriefontvangers');
-
-?>
+if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Maak een keuze...');
+if (!defined('TEXT_SELECT_CUSTOMER')) define('TEXT_SELECT_CUSTOMER', 'Kies een klant');
+if (!defined('TEXT_ALL_CUSTOMERS')) define('TEXT_ALL_CUSTOMERS', 'Naar alle klanten');
+if (!defined('TEXT_NEWSLETTER_CUSTOMERS')) define('TEXT_NEWSLETTER_CUSTOMERS', 'Naar alle nieuwsbriefontvangers');

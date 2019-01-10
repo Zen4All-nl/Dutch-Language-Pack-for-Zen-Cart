@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: products_to_categories.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version $Id: Zen4All Wed Jan 17 12:01:19 2018 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE','Artikel(en) aan meerdere categorieën koppelen...');
@@ -94,3 +94,5 @@ define('BUTTON_RESET_CATEGORY_MASTER', 'Wijzig hoofdcategorie ID');
 
 define('WARNING_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'Waarschuwing: ongeldige categorie geselecteerd...');
 define('SUCCESS_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'Alle artikelen zijn met succes omgezet naar een nieuwe hoofdcategorie ID voor categorie: ');
+
+define('TEXT_CATEGORIES_NAME', 'Categorienaam');

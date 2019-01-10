@@ -1,8 +1,8 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.6
+ * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch.php  Modified in v1.5.6 $
@@ -28,7 +28,9 @@ define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
 define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+// for now both defines are needed until Spiffy is completely removed.
 define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Alleen 'dd', 'MM' and 'yyyy' gebruiken, in de gewenste volgorde
+define('DATE_FORMAT_DATE_PICKER', 'dd-mm-yy');  //Use only 'dd', 'mm' and 'yy' here in any order
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 ////
 // Return date in raw format
@@ -69,7 +71,7 @@ define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Admin Home');
-define('HEADER_TITLE_SUPPORT_SITE', 'Support Site');
+define('HEADER_TITLE_SUPPORT_SITE', 'Support');
 define('HEADER_TITLE_ONLINE_CATALOG', '"Live winkel"');
 define('HEADER_TITLE_VERSION', 'Versie');
 define('HEADER_TITLE_ACCOUNT', 'Account');
@@ -141,8 +143,9 @@ define('BOX_CATALOG_SPECIALS', 'Aanbiedingen');
 define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte artikelen');
 define('BOX_CATALOG_SALEMAKER', 'VerkoopBevorderingTool');
 define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Prijsbeheer');
-define('BOX_CATALOG_PRODUCT', 'Produkt');
+define('BOX_CATALOG_PRODUCT', 'Product');
 define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Produkten in Categorieën');
+define('BOX_CATALOG_CATEGORY', 'Categorie');
 
 // customers box text
 define('BOX_HEADING_CUSTOMERS', 'Klanten');
@@ -186,13 +189,13 @@ define('BOX_TOOLS_DEVELOPERS_TOOL_KIT', 'Ontwikkelaar tool kit');
 define('BOX_TOOLS_SQLPATCH','Installeer SQL Patches');
 define('BOX_TOOLS_EZPAGES','EZ-Pagina editor');
 
-define('BOX_HEADING_EXTRAS', 'Extra');
+define('BOX_HEADING_EXTRAS', 'Extras');
 
 // define pages editor files
 define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Kies pagina editor');
 define('BOX_TOOLS_DEFINE_MAIN_PAGE', 'Startpagina');
 define('BOX_TOOLS_DEFINE_CONTACT_US','Neem contact op');
-define('BOX_TOOLS_DEFINE_PRIVACY','Privacy verklaring');
+define('BOX_TOOLS_DEFINE_PRIVACY','Privacyverklaring');
 define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Verzenden & retouren');
 define('BOX_TOOLS_DEFINE_CONDITIONS','Algemene (leverings)voorwaarden');
 define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Afrekenen succesvol');
@@ -252,6 +255,8 @@ define('JS_STATE_SELECT', '-- Selecteer hierboven --');
 define('JS_ZONE', '* De <strong>provincie</strong> moet gekozen worden uit de lijst bij dit land.');
 define('JS_COUNTRY', '* Het <strong>land</strong> moet worden ingevuld.\n');
 define('JS_TELEPHONE', '* Het  <strong>telefoonnummer</strong> moet minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tekens bevatten.\n');
+
+define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press OK and wait for this process to be completed.');
 
 define('JS_ORDER_DOES_NOT_EXIST', 'Bestelnummer %s komt niet voor!');
 define('TEXT_NO_ORDER_HISTORY', 'Geen orderhistorie beschikbaar');
@@ -343,8 +348,8 @@ define('IMAGE_NEW_TAX_CLASS', 'Nieuwe belastinggroep');
 define('IMAGE_NEW_TAX_RATE', 'Nieuw belastingtarief');
 define('IMAGE_NEW_TAX_ZONE', 'Nieuwe regio');
 define('IMAGE_NEW_ZONE', 'Nieuwe zone');
-define('IMAGE_OPTION_NAMES', 'Optienaam beheer');
-define('IMAGE_OPTION_VALUES', 'Optiewaarde beheer ');
+define('IMAGE_OPTION_NAMES', 'Optienaambeheer');
+define('IMAGE_OPTION_VALUES', 'Optiewaardebeheer ');
 define('IMAGE_ORDERS', 'Bestellingen');
 define('IMAGE_ORDERS_INVOICE', 'Factuur');
 define('IMAGE_ORDERS_PACKINGSLIP', 'Pakbon');
@@ -432,6 +437,14 @@ define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Toon <b>%d</b> tot <b>%d</b> (van <b
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> belastingtarieven)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> zones)');
 
+define('PREVNEXT_TITLE_FIRST_PAGE', 'Eerste pagina');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Vorige pagina');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'volgende pagina');
+define('PREVNEXT_TITLE_LAST_PAGE', 'Laatste pagina');
+define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
+define('PREVNEXT_BUTTON_FIRST', '&laquo;FIRST');
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
 define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
 

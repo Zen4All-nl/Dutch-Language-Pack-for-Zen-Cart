@@ -1,10 +1,10 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: mc12345678  Sun Jan 3 13:54:17 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: Zen4All Thu Nov 29 13:31:36 2018 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Artikel Prijsmanager');
@@ -137,3 +137,4 @@ define('PRODUCT_WARNING_UPDATE_CANCEL', 'Wijzigingen zijn geannuleerd en niet op
 define('TEXT_INFO_EDIT_CAUTION', '<strong>Klik hier om te wijzigen ...</strong>');
 define('TEXT_INFO_PREVIEW_ONLY', 'Alleen voorvertoning ... Huidige prijs status ... Alleen voorvertoning');
 define('TEXT_INFO_UPDATE_REMINDER', '<strong>Wijzig artikelinformatie en vervolgens klik op Update om op te slaan</strong>');
+define('BUTTON_ADDITITONAL_ACTIONS', 'Extra Acties');

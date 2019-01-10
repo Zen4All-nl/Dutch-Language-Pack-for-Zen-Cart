@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2005 CardinalCommerce
  * @copyright Portions Copyright 2003 osCommerce

@@ -1,17 +1,17 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: Author: DrByte  Tue Dec 29 15:53:14 2015 -0500 Modified in v1.5.5 $
  */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Module betaalmethode');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Module verzendmethode');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Module opbouw factuur');
-define('HEADING_TITLE_MODULES_PRODUCT_TYPES', 'Module soort artikel');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Betaalmodules');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Verzendmmodules');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Opbouw factuur modules');
+define('HEADING_TITLE_MODULES_PRODUCT_TYPES', 'Producttype modules');
 
 define('TABLE_HEADING_MODULES', 'Modules');
 define('TABLE_HEADING_SORT_ORDER', 'Rangschikking');
