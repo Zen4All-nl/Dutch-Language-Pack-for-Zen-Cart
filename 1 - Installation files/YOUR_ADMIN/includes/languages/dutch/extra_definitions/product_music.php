@@ -1,6 +1,5 @@
 <?php
-// @package admin languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
+// @ Maintained by Zen4All (https://zen4all.nl)
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -26,4 +25,7 @@ define('BOX_CATALOG_RECORD_COMPANY', 'Platenmaatschappij(en)');
 define('BOX_CATALOG_MUSIC_GENRE', 'Genre');
 define('BOX_CATALOG_MEDIA_MANAGER', 'Mediamanager');
 define('BOX_CATALOG_MEDIA_TYPES', 'Type media');
-?>
+
+define('TEXT_PRODUCTS_RECORD_ARTIST', 'Opnememde arties:');
+define('TEXT_PRODUCTS_RECORD_COMPANY', 'Platenmaatschappij:');
+define('TEXT_PRODUCTS_MUSIC_GENRE', 'Muziek Genre:');

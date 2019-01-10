@@ -1,16 +1,18 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Modified in v1.5.5 $
+ * @version $Id: dutch.php  Modified in v1.5.6 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
   die('Illegal Access');
 }
+
+define('CONNECTION_TYPE_UNKNOWN', '\'%s\' is niet een geldige verbinding voor het genereren van URLs' . PHP_EOL . '%s' . PHP_EOL);
 
 // added defines for header alt and text
 define('HEADER_ALT_TEXT', 'Admin Powered by Zen Cart :: The Art of E-Commerce');
@@ -26,7 +28,9 @@ define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
 define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+// for now both defines are needed until Spiffy is completely removed.
 define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Alleen 'dd', 'MM' and 'yyyy' gebruiken, in de gewenste volgorde
+define('DATE_FORMAT_DATE_PICKER', 'dd-mm-yy');  //Use only 'dd', 'mm' and 'yy' here in any order
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 ////
 // Return date in raw format
@@ -40,17 +44,18 @@ function zen_date_raw($date, $reverse = false) {
   }
 }
 
-// removed for meta tags
-// page title
-//define('TITLE', 'Zen Cart');
-
 // include template specific meta tags defines
-  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
+//  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
+//    $template_dir_select = $template_dir . '/';
+//  } else {
+//    $template_dir_select = '';
+//  }
+//  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
+
+// used for prefix to browser tabs in admin pages
+define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ');
+// if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
+//define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ' . STORE_NAME);
 
 // meta tags
 define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
@@ -66,7 +71,7 @@ define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Admin Home');
-define('HEADER_TITLE_SUPPORT_SITE', 'Support Site');
+define('HEADER_TITLE_SUPPORT_SITE', 'Support');
 define('HEADER_TITLE_ONLINE_CATALOG', '"Live winkel"');
 define('HEADER_TITLE_VERSION', 'Versie');
 define('HEADER_TITLE_ACCOUNT', 'Account');
@@ -138,8 +143,9 @@ define('BOX_CATALOG_SPECIALS', 'Aanbiedingen');
 define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte artikelen');
 define('BOX_CATALOG_SALEMAKER', 'VerkoopBevorderingTool');
 define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Prijsbeheer');
-define('BOX_CATALOG_PRODUCT', 'Produkt');
+define('BOX_CATALOG_PRODUCT', 'Product');
 define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Produkten in Categorieën');
+define('BOX_CATALOG_CATEGORY', 'Categorie');
 
 // customers box text
 define('BOX_HEADING_CUSTOMERS', 'Klanten');
@@ -183,13 +189,13 @@ define('BOX_TOOLS_DEVELOPERS_TOOL_KIT', 'Ontwikkelaar tool kit');
 define('BOX_TOOLS_SQLPATCH','Installeer SQL Patches');
 define('BOX_TOOLS_EZPAGES','EZ-Pagina editor');
 
-define('BOX_HEADING_EXTRAS', 'Extra');
+define('BOX_HEADING_EXTRAS', 'Extras');
 
 // define pages editor files
 define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Kies pagina editor');
 define('BOX_TOOLS_DEFINE_MAIN_PAGE', 'Startpagina');
 define('BOX_TOOLS_DEFINE_CONTACT_US','Neem contact op');
-define('BOX_TOOLS_DEFINE_PRIVACY','Privacy verklaring');
+define('BOX_TOOLS_DEFINE_PRIVACY','Privacyverklaring');
 define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Verzenden & retouren');
 define('BOX_TOOLS_DEFINE_CONDITIONS','Algemene (leverings)voorwaarden');
 define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Afrekenen succesvol');
@@ -249,6 +255,8 @@ define('JS_STATE_SELECT', '-- Selecteer hierboven --');
 define('JS_ZONE', '* De <strong>provincie</strong> moet gekozen worden uit de lijst bij dit land.');
 define('JS_COUNTRY', '* Het <strong>land</strong> moet worden ingevuld.\n');
 define('JS_TELEPHONE', '* Het  <strong>telefoonnummer</strong> moet minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tekens bevatten.\n');
+
+define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press OK and wait for this process to be completed.');
 
 define('JS_ORDER_DOES_NOT_EXIST', 'Bestelnummer %s komt niet voor!');
 define('TEXT_NO_ORDER_HISTORY', 'Geen orderhistorie beschikbaar');
@@ -340,8 +348,8 @@ define('IMAGE_NEW_TAX_CLASS', 'Nieuwe belastinggroep');
 define('IMAGE_NEW_TAX_RATE', 'Nieuw belastingtarief');
 define('IMAGE_NEW_TAX_ZONE', 'Nieuwe regio');
 define('IMAGE_NEW_ZONE', 'Nieuwe zone');
-define('IMAGE_OPTION_NAMES', 'Optienaam beheer');
-define('IMAGE_OPTION_VALUES', 'Optiewaarde beheer ');
+define('IMAGE_OPTION_NAMES', 'Optienaambeheer');
+define('IMAGE_OPTION_VALUES', 'Optiewaardebeheer ');
 define('IMAGE_ORDERS', 'Bestellingen');
 define('IMAGE_ORDERS_INVOICE', 'Factuur');
 define('IMAGE_ORDERS_PACKINGSLIP', 'Pakbon');
@@ -429,6 +437,14 @@ define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Toon <b>%d</b> tot <b>%d</b> (van <b
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> belastingtarieven)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> zones)');
 
+define('PREVNEXT_TITLE_FIRST_PAGE', 'Eerste pagina');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Vorige pagina');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'volgende pagina');
+define('PREVNEXT_TITLE_LAST_PAGE', 'Laatste pagina');
+define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
+define('PREVNEXT_BUTTON_FIRST', '&laquo;FIRST');
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
 define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
 
@@ -520,7 +536,6 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('BOX_TOOLS_LAYOUT_CONTROLLER','Box layout controle');
 
 // check GV release queue and alert store owner
-  define('SHOW_GV_QUEUE',true); // !! NIET VERTALEN !!
   define('TEXT_SHOW_GV_QUEUE','%s wacht op vrijgave ');
   define('IMAGE_GIFT_QUEUE', TEXT_GV_NAME . ' wachtrij');
   define('IMAGE_ORDER','Bestelling');
@@ -547,7 +562,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('PRODUCTS_QUANTITY_IN_CART_LISTING','In de winkelwagen:');
   define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING','Voeg additioneel toe:');
 
-  define('TEXT_PRODUCTS_MIX_OFF','*Geen MIX mogelijk');	
+  define('TEXT_PRODUCTS_MIX_OFF','*Geen MIX mogelijk');
   define('TEXT_PRODUCTS_MIX_ON','*Wel MIX mogelijk');
 
 // search filters
@@ -571,6 +586,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('TEXT_VERSION_CHECK_PATCH','patch');
   define('TEXT_VERSION_CHECK_DOWNLOAD','Download hier');
   define('TEXT_VERSION_CHECK_CURRENT','Deze versie van Zen-Cart&reg; is up-to-date.');
+  define('ERROR_CONTACTING_PROJECT_VERSION_SERVER','Fout: Er kon geen contact gemaakt worden met de Project Version Server');
 
 // downloads manager
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_DOWNLOADS_MANAGER', 'Download <b>%d</b> tot <b>%d</b> (van <b>%d</b> downloads)');
@@ -635,6 +651,8 @@ define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;uit');
 // Sale Maker Sale Price
   define('PRODUCT_PRICE_SALE','Uitverkoop:&nbsp;');
+
+define('TEXT_PRICED_BY_ATTRIBUTES', 'Prijs door opties');
 
 // Rich Text / HTML resources
 define('TEXT_HTML_EDITOR_NOT_DEFINED','Indien u geen HTML editor heeft gekozen of JavaScript is uitgezet dan kun je hier raw HTML text handmatig invoeren.');

@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Sat Oct 17 21:02:28 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: Zen4All Thu Feb 1 15:27:50 2018 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Landen');

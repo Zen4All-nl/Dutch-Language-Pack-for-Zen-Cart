@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @copyright Originally Programmed By: Christopher Bradley (www.wizardsandwars.com) for OsCommerce

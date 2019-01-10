@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: currencies.php 18931 2011-06-13 15:22:34Z drbyte $
+ * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
  */
 
 define('HEADING_TITLE', 'Valuta');

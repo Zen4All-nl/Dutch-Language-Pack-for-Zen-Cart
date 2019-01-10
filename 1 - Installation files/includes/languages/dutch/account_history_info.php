@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -30,7 +30,7 @@ define('HEADING_QUANTITY', 'Aantal');
 define('HEADING_BILLING_ADDRESS', 'Factuuradres');
 define('HEADING_PAYMENT_METHOD', 'Betalingsmethode');
 
-define('HEADING_ORDER_HISTORY', 'Status orderhistorie &amp; opmerkingen');
+define('HEADING_ORDER_HISTORY', 'Status orderhistorie & opmerkingen');
 define('TEXT_NO_COMMENTS_AVAILABLE', 'Geen opmerkingen gevonden.');
 define('TABLE_HEADING_STATUS_DATE', 'Datum');
 define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Orderstatus');

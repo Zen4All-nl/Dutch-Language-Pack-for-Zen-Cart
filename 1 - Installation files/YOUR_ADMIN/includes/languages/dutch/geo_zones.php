@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: geo_zones.php 4736 2006-10-13 07:11:44Z drbyte $
+ * @version $Id: Drbyte Mon Nov 12 20:38:09 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Belastingzones - Belastingen, Betalingen en Verzenden');
@@ -16,7 +16,7 @@ define('TABLE_HEADING_TAX_ZONES', 'Belastingzone');
 define('TABLE_HEADING_TAX_ZONES_DESCRIPTION', 'Belastingzone beschrijving');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Actie');
-//define('TEXT_LEGEND', 'LEGEND: ');
+//define('TEXT_LEGEND', 'LEGENDA: ');
 define('TEXT_LEGEND_TAX_AND_ZONES', ': Belastingen en Zones gedefiniëerd');
 define('TEXT_LEGEND_ONLY_ZONES', ': Zones gedefiniëerd maar geen belastingen ');
 define('TEXT_LEGEND_NOT_CONF', ': Niet geconfigureerd ');
@@ -47,9 +47,8 @@ define('TEXT_INFO_ZONE_DESCRIPTION', 'Beschrijving:');
 define('TEXT_INFO_COUNTRY', 'Land:');
 define('TEXT_INFO_COUNTRY_ZONE', 'Provincie:');
 define('TYPE_BELOW', 'Alle provincies');
-define('PLEASE_SELECT', 'Alle ');
+define('TEXT_ALL_ZONES', 'Alle provincies');
 define('TEXT_ALL_COUNTRIES', 'Alle landen');
 
 define('TEXT_INFO_NUMBER_TAX_RATES','Aantal belastingtarieven:');
 define('ERROR_TAX_RATE_EXISTS','Waarschuwing: Er is of zijn belastingtarief(en) gedefiniëerd zone. Verwijder eerst het belastingtarief voordat deze zone verwijderd kan worden.');
-?>

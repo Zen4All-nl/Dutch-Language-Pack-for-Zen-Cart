@@ -1,7 +1,7 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
+ * @package languageDefines
+ * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -10,7 +10,7 @@
 
 define('HEADING_COUPON_HELP', 'Kortingsbon Help');
 define('TEXT_CLOSE_WINDOW', 'Sluit venster [x]');
-define('TEXT_COUPON_HELP_HEADER', 'Gefeliciteerd, uw kortingsbon is succesvol verwerkt.');
+define('TEXT_COUPON_HELP_HEADER', '<strong>De kortingsbon code die u heeft ingevoerd is voor</strong> ');
 define('TEXT_COUPON_HELP_NAME', '<br /><br />Naam kortingsbon: %s');
 define('TEXT_COUPON_HELP_FIXED', '<br /><br />Deze bon geeft een korting van %s op uw bestelling');
 define('TEXT_COUPON_HELP_MINORDER', '<br /><br />U dient minstens voor %s te bestellen voordat u de coupon kunt gebruiken');
@@ -29,6 +29,7 @@ define('TEXT_DENIED', ' (Niet toegestaan)');
 define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze bon geldig voor bepaalde artikelen.');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Deze bon is geldig voor alle categorieën.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Deze bon is geldig voor alle artikelen.</p>');
+define('TEXT_NO_PROD_SALES', '<p>Deze bon is niet geldig voor uitverkoop producten.</p>');
 
 // cadeaubonnen kunnen niet worden gekocht met kortingsbonnen
 define('TEXT_COUPON_GV_RESTRICTION','Kortingsbonnen kunnen niet worden gebruikt om ' . TEXT_GV_NAMES . '. te kopen.');
