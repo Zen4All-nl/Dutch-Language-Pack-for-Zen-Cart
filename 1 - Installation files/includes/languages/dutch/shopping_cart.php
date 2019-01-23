@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package languageDefines
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Fri Sep 11 15:56:13 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: Drbyte Fri Sep 8 13:33:50 2017 -0400 Modified in v1.5.6 $
  */
 
 define('TEXT_INFORMATION', 'Hier kan u uitleg plaatsen voor het gebruik van het winkelwagen [includes\languages\dutch\shopping_cart.php].');
@@ -28,5 +28,5 @@ define('TEXT_TOTAL_ITEMS', 'Totaal artikelen: ');
 define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Gewicht: ');
 define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Bedrag: ');
 
-define('TEXT_VISITORS_CART', '<a href="javascript:session_win();">[help (?)]</a>');
+define('TEXT_CART_HELP', '<a href="javascript:session_win();">[help (?)]</a>');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

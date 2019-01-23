@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: attributes_controller.php 15883 2010-04-11 16:41:26Z wilt $
+ * @version $Id: Zen4All Tue Oct 31 21:16:27 2017 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'CATEGORIEËN: ');
@@ -87,7 +87,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_ATTRIBUTES_IMAGE','Optie voorbeeldafbeelding:');
   define('TEXT_ATTRIBUTES_IMAGE_DIR','Optie afbeelding directory:');
 
-  define('TEXT_ATTRIBUTES_FLAGS','Optie<br />instellingen:');
+  define('TEXT_ATTRIBUTES_FLAGS','Optie instellingen:');
   define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Alleen te gebruiken<br />als showmodel:');
   define('TEXT_ATTRIBUTES_IS_FREE', 'Optie is gratis<br />als artikel gratis is:');
   define('TEXT_ATTRIBUTES_DEFAULT', 'Standaard opties<br />aangevinkt bij artikel tonen');
@@ -169,3 +169,17 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_INFO_PRODUCTS_OPTION_NAME', '<strong>Artikelnaam: </strong>');
   define('TEXT_INFO_PRODUCTS_OPTION_ID', '<strong>ID</strong>');
   define('SUCCESS_ATTRIBUTES_DELETED_OPTION_NAME_VALUES', 'Succesvol uitgevoerd: het verwijderen van ALLE artikeloptiewaarden van de optienaam: ');
+  
+  define('BUTTON_ADDITITONAL_ACTIONS', 'Extra Acties');
+  define('TEXT_UPDATE_DEFAULTE_SORT_ORDER', 'Update sorteervolgorde naar default');
+  define('TEXT_DELETE_ALL_OPTIONS_FROM_PRODUCT', 'Verwijder alle opties van het product');
+  define('TEXT_COPY_ALL_OPTIONS_TO_PRODUCT', 'Kopieer opties naar een ander product');
+  define('TEXT_COPY_ALL_OPTIONS_TO_CATEGORY', 'Kopieer opties naar een hele catergorie');
+  define('TEXT_SAVE_PRODUCT_FIRST', 'Sla aub eerst het product op. je hebt een product_id nodig voordat je opties kan toevoegen');
+  define('TEXT_ATTRIBUTES_FLAGS', 'Optie instellingen:');
+  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Wordt allen gebrukt om te tonen:');
+  define('TEXT_ATTRIBUTES_IS_FREE', 'Attribute is gratis als het product gratis is:');
+  define('TEXT_ATTRIBUTES_DEFAULT', 'Default Attribute, wordt standaard geselecteerd:');
+  define('TEXT_ATTRIBUTE_IS_DISCOUNTED', 'Pas korting toe die grbruikt wordt bij Aanbieding/Sale:');
+  define('TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED', 'Gebruik in de basisprijs wanneer de prij bepaalt word door opties');
+  define('TEXT_ATTRIBUTES_REQUIRED', 'Attribute Verplicht bij Tekst:');

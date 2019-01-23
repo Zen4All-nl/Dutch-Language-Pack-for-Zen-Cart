@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: bislewl  Tue Feb 16 23:14:29 2016 -0600 Modified in v1.5.5 $
+ * @version $Id: Drbyte Sun Jan 7 21:39:26 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Aanmelden Admin Winkel');
@@ -27,6 +27,7 @@ define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
 define('LOGIN_EXPIRY_NOTICE', '');
 define('ERROR_PASSWORD_EXPIRED', 'LET OP: Uw wachtwoord is verlopen. Selecteer een nieuw wachtwoord. Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
 define('TEXT_TEMPORARY_PASSWORD_MUST_BE_CHANGED', 'Om veiligheidsredenen, dient uw tijdelijke wachtwoord te worden gewijzigd. Selecteer een nieuw wachtwoord.<br />Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
+define('SUCCESS_PASSWORD_UPDATED', 'Wachtwoord aangepast');
 
 define('TEXT_EMAIL_SUBJECT_LOGIN_FAILURES', 'Admin inlog foutmededeling');
 define('TEXT_EMAIL_MULTIPLE_LOGIN_FAILURES', 'Belangrijke mededeling: Er zijn meerdere mislukte inlog pogingen op uw administratieve account geweest. Voor uw veiligheid en voor de beveiliging van het systeem, wordt na 6 mislukte loginpogingen uw admin geblokkeerd voor een minimum van 30 minuten, waarbij u niet in staat zal zijn om in te loggen, zelfs als u uw wachtwoord weer herinnert. Bij blijvende mislukte pogingen om in te loggen blijft de admin geblokkeerd voor nog eens 30 minuten. U zult niet in staat zijn om het wachtwoord te resetten tijdens deze periode. Excuses voor het ongemak.' . "\n\nDe laatste login poging was van dit IP-adres: %s.\n\n\n");

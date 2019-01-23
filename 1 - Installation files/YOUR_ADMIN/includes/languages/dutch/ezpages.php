@@ -1,7 +1,6 @@
 <?php
 //
-// @package admin languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
+// @ Maintained by Zen4All (https://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -45,9 +44,13 @@ define('TABLE_HEADING_STATUS_SIDEBOX', 'Sidebox:');
 define('TABLE_HEADING_STATUS_FOOTER', 'Footer:');
 define('TABLE_HEADING_STATUS_TOC', 'Inhoudsopgave:');
 define('TABLE_HEADING_CHAPTER', 'Hoofdstuk:');
+define('TABLE_HEADING_VISIBLE', 'Zichtbaar:');
 
 define('TABLE_HEADING_PAGE_OPEN_NEW_WINDOW', 'Open een nieuw venster:');
 define('TABLE_HEADING_PAGE_IS_SSL', 'Pagina via SSL:');
+define('TABLE_HEADING_PAGE_IS_VISIBLE', 'Pagina is zichtbaar:');
+define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', ' De pagina wordt getoond, zelfs als deze niet wordt getoond in de header, footer of sidebox<br>
+(Als alle instellinen voor zichtbaarheid, header, footer en sidebox uit staan, dan zulen bezoekers doe proberen de pagina te bekijken een pagina niet gevonden reactie.)');
 
 define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> pagina\'s)');
 define('IMAGE_NEW_PAGE', 'Nieuwe Pagina');

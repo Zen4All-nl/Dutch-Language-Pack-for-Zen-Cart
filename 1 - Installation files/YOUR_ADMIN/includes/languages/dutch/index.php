@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: zcwilt  Wed Sep 23 20:04:38 2015 +0100 Modified in v1.5.5 $
+ * @version $Id: Drbyte Mon Aug 7 23:27:01 2017 -0400 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Kies een actie...');
@@ -13,14 +13,16 @@ define('HEADING_TITLE', 'Kies een actie...');
 define('BOX_TITLE_ORDERS', 'Bestellingen');
 define('BOX_TITLE_STATISTICS', 'Statistieken');
 
+define('BOX_TITLE_FEATURES_SALES', 'Specials / Featured / Sales');
+
 define('BOX_ENTRY_SUPPORT_SITE', 'Support Site');
 define('BOX_ENTRY_SUPPORT_FORUMS', 'Support Forums');
 define('BOX_ENTRY_MAILING_LISTS', 'Mailinglijsten');
-define('BOX_ENTRY_BUG_REPORTS', 'Aanmelden bug');
+define('BOX_ENTRY_BUG_REPORTS', 'Bug meldingen');
 
 define('BOX_ENTRY_FAQ', 'FAQ');
 define('BOX_ENTRY_LIVE_DISCUSSIONS', 'Live Discussie');
-define('BOX_ENTRY_CVS_REPOSITORY', 'CVS bewaarplaats');
+define('BOX_ENTRY_CVS_REPOSITORY', 'CVS Repository');
 define('BOX_ENTRY_INFORMATION_PORTAL', 'Informatie Portaal');
 
 define('BOX_CONNECTION_PROTECTED', 'Je bent beschermd door een %s beveiligde SSL verbinding.');
@@ -32,7 +34,32 @@ define('TOOLS_BACKUP', 'Backup');
 define('TOOLS_BANNERS', 'Banners');
 define('TOOLS_FILES', 'Bestanden');
 
-// statistics
+define('WO_GRAPH_TITLE', 'Who\'s Online:');
+define('WO_GRAPH_MORE', 'meer...');
+define('WO_GRAPH_REGISTERED', 'gebruiker:');
+define('WO_GRAPH_GUEST', 'Gast:');
+define('WO_GRAPH_SPIDER', 'Spider:');
+define('WO_GRAPH_TOTAL', 'Totaal:');
+define('WHOS_ONLINE_ACTIVE_TEXT', 'Actieve winkelwagen');
+define('WHOS_ONLINE_INACTIVE_TEXT', 'Inactieve winkelwagen');
+define('WHOS_ONLINE_ACTIVE_NO_CART_TEXT', 'Actief winkelwagen winkelwagen');
+define('WHOS_ONLINE_INACTIVE_NO_CART_TEXT', 'Inactief winkelwagen winkelwagen');
+
+define('DASHBOARD_DAY', 'Dag');
+define('DASHBOARD_SESSIONS', 'Sessie');
+define('DASHBOARD_TOTAL', 'Totaal');
+define('DASHBOARD_MONTH', 'Maand');
+define('DASHBOARD_SALES', 'Sales');
+define('DASHBOARD_DOLLARS', 'Dollars');
+
+define('TEXT_COUNTER_HISTORY_TITLE', 'Bezoekers geschiedenis - Afgelopen 14 dagen');
+
+define('TEXT_MONTHLY_SALES_TITLE', 'Maandelijkse Verkoop (exclusief transport)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Klik hier voor Alle details...');
+
+define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%d</strong>');
+define('TEXT_SALES_YESTERDAY', '<strong>Giesteren</strong> (%s) &nbsp;<strong>$%d</strong>');
+
 define('REPORTS_PRODUCTS', 'Artikelen');
 define('REPORTS_ORDERS', 'Bestellingen');
 

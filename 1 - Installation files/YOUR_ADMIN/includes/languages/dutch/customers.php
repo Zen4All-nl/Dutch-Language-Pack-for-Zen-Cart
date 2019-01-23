@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Sun Oct 18 23:54:03 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: Drbyte Mon Nov 12 20:38:09 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Klanten');
@@ -32,6 +32,7 @@ define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Verwijder klant');
 define('TYPE_BELOW', 'Type hieronder');
 define('PLEASE_SELECT', 'Selecteer één');
 define('TEXT_INFO_NUMBER_OF_ORDERS', 'Aantal bestellingen:');
+define('TEXT_INFO_LIFETIME_VALUE', 'Totale besteding van klant:');
 define('TEXT_INFO_LAST_ORDER','Laatste bestelling:');
 define('TEXT_INFO_ORDERS_TOTAL', 'Totaal:');
 define('CUSTOMERS_REFERRAL', 'Klantreferentie<br />1e Kortingsbon');
@@ -67,4 +68,5 @@ define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Klantstatus aangepast');
 define('ADDRESS_BOOK_TITLE', 'Adresboekvermeldingen');
 define('PRIMARY_ADDRESS', '(primair adres)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOOT:</strong></span> Een maximum van %s adres boek ingevingen zijn toegestaan.');
-define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 van  ');
+define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | <a href="%s">%s Vermeldingen</a>');
+define('TEXT_INFO_ADDRESS_BOOK_COUNT_SINGLE', '');

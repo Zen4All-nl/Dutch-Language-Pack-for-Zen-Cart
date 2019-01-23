@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.3
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: coupon_restrict.php 16174 2010-05-02 14:10:30Z drbyte $
+ * @version $Id: Drbyte Wed Aug 2 14:55:16 2017 -0400 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Kortingsbonnen Artikel/Categorie beperkingen');
@@ -36,3 +36,17 @@ define('TEXT_MANUFACTURER', 'Fabrikant: ');
 define('TEXT_CATEGORY', 'Categorie: ');
 define('ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY', 'Categorie niet klaar');
 define('ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT', 'Produkt niet klaar');
+
+define('HEADER_MANUFACTURER_NAME', '<br> -- OF -- <br>' . 'Fabrikant: ');
+define('TEXT_ALL_MANUFACTURERS_ADD', 'Voeg alle producten van fabrikant toe');
+define('TEXT_ALL_MANUFACTURERS_REMOVE', 'Verwijder alle producten van fabrikant');
+
+define('HEADER_PRODUCT_STATUS', 'Status');
+define('HEADER_PRODUCT_MODEL', 'Model');
+
+define('ERROR_RESET_CATEGORY_MANUFACTURER', 'Categorie en Fabrikant filters reset. Gebruik filters appart.');
+
+define('TEXT_PULLDOWN_ALLOW', 'Toestaan');
+define('TEXT_PULLDOWN_DENY', 'Weigeren');
+define('TEXT_SUBMIT_CATEGORY_ADD', 'Toevoegen');
+define('TEXT_SUBMIT_PRODUCT_UPDATE', 'Update');

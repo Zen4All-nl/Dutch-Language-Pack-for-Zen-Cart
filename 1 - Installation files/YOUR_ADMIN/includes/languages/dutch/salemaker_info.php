@@ -1,7 +1,6 @@
 <?php
 //
-// @package admin languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
+// @ Maintained by Zen4All (https://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -26,7 +25,7 @@ define('HEADING_TITLE', 'Verkoopbevorderingstool');
 define('SUBHEADING_TITLE', 'Gebruikstips Verkoopbevorderingstool:');
 define('INFO_TEXT', '<ul>
                       <li>
-                        Gebruik altijd een punt (\'.\') als decimaal teken in de korting en prijsselectie.
+                        Gebruik altijd een punt \'.\' als decimaal teken in de korting en prijsselectie.
                       </li>
                       <li>
                         Gebruik dezelfde valuta als waar het artikel in is geprijsd en die standaard is voor het aanmaken en wijzigen van artikelen.

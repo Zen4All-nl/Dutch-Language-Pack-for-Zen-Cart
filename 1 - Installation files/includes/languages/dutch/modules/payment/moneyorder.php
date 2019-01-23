@@ -1,7 +1,6 @@
 <?php
 //
-// @package languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
+// @ Maintained by Zen4All (https://zen4all.nl)
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,10 +18,11 @@
 // | to obtain it through the world-wide-web, please send a note to       |
 // | license@zen-cart.com so we can mail you a copy immediately.          |
 // +----------------------------------------------------------------------+
-// $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte $
+// $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte Modified in v1.5.6 $
 //
 
   define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Vooruitbetalen');
   define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Gaarne overmaken o.v.v. uw ordernummer dat u krijgt in de volgende stap, op rekeningnummer:<br />' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />ter attentie van:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'Uw bestelling zal worden verzonden nadat de betaling is bijgeschreven op onze rekening.');
+if (defined('MODULE_PAYMENT_MONEYORDER_STATUS')) {
   define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Graag overmaken o.v.v. uw ordernummer op rekeningnummer:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nter attentie van:\n" . STORE_NAME_ADDRESS . "\n\n" . 'Uw bestelling zal worden verzonden nadat de betaling is bijgeschreven op onze rekening.');
-?>
+}

@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin languageDefines Dutch Zen Cart Version 1.5.5
- * @ Maintained by Zen4All (http://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Sun Feb 28 02:42:59 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: lat9 Fri Nov 9 08:33:17 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Bestellingen');
@@ -130,3 +130,8 @@ define('TEXT_INVALID_ORDER_STATUS', '<span class="alert">(Ongeldige Orderstatus)
 
 define('BUTTON_TO_LIST', 'Orderlijst');
 define('SELECT_ORDER_LIST', 'Ga naar order:');
+
+define('TEXT_MAP_CUSTOMER_ADDRESS', 'Toon Klantaddres op kaart');
+define('TEXT_MAP_SHIPPING_ADDRESS', 'Toon Verzendadres op kaart');
+define('TEXT_MAP_BILLING_ADDRESS', 'Toon Factuuradres op kaart');
+

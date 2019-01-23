@@ -1,26 +1,11 @@
 <?php
-//
-// @package admin languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (http://zen4all.nl)
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: banner_manager.php 3131 2006-03-07 22:53:04Z ajeh $
-//
+/**
+ * @package admin
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: DrByte Sat Jul 5 15:44:37 2014 -0400 Modified in v1.5.6 $
+ */
 
 define('HEADING_TITLE', 'Bannermanager');
 
@@ -68,10 +53,9 @@ define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Vervaldatum: <b>%s</b>');
 define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Vervaldatum: <b>%s</b> impressions');
 define('TEXT_BANNERS_STATUS_CHANGE', 'Laatste wijziging status: %s');
 
-define('TEXT_BANNERS_DATA', 'D<br>A<br>T<br>A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Laatste 3 dagen');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Banner #bekeken');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Banner #kliks');
+define('TEXT_BANNERS_LAST_3_DAYS', 'Afgelopen 3 dagen');
+define('TEXT_BANNERS_BANNER_VIEWS', 'Banner bekeken');
+define('TEXT_BANNERS_BANNER_CLICKS', 'Banner kliks');
 
 define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je deze banner wilt verwijderen?');
 define('TEXT_INFO_DELETE_IMAGE', 'Verwijder banner afbeelding');
@@ -90,9 +74,6 @@ define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Foutmelding: afbeelding kan niet worden 
 define('ERROR_UNKNOWN_STATUS_FLAG', 'Foutmelding: onbekende optie instelling.');
 define('ERROR_BANNER_IMAGE_REQUIRED', 'Foutmelding: afbeelding bij banner is nodig.');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Foutmelding: grafieken directory bestaat niet.Maak een grafieken directory. Voorbeeld: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Foutmelding: grafieken directory heeft geen schrijfrechten. Deze directory bevindt zich in: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
-
 define('TEXT_LEGEND_BANNER_ON_SSL', 'Toon in SSL');
 define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Nieuw venster');
 
@@ -104,4 +85,4 @@ define('IMAGE_ICON_BANNER_ON_SSL_OFF',' Toon op beveiligde paginas (SSL) - UIT')
 
 define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Succes: De status van de banner voor het openen in een nieuw venster is met succes gewijzigd.');
 define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Succes: De status van de banner om zichtbaar te zijn op een SSL pagina is met succes gewijzigd.');
-?>
+

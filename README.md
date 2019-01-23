@@ -1,7 +1,7 @@
 Zen Cart Dutch Language Pack
 ============================
 
-Dit is Het nieuwe Nederlandse taalpakket 1.5.5a voor Zen Cart 1.5.5a
+Dit is Het nieuwe Nederlandse taalpakket 1.5.6 voor Zen Cart 1.5.6
 
 <h3>Installeer de files</h3>
 <ol>
