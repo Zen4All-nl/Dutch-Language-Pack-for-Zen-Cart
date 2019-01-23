@@ -329,7 +329,7 @@
   define('CART_COUPON', 'Waardebon:');
   define('CART_COUPON_INFO', 'meer info');
   define('TEXT_SEND_OR_SPEND','U heeft een tegoed beschikbaar in uw ' . TEXT_GV_NAME . ' account. U kunt het uitgeven of het aan iemand toesturen. Om te verzenden kunt u op de knop hieronder klikken.');
-  define('TEXT_BALANCE_IS', 'Your ' . TEXT_GV_NAME . ' tegoed is: ');
+  define('TEXT_BALANCE_IS', 'Uw ' . TEXT_GV_NAME . ' tegoed is: ');
   define('TEXT_AVAILABLE_BALANCE', 'Uw ' . TEXT_GV_NAME . ' account');
 
 // betalingsmethode is waardebon/korting
