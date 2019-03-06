@@ -58,7 +58,7 @@ define('TEXT_MONTHLY_SALES_TITLE', 'Maandelijkse Verkoop (exclusief transport)&n
 define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Klik hier voor Alle details...');
 
 define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%d</strong>');
-define('TEXT_SALES_YESTERDAY', '<strong>Giesteren</strong> (%s) &nbsp;<strong>$%d</strong>');
+define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%d</strong>');
 
 define('REPORTS_PRODUCTS', 'Artikelen');
 define('REPORTS_ORDERS', 'Bestellingen');
