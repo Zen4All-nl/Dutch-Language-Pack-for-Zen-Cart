@@ -9,7 +9,10 @@
  */
 
 /*
- * - Added a version installer to the module, so the current version so the language pack can be tracked.
- * - File changes since Zen Cart 1.5.6:
- *    * 
+ * Added a version installer to the module, so the current version so the language pack can be tracked. *
  */
+
+/* Create the admin-page entry for the plugin's configuration */
+if (!zen_page_key_exists('configDutchLanguagePack')) {
+  zen_register_admin_page('configDutchLanguagePack', 'BOX_CONFIGURATION_BUNDLES', 'FILENAME_CONFIGURATION', "gID=(int)$configuration_group_id", 'configuration', 'Y', (int)$configuration_group_id);
+}
