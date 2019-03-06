@@ -1292,63 +1292,137 @@
                 </div>
                 <div class="tab-pane fade" id="Upgrade" role="tabpanel" aria-labelledby="Upgrade-tab">
                   <h2>Upgrade</h2>
-                  <p>Use the list of files in the installation tab for comparrison with your current installation, to see if any new files have been added.</p>
+                  <p>Use the list of files in the installation tab for comparison with your current installation, to see if any files have been added, or removed formthe package.<br>The easiest way is to use a file comparison program like Beyond Compare, or Winmerge.</p>
                 </div>
                 <div class="tab-pane fade" id="UnInstall" role="tabpanel" aria-labelledby="UnInstall-tab">
                   <h2>Un-Install</h2>
+                  <ul>
+                    <li>Go to "Localization => Languages"</li>
+                    <li>Select "Nederlands" (Dutch) and press delete</li>
+                    <li>Delete all the files from your server. The fastest way is to delete:
+                      <ul>
+                        <li>includes/languages/dutch.php</li>
+                        <li>includes/languages/YOUR_TEMPLATE/dutch.php (if present)</li>
+                        <li>includes/languages/dutch (entire folder)</li>
+                        <li>YOUR_ADMIN/includes/languages/dutch.php</li>
+                        <li>YOUR_ADMIN/includes/languages/dutch (entire folder)</li>
+                      </ul>
+                    </li>
+                    <li>Run the uninstall.sql in "Tools => Install SQL Patches" of your Zen Cart admin panel</li>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="tab-pane fade" id="setup" role="tabpanel" aria-labelledby="setup-tab">
+              <h4>Activate this Language Pack in your Admin</h4>
+              <p>Sign in to your Admin, and go to "Localization => Languages" click on "New Language".</p>
               <ol>
-                <li>Suggestion to save time...<br>
-                  First, make sure all your products are completely setup. Especially the product options. Whenever you make an edit on a child product of a bundle, you should review your bundle settings.</li>
-                <li>When creating a new product, choose 'Product - Bundle' from the drop-down menu next to the New Product button.</li>
-                <li>Setup the product details, like any other product. Name, description, etc</li>
-                <li>At the bottom of the page you can start adding products to your bundle.</li>
-                <li>Click on the product name after adding to set any of the options.</li>
-                <li>Preview, then Insert/Update.</li>
-                <li>Done!</li>
+                <li>Set "Name:" to "Nederlands"</li>
+                <li>Set "Code:" to "nl"</li>
+                <li>Set "Image:" to "icon.gif"</li>
+                <li>Set "Directory:" to "dutch"</li>
+                <li>Set "Sort Order:" to a value of your choice</li>
+                <li>Set as default: vink deze box aan als u deze taal als standaard wilt instellen - anders kunt u het vinkje leeg laten</li>
+                <li>Click on "Insert"</li>
               </ol>
-              <p>Information about the setting within a bundled product are available within the module.</p>
 
               <h4>Configuration Options</h4>
-              <p>Admin <i class="fa fa-chevron-right"></i> Configuration <i class="fa fa-chevron-right"></i> Bundle Products Configuration</p>
-              <p>Under the configuration options you can choose whether to show or hide product prices on the bundle page.</p>
+              <p>If you plan to make any alterations to the defines in this language pack, be sure to save the altered file in the template override folder. For example: includes/languages/dutch.php becomes includes/languages/YOUR_TEMPLATE/dutch.php. Where YOUR_TEMPLATE is substituted with the actual name of your template folder name. It is not a good idea to save the default files, as this will complicate future updates. For more information on the override system, please read <a href="https://www.zen-cart.com/wiki/index.php/The_override_system_simplified" target="_blank"><b>this tutorial</b></a>.</p>
+              <h4>Apply currencyto this language pack</h4>
+              <p>If you wish to automatically change the currency to Euros when a customer selects the Dutch language, go to "Configuration => My Store" and change "Switch To Default Language Currency" to true.</p>
+              <p>Als u problemen ondervind met deze add-on module, bekijk dan eerst de <a href="https://www.zen-cart.com/showthread.php?215272-Dutch-language-pack-support-thread" target="_blank"><b>Dutch language pack support thread</b></a>, om te kijken of uw vraag al beantwoord is. Als dat niet het geval is kunt u een vraag plaatsen. Alle support gaat via het Zen Cart support forum zodat alle gebruikers van Zen Cart er van kunnen profiteren.</p>
+
             </div>
             <div class="tab-pane fade" id="credits" role="tabpanel" aria-labelledby="credits-tab">
               <h4>Version History</h4>
-              <h5>v2.0.0</h5>
-              This original module worked with Zen Cart 1.3.9, but not with newer versions of Zen Cart
-
-              Also the module was not multilingual, and was using an obsolete version of jQuery
-              * - [x] Multi lingual group names
-              * - [x] group descriptions
-              * - [x] split bundle actions from collect info page
-              * - [ ] create edit group page
-              * - [ ] create edit bundle page
-              * - [ ] create edit bundle page 
-              <h5>v1.3</h5>
+              <h5>v1.5.6b</h5>
               <ul>
                 <li>intermediate version that was never published</li>
+                <li>Date Added: 10 Jan 2019</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.6</h5>
+              <ul>
+                <li>All files have been updated to Zen Cart 1.5.6</li>
+                <li>Date Added: 10 Jan 2019</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.5a</h5>
+              <ul>
+                <li>Files are updated with the latest defines for Zen Cart 1.5.5a</li>
+                <li>Date Added: 5 May 2016</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.5</h5>
+              <ul>
+                <li>Added some last minute new defines, missing from the initial version</li>
+                <li>Date Added: 8 Apr 2016</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.5</h5>
+              <ul>
+                <li>Files are updated with the latest defines for Zen Cart 1.5.5</li>
+                <li>Date Added: 21 Mar 2016</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.4</h5>
+              <ul>
+                <li>Files are updated with the latest defines for Zen Cart 1.5.4</li>
+                <li>Date Added: 22 Sep 2015</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.3.1</h5>
+              <ul>
+                <li>
+                  <ul>
+                    <li>button images fixed, for some reason they got distorted in the previous release</li>
+                    <li>some bugs in the language files were fixed</li>
+                  </ul>
+                </li>
+                <li>Date Added: 28 Dec 2014</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.3</h5>
+              <ul>
+                <li>The language pack has been updated to contain the defines needed for Zen Cart 1.5.3</li>
+                <li>Date Added: 18 Nov 2014</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5.1</h5>
+              <ul>
+                <li>This version of the Dutch language pack contains all language files for Zen Cart 1.5. There is now a choice for utf-8 or iso-8895-1 encoding.<span style="text-decoration:line-through"> This is the same version as found on the Dutch forum http://www.zen-cart.nl/forums/index.php/topic,5215.msg37474.html#msg37474</span></li>
+                <li>Date Added: 19 Jan 2012</li>
+                <li>Author: Zen4All</li>
+              </ul>
+              <h5>v1.5</h5>
+              <ul>
+                <li>All files merged with previous version.<br>New files added and translated where necessary.<br>Merged existing files to make them work with 1.5 RC2 and translated new defines.<br>All new defines are commented.<br>All old 1.3.9 defines are left intact but commented so it works fine with 1.3.9!</li>
+                <li>Date Added: 1 Dec 2011</li>
+                <li>Author: Digiwinkel</li>
               </ul>
               <h5>v1.2</h5>
               <ul>
-                <li>Original by Ryan Cloke</li>
+                <li>Updated version of the 1.3.9 language file.</li>
+                <li>Date Added: 9 Aug 2011</li>
+                <li>Author: eentje</li>
+              </ul>
+              <h5>v0.9g</h5>
+              <ul>
+                <li>Turned out we missed a couple of defines... or they were from the beginnen not translated...<br>Now it should be all there.<br>---<br>We misten een paar defines, die zijn nu ook ingevuld.</li>
+                <li>Date Added: 18 Oct 2010</li>
+                <li>Author: eentje</li>
+              </ul>
+              <h5>v0.9b</h5>
+              <ul>
+                <li>De nieuwe defines voor ZC 1.3.9 zijn nu ook vertaald in het Nederlands.<br>---<br>The new defines used in ZC 1.3.9 are translated now.</li>
+                <li>Date Added: 29 Aug 2010</li>
+                <li>Author: eentje</li>
               </ul>
               <h4>Credits</h4>
               <ul>
                 <li><a href="https://zen4all.nl" target="_blank">Zen4All</a> </li>
-                <li><a href="http://overthehillweb.com" target="_blank">DivaVocals</a>, <a href="https://vinosdefrutastropicales.com" target="_blank">Vinos de Frutas Tropicales</a>, and <a href="https://mc12345678.weebly.com" target="_blank">mc12345678</a> for getting the mod up to version 1.3. Without them this whole venture would have been impossible.</li>
-              </ul>
-              <h4>Background information</h4>
-              <p>This all started in 2014 after purchasing a copy of the original v1.2 module</p>
-              <p>This Module is the ZenBundles module updated for Zen Cart v1.5.6. ZenBundles is a module that allows you to bundle individual product in your catalog into one product.</p>
-              <p>The new 2.0.0 version here is our attempt to update the module to work with Zen Cart v1.5.6. I believe that the Zen Cart v1.5.6 changes we made are are correct.</p>
-              <ul>
-                <li>This new module was created because unfortunately not only did the module's original author fail to update the ZenBundles package to work with Zen Cart v1.5.x (though he says his module is available in a v1.5.x version), he has consistently responded to ALL of our requests to update the ZenBundles module code that is clearly from the v1.3.9 version of Zen Cart.</li>
-                <li>And in case anyone is wondering, we have tried very hard to get his cooperation in this effort to no avail. (including sending him the files in his module which are clearly from Zen Cart v1.3.9 so he SEES what we see, explaining to him how his install SQL lacked the requisite insert statement so that the ZenBundles admin menus were visible, showed him that his SQL contained ERRANT even DAMAGING code, etc)</li>
-                <li>Oh yeah gonna add some user docs too.. Yep these are missing too..</li>
+                <li>Digiwinkel</li>
+                <li><a href="http://www.getzenned.nl/" target="_blank">eentje</a></li>
               </ul>
             </div>
           </div>
