@@ -1,26 +1,12 @@
 <?php
-//
-// @package languageDefines Dutch Zen Cart Version 1.5.3
-// @ Maintained by Zen4All (https://zen4all.nl)
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-// $Id: gv_faq.php 4155 2006-08-16 17:14:52Z ajeh $
-//
+/**
+ * @package languageDefines
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: gv_faq.php $
+ */
 
 define('NAVBAR_TITLE', TEXT_GV_NAME . ' Veelgestelde vragen');
 define('HEADING_TITLE', TEXT_GV_NAME . ' Veelgestelde vragen');
@@ -35,7 +21,7 @@ define('TEXT_INFORMATION', '<a name="Top"></a>
 switch ($_GET['faq_item']) {
   case '1':
 define('SUB_HEADING_TITLE',' Kopen van de ' . TEXT_GV_NAMES . '');
-define('SUB_HEADING_TEXT', 'Een '. TEXT_GV_NAMES . ' kan in onze winkel, net als andere artikelen, direct worden gekocht. Het afrekenen gaat op dezelfde manier als bij onze andere artikelen. Na aanschaf wordt de aangekochte waarde van de ' . TEXT_GV_NAME . ' toegevoegd aan uw persoonlijke ' . TEXT_GV_NAME . ' Account. <br /><br />Het totale tegoed van uw ' . TEXT_GV_NAME . ' Account wordt getoond in uw winkelwagen. Dit totale tegoed bestaat uit het reeds aanwezige tegoed in uw Account, vermeerderd met de aangekochte waarde en verminderd met reeds door u verzilverde tegoeden.<br /><br />Naast een overzicht van uw tegoed wordt een link weergegeven. Deze link kunt u gebruiken om uw tegoed in te wisselen <b>en/of</b> een ' . TEXT_GV_NAME . ' aan familie, vrienden, bekenden of zakenrelaties te sturen per e-mail voor iedere waarde die wordt gedekt door uw tegoed.');
+define('SUB_HEADING_TEXT', 'Een '. TEXT_GV_NAMES . ' kan in onze winkel, net als andere artikelen, direct worden gekocht. Het afrekenen gaat op dezelfde manier als bij onze andere artikelen. Na aanschaf wordt de aangekochte waarde van de ' . TEXT_GV_NAME . ' toegevoegd aan uw persoonlijke ' . TEXT_GV_NAME . ' Account. <br /><br />Het totale tegoed van uw ' . TEXT_GV_NAME . ' Account wordt getoond in uw accountpagina. Dit totale tegoed bestaat uit het reeds aanwezige tegoed in uw Account, vermeerderd met de aangekochte waarde en verminderd met reeds door u verzilverde tegoeden.<br /><br />Naast een overzicht van uw tegoed wordt een link weergegeven. Deze link kunt u gebruiken om uw tegoed in te wisselen <b>en/of</b> een ' . TEXT_GV_NAME . ' aan familie, vrienden, bekenden of zakenrelaties te sturen per e-mail voor iedere waarde die wordt gedekt door uw tegoed.');
   break;
   case '2':
 define('SUB_HEADING_TITLE','Versturen van de ' . TEXT_GV_NAMES);
