@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.5
+ * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Mon Mar 23 13:48:06 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
  */
 
 define('NAVBAR_TITLE_1', 'Afrekenen');
@@ -15,6 +15,7 @@ define('HEADING_TITLE', 'Wij danken u voor uw bestelling en waarderen het door u
 
 define('TEXT_SUCCESS', ''); //hier kunt u tekst kwijt over de levertermijn enz
 define('TEXT_NOTIFY_PRODUCTS', 'Houd mij op de hoogte over de zonet aangeschafte artikelen');
+// Still used by some older templates
 define('TEXT_SEE_ORDERS', 'Uw bestelhistorie kunt u zien door naar <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '" name="linkMyAccount">Mijn account</a> te gaan en vervolgens te klikken op "alle bestellingen weergeven".');
 define('TEXT_CONTACT_STORE_OWNER', 'Voor al uw vragen kunt u contact opnemen met onze <a href="' . zen_href_link(FILENAME_CONTACT_US) . '" name="linkContactUs">klantenservice</a>.');
 define('TEXT_THANKS_FOR_SHOPPING', 'Hartelijk bedankt voor uw bestelling!');

@@ -21,6 +21,7 @@
 //  $Id: gv_mail.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
+require 'gv_name.php';
 define('HEADING_TITLE', 'Verstuur ' . TEXT_GV_NAME . ' aan klanten.');
 
 define('TEXT_CUSTOMER', 'Klant:');
@@ -54,5 +55,3 @@ define ('TEXT_REDEEM_COUPON_MESSAGE_HEADER', 'Onlangs heeft u een ' . TEXT_GV_NA
 define ('TEXT_REDEEM_COUPON_MESSAGE_AMOUNT', "\n\n" . ' De waarde van de  ' . TEXT_GV_NAME . ' is %s');
 define ('TEXT_REDEEM_COUPON_MESSAGE_BODY', "\n\n" . 'U kunt nu onze winkel bezoeken, zich aanmelden en de ' . TEXT_GV_NAME . ' waarde versturen aan een ieder u wilt.');
 define ('TEXT_REDEEM_COUPON_MESSAGE_FOOTER', "\n\n");
-
-?>

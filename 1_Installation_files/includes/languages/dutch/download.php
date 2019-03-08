@@ -1,6 +1,6 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -8,4 +8,4 @@
  * @version $Id: download.php 15514 2010-02-18 07:27:05Z drbyte $
  */
 
-define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Customer Download Failure');
+define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Het downloaden is mislukt');

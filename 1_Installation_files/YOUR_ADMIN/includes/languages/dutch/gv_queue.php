@@ -20,7 +20,7 @@
 // +----------------------------------------------------------------------+
 //  $Id: gv_queue.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-
+require 'gv_name.php';
 define('HEADING_TITLE', TEXT_GV_NAME . ' wachtrij');
 
 define('TABLE_HEADING_CUSTOMERS', 'Klant');
@@ -44,4 +44,3 @@ define('TEXT_REDEEM_GV_SUBJECT_ORDER',' Bestelnummer');
 
 define('TEXT_EDIT_ORDER','Wijzig bestelnummer ');
 define('TEXT_GV_NONE','Geen ' . TEXT_GV_NAME . ' voor vrijgave');
-?>

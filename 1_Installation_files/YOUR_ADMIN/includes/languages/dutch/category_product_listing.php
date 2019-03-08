@@ -51,6 +51,7 @@ define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>Hoe moeten de bestaande produ
 define('TEXT_COPY_ATTRIBUTES_DELETE', '<strong>Verwijder</strong> eerst, vervolgen nieuwe atributen kopiëeren');
 define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Aanpassen</strong> met nieuwe instellingen/prijzen, vervolgens nieuwe toevoegen');
 define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Negeren</strong> en allen nieuwe atributen toevoegen');
+define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Nieuw attribuut invoegen vanaf </strong>');
 define('ICON_ATTRIBUTES', 'Atribuut kenmerken');
 
 // Products and Attribute Copy Options
@@ -60,10 +61,10 @@ define('TEXT_COPY_ATTRIBUTES_YES', 'Ja');
 define('TEXT_COPY_ATTRIBUTES_NO', 'Nee');
 
 // Products and Discount Copy Options
-define('TEXT_COPY_DISCOUNTS_ONLY', 'Only used for Duplicate Products with Quantity Discounts ...');
-define('TEXT_COPY_DISCOUNTS', 'Copy Product Quantity Discounts to Duplicate?');
-define('TEXT_COPY_DISCOUNTS_YES', 'Yes');
-define('TEXT_COPY_DISCOUNTS_NO', 'No');
+define('TEXT_COPY_DISCOUNTS_ONLY', 'Alleen gebruikt voor dpliceren producten met hoeveelheidkortingen ...');
+define('TEXT_COPY_DISCOUNTS', 'Kopieer product oeveelheidskorting naar duplicaat?');
+define('TEXT_COPY_DISCOUNTS_YES', 'Ja');
+define('TEXT_COPY_DISCOUNTS_NO', 'ne');
 
 // From categories.php in 1.5.5
 // categories status

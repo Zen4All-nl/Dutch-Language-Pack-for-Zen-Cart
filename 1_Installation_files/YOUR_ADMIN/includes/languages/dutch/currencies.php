@@ -31,6 +31,6 @@ define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je deze valuta wilt verwijde
 define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nieuwe valuta');
 define('TEXT_INFO_HEADING_EDIT_CURRENCY', 'Wijzig valuta');
 define('TEXT_INFO_HEADING_DELETE_CURRENCY', 'Verwijder valuta');
-define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . ' (wisselkoers moet handmatig aangepast worden)');
+define('TEXT_INFO_SET_AS_DEFAULT', 'Instellen als default (wisselkoers moet handmatig aangepast worden)');
 define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Foutmelding: De valuta die is ingesteld als standaard kan niet worden verwijderd. Kies eerst een andere valuta als standaard en probeer het dan nogmaals.');
 define('ERROR_INVALID_CURRENCY_ENTRY', 'ERROR: De informatie die u heeft verzonden was onvolledig, en is nog niet opgeslagen. U moet een valuta code en een naam opgeven.');

@@ -21,11 +21,12 @@
 //  $Id: gv_sent.php 2388 2005-11-18 00:18:35Z ajeh $
 //
 
-define('HEADING_TITLE', 'Cadeaubon(nen) Verzonden ');
+require 'gv_name.php';
+define('HEADING_TITLE', TEXT_GV_NAMES . ' Verzonden ');
 
 define('TABLE_HEADING_SENDERS_NAME', 'Naam afzender');
 define('TABLE_HEADING_VOUCHER_VALUE', TEXT_GV_NAME . ' Waarde');
-define('TABLE_HEADING_VOUCHER_CODE', TEXT_GV_REDEEM );
+define('TABLE_HEADING_VOUCHER_CODE', TEXT_GV_REDEEM);
 define('TABLE_HEADING_DATE_SENT', 'Verzenddatum');
 define('TEXT_HEADING_DATE_REDEEMED', 'Inwisseldatum');
 define('TABLE_HEADING_ACTION', 'Actie');
@@ -39,4 +40,3 @@ define('TEXT_INFO_DATE_REDEEMED', 'Inwisseldatum:');
 define('TEXT_INFO_IP_ADDRESS', 'IP adres:');
 define('TEXT_INFO_CUSTOMERS_ID', 'Klant ID:');
 define('TEXT_INFO_NOT_REDEEMED', 'Nog niet ingewisseld');
-?>

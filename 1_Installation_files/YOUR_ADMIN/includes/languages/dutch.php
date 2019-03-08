@@ -53,9 +53,9 @@ function zen_date_raw($date, $reverse = false) {
 //  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
 // used for prefix to browser tabs in admin pages
-define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ');
+define('TEXT_ADMIN_TAB_PREFIX', 'Admin ');
 // if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
-//define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ' . STORE_NAME);
+//define('TEXT_ADMIN_TAB_PREFIX', 'Admin ' . STORE_NAME);
 
 // meta tags
 define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
@@ -79,8 +79,9 @@ define('HEADER_TITLE_LOGOFF', 'Afmelden');
 //define('HEADER_TITLE_ADMINISTRATION', 'Administratie');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME','eCadeaubon');
-  define('TEXT_GV_NAMES','eCadeaubonnen');
+if (!defined('TEXT_GV_NAME')) {
+  require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php'; 
+}
   define('TEXT_DISCOUNT_COUPON', 'Kortingsbon');
 
 // used for redeem code, redemption code, or redemption id
@@ -603,7 +604,7 @@ define('TEXT_LEGEND', 'Legenda: ');
 define('TEXT_LEGEND_STATUS_OFF', 'Status UIT');
 define('TEXT_LEGEND_STATUS_ON', 'Status AAN');
 
-define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de<br /> artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
+define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
 define('TEXT_YES', 'Ja');
 define('TEXT_NO', 'Nee');
 define('TEXT_CANCEL', 'Annuleren');
