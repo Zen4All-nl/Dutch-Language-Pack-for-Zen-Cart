@@ -13,7 +13,7 @@ define('TEXT_CURRENT_REVIEWS', 'Huidige recensies:');
 define('TEXT_MORE_INFORMATION', 'Voor meer informatie over dit product bezoek <a href="%s" target="_blank">deze website</a>.');
 define('TEXT_DATE_ADDED', 'Dit artikel is aan ons assortiment toegevoegd op %s.');
 define('TEXT_DATE_AVAILABLE', 'Dit artikel is weer op voorraad op %s.');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Klanten die dit artikel kochten hebben onderstaande artikelen erbij gekocht..');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Klanten die dit artikel kochten hebben onderstaande artikelen erbij gekocht...');
 define('TEXT_PRODUCT_OPTIONS', 'Maak een keuze:');
 define('TEXT_PRODUCT_MANUFACTURER', 'Gefabriceerd door: ');
 define('TEXT_PRODUCT_WEIGHT', 'Verzendgewicht: ');
