@@ -59,6 +59,8 @@ define('TABLE_HEADING_LAYOUT_TITLE', 'Titel');
 define('TABLE_HEADING_LAYOUT_VALUE', 'Waarde');
 define('TABLE_HEADING_ACTION', 'Actie(s)');
 
+define('TABLE_HEADING_BOXES_PATH', 'Sidebox Path: ');
+define('TEXT_WARNING_NEW_BOXES_FOUND', 'WAARSCHUWING: Nieuwe sideboxen gevonden: ');
 
 define('TEXT_MODULE_DIRECTORY', 'Site Layout Directory:');
 define('TEXT_INFO_DATE_ADDED', 'Datum toegevoegd:');

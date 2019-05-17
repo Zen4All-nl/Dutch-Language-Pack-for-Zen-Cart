@@ -30,7 +30,7 @@ define('TEXT_FROM', 'Afzender:');
 define('TEXT_TO', 'Ontvanger:');
 define('TEXT_AMOUNT', 'Waarde:');
 define('TEXT_MESSAGE', 'Text-Only <br />bericht:');
-define('TEXT_RICH_TEXT_MESSAGE', 'Rich Text <br />Message:');
+define('TEXT_RICH_TEXT_MESSAGE', 'HTML <br />Bericht:');
 define('TEXT_SINGLE_EMAIL', '<span class="smallText">Gebruik dit voor het versturen aan een enkel e-mail. Gebruik anders het dropdown menu hierboven.</span>');
 define('TEXT_SELECT_CUSTOMER', 'Selecteer klant');
 define('TEXT_ALL_CUSTOMERS', 'Alle klanten');
