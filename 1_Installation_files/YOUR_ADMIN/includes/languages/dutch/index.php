@@ -57,8 +57,8 @@ define('TEXT_COUNTER_HISTORY_TITLE', 'Bezoekers geschiedenis - Afgelopen 14 dage
 define('TEXT_MONTHLY_SALES_TITLE', 'Maandelijkse Verkoop (exclusief transport)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
 define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Klik hier voor Alle details...');
 
-define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%d</strong>');
-define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%d</strong>');
+define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%s</strong>');
+define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%s</strong>');
 
 define('REPORTS_PRODUCTS', 'Artikelen');
 define('REPORTS_ORDERS', 'Bestellingen');

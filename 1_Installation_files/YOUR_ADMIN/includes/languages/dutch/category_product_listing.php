@@ -64,20 +64,24 @@ define('TEXT_COPY_ATTRIBUTES_NO', 'Nee');
 define('TEXT_COPY_DISCOUNTS_ONLY', 'Alleen gebruikt voor dpliceren producten met hoeveelheidkortingen ...');
 define('TEXT_COPY_DISCOUNTS', 'Kopieer product oeveelheidskorting naar duplicaat?');
 define('TEXT_COPY_DISCOUNTS_YES', 'Ja');
-define('TEXT_COPY_DISCOUNTS_NO', 'ne');
+define('TEXT_COPY_DISCOUNTS_NO', 'Nee');
 
 // From categories.php in 1.5.5
 // categories status
 define('TEXT_INFO_HEADING_STATUS_CATEGORY', 'Categorie status aanpassen voor:');
 define('TEXT_CATEGORIES_STATUS_INTRO', 'Categorie status aanpassen naar: ');
-define('TEXT_CATEGORIES_STATUS_OFF', 'UIT');
-define('TEXT_CATEGORIES_STATUS_ON', 'AAN');
+define('TEXT_CATEGORIES_STATUS_OFF', 'Uit');
+define('TEXT_CATEGORIES_STATUS_ON', 'Aan');
 define('TEXT_PRODUCTS_STATUS_INFO', 'Alle product statussen aan passen naar: ');
-define('TEXT_PRODUCTS_STATUS_OFF', 'UIT');
-define('TEXT_PRODUCTS_STATUS_ON', 'AAN');
+define('TEXT_PRODUCTS_STATUS_OFF', 'Uit');
+define('TEXT_PRODUCTS_STATUS_ON', 'Aan');
 define('TEXT_PRODUCTS_STATUS_NOCHANGE', 'Ongewijzigd');
 define('TEXT_CATEGORIES_STATUS_WARNING', '<strong>Waarschuwing ...</strong><br />Opmerking: het uitzetten van een categorie zorgt er voor dat alle artikelen in deze categorie ook niet langer beschikbaar zijn. Gekoppelde artikelen in deze categorie, die gedeeld worden met andere categorieën, zijn eveneens niet langer beschikbaar.');
-
+define('TEXT_SUBCATEGORIES_STATUS_INFO', 'Verander óók de status van ALLE sub-categorieën:');
+define('TEXT_SUBCATEGORIES_STATUS_OFF', 'Uit');
+define('TEXT_SUBCATEGORIES_STATUS_ON', 'Aan');
+define('TEXT_SUBCATEGORIES_STATUS_NOCHANGE', 'Onveranderd');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'Waarschuwing: Er staan artikelen in de hoogste categorie. Hierdoor worden de artikelen niet goed geprijsd. Gevonden artikelen: ');
 
+define('TEXT_COPY_MEDIA_MANAGER', 'Media kopieëren?');

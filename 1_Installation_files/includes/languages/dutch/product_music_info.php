@@ -14,7 +14,7 @@ define('TEXT_RECORD_COMPANY_URL', 'Voor meer informatie bezoek de <a href="%s" t
 define('TEXT_ARTIST_URL', 'Voor meer informatie bezoek de <a href="%s" target="_blank">website van deze artiest</a>.');
 define('TEXT_DATE_ADDED', 'Artikel opgenomen in ons assortiment op %s.');
 define('TEXT_DATE_AVAILABLE', 'Artikel weer op voorraad %s.');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Klanten die dit artikel kochten hebben ook onderstaande artikelen gekocht..');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Klanten die dit artikel kochten hebben ook onderstaande artikelen gekocht...');
 define('TEXT_PRODUCT_OPTIONS', 'Maak keuze: ');
 define('TEXT_PRODUCT_RECORD_COMPANY', 'Platenmaatschappij: ');
 define('TEXT_PRODUCT_ARTIST', 'Artiest: ');
