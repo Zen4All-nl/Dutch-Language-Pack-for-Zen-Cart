@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Mon Aug 7 23:27:01 2017 -0400 Modified in v1.5.6 $
+ * @version $Id: DrByte 2019 Apr 25 Modified in v1.5.6b $
  */
 
 define('HEADING_TITLE', 'Kies een actie...');
@@ -57,8 +57,8 @@ define('TEXT_COUNTER_HISTORY_TITLE', 'Bezoekers geschiedenis - Afgelopen 14 dage
 define('TEXT_MONTHLY_SALES_TITLE', 'Maandelijkse Verkoop (exclusief transport)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
 define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Klik hier voor Alle details...');
 
-define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%d</strong>');
-define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%d</strong>');
+define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%s</strong>');
+define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%s</strong>');
 
 define('REPORTS_PRODUCTS', 'Artikelen');
 define('REPORTS_ORDERS', 'Bestellingen');

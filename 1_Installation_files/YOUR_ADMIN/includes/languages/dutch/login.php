@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Sun Jan 7 21:39:26 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
  */
 
 define('HEADING_TITLE', 'Aanmelden Admin Winkel');
@@ -22,7 +22,7 @@ define('TEXT_ADMIN_CONFIRM_PASSWORD', 'Bevestig wachtwoord');
 define('ERROR_WRONG_LOGIN', 'De verkeerde gebruikersnaam of het verkeerde wachtwoord is ingevuld.');
 define('ERROR_SECURITY_ERROR', 'Er heeft zich een veiligheidsfout voorgedaan toen er werd geprobeerd in te loggen.');
 
-define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
+define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten?');
 
 define('LOGIN_EXPIRY_NOTICE', '');
 define('ERROR_PASSWORD_EXPIRED', 'LET OP: Uw wachtwoord is verlopen. Selecteer een nieuw wachtwoord. Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');

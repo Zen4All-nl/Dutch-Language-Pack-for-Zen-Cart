@@ -6,7 +6,7 @@
  * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
+ * @version $Id: DrByte 2019 Jul 16 Modified in v1.5.6c $
  */
 define('HEADING_TITLE', 'Categoriën / Producten');
 define('HEADING_TITLE_GOTO', 'Ga naar:');
@@ -41,6 +41,11 @@ define('TEXT_INFO_CURRENT_PRODUCT', 'Huidig product: ');
 define('TEXT_HOW_TO_COPY', 'Kopieermethode:');
 define('TEXT_COPY_AS_LINK', 'Product linken');
 define('TEXT_COPY_AS_DUPLICATE', 'Product dupliceren');
+define('TEXT_COPY_METATAGS','Kopieer Metatags naar duplicaat?');
+define('TEXT_COPY_LINKED_CATEGORIES','Kopieer gelinkte categoriëen naar duplicaat?');
+define('TEXT_COPY_AS_DUPLICATE_METATAGS', 'Metatags voor Language ID#%u gekopieerd van Product ID#%u naar duplicaat Product ID#%u');
+define('TEXT_COPY_AS_DUPLICATE_CATEGORIES', 'Gelinkte Categorie ID#%u gekopieerd van Product ID#%u naar duplicaat Product ID#%u');
+define('TEXT_COPY_AS_DUPLICATE_DISCOUNTS', 'Kortingen gekopieerd van Product ID#%u naar duplicaat Product ID#%u');
 define('TEXT_INFO_HEADING_ATTRIBUTE_FEATURES', 'Atribuut veranderingen voor product ID# ');
 define('TEXT_PRODUCTS_ATTRIBUTES_INFO', 'Atribuut kenmerken voor:');
 define('TEXT_PRODUCT_ATTRIBUTES_DOWNLOADS', 'Downloads: ');
@@ -51,6 +56,7 @@ define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>Hoe moeten de bestaande produ
 define('TEXT_COPY_ATTRIBUTES_DELETE', '<strong>Verwijder</strong> eerst, vervolgen nieuwe atributen kopiëeren');
 define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Aanpassen</strong> met nieuwe instellingen/prijzen, vervolgens nieuwe toevoegen');
 define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Negeren</strong> en allen nieuwe atributen toevoegen');
+define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Nieuw Attribute ingevoegd vanaf </strong>');
 define('ICON_ATTRIBUTES', 'Atribuut kenmerken');
 
 // Products and Attribute Copy Options
@@ -60,10 +66,10 @@ define('TEXT_COPY_ATTRIBUTES_YES', 'Ja');
 define('TEXT_COPY_ATTRIBUTES_NO', 'Nee');
 
 // Products and Discount Copy Options
-define('TEXT_COPY_DISCOUNTS_ONLY', 'Only used for Duplicate Products with Quantity Discounts ...');
-define('TEXT_COPY_DISCOUNTS', 'Copy Product Quantity Discounts to Duplicate?');
-define('TEXT_COPY_DISCOUNTS_YES', 'Yes');
-define('TEXT_COPY_DISCOUNTS_NO', 'No');
+define('TEXT_COPY_DISCOUNTS_ONLY', 'Alleen gebruikt voor duplicaat producten met hoeveelheidskortingen ...');
+define('TEXT_COPY_DISCOUNTS', 'Kopieer hoeveelheidskortingen naar duplicaat?');
+define('TEXT_COPY_DISCOUNTS_YES', 'Ja');
+define('TEXT_COPY_DISCOUNTS_NO', 'Nee');
 
 // From categories.php in 1.5.5
 // categories status
@@ -76,7 +82,11 @@ define('TEXT_PRODUCTS_STATUS_OFF', 'UIT');
 define('TEXT_PRODUCTS_STATUS_ON', 'AAN');
 define('TEXT_PRODUCTS_STATUS_NOCHANGE', 'Ongewijzigd');
 define('TEXT_CATEGORIES_STATUS_WARNING', '<strong>Waarschuwing ...</strong><br />Opmerking: het uitzetten van een categorie zorgt er voor dat alle artikelen in deze categorie ook niet langer beschikbaar zijn. Gekoppelde artikelen in deze categorie, die gedeeld worden met andere categorieën, zijn eveneens niet langer beschikbaar.');
-
+define('TEXT_SUBCATEGORIES_STATUS_INFO', 'Verander de status van ALLE sub-categorieën naar:');
+define('TEXT_SUBCATEGORIES_STATUS_OFF', 'Uit');
+define('TEXT_SUBCATEGORIES_STATUS_ON', 'Aan');
+define('TEXT_SUBCATEGORIES_STATUS_NOCHANGE', 'Onveranderd');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'Waarschuwing: Er staan artikelen in de hoogste categorie. Hierdoor worden de artikelen niet goed geprijsd. Gevonden artikelen: ');
 
+define('TEXT_COPY_MEDIA_MANAGER', 'Media kopieeren?');

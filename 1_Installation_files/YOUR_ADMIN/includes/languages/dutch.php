@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch.php  Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2019 Jan 21 Modified in v1.5.6b $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -53,9 +53,9 @@ function zen_date_raw($date, $reverse = false) {
 //  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
 // used for prefix to browser tabs in admin pages
-define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ');
+define('TEXT_ADMIN_TAB_PREFIX', 'Admin ');
 // if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
-//define('TEXT_ADMIN_TAB_PREFIX', 'Webstore ' . STORE_NAME);
+//define('TEXT_ADMIN_TAB_PREFIX', 'Admin ' . STORE_NAME);
 
 // meta tags
 define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
@@ -78,9 +78,10 @@ define('HEADER_TITLE_ACCOUNT', 'Account');
 define('HEADER_TITLE_LOGOFF', 'Afmelden');
 //define('HEADER_TITLE_ADMINISTRATION', 'Administratie');
 
-// Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME','eCadeaubon');
-  define('TEXT_GV_NAMES','eCadeaubonnen');
+// TEXT_GV_NAME, TEXT_GV_NAMES moved to gv_name.php
+if (!defined('TEXT_GV_NAME')) {
+  require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php'; 
+}
   define('TEXT_DISCOUNT_COUPON', 'Kortingsbon');
 
 // used for redeem code, redemption code, or redemption id
@@ -227,34 +228,34 @@ define('BOX_ADMIN_ACCESS_LOGS', 'Admin Activiteiten Logboeken');
 define('IMAGE_RELEASE', 'Inwisselen ' . TEXT_GV_NAME);
 
 // javascript messages
-define('JS_ERROR', 'Tijdens het verwerken van het formulier zijn er <strong>fouten</strong> opgetreden!\nWijzig/vul de volgende gegevens aan:\n\n');
+define('JS_ERROR', 'Tijdens het verwerken van het formulier zijn er fouten opgetreden!\nWijzig/vul de volgende gegevens aan:\n\n');
 
 define('JS_OPTIONS_VALUE_PRICE', '* De nieuwe opties moeten een prijs hebben.\n');
 define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* De nieuwe opties moeten een prijs prefix (+/-) hebben.\n');
 
-define('JS_PRODUCTS_NAME', '* Het nieuwe artikel heeft geen <strong>naam</strong>.\n');
-define('JS_PRODUCTS_DESCRIPTION', '* Het nieuwe artikel heeft geen <strong>beschrijving</strong>.\n');
-define('JS_PRODUCTS_PRICE', '* Het nieuwe artikel heeft geen <strong>prijs</strong>.\n');
-define('JS_PRODUCTS_WEIGHT', '* Het nieuwe artikel heeft geen <strong>gewicht</strong>.\n');
-define('JS_PRODUCTS_QUANTITY', '* Het nieuwe artikel heeft geen <strong>hoeveelheid</strong>.\n');
-define('JS_PRODUCTS_MODEL', '* Het nieuwe artikel heeft geen <strong>model</strong>.\n');
-define('JS_PRODUCTS_IMAGE', '* Het nieuwe artikel heeft geen <strong>afbeelding</strong>.\n');
+define('JS_PRODUCTS_NAME', '* Het nieuwe artikel heeft geen naam.\n');
+define('JS_PRODUCTS_DESCRIPTION', '* Het nieuwe artikel heeft geen beschrijving.\n');
+define('JS_PRODUCTS_PRICE', '* Het nieuwe artikel heeft geen prijs.\n');
+define('JS_PRODUCTS_WEIGHT', '* Het nieuwe artikel heeft geen gewicht.\n');
+define('JS_PRODUCTS_QUANTITY', '* Het nieuwe artikel heeft geen hoeveelheid.\n');
+define('JS_PRODUCTS_MODEL', '* Het nieuwe artikel heeft geen model.\n');
+define('JS_PRODUCTS_IMAGE', '* Het nieuwe artikel heeft geen afbeelding.\n');
 
-define('JS_SPECIALS_PRODUCTS_PRICE', '* Een <strong>nieuwe prijs</strong> voor dit artikel moet worden ingevuld.\n');
+define('JS_SPECIALS_PRODUCTS_PRICE', '* Een nieuwe prijs voor dit artikel moet worden ingevuld.\n');
 
-define('JS_GENDER', '* Het <strong>geslacht</strong> moet worden ingevuld.\n');
-define('JS_FIRST_NAME', '* De <strong>voornaam</strong> moet minimaal ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_LAST_NAME', '* De <strong>achternaam</strong> moet minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_DOB', '* De <strong>geboortdatum</strong> moet als volgt ingevuld zijn: xx/xx/xxxx (dag/maand/jaar).\n');
-define('JS_EMAIL_ADDRESS', '* Het <strong>e-mailadres</strong> moet minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_ADDRESS', '* De <strong>straatnaam</strong> moet minimaal ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_POST_CODE', '* De <strong>postcode</strong> moet minimaal ' . ENTRY_POSTCODE_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_CITY', '* De <strong>woonplaats</strong> moet minimaal ' . ENTRY_CITY_MIN_LENGTH . ' tekens bevatten.\n');
-define('JS_STATE', '* De <strong>provincie</strong> moet worden ingevuld.\n');
+define('JS_GENDER', '* Het geslacht moet worden ingevuld.\n');
+define('JS_FIRST_NAME', '* De voornaam moet minimaal ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_LAST_NAME', '* De achternaam moet minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_DOB', '* De geboortdatum moet als volgt ingevuld zijn: xx/xx/xxxx (dag/maand/jaar).\n');
+define('JS_EMAIL_ADDRESS', '* Het e-mailadres moet minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_ADDRESS', '* De straatnaam moet minimaal ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_POST_CODE', '* De postcode moet minimaal ' . ENTRY_POSTCODE_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_CITY', '* De woonplaats moet minimaal ' . ENTRY_CITY_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_STATE', '* De provincie moet worden ingevuld.\n');
 define('JS_STATE_SELECT', '-- Selecteer hierboven --');
-define('JS_ZONE', '* De <strong>provincie</strong> moet gekozen worden uit de lijst bij dit land.');
-define('JS_COUNTRY', '* Het <strong>land</strong> moet worden ingevuld.\n');
-define('JS_TELEPHONE', '* Het  <strong>telefoonnummer</strong> moet minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tekens bevatten.\n');
+define('JS_ZONE', '* De provincie moet gekozen worden uit de lijst bij dit land.');
+define('JS_COUNTRY', '* Het land moet worden ingevuld.\n');
+define('JS_TELEPHONE', '* Het telefoonnummer moet minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tekens bevatten.\n');
 
 define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press OK and wait for this process to be completed.');
 
@@ -603,7 +604,7 @@ define('TEXT_LEGEND', 'Legenda: ');
 define('TEXT_LEGEND_STATUS_OFF', 'Status UIT');
 define('TEXT_LEGEND_STATUS_ON', 'Status AAN');
 
-define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de<br /> artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
+define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
 define('TEXT_YES', 'Ja');
 define('TEXT_NO', 'Nee');
 define('TEXT_CANCEL', 'Annuleren');
