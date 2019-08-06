@@ -42,7 +42,7 @@ if ($configuration_group_id == '') {
 $installers = scandir($module_installer_directory, 1);
 
 $newest_version = $installers[0];
-$newest_version = substr($newest_version, 0m - 4);
+$newest_version = substr($newest_version, 0 - 4);
 
 sort($installers);
 if (version_compare($newest_version, $current_version) > 0) {
