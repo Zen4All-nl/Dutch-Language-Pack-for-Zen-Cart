@@ -2,10 +2,10 @@
 /**
  * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Wed Nov 6 20:54:59 2013 -0500 Modified in v1.5.2 $
+ * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
  */
 
 define('HEADING_COUPON_HELP', 'Kortingsbon Help');
@@ -26,7 +26,7 @@ define('TEXT_DENY', 'Niet toegestaan');
 define('TEXT_ALLOWED', ' (Toegestaan)');
 define('TEXT_DENIED', ' (Niet toegestaan)');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze bon geldig voor bepaalde artikelen.');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze bon geldig voor bepaalde artikelen.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Deze bon is geldig voor alle categorieën.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Deze bon is geldig voor alle artikelen.</p>');
 define('TEXT_NO_PROD_SALES', '<p>Deze bon is niet geldig voor uitverkoop producten.</p>');
@@ -35,4 +35,3 @@ define('TEXT_NO_PROD_SALES', '<p>Deze bon is niet geldig voor uitverkoop product
 define('TEXT_COUPON_GV_RESTRICTION','Kortingsbonnen kunnen niet worden gebruikt om ' . TEXT_GV_NAMES . '. te kopen.');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Factuuradres restricties zijn van toepassing.');
-

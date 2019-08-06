@@ -1,11 +1,11 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: checkout_confirmation.php 4067 2006-08-06 07:26:21Z drbyte $
+ * @version $Id: Scott C Wilson 2019 Feb 14 Modified in v1.5.6b $
  */
 
 define('NAVBAR_TITLE_1', 'Afrekenen');
@@ -25,6 +25,3 @@ define('NO_COMMENTS_TEXT', 'Geen');
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Laatste stap</strong>');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- volgende om uw bestelling te bevestigen. Hartelijk bedankt!');
 
-define('OUT_OF_STOCK_CAN_CHECKOUT', 'Artikelen aangeduid met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet voorradig.<br />Artikelen die niet op voorraad zijn worden in backorder geplaats.');
-
-?>
