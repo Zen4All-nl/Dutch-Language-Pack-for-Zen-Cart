@@ -1,8 +1,8 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
+ * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * $Id: discount_coupon.php 14712 2009-10-28 22:05:08Z ajeh $
@@ -29,9 +29,10 @@ define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Artikel restrictie:</p>');
 define('TEXT_ALLOW', 'Geldig');
 define('TEXT_DENY', 'Ongeldig');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze kortingsbon heeft specifieke produktrestricties.');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Deze kortingsbon heeft specifieke produktrestricties.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Deze kortingsbon is geldig voor het gehele assortiment.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Deze kortingsbon is geldig voor het gehele assortiment.</p>');
+define('TEXT_NO_PROD_SALES', '<p>Deze kortingsbon is niet geldig voor producten in de uitverkoop.</p>');
 define('TEXT_CAT_ALLOWED', ' (geldig voor deze categorie)');
 define('TEXT_CAT_DENIED', ' (ongeldig voor deze categorie)');
 define('TEXT_PROD_ALLOWED', ' (Geldig voor dit artikel)');
@@ -43,4 +44,3 @@ define('TEXT_DISCOUNT_COUPON_ID_INFO', 'Opzoeken van kortingsbon... ');
 define('TEXT_DISCOUNT_COUPON_ID', 'Uw kortingsbon code: ');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Er kunnen restricties gelden voor het factuuradres.');
-?>

@@ -5,7 +5,7 @@
  * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Modified in v1.5.6b $
+ * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -190,8 +190,8 @@
   define('ENTRY_LAST_NAME_ERROR', 'Uw achternaam moet voor ons systeem minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' letters hebben.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Geboortedatum:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem verwacht een datum in dit formaat: DD/MM/YYYY (bijvoorbeeld 21/05/1970)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1995)');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem verwacht een datum in dit formaat: DD/MM/YYYY (bijv. 21/05/1970) of dit formaat: DD-MM-YYYY (bijv. 21-05-1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1995 of 05-21-1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
@@ -470,19 +470,19 @@
   define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br />Helaas is dit artikel momenteel niet leverbaar.<br />Het artikel is uit uw winkelwagen verwijderd.');
   define('ERROR_PRODUCT_ATTRIBUTES','<br />Het item: ');
   define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br />Het spijt ons, maar de geselecteerde opties zijn veranderd voor dit product en zijn verwijderd uit onze voorraad op dit moment.<br /> Dit item is verwijderd uit uw winkelwagen.');
-  define('ERROR_PRODUCT_QUANTITY_MIN',' ... Minimum aantal - ');
+  define('ERROR_PRODUCT_QUANTITY_MIN',',  ... Minimum aantal - ');
   define('ERROR_PRODUCT_QUANTITY_UNITS',' ... hoeveelheden fout - ');
   define('ERROR_PRODUCT_OPTION_SELECTION','<br /> ... waarde van een optie niet mogelijk ');
   define('ERROR_PRODUCT_QUANTITY_ORDERED','<br /> Totaal aantal artikelen besteld: ');
   define('ERROR_PRODUCT_QUANTITY_MAX',' ...maximum aantal fout - ');
-  define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',' ... minimum aantal fout - ');
+  define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',', ... minimum aantal fout - ');
   define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ... hoeveelheden fout - ');
   define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ... maximum aantal fout - ');
 
   define('WARNING_SHOPPING_CART_COMBINED', 'NB: Voor uw gemak hebben wij de inhoud van het winkelwagen van uw laatste bezoek alvast toegevoegd aan uw huidige winkelwagen. Controleer de inhoud van uw winkelwagen alvorens af te rekenen.');
   define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Het aantal is aangepast aan het aantal op voorraad. ');
-  define('OUT_OF_STOCK_CANT_CHECKOUT', 'Artikelen aangeduid met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn uitverkocht of er zijn er niet genoeg van in voorraad voor uw bestelling.<br />Verander het aantal bij artikelen aangeduid met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Hartelijk bedankt!');
-  define('OUT_OF_STOCK_CAN_CHECKOUT', 'Artikelen aangeduid met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn uitverkocht.<br />Artikelen die niet op voorraad zijn worden nageleverd/herbesteld.');
+  define('OUT_OF_STOCK_CANT_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad, of er zijn niet voldioende op voorraad voor uw bestelling.<br />Pas aub de hoeveelheid van de  producten gemarkeerd met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Bednkt');
+  define('OUT_OF_STOCK_CAN_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad.<br />Items die niet op voorraad zijn worden in backorder geplaatst.');
 
 // fout tijdens betalingverwerking $_SESSION['customers_id' komt niet voor in de tabel customers
   define('ERROR_CUSTOMERS_ID_INVALID', 'Klant gegevens kunnen niet worden gevonden!<br />Alstublieft inloggen of een nieuw account aanmaken...');
@@ -636,4 +636,4 @@
     require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/', $file . '.php', 'false'));
   }
 
-// EINDE VAN DIT TAAL DEFINITIE BESTAND
+// END OF EXTERNAL LANGUAGE LINKS

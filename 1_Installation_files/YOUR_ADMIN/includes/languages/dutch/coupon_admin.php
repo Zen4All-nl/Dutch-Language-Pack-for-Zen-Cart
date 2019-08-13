@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Wed Aug 2 14:55:16 2017 -0400 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2019 Apr 17 Modified in v1.5.6b $
  */
 
 define('TOP_BAR_TITLE', 'Statistieken');
@@ -90,10 +90,10 @@ define('COUPON_ORDER_LIMIT', 'De vorige bestellingen van deze klant zijn minder 
 define('COUPON_ORDER_LIMIT_HELP', 'De vorige bestellingen van de klant moeten minder zijn dan, laat leeg voor ongelimiteerd');
 
 define('COUPON_IS_VALID_FOR_SALES', 'Coupon geldig voor uitverkoop:');
-define('TEXT_COUPON_IS_VALID_FOR_SALES', 'Coupon IS toegestaan voor produkten in de aanbieding');
-define('TEXT_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is geldig voor produkten in de aanbieding');
-define('TEXT_NO_COUPON_IS_VALID_FOR_SALES', 'Coupon NIET toegestaan voor produkten in de aanbieding');
-define('TEXT_NO_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is niet geldig voor produkten in de aanbieding');
+define('TEXT_COUPON_IS_VALID_FOR_SALES', 'Coupon IS toegestaan voor produkten in de uitverkoop');
+define('TEXT_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is geldig voor produkten in de uitverkoop of aanbieding');
+define('TEXT_NO_COUPON_IS_VALID_FOR_SALES', 'Coupon NIET toegestaan voor produkten in de uitverkoop of aanbieding');
+define('TEXT_NO_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is niet geldig voor produkten in de uitverkoop of aanbieding');
 
 
 define('ERROR_NO_COUPON_AMOUNT', 'Geen waarde van de kortingsbon ingevuld.');
@@ -110,7 +110,7 @@ define('COUPON_FREE_SHIP_HELP', 'De kortingsbon geeft recht op <strong>gratis</s
 define('COUPON_DESC_HELP', 'Een beschrijving van de kortingsbon als uitleg voor de klant.');
 define('COUPON_MIN_ORDER_HELP', 'Minimum waarde van de bestelling voordat de kortingsbon geldig is en gebruikt kan worden (bijv. vanaf €50 bestelling excl. verzenden en BTW.)');
 define('COUPON_TOTAL_HELP', 'Als je een minimum order grootte voor deze Kortingsbon specificeert,wil je dan dat de minimale hoeveelheid is gebasseerd op teogestane produkten volgens de Coupon Restrictie Regels of voor volledig order totaal,bij het bepalen of de Coupon minimale order is gehaald?<br />OPMERKING: Volledig Order Totaal betekend dat op zijn minst 1 van de in aanmerking komende produketen met restrictie in de winkelwagen aanwezigen moet zijn, om de kortingsbon te laten werken.');
-define('COUPON_SALE_HELP', 'Als je <i>NIET toegestaan</i> kiest, producten in de aanbiedin krijgen geen korting of meegeteld voor de minimale bestelling van de kortingsbon.');
+define('COUPON_SALE_HELP', 'If you choose <i>NOT allowed</i>, products on sale or special will not be discounted or counted towards the coupon minimum order.');
 define('COUPON_USES_COUPON_HELP', 'Het aantal keer dat de kortingsbon gebruikt kan worden door iedereen. Indien niet ingevuld is dit onbeperkt.');
 define('COUPON_USES_USER_HELP', 'Het aantal keer dat de kortingsbon door <strong>één klant</strong> kan worden gebruikt. Indien niet ingevuld is dit onbeperkt.');
 define('COUPON_PRODUCTS_HELP', 'Een comma separated (.csv) lijst met artikelen waar deze kortingsbon geldig voor is. Indien niet ingevuld is dit onbeperkt.');

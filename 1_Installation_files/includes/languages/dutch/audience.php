@@ -21,7 +21,7 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Maak een keuze...');
+if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Maak een keuze');
 if (!defined('TEXT_SELECT_CUSTOMER')) define('TEXT_SELECT_CUSTOMER', 'Kies een klant');
 if (!defined('TEXT_ALL_CUSTOMERS')) define('TEXT_ALL_CUSTOMERS', 'Naar alle klanten');
 if (!defined('TEXT_NEWSLETTER_CUSTOMERS')) define('TEXT_NEWSLETTER_CUSTOMERS', 'Naar alle nieuwsbriefontvangers');

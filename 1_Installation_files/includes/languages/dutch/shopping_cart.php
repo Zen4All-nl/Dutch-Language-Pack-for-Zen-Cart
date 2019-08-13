@@ -5,10 +5,10 @@
  * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Modified in v1.5.6b $
+ * @version $Id: Scott C Wilson 2019 Feb 14 Modified in v1.5.6b $
  */
 
-define('TEXT_INFORMATION', 'Hier kan u uitleg plaatsen voor het gebruik van het winkelwagen [includes\languages\dutch\shopping_cart.php].');
+define('TEXT_INFORMATION', 'U kunt verdergaan met uw bestelling door op de checkout knop te klikken. Verzending, btw en kortingen zulen op de volgende pagina\'s afgehandeld worden.');
 
 define('NAVBAR_TITLE', 'winkelwagen');
 define('HEADING_TITLE', 'Inhoud winkelwagen');
