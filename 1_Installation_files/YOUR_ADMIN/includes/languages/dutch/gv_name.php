@@ -11,4 +11,4 @@
   define('TEXT_GV_NAME','Cadueabon');
   define('TEXT_GV_NAMES','Cadeuabonnen');
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM','Inwisselcode);
+  define('TEXT_GV_REDEEM','Inwisselcode');
