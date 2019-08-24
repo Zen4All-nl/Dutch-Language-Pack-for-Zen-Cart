@@ -14,5 +14,5 @@
 
 /* Create the admin-page entry for the plugin's configuration */
 if (!zen_page_key_exists('configDutchLanguagePack')) {
-  zen_register_admin_page('configDutchLanguagePack', 'BOX_CONFIGURATION_BUNDLES', 'FILENAME_CONFIGURATION', "gID=(int)$configuration_group_id", 'configuration', 'Y', (int)$configuration_group_id);
+  zen_register_admin_page('configDutchLanguagePack', 'BOX_CONFIGURATION_DUTCH_LANGUAGE_PACK', 'FILENAME_CONFIGURATION', 'gID=' . $configuration_group_id, 'configuration', 'Y', (int)$configuration_group_id);
 }

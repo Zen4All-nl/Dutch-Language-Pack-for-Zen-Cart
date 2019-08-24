@@ -10,5 +10,5 @@
 
 /*
  * - Updates multiple files to align with Zen Cart 1.5.6c
- *    * 
+ *
  */

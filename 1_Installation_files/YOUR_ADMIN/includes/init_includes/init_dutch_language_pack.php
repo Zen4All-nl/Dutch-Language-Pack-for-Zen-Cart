@@ -7,8 +7,8 @@
  * @copyright (c) 2014-2019, Zen4All
  * @license http://www.gnu.org/licenses/gpl.txt GNU General Public License V2.0
  */
- if (!defined('IS_accessADMIN_FLAG')) {
-     die('Illegal ');
+ if (!defined('IS_ADMIN_FLAG')) {
+     die('Illegal Access');
  }
 
  $module_constant = 'DUTCH_LANGUAGE_PACK_VERSION';
@@ -24,7 +24,7 @@
      $current_version = '0.0.0';
   $db->Execute("INSERT INTO " . TABLE_CONFIGURATION_GROUP . " (configuration_group_title, configuration_group_description, sort_order, visible)
                 VALUES ('" . $module_name . "', '" . $module_name . " Settings', '1', '1');");
-  $configuration_group_id = $db->Insert_ID();
+  $configuration_group_id = $db->insert_ID();
 
   $db->Execute("UPDATE " . TABLE_CONFIGURATION_GROUP . "
                 SET sort_order = " . $configuration_group_id . "
@@ -42,7 +42,7 @@ if ($configuration_group_id == '') {
 $installers = scandir($module_installer_directory, 1);
 
 $newest_version = $installers[0];
-$newest_version = substr($newest_version, 0 - 4);
+$newest_version = substr($newest_version, 0, - 4);
 
 sort($installers);
 if (version_compare($newest_version, $current_version) > 0) {
