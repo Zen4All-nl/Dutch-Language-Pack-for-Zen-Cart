@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2019 Jan 21 Modified in v1.5.6b $
+ * @version $Id:  Modified in v1.5.7 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -16,8 +16,8 @@ define('CONNECTION_TYPE_UNKNOWN', '\'%s\' is niet een geldige verbinding voor he
 
 // added defines for header alt and text
 define('HEADER_ALT_TEXT', 'Admin Powered by Zen Cart :: The Art of E-Commerce');
-define('HEADER_LOGO_WIDTH', '200px');
-define('HEADER_LOGO_HEIGHT', '70px');
+define('HEADER_LOGO_WIDTH', '192');
+define('HEADER_LOGO_HEIGHT', '68');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
@@ -26,8 +26,8 @@ $locales = array('nl_NL', 'nl_NL.utf8', 'nl', 'Dutch');
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
 define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
-define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
 // for now both defines are needed until Spiffy is completely removed.
 define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Alleen 'dd', 'MM' and 'yyyy' gebruiken, in de gewenste volgorde
 define('DATE_FORMAT_DATE_PICKER', 'dd-mm-yy');  //Use only 'dd', 'mm' and 'yy' here in any order
@@ -43,7 +43,6 @@ function zen_date_raw($date, $reverse = false) {
     return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
   }
 }
-
 // include template specific meta tags defines
 //  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
 //    $template_dir_select = $template_dir . '/';
@@ -53,13 +52,11 @@ function zen_date_raw($date, $reverse = false) {
 //  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
 // used for prefix to browser tabs in admin pages
-define('TEXT_ADMIN_TAB_PREFIX', 'Admin ');
+define('TEXT_ADMIN_TAB_PREFIX', 'Admin');
 // if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
 //define('TEXT_ADMIN_TAB_PREFIX', 'Admin ' . STORE_NAME);
 
 // meta tags
-define('ICON_METATAGS_ON', 'Meta tags gedefinieërd');
-define('ICON_METATAGS_OFF', 'Meta tags niet gedefinieërd');
 define('TEXT_LEGEND_META_TAGS', 'Meta tags gedefinieërd:');
 define('TEXT_INFO_META_TAGS_USAGE', '<strong>Opmerking:</strong> De Site/Tagline is de beschrijving van de site in the meta_tags.php file.');
 
@@ -70,9 +67,9 @@ define('HTML_PARAMS','dir="ltr" lang="nl"');
 define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
-define('HEADER_TITLE_TOP', 'Admin Home');
+define('HEADER_TITLE_TOP', 'Home');
 define('HEADER_TITLE_SUPPORT_SITE', 'Support');
-define('HEADER_TITLE_ONLINE_CATALOG', '"Live winkel"');
+define('HEADER_TITLE_ONLINE_CATALOG', 'Live winkel');
 define('HEADER_TITLE_VERSION', 'Versie');
 define('HEADER_TITLE_ACCOUNT', 'Account');
 define('HEADER_TITLE_LOGOFF', 'Afmelden');
@@ -83,9 +80,6 @@ if (!defined('TEXT_GV_NAME')) {
   require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php'; 
 }
   define('TEXT_DISCOUNT_COUPON', 'Kortingsbon');
-
-// used for redeem code, redemption code, or redemption id
-define('TEXT_GV_REDEEM','Inwisselcode');
 
 // text for gender
 define('MALE', 'Man');
@@ -130,7 +124,6 @@ define('BOX_HEADING_MODULES', 'Modules');
 define('BOX_MODULES_PAYMENT', 'Betaalmethode');
 define('BOX_MODULES_SHIPPING', 'Verzendmethode');
 define('BOX_MODULES_ORDER_TOTAL', 'Opbouw factuur ');
-define('BOX_MODULES_PRODUCT_TYPES', 'Artikelsoort');
 
 // categories box text
 define('BOX_HEADING_CATALOG', 'Assortiment');
@@ -176,12 +169,9 @@ define('BOX_REPORTS_CUSTOMERS_REFERRALS', 'Referentie per klant');
 // tools text
 define('BOX_HEADING_TOOLS', 'Hulpmiddelen');
 define('BOX_TOOLS_TEMPLATE_SELECT', 'Selectie template');
-define('BOX_TOOLS_BACKUP', 'Database backup');
 define('BOX_TOOLS_BANNER_MANAGER', 'Bannerbeheer');
-define('BOX_TOOLS_CACHE', 'Cachebeheer');
 define('BOX_TOOLS_DEFINE_LANGUAGE', 'Kies taal');
 define('BOX_TOOLS_FILE_MANAGER', 'Bestandsbeheer');
-define('BOX_TOOLS_MAIL', 'E-mail versturen');
 define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Nieuwsbriefbeheer en produktnotificaties');
 define('BOX_TOOLS_SERVER_INFO', 'Server/versie informatie');
 define('BOX_TOOLS_WHOS_ONLINE', 'Wie is online');
@@ -192,17 +182,7 @@ define('BOX_TOOLS_EZPAGES','EZ-Pagina editor');
 
 define('BOX_HEADING_EXTRAS', 'Extras');
 
-// define pages editor files
-define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Kies pagina editor');
-define('BOX_TOOLS_DEFINE_MAIN_PAGE', 'Startpagina');
-define('BOX_TOOLS_DEFINE_CONTACT_US','Neem contact op');
-define('BOX_TOOLS_DEFINE_PRIVACY','Privacyverklaring');
-define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Verzenden & retouren');
 define('BOX_TOOLS_DEFINE_CONDITIONS','Algemene (leverings)voorwaarden');
-define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Afrekenen succesvol');
-define('BOX_TOOLS_DEFINE_PAGE_2','pagina 2');
-define('BOX_TOOLS_DEFINE_PAGE_3','pagina 3');
-define('BOX_TOOLS_DEFINE_PAGE_4','pagina 4');
 
 // localization box text
 define('BOX_HEADING_LOCALIZATION', 'Taal & Valuta');
