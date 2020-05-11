@@ -37,11 +37,6 @@
   define('TEXT_CONFIGURATION_KEY', 'Key of Naam:');
   define('TEXT_INFO_CONFIGURATION_UPDATE', '<strong>Opmerking:</strong> ONSTANTS worden in hoofdletters geschreven.<br />Zoeken in taalbestanden kan een alternatief zijn wanneer er niks wordt gevonden in de database tabellen.');
 
-
-  define('TEXT_CONFIGURATION_CONSTANT_FILES', '<strong>Zoek in taal gerelateerde defines</strong>');
-  define('TEXT_CONFIGURATION_KEY_FILES', 'Zoektekst:');
-  define('TEXT_INFO_CONFIGURATION_UPDATE_FILES', '<strong>Opmerking:</strong> Het zoeken in een taalbestand kan in hoofd- en kleine letters.');
-
   define('TABLE_TITLE_KEY', '<strong>Sleutelwaarde:</strong>');
   define('TABLE_TITLE_TITLE', '<strong>Titel:</strong>');
   define('TABLE_TITLE_DESCRIPTION', '<strong>Beschrijving:</strong>');
@@ -49,7 +44,6 @@
   define('TABLE_TITLE_VALUE', '<strong>Waarde:</strong>');
 
   define('TEXT_LANGUAGE_LOOKUPS', 'Kies taal bestand(en) om in te zoeken:');
-  define('TEXT_LANGUAGE_LOOKUP_NONE', 'Geen');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_LANGUAGE', 'Alle taalbestanden voor ' . strtoupper($_SESSION['language']) . ' - Catalog/Admin');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_CATALOG', 'Alle taalbestanden - Catalog (' . DIR_WS_CATALOG . DIR_WS_LANGUAGES . 'english.php /dutch.php etc.)');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_CATALOG_TEMPLATE', 'Alle bestanden standaard taal - Catalog (' . DIR_WS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/*.php)');
