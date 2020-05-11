@@ -2,10 +2,10 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Mon Oct 19 01:43:02 2015 -0400 Modified in v1.5.5 $
+ * @version $Id:  Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Wie is online');
@@ -40,11 +40,8 @@ define('TEXT_EMPTY_CART', '<strong>Lege winkelwagen</strong>');
 define('TEXT_WHOS_ONLINE_FILTER_SPIDERS', 'Spiders niet weergeven?');
 define('TEXT_WHOS_ONLINE_FILTER_ADMINS', 'Admin IP Adressen niet weergeven?');
 
-define('WHOIS_TIMER_REMOVE', 1200); // Aantal seconden waarna klant ID van whos_online tabel wordt verwijderd - standaard = 1200 = 20 minuten
-define('WHOIS_TIMER_INACTIVE', 180); // Aantal seconden waarna status inactief wordt - standaard = 180 = 3 minuten
-define('WHOIS_TIMER_DEAD', 540); // Aantal seconden waarna gast wordt verwijderd indien inactief  - 540 default = 9 minutes
-define('WHOIS_SHOW_HOST', '1'); // Tonen van laatste klik en hostnaam - standaard = 1 (staat aan)
-define('WHOIS_REPEAT_LEGEND_BOTTOM', '12'); // Toon legenda aan de voet van de pagina als er een bepaald aantal mensen actief zijn - standaard = 12
+// show Last Clicked time and host name - 1 both(default), 0=time-only
+if (!defined('WHOIS_SHOW_HOST')) define('WHOIS_SHOW_HOST', '1');
 
 define('TEXT_DUPLICATE_IPS', 'Dulpicaat IP Adressen: ');
 define('TEXT_TOTAL_UNIQUE_USERS', 'Totaal Unieke Gebruikers: ');

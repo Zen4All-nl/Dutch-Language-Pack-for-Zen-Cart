@@ -32,9 +32,8 @@ define('TEXT_PRODUCTS_MANUFACTURER', 'Fabrikant:');
 define('TEXT_PRODUCTS_NAME', 'Naam artikel:');
 define('TEXT_PRODUCTS_DESCRIPTION', 'Beschrijving artikel:');
 define('TEXT_PRODUCTS_QUANTITY', 'Aantal in voorraad:');
-define('TEXT_PRODUCTS_MODEL', 'Artikel model:');
-define('TEXT_PRODUCTS_IMAGE', 'Afbeelding artikel:');
-define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
+define('TEXT_PRODUCTS_IMAGE', 'Productafbeelding:');
+define('TEXT_EDIT_PRODUCTS_IMAGE', 'Productafbeelding wijzigen:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Opslaan in directory:');
 define('TEXT_PRODUCTS_URL', 'URL artikel:');
 define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(zonder http://)</small>');
@@ -61,6 +60,8 @@ define('TEXT_PRODUCTS_TAX_CLASS', 'Tariefgroep belasting');
 define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL','Minimum bestelhoeveelheid:');
 define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL','Artikel verpakt per:');
 define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL','Maximale bestelhoeveelheid:');
+define('TEXT_PRODUCTS_QTY_MIN_UNITS_PREVIEW', 'Waarschuwing: minimum is minder dan eenheden');
+define('TEXT_PRODUCTS_QTY_MIN_UNITS_MISMATCH_PREVIEW', 'Waarschuwing: Minimum is geen veelvoud van eenheden');
 
 define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT','0 = onbeperkt, 1 = geen hoeveelheidsbox');
 

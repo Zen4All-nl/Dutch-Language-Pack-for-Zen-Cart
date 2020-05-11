@@ -41,7 +41,6 @@ define('TEXT_DATE_ADDED', 'Datum toegevoegd:');
 define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging:');
 define('TEXT_PRODUCTS', 'Artikelen:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Overbrengen naar directory:');
-define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
 define('TEXT_MASTER_TYPE', 'Dit artikelsoort is een sub-soort van');
 
 define('TEXT_NEW_INTRO', 'Voer het nieuwe artikelsoort in met alle relevante gegevens');
@@ -49,15 +48,10 @@ define('TEXT_EDIT_INTRO', 'Maak de noodzakelijke wijziging(en)');
 
 define('TEXT_PRODUCT_TYPES_NAME', 'Naam artikelsoort:');
 define('TEXT_PRODUCT_TYPES_IMAGE', 'Standaard afbeelding artikelsoort:');
-define('TEXT_PRODUCT_TYPES_URL', 'URL:');
 
 define('TEXT_DELETE_INTRO', 'Weet je zeker dat je dit artikelsoort wilt verwijderen?');
 define('TEXT_DELETE_IMAGE', 'Verwijder standaard afbeelding van dit artikelsoort?');
 define('TEXT_DELETE_PRODUCTS', 'Verwijder alle artikelen(inclusief recensie(s),	aanbiedingen en aankomende artikelen) van dit artikelsoort? ');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing:</b> er zijn nog steeds %s artikelen gekoppeld aan deze artikelsoort!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Foutmelding: directory is niet toegankelijk. Stel de juiste bevoegdheden in voor: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Foutmelding: Directory komt niet voor: %s');
-
 define('IMAGE_LAYOUT', 'Lay-out instellingen');
-?>

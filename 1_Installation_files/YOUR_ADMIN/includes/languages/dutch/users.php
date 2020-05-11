@@ -2,26 +2,24 @@
 /**
  * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Mon Dec 14 12:44:09 2015 -0500 Modified in v1.5.5 $
+ * @version $Id: Author: torvista 2020 April 12 Modified in v1.5.7 $
  */
 
+if (!defined('HEADING_TITLE')) { //this file included by admin_account.php
 define('HEADING_TITLE', 'Admingebruikers');
-
+}
 define('IMAGE_ADD_USER', 'Voeg gebruiker toe');
-
 define('TEXT_ID', 'ID');
-define('TEXT_NAME', 'Naam');
-define('TEXT_EMAIL', 'E-mail');
-define('TEXT_PROFILE', 'Gebruikersprofiel');
+define('TEXT_ADMIN_NAME', 'Naam');
+define('TEXT_ADMIN_PROFILE', 'Gebruikersprofiel');
 define('TEXT_CHOOSE_PROFILE', 'Kies Profiel');
 define('TEXT_PASSWORD', 'Wachtwoord');
 define('TEXT_CONFIRM_PASSWORD', 'Bevestig wachtwoord');
 define('TEXT_NO_USERS_FOUND', 'Geen admin gebruikers gevonden');
 define('TEXT_CONFIRM_DELETE', 'Verwijdering gevraagd. Gelieve te bevestigen: ');
-
 define('ERROR_NO_USER_DEFINED', 'De optie die u hebt aangevraagd kan niet worden uitgevoerd zonder het opgeven van een gebruiker');
 define('ERROR_USER_MUST_HAVE_PROFILE', 'Gebruikers moeten worden toegewezen aan een gebruikersprofiel');
 define('ERROR_DUPLICATE_USER', 'Sorry, een Admingebruiker met deze naam bestaat reeds. Selecteer een andere naam.');
