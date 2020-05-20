@@ -30,7 +30,6 @@ define('TEXT_DELETE_INTRO', 'Weet je zeker dat je deze klant wilt verwijderen?')
 define('TEXT_DELETE_REVIEWS', 'Verwijder %s recensie(s)');
 define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Verwijder klant');
 define('TYPE_BELOW', 'Type hieronder');
-define('PLEASE_SELECT', 'Selecteer één');
 define('TEXT_INFO_NUMBER_OF_ORDERS', 'Aantal bestellingen:');
 define('TEXT_INFO_LIFETIME_VALUE', 'Totale besteding van klant:');
 define('TEXT_INFO_LAST_ORDER','Laatste bestelling:');
@@ -70,3 +69,6 @@ define('PRIMARY_ADDRESS', '(primair adres)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOOT:</strong></span> Een maximum van %s adres boek ingevingen zijn toegestaan.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | <a href="%s">%s Vermeldingen</a>');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT_SINGLE', '');
+
+define('EMP_BUTTON_PLACEORDER_ALT', 'Plaats een bestelling voor deze klant');
+define('EMP_BUTTON_PLACEORDER', 'Plaats bestelling');

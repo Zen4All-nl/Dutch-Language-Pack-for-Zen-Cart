@@ -28,17 +28,13 @@
   define('TEXT_DELETE_INTRO', 'Weet je zeker dat je dit genre wilt verwijderen?');
   define('TEXT_DELETE_IMAGE', 'Verwijder afbeelding?');
   define('TEXT_MUSIC_GENRE_NAME', 'Naam genre');
-  define('TEXT_MUSIC_GENRE_IMAGE', 'Afbeelding genre');
-  define('TEXT_MUSIC_GENRE_IMAGE_DIR', 'Directory afbeeldingen &nbsp;');
 
   define('TEXT_HEADING_NEW_MUSIC_GENRE', 'Nieuw genre');
   define('TEXT_HEADING_EDIT_MUSIC_GENRE', 'Wijzig genre');
   define('TEXT_HEADING_DELETE_MUSIC_GENRE', 'Verwijder genre');
   define('TEXT_DATE_ADDED', 'Datum toegevoegd');
   define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging');
-  define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
   define('TEXT_PRODUCTS', 'Gekoppelde artikelen');
   define('TEXT_DISPLAY_NUMBER_OF_MUSIC_GENRES', 'Genre <strong>%d</strong> tot <strong>%d</strong> van <strong>%d</strong> genre(s)');
   define('TEXT_DELETE_PRODUCTS', 'Verwijder dit genre en alle gekoppelde artikelen?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing: </b>er zijn nog steeds %s artikelen gekoppeld aan dit genre!');
-?>

@@ -1,11 +1,10 @@
 <?php
 /**
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @package languageDefines
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2019 Jan 15 Modified in v1.5.6b $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE', TEXT_GV_NAME . ' Veelgestelde vragen');
@@ -18,6 +17,9 @@ define('TEXT_INFORMATION', '<a name="Top"></a>
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Verzilveren van de ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Overige vragen</a><br />
 ');
+if (empty($_GET['faq_item'])) {
+  $_GET['faq_item'] = '0';
+}
 switch ($_GET['faq_item']) {
   case '1':
 define('SUB_HEADING_TITLE',' Kopen van de ' . TEXT_GV_NAMES . '');

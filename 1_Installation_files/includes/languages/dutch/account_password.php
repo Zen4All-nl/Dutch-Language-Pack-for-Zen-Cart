@@ -27,8 +27,5 @@ define('NAVBAR_TITLE_2', 'Wijzig wachtwoord');
 
 define('HEADING_TITLE', 'Mijn wachtwoord');
 
-define('MY_PASSWORD_TITLE', 'Mijn wachtwoord');
-
 define('SUCCESS_PASSWORD_UPDATED', 'Uw wachtwoord is succesvol gewijzigd.');
 define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'U hebt een ongeldig wachtwoord ingegeven. Probeer het nogmaals.');
-?>

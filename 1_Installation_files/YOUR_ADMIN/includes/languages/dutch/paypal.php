@@ -1,10 +1,9 @@
 <?php
 /**
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @package admin
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: $
+ * @version $Id: Steve 2020 Apr 27 Modified in v1.5.7 $
  */
 
 // sorteervolgorde orders
@@ -26,7 +25,7 @@ define('TABLE_HEADING_PAYPAL_ID', 'PayPal nummer');
 define('TABLE_HEADING_TXN_TYPE', 'Transactie Type');
 define('TABLE_HEADING_PAYMENT_STATUS', 'Status betaling');
 define('TABLE_HEADING_PAYMENT_AMOUNT', 'Bedrag');
-define('TABLE_HEADING_ACTION', 'Actie(s)');
+define('TABLE_HEADING_ACTION', 'Actie');
 define('TABLE_HEADING_DATE_ADDED', 'Datum toegevoegd');
 define('TABLE_HEADING_NUM_HISTORY_ENTRIES', 'Aantal vermeldingen in Statusgeschiedenis');
 define('TABLE_HEADING_ENTRY_NUM', 'Invoer nummer');

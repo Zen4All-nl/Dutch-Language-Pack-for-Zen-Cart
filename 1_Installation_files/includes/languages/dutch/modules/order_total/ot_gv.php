@@ -1,18 +1,15 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: ot_gv.php 6099 2007-04-01 10:22:42Z wilt $
+ * @version $Id: Scott C Wilson 2019 Jul 20 Modified in v1.5.7 $
  */
 
   define('MODULE_ORDER_TOTAL_GV_TITLE', TEXT_GV_NAMES);
   define('MODULE_ORDER_TOTAL_GV_HEADER', TEXT_GV_NAMES . '/Kortingsbonnen');
   define('MODULE_ORDER_TOTAL_GV_DESCRIPTION', TEXT_GV_NAMES);
-  define('SHIPPING_NOT_INCLUDED', ' [Exclusief verzendkosten]');
-  define('TAX_NOT_INCLUDED', ' [Exclusief BTW]');
   define('MODULE_ORDER_TOTAL_GV_USER_PROMPT', 'Tegoed toevoegen: ');
   define('MODULE_ORDER_TOTAL_GV_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
   define('TEXT_INVALID_REDEEM_AMOUNT', 'Het lijkt erop dat u onvoldoende tegoed heeft om een dergelijk bedrag te gebruiken. Probeer het opnieuw.');

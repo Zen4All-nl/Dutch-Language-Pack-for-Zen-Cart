@@ -1,16 +1,15 @@
 <?php
 
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
+ * @version $Id: Steve 2020 Mar 30 Modified in v1.5.7 $
  */
 
 
-define('TEXT_PRODUCTS_STATUS', 'Product Status:');
+define('TEXT_PRODUCTS_STATUS', 'Productstatus:');
 define('TEXT_PRODUCTS_VIRTUAL', 'Artikel is virtueel:');
 define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', 'Gratis verzenden:');
 define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Toon voorraad:');

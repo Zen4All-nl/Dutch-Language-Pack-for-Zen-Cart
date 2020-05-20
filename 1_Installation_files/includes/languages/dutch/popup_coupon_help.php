@@ -1,14 +1,12 @@
 <?php
 /**
- * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
+ * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('HEADING_COUPON_HELP', 'Kortingsbon Help');
 define('TEXT_CLOSE_WINDOW', 'Sluit venster [x]');
 define('TEXT_COUPON_HELP_HEADER', '<strong>De kortingsbon code die u heeft ingevoerd is voor</strong> ');
 define('TEXT_COUPON_HELP_NAME', '<br /><br />Naam kortingsbon: %s');
@@ -20,8 +18,6 @@ define('TEXT_COUPON_HELP_DATE', '<br /><br />Deze bon is geldig van %s tot %s');
 define('TEXT_COUPON_HELP_RESTRICT', '<br /><br />Artikel-/categorie restricties');
 define('TEXT_COUPON_HELP_CATEGORIES', 'Categorie');
 define('TEXT_COUPON_HELP_PRODUCTS', 'Artikel');
-define('TEXT_ALLOW', 'Toegestaan');
-define('TEXT_DENY', 'Niet toegestaan');
 
 define('TEXT_ALLOWED', ' (Toegestaan)');
 define('TEXT_DENIED', ' (Niet toegestaan)');

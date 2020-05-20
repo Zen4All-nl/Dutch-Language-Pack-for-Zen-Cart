@@ -1,11 +1,10 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:  Modified in v1.5.7 $
+ * @version $Id: DrByte 2020 Jun 07 Modified in v1.5.7 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -28,6 +27,7 @@ define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
 define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // wordt gebruikt voor date()
+
 // for now both defines are needed until Spiffy is completely removed.
 define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy');  //Alleen 'dd', 'MM' and 'yyyy' gebruiken, in de gewenste volgorde
 define('DATE_FORMAT_DATE_PICKER', 'dd-mm-yy');  //Use only 'dd', 'mm' and 'yy' here in any order
@@ -124,6 +124,7 @@ define('BOX_HEADING_MODULES', 'Modules');
 define('BOX_MODULES_PAYMENT', 'Betaalmethode');
 define('BOX_MODULES_SHIPPING', 'Verzendmethode');
 define('BOX_MODULES_ORDER_TOTAL', 'Opbouw factuur ');
+define('BOX_MODULES_PLUGINS', 'Plugin Manager');
 
 // categories box text
 define('BOX_HEADING_CATALOG', 'Assortiment');
@@ -192,9 +193,9 @@ define('BOX_LOCALIZATION_ORDERS_STATUS', 'Orderstatus');
 
 // gift vouchers box text
 define('BOX_HEADING_GV_ADMIN', 'Kortingen');
-define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAME . ' wachtrij');
+define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAMES . ' wachtrij');
 define('BOX_GV_ADMIN_MAIL', 'E-mail ' . TEXT_GV_NAME);
-define('BOX_GV_ADMIN_SENT', 'Verzonden ' . TEXT_GV_NAME);
+define('BOX_GV_ADMIN_SENT', TEXT_GV_NAMES . ' verzonden');
 define('BOX_COUPON_ADMIN','Kortingsbon administratie');
 define('BOX_COUPON_RESTRICT','Coupon Restricties');
 
@@ -205,7 +206,7 @@ define('BOX_ADMIN_ACCESS_PROFILES', 'Adminprofielen');
 define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Admin paginaregistratie');
 define('BOX_ADMIN_ACCESS_LOGS', 'Admin Activiteiten Logboeken');
 
-define('IMAGE_RELEASE', 'Inwisselen ' . TEXT_GV_NAME);
+define('IMAGE_RELEASE', TEXT_GV_NAME . ' inwisselen');
 
 // javascript messages
 define('JS_ERROR', 'Tijdens het verwerken van het formulier zijn er fouten opgetreden!\nWijzig/vul de volgende gegevens aan:\n\n');
@@ -273,7 +274,7 @@ define('ERROR_PASSWORD_RULES', 'Wachtwoorden moeten letters en cijfers bevatten,
 define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'Fout: Sorry, er is een fout opgetreden bij het afhandelen van uw gegevens. Gelieve de informatie opnieuw te versturen.');
 
 // images
-//define('IMAGE_ANI_SEND_EMAIL', 'Sending E-mail');
+//define('IMAGE_ANI_SEND_EMAIL', 'Sending E-Mail');
 define('IMAGE_BACKUP', 'Backup');
 define('IMAGE_CANCEL', 'Annuleer');
 define('IMAGE_CONFIRM', 'Bevestigen');
@@ -327,8 +328,8 @@ define('IMAGE_UPDATE_PRICE_CHANGES', 'Bijwerken prijswijzigingen');
 define('IMAGE_ADD_BLANK_DISCOUNTS','Toevoegen ' . DISCOUNT_QTY_ADD . ' kwantumkortingen');
 define('IMAGE_PRODUCTS_TO_CATEGORIES', 'Meervoudige categorieën koppelmanager');
 
-define('IMAGE_ICON_STATUS_ON', 'Status - AAN');
-define('IMAGE_ICON_STATUS_OFF', 'Status - UIT');
+define('IMAGE_ICON_STATUS_ON', 'Status - Aan');
+define('IMAGE_ICON_STATUS_OFF', 'Status - Uit');
 define('IMAGE_ICON_LINKED', 'Artikel is gekoppeld');
 
 define('IMAGE_REMOVE_SPECIAL','Verwijder speciale prijs markering');
@@ -356,6 +357,7 @@ define('ICON_WARNING', 'Waarschuwing');
 
 // constants for use in zen_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Pagina %s van %d');
+define('TEXT_DISPLAY_NUMBER_OF_GENERIC', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> Items)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> Banners)');
 define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> Categorieën)');
 define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> Landen)');
@@ -389,7 +391,7 @@ define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende set van %d pagina\'s');
 define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
 define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
 
-define('TEXT_DEFAULT', 'Standaar');
+define('TEXT_DEFAULT', 'Standaard');
 define('TEXT_SET_DEFAULT', 'Stel in als standaard');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">*</span>');
 
@@ -684,7 +686,7 @@ define('TEXT_NOEMAIL', 'Geen e-mail');
 
 define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
 
-define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Er lijkt een probllem te zijn met de database. Er is onderhoud nodig.</a>');//nog vertalen
+define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="https://docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071 Er lijkt een probllem te zijn met de database. Er is onderhoud nodig.</a>');
 
 // moved from currencies file:
 define('TEXT_INFO_CURRENCY_UPDATED', 'De wisselkoers voor %s (%s) is succesvol aangepast naar %s via %s.');
@@ -693,6 +695,23 @@ define('WARNING_PRIMARY_SERVER_FAILED', 'Waarschuwing: De primaire exchange rate
 
 // Set to empty string if alpha sorting not desired
 define('MENU_CATEGORIES_TO_SORT_BY_NAME','reports,tools'); 
+
+// Plugins
+define('PLUGIN_INSTALL_SQL_FAILURE', 'er zijn een of meer databasefouten opgetreden');
+
+// ARIA Stuff
+
+define('ARIA_PAGINATION_ROLE_LABEL_GENERAL','Paginering');
+define('ARIA_PAGINATION_ROLE_LABEL_FOR','%s Paginering'); // bijv. "Zoekresultaten Paginering"
+define('ARIA_PAGINATION_PREVIOUS_PAGE','Ga naar de vorige pagina');
+define('ARIA_PAGINATION_NEXT_PAGE','Ga naar de volgende pagina');
+define('ARIA_PAGINATION_CURRENT_PAGE','Huidige pagina');
+define('ARIA_PAGINATION_CURRENTLY_ON',', nu op pagina %s');
+define('ARIA_PAGINATION_GOTO','Ga naar ');
+define('ARIA_PAGINATION_PAGE_NUM','Pagina %s');
+define('ARIA_PAGINATION_ELLIPSIS_PREVIOUS','Haal de vorige groep pagina\'s op');
+define('ARIA_PAGINATION_ELLIPSIS_NEXT','Haal de volgende groep pagina\'s op');
+define('ARIA_PAGINATION_','');
 
 ///////////////////////////////////////////////////////////
 // include additional files:

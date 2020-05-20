@@ -1,11 +1,10 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: mail.php 7197 2007-10-06 20:35:52Z drbyte $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
 
@@ -16,9 +15,6 @@ define('TEXT_SUBJECT', 'Onderwerp:');
 define('TEXT_FROM', 'Afzender:');
 define('TEXT_MESSAGE', 'Text-Only <br />Bericht:');
 define('TEXT_MESSAGE_HTML','Rich Text <br />Bericht:');
-define('TEXT_SELECT_CUSTOMER', 'Selecteer klant');
-define('TEXT_ALL_CUSTOMERS', 'Alle klanten');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'Aan alle nieuwsbrief ontvangers');
 define('TEXT_ATTACHMENTS_LIST','Selecteer Bijlage: ');
 define('TEXT_SELECT_ATTACHMENT','Bijlage<br />op server: ');
 define('TEXT_SELECT_ATTACHMENT_TO_UPLOAD','Bijlage<br /> om over te brengen<br />&amp; voeg toe: ');
@@ -29,4 +25,3 @@ define('NOTICE_EMAIL_FAILED_SEND', 'Notitie: FOUT verzenden Email naar alle ontv
 define('ERROR_NO_CUSTOMER_SELECTED', 'FOUT: Er zijn geen klanten geselcteerd.');
 define('ERROR_NO_SUBJECT', 'FOUT: Er is geen onderwerp ingegeven.');
 define('ERROR_ATTACHMENTS', 'FOUT: U kunt niet tegelijkertijd een verschillende Bijlage Toevoegen en Opladen. Kies een voor een aub.');
-?>

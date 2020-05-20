@@ -1,17 +1,15 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Aanmelden Admin Winkel');
 define('HEADING_TITLE_EXPIRED', 'Admin login - wachtwoord verlopen');
 
-define('TEXT_LOGIN','Inloggen');
 define('TEXT_SUBMIT','Verstuur');
 define('TEXT_ADMIN_NAME', 'Admin gebruikersnaam');
 define('TEXT_ADMIN_PASS', 'Admin wachtwoord');

@@ -20,7 +20,8 @@
 // +----------------------------------------------------------------------+
 //  $Id: gv_queue.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-require 'gv_name.php';
+
+require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php';
 define('HEADING_TITLE', TEXT_GV_NAME . ' wachtrij');
 
 define('TABLE_HEADING_CUSTOMERS', 'Klant');

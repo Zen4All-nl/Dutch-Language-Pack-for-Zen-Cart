@@ -1,11 +1,10 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: options_values_manager.php 15883 2010-04-11 16:41:26Z wilt $
+ * @version $Id: Scott C Wilson 2020 Apr 07 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE_OPT', 'Artikel opties');
@@ -28,7 +27,6 @@ define('TEXT_WARNING_OF_DELETE', '<span class="alert">Aan deze optie zijn artike
 define('TEXT_OK_TO_DELETE', 'Aan deze opties zijn geen artikelen en waarden gekoppeld - de opties kan nu verwijderd worden.');
 define('TEXT_OPTION_ID', 'Optie ID');
 define('TEXT_OPTION_NAME', 'Optie');
-define('TABLE_HEADING_OPT_DISCOUNTED','Prijsvermindering');
 
 define('ATTRIBUTE_WARNING_DUPLICATE','Optie al aanwezig - optie is niet toegevoegd'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Duplicaat optie al aanwezig - optie is niet gewijzigd'); // attributes duplicate warning
@@ -52,16 +50,10 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TABLE_HEADING_OPT_WEIGHT_PREFIX','+/-');
   define('TABLE_HEADING_OPT_WEIGHT','Gewicht');
   define('TABLE_HEADING_OPT_SORT_ORDER','Rangschikking');
-  define('TABLE_HEADING_OPT_DEFAULT','Standaard');
-
-  define('TABLE_HEADING_YES','Ja');
-  define('TABLE_HEADING_NO','Nee');
 
   define('TABLE_HEADING_OPT_TYPE', 'Soort optie'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Grootte');
   define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
-  define('TABLE_HEADING_OPTION_VALUE_ROWS','Rijen');
-  define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Commentaar');
 
   define('TEXT_OPTION_VALUE_COMMENTS','Commentaar: ');
   define('TEXT_OPTION_VALUE_SIZE','Toon grootte: ');
@@ -120,4 +112,6 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Foutmelding: geselecteerde optienaam en optiewaarde komen niet overeen');
 
   define('SUCCESS_OPTION_VALUES_DELETE', 'Met succes is verwijderd: ');
-  
+  define('LABEL_FILTER', 'Selecteer Optiewaarde om te filteren');
+  define('TEXT_DISPLAY_NUMBER_OF_OPTION_VALUES', '<b>%d</b> weergeven tot <b>%d</b> (van <b>%d</b> optiewaarden)');
+  define('TEXT_SHOW_ALL', 'Toon alles');

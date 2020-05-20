@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: document_general_info.php 6371 2007-05-25 19:55:59Z ajeh $
+ * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
 define('TEXT_PRODUCT_NOT_FOUND', 'Excuses maar dit product kan niet worden gevonden.');
@@ -18,16 +17,11 @@ define('TEXT_PRODUCT_OPTIONS', 'Alstublieft kiezen: ');
 define('TEXT_PRODUCT_MANUFACTURER', 'Merk: ');
 define('TEXT_PRODUCT_WEIGHT', 'Verzend gewicht: ');
 define('TEXT_PRODUCT_QUANTITY', ' Aantal op voorraad');
-define('TEXT_PRODUCT_MODEL', 'Model: ');
 
 
 
 // vorig en volgend artikel
 define('PREV_NEXT_PRODUCT', 'Artikel ');
-define('PREV_NEXT_FROM', ' van ');
-define('IMAGE_BUTTON_PREVIOUS','Vorig artikel');
-define('IMAGE_BUTTON_NEXT','Volgend artikel');
-define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','Terug naar overzicht assortiment');
 
 // missende artikelen
 //define('TABLE_HEADING_NEW_PRODUCTS', 'Nieuw product voor %s');
@@ -46,4 +40,3 @@ define('ATTRIBUTES_PRICE_DELIMITER_SUFFIX', ' )');
 define('ATTRIBUTES_WEIGHT_DELIMITER_PREFIX', ' (');
 define('ATTRIBUTES_WEIGHT_DELIMITER_SUFFIX', ') ');
 
-?>

@@ -1,0 +1,2 @@
+<p>Dit bestand is gevonden in includes/languages/dutch/html_includes/define_shopping_cart.php</p>
+<p>Bewerk deze tekst (degene die u nu aan het lezen bent) in Admin> Tools> Define Pages Editor om uw persoonlijke winkelwagenbericht hier te schrijven</p>

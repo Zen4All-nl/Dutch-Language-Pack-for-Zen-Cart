@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: advanced_search.php 3253 2006-03-25 17:26:14Z birdbrain $
+ * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
   define('NAVBAR_TITLE_1', 'Uitgebreid zoeken');
@@ -33,10 +32,8 @@ define('ENTRY_DATE_RANGE', 'Datum toegevoegd');
   define('TEXT_ALL_MANUFACTURERS', 'Alle merken');
 
   define('TABLE_HEADING_IMAGE', '');
-  define('TABLE_HEADING_MODEL', 'Model');
   define('TABLE_HEADING_PRODUCTS', 'Productnaam');
   define('TABLE_HEADING_MANUFACTURER', 'Merk');
-  define('TABLE_HEADING_QUANTITY', 'Aantal');
   define('TABLE_HEADING_PRICE', 'Prijs');
   define('TABLE_HEADING_WEIGHT', 'Gewicht');
   define('TABLE_HEADING_BUY_NOW', 'Koop nu');
@@ -52,4 +49,3 @@ define('ENTRY_DATE_RANGE', 'Datum toegevoegd');
   define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'Prijs tot moet hoger of gelijk zijn als de prijs vanaf.');
   define('ERROR_INVALID_KEYWORDS', 'Verkeerde zoektermen.');
 
-?>

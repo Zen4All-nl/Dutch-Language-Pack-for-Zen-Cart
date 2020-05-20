@@ -1,11 +1,10 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Thu Feb 1 15:27:50 2018 +0100 Modified in v1.5.6 $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Landen');
@@ -27,4 +26,4 @@ define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Nieuw land');
 define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Wijzig land');
 define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Verwijder land');
 define('ERROR_COUNTRY_IN_USE', 'FOUT: Kan het geselecteerde land niet verwijderen, omdat het gelinkt is aan een klantenbestand.');
-define('ISO_COUNTRY_CODES_LINK', '<a href="http://www.iso.org/iso/country_codes/country_codes" target="_blank">ISO 3166 Land Code Referentie</a>');
+define('ISO_COUNTRY_CODES_LINK', '<a href="https://nl.wikipedia.org/wiki/ISO_3166-1#ISO-landcodes" rel="noreferrer noopener" target="_blank">ISO 3166 Land Code Referentie</a>');

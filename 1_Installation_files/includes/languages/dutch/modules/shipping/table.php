@@ -25,6 +25,3 @@
 define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Tabeltarief');
 define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Tabeltarief');
 define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'Standaard verzending');
-define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', 'Gewicht');
-define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', 'Hoeveelheid');
-?>

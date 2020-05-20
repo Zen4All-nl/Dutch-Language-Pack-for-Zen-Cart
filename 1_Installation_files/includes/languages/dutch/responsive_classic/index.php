@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: picaflor-azul Sun Dec 13 16:46:52 2015 -0500 New in v1.5.5 $
+ * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
 define('TEXT_MAIN','Dit is de algemene tekst voor de door <a href="http://zen-cart.nl">zen-cart.nl</a> uitgegeven Nederlandse versie (Dutch language) indien geen template is gekozen. Deze tekst kunt u vinden in: <strong>/includes/languages/dutch/index.php</strong>');
@@ -32,10 +31,8 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // dit deel gaat over de artikeloverzicht pagina's
   define('HEADING_TITLE', 'Beschikbare artikelen');
   define('TABLE_HEADING_IMAGE', 'Productfoto');
-  define('TABLE_HEADING_MODEL', 'Model');
   define('TABLE_HEADING_PRODUCTS', 'Naam artikel');
   define('TABLE_HEADING_MANUFACTURER', 'Merk');
-  define('TABLE_HEADING_QUANTITY', 'Aantal');
   define('TABLE_HEADING_PRICE', 'Prijs');
   define('TABLE_HEADING_WEIGHT', 'Gewicht');
   define('TABLE_HEADING_BUY_NOW', 'Nu kopen!');
@@ -56,4 +53,3 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   /*Vervang deze tekst door de door u gewenste koptekst. Bijvoorbeeld: 'Welkom in mijn webwinkel!'*/
   define('HEADING_TITLE', 'Gefeliciteerd! De installatie van Zen Cart&trade; als eCommerce oplossing is gelukt.');
 }
-?>

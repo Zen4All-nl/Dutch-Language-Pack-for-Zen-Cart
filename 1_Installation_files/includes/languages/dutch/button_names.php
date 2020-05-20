@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Thu Jan 11 13:27:48 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 30 Modified in v1.5.7 $
  */
 
 
@@ -13,7 +12,6 @@
  * defineer de bestandsnamen van alle knoppen
  */
 
-define('BUTTON_IMAGE_ADD_TO_CART', 'button_add_to_cart.gif');
 define('BUTTON_IMAGE_ADD_ADDRESS', 'button_add_address.gif');
 define('BUTTON_IMAGE_ADD_PRODUCTS_TO_CART','button_add_selected.gif');
 define('BUTTON_IMAGE_BACK', 'button_back.gif');
@@ -32,7 +30,6 @@ define('BUTTON_IMAGE_DOWNLOAD', 'button_download.gif');
 define('BUTTON_IMAGE_EDIT_SMALL', 'small_edit.gif');
 define('BUTTON_IMAGE_IN_CART', 'button_in_cart.gif');
 define('BUTTON_IMAGE_LOGIN', 'button_login.gif');
-define('BUTTON_IMAGE_MY_ACCOUNT', 'button_my_account.gif');
 define('BUTTON_IMAGE_MY_ORDERS', 'button_my_orders.gif');
 define('BUTTON_IMAGE_NEXT', 'button_next.gif');
 define('BUTTON_IMAGE_PREVIOUS', 'button_prev.gif');
@@ -56,6 +53,7 @@ define('BUTTON_IMAGE_READ_REVIEWS', 'button_read_reviews.gif');
 define('BUTTON_IMAGE_GOTO_PROD_DETAILS', 'button_goto_prod_details.gif');
 define('BUTTON_IMAGE_MORE_REVIEWS', 'button_more_reviews.gif');
 define('BUTTON_IMAGE_CONTINUE_CHECKOUT', 'button_continue_checkout.gif');
+define('BUTTON_IMAGE_ASK_A_QUESTION', 'button_ask_a_question.gif');
 //define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&gt;&gt;]');
 //define('PREVNEXT_BUTTON_LAST', 'LAATSTE&gt;&gt;');
 
@@ -68,7 +66,6 @@ define('BUTTON_IMAGE_LOG_OFF', 'button_logoff.gif');
 
 define('BUTTON_CREATE_ACCOUNT_ALT', 'Aanmelden');
 define('BUTTON_LOG_OFF_ALT', 'Uitloggen');
-define('BUTTON_ADD_TO_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_ADD_ADDRESS_ALT', 'Adres toevoegen');
 define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Geselecteerde artikelen toevoegen aan winkelwagen');
 define('BUTTON_BACK_ALT', 'Terug');
@@ -88,7 +85,6 @@ define('BUTTON_EDIT_SMALL_ALT', 'Aanpassen');
 define('BUTTON_IN_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_LOGIN_ALT', 'Inloggen');
 define('BUTTON_LOOKUP_ALT', 'Opzoeken');
-define('BUTTON_MY_ACCOUNT_TEXT', 'Mijn account');
 define('BUTTON_MY_ORDERS_TEXT', 'Mijn Bestellingen');
 define('BUTTON_NEXT_ALT', 'Volgende');
 define('BUTTON_PREVIOUS_ALT', 'Vorige');
@@ -111,3 +107,4 @@ define('BUTTON_READ_REVIEWS_ALT', 'Lees de Review');
 define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Ga naar de Productdetails');
 define('BUTTON_MORE_REVIEWS_ALT', 'Lees meer Reviews');
 define('BUTTON_VIEW_ALL_ALT', 'Bekijk alles');
+define('BUTTON_ASK_A_QUESTION_ALT', 'Stel een vraag');
