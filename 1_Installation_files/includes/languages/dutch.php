@@ -2,10 +2,10 @@
 /**
  * @ Maintained by Zen4All (https://zen4all.nl)
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
+ * @version $Id: DrByte 2020 May 21 Modified in v1.5.7 $
  */
 
 // ONDERSTAANDE IS verplaatst naar meta_tags.php
@@ -14,15 +14,13 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, zen-cart.com, online shopping');
 // EINDE: verplaatst naar meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. Powered by <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Zen Cart</a>');
 
 // kijk in je $PATH_LOCALE/locatie directorie voor beschikbare locatie instellingen..
-  $locales = array('nl_NL', 'nl_NL.utf8', 'nl', 'Dutch');
+  $locales = ['nl_NL', 'nl_NL.utf8', 'nl', 'Dutch'];
   @setlocale(LC_TIME, $locales);
-  define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
   define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
-  define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
 ////
 // Datum in onopgemaakt formaat
@@ -47,9 +45,6 @@
 // karakterset voor webpaginas en e-mails
   define('CHARSET', 'utf-8');
 
-// voettekst in includes/footer.php
-  define('FOOTER_TEXT_REQUESTS_SINCE', 'sinds');
-
 // Definieer hier de naam van de waardebonnen zoals E-Cadeaubon, Waardebon, Geschenkbon etc. voor gebruik in de webshop
   define('TEXT_GV_NAME','Waardebon');
   define('TEXT_GV_NAMES','Waardebonnen');
@@ -57,15 +52,9 @@
 // aanduiding voor Geschenkbon inwisselcode, Waardebon code of Cadeaubon id
   define('TEXT_GV_REDEEM','Waardebon inwisselcode');
 
-// aanduiding voor bovenstaande code in de/een sidebox
-  define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
-  define('BOX_GV_REDEEM_INFO', 'Waardebon inwisselcode: ');
-
 // aanduiding voor geslacht
   define('MALE', 'Man');
   define('FEMALE', 'Vrouw');
-  define('MALE_ADDRESS', 'Dhr.');
-  define('FEMALE_ADDRESS', 'Mevr.');
 
 // defineer de tekst bij geboortedatum
   define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
@@ -114,7 +103,6 @@
 
 // Tekst populaire artikelen box in sideboxes/best_sellers.php
   define('BOX_HEADING_BESTSELLERS', 'Bestsellers');
-  define('BOX_HEADING_BESTSELLERS_IN', 'Bestsellers<br />&nbsp;&nbsp;');
 
 // Tekst van de artikel notificatie box in sideboxes/products_notifications.php
   define('BOX_HEADING_NOTIFICATIONS', 'Artikelnotificatie');
@@ -150,7 +138,6 @@
 
 // Tekst nieuw factuuradres
   define('SET_AS_PRIMARY' , 'Stel in als hoofd adres');
-  define('NEW_ADDRESS_TITLE', 'Factuuradres');
 
 // javascript berichten
   define('JS_ERROR', 'Er is een fout opgetreden tijden het verwerken van het formulier. \n\nVul s.v.p. alsnog de volgende velden in:\n\n');
@@ -168,11 +155,6 @@
 
   define('CATEGORY_COMPANY', 'Bedrijfsnaam');
   define('CATEGORY_PERSONAL', 'Persoonlijke gegevens');
-  define('CATEGORY_ADDRESS', 'Adresgegevens');
-  define('CATEGORY_CONTACT', 'Contactgegevens');
-  define('CATEGORY_OPTIONS', 'Opties');
-  define('CATEGORY_PASSWORD', 'Wachtwoord');
-  define('CATEGORY_LOGIN', 'Login');
   define('PULL_DOWN_DEFAULT', 'Selecteer uw land');
   define('PLEASE_SELECT', 'Selecteer ...');
   define('TYPE_BELOW', 'Maak een keuze ...');
@@ -200,12 +182,10 @@
   define('ENTRY_NICK', 'Gebruikersnaam forum:');
   define('ENTRY_NICK_TEXT', '*'); // nb dit word weergegeven naast het forum gebruikersnaam invulveld
   define('ENTRY_NICK_DUPLICATE_ERROR', 'Deze gebruikersnaam is reeds in gebruik. Vul een andere gebruikersnaam in.');
-  define('ENTRY_NICK_LENGTH_ERROR', 'Uw gebruikersnaam moet uit minimaal ' . ENTRY_NICK_MIN_LENGTH . ' tekens bestaan.');
   define('ENTRY_STREET_ADDRESS', 'Straatnaam en huisnummer:');
   define('ENTRY_STREET_ADDRESS_ERROR', 'Uw straatnaam moet voor ons systeem minimaal ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tekens bevatten.');
   define('ENTRY_STREET_ADDRESS_TEXT', '*');
   define('ENTRY_SUBURB', 'Extra adresregel:');
-  define('ENTRY_SUBURB_ERROR', '');
   define('ENTRY_SUBURB_TEXT', '');
   define('ENTRY_POST_CODE', 'Postcode:');
   define('ENTRY_POST_CODE_ERROR', 'Voor postcode moet u minimaal ' . ENTRY_POSTCODE_MIN_LENGTH . ' tekens invoeren.');
@@ -219,7 +199,6 @@
   define('ENTRY_STATE_ERROR', 'Voor provincie moet u minimaal ' . ENTRY_STATE_MIN_LENGTH . ' tekens invoeren.');
   define('ENTRY_STATE_ERROR_SELECT', 'Kies uw provincie uit het rolmenu.');
   define('ENTRY_STATE_TEXT', '*');
-  define('JS_STATE_SELECT', '-- Klik hier --');
   define('ENTRY_COUNTRY', 'Land:');
   define('ENTRY_COUNTRY_ERROR', 'U moet uw land kiezen uit het pull down menu.');
   define('ENTRY_COUNTRY_TEXT', '*');
@@ -227,13 +206,9 @@
   define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Voor telefoonnummer moet u minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' nummers invullen.');
   define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
   define('ENTRY_FAX_NUMBER', 'Fax:');
-  define('ENTRY_FAX_NUMBER_ERROR', '');
   define('ENTRY_FAX_NUMBER_TEXT', '');
   define('ENTRY_NEWSLETTER', 'Ja, ik ontvang graag de nieuwsbrief');
   define('ENTRY_NEWSLETTER_TEXT', '');
-  define('ENTRY_NEWSLETTER_YES', 'Aangemeld');
-  define('ENTRY_NEWSLETTER_NO', 'Afgemeld');
-  define('ENTRY_NEWSLETTER_ERROR', '');
   define('ENTRY_PASSWORD', 'Wachtwoord:');
   define('ENTRY_PASSWORD_ERROR', 'Voor wachtwoord moet u minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens invoeren.');
   define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Wachtwoorden komen niet overeen, probeer het nogmaals.');
@@ -242,37 +217,44 @@
   define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
   define('ENTRY_PASSWORD_CURRENT', 'Huidige wachtwoord:');
   define('ENTRY_PASSWORD_CURRENT_TEXT', '*');
-  define('ENTRY_PASSWORD_CURRENT_ERROR', 'Voor het wachtwoord moet u minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens invoeren.');
   define('ENTRY_PASSWORD_NEW', 'Nieuw wachtwoord:');
   define('ENTRY_PASSWORD_NEW_TEXT', '*');
   define('ENTRY_PASSWORD_NEW_ERROR', 'Uw nieuwe wachtwoord moet minstens ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens bevatten.');
   define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'Wachtwoorden komen niet overeen, probeer het nogmaals.');
-  define('PASSWORD_HIDDEN', '--VERBORGEN--');
 
   define('FORM_REQUIRED_INFORMATION', '* verplicht veld');
   define('ENTRY_REQUIRED_SYMBOL', '*');
+  define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="alert">*</span>');
 
   // in gebruik door de zen_prev_next_display navigatie
   define('TEXT_RESULT_PAGE', '');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Artikel <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
-  define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Bestelling <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> bestellingen)');
-  define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Recensie <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> recensies)');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Artikel <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
-  define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Aanbieding <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> aanbiedingen)');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_FEATURED_PRODUCTS', 'Artikel <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_ALL', 'Artikel <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
+  define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> bestellingen)');
+  define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> recensies)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
+  define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> aanbiedingen)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_FEATURED_PRODUCTS', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_ALL', 'Toon <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> artikelen)');
 
-  define('PREVNEXT_TITLE_FIRST_PAGE', 'Eerste pagina');
   define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Vorige pagina');
   define('PREVNEXT_TITLE_NEXT_PAGE', 'Volgende pagina');
-  define('PREVNEXT_TITLE_LAST_PAGE', 'Laatste pagina');
   define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
   define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Vorige %d pagina\'s');
   define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
-  define('PREVNEXT_BUTTON_FIRST', '&laquo;Eerste');
   define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
   define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
-  define('PREVNEXT_BUTTON_LAST', 'Laatste&raquo;');
+
+define('ARIA_PAGINATION_ROLE_LABEL_GENERAL','Paginering');
+define('ARIA_PAGINATION_ROLE_LABEL_FOR','%s Paginering'); // eg: "Search results Pagination"
+define('ARIA_PAGINATION_PREVIOUS_PAGE','Ga naar de vorige pagina');
+define('ARIA_PAGINATION_NEXT_PAGE','Ga naar de volgende pagina');
+define('ARIA_PAGINATION_CURRENT_PAGE','Huidige pagina');
+define('ARIA_PAGINATION_CURRENTLY_ON',', nu op pagina %s');
+define('ARIA_PAGINATION_GOTO','Ga naar ');
+define('ARIA_PAGINATION_PAGE_NUM','Pagina %s');
+define('ARIA_PAGINATION_ELLIPSIS_PREVIOUS','Haal de vorige groep pagina's op');
+define('ARIA_PAGINATION_ELLIPSIS_NEXT','Haal de volgende groep pagina's op');
+define('ARIA_PAGINATION_','');
 
   define('TEXT_BASE_PRICE','Vanaf: ');
 
@@ -284,8 +266,6 @@
   define('TEXT_BY', ' door ');
 
   define('TEXT_REVIEW_BY', 'door %s');
-  define('TEXT_REVIEW_WORD_COUNT', '%s woorden');
-  define('TEXT_REVIEW_RATING', 'Waardering: %s [%s]');
   define('TEXT_REVIEW_DATE_ADDED', 'Datum toegevoegd: %s');
   define('TEXT_NO_REVIEWS', 'Momenteel nog geen recensies.');
 
@@ -293,16 +273,6 @@
 
   define('TEXT_UNKNOWN_TAX_RATE', 'Btw');
 
-  define('TEXT_REQUIRED', '<span class="errorText">Verplicht</span>');
-
-  define('WARNING_INSTALL_DIRECTORY_EXISTS', 'LET OP: Installatiefolder bestaat: %s. Verwijder deze folder i.v.m. de veiligheid van uw webwinkel!');
-  define('WARNING_CONFIG_FILE_WRITEABLE', 'LET OP: Iedereen heeft schrijfrechten op configuratiebestand: %s. Dit is een hoog veiligheidsrisico - zet daarom de juiste rechten op dit bestand (alleen-lezen, doorgaans CHMOD 644 of 444). U kunt dit doen via het configuratiepaneel/bestandsmanager van uw webhoster. Kijk voor verdere assistentie in het welkomstbericht van uw webhoster of op hun website. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Bekijk deze FAQ</a>');
-  define('ERROR_FILE_NOT_REMOVEABLE', 'Foutmelding: De opgegeven file kon niet verwijdert worden. Waarschijnlijk moet u uw FTP programma gebruiken om deze file te wissen, vanwege beperkte server rechtendue.');
-  define('WARNING_SESSION_AUTO_START', 'LET OP: session.auto_start staat aan - schakel deze PHP optie uit in php.ini en herstart de web server.<br />Kunt u dit niet neem dan contact op met de supportafdeling van uw webhoster.');
-  define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'LET OP: De folder voor \'download\' artikelen bestaat niet: ' . DIR_FS_DOWNLOAD . '.<br />Downloads werken niet totdat deze folder word aangemaakt.');
-  define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'LET OP: De SQL cache folder bestaat niet: ' . DIR_FS_SQL_CACHE . '.<br />SQL caching zal niet werken tot deze folder is aangemaakt.');
-  define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'LET OP: Geen schrijfrechten in de SQL cache folder: ' . DIR_FS_SQL_CACHE . '.<br />SQL caching werkt niet totdat de juiste rechten zijn ingesteld.');
-  define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'Uw databaseversie is verouderd. Ga naar beheer->Extra->Server/versie info om het versienummer van de database te controleren.');
   define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kon de taalfile niet vinden: ');
 
   define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Vervaldatum van uw creditcard is ongeldig. Controleer de datum en probeer het nogmaals.');
@@ -318,16 +288,7 @@
   define('ERROR_NO_REDEEM_CODE', 'U heb geen ' . TEXT_GV_REDEEM . ' ingevuld.');
   define('ERROR_NO_INVALID_REDEEM_GV', 'Ongeldige ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM);
   define('TABLE_HEADING_CREDIT', 'Beschikbaar tegoed');
-  define('GV_HAS_VOUCHERA', 'U heeft een tegoed op uw ' . TEXT_GV_NAME . ' account. U kunt dit <br />
-                           tegoed versturen per <a class="pageResults" href="');
 
-  define('GV_HAS_VOUCHERB', '"><strong>e-mail</strong></a> naar iemand anders');
-  define('ENTRY_AMOUNT_CHECK_ERROR', 'Uw tegoed is niet toereikend om dit bedrag te versturen.');
-  define('BOX_SEND_TO_FRIEND', 'Verstuur ' . TEXT_GV_NAME . ' ');
-
-  define('VOUCHER_REDEEMED',  TEXT_GV_NAME . ' Verzilverd');
-  define('CART_COUPON', 'Waardebon:');
-  define('CART_COUPON_INFO', 'meer info');
   define('TEXT_SEND_OR_SPEND','U heeft een tegoed beschikbaar in uw ' . TEXT_GV_NAME . ' account. U kunt het uitgeven of het aan iemand toesturen. Om te verzenden kunt u op de knop hieronder klikken.');
   define('TEXT_BALANCE_IS', 'Uw ' . TEXT_GV_NAME . ' tegoed is: ');
   define('TEXT_AVAILABLE_BALANCE', 'Uw ' . TEXT_GV_NAME . ' account');
@@ -338,21 +299,21 @@
 
   define('TABLE_HEADING_CREDIT_PAYMENT', 'Beschikbaar tegoed');
 
-  define('TEXT_INVALID_REDEEM_COUPON', 'Ongeldige waardeboncode');
-  define('TEXT_INVALID_REDEEM_COUPON_MINIMUM', 'U moet minstens %s besteden om uw waardebon te kunnen verzilveren');
-  define('TEXT_INVALID_STARTDATE_COUPON', 'Deze waardebon is nog niet beschikbaar.');
-  define('TEXT_INVALID_FINISDATE_COUPON', 'Deze waardebon is verlopen');
-  define('TEXT_INVALID_USES_COUPON', 'Deze waardebon kan maximaal ');
-  define('TIMES', ' keer gebruikt worden.');
-  define('TIME', ' keer.');
-  define('TEXT_INVALID_USES_USER_COUPON', 'U probeert de waardebon met nummer %s intewisselen. Het maximaal aantal keren dat u deze code mag gebruiken is overschreden. ');
-  define('REDEEMED_COUPON', 'waardebon van:');
-  define('REDEEMED_MIN_ORDER', 'bij bestellingen boven');
-  define('REDEEMED_RESTRICTIONS', ' [Alleen geldig voor bepaalde artikelen]');
+//coupon verzilver foutmeldingen (betaling bij afrekenen)
+  define('TEXT_COUPON_LINK_TITLE', 'zie de couponvoorwaarden');
+  define('TEXT_INVALID_REDEEM_COUPON', 'Couponcode "%s" is geen geldige code.');
+  define('TEXT_INVALID_REDEEM_COUPON_MINIMUM', 'Je moet ten minste %2$s uitgeven om coupon "%1$s" in te wisselen.');
+  define('TEXT_INVALID_COUPON_PRODUCT', 'De coupon "%1$s" is niet geldig voor enig product in uw winkelwagen.');
+  define('TEXT_INVALID_COUPON_ORDER_LIMIT', 'U heeft het totaal aantal toegestane bestellingen (%2$u) overschreden om de coupon "%1$s" te gebruiken.');
+  define('TEXT_INVALID_STARTDATE_COUPON', 'De coupon "%1$s" is niet geldig tot %2$s.');
+  define('TEXT_INVALID_FINISHDATE_COUPON', 'De coupon "%1$s" is nu niet geldig (verlopen %2$s).');
+  define('TEXT_INVALID_USES_COUPON', 'Coupon "%1$s" is al gebruikt op de maximaal toegestane tijden (%2$u).');
+  define('TEXT_INVALID_USES_USER_COUPON', 'U heeft coupon "%1$s" het maximale aantal keren per klant (%2$u) toegestaan.');
+  define('TEXT_REMOVE_REDEEM_COUPON_ZONE', 'De coupon "%s" is niet geldig voor het adres dat je hebt geselecteerd.');
   define('TEXT_ERROR', 'Er heeft zich een fout voorgedaan');
-  define('TEXT_INVALID_COUPON_PRODUCT', 'Deze inwisselcode kan niet gebruikt worden voor het type artikelen in uw winkelwagentje.');
+
   define('TEXT_VALID_COUPON', 'Gefeliciteerd, u heeft de kortingsbon ingewisseld');
-  define('TEXT_REMOVE_REDEEM_COUPON_ZONE', 'Deze kortingscoupon kan niet worden gebruikt icm uw adres.');
+
 
 // meer info inplaats van koop nu
   define('MORE_INFO_TEXT','... meer info');
@@ -366,6 +327,9 @@
 // inhoud winkelwagen
   define('PRODUCTS_ORDER_QTY_TEXT_IN_CART','Aantal in winkelwagen: ');
   define('PRODUCTS_ORDER_QTY_TEXT','In winkelwagen: ');
+  define('ARIA_QTY_ADD_TO_CART','Enter quantity to add to cart');
+  define('ARIA_EDIT_QTY_IN_CART','Edit quantity in cart');
+  define('ARIA_DELETE_ITEM_FROM_CART', 'Delete this item from the cart');
 
 // bericht na succesvol toevoegen aan winkelwagen als het winkelwagen ingesteld staat op niet weergeven
 // niks invullen voor geen berichten
@@ -424,7 +388,7 @@
   define('ERROR_FILE_NOT_SAVED', 'Fout:  bestand niet opgeslagen');
   define('ERROR_DESTINATION_NOT_WRITEABLE', 'Fout:  geen schrijfrechten binnen doelmap.');
   define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Fout: opgegeven bestandsmap bestaat niet.');
-  define('ERROR_FILE_TOO_BIG', 'Letop: bestand tegroot om te versturen!<br />Opdracht kan worden geplaatst maar neem contact met ons op voor hulp met verzenden van uw bestand');
+  define('ERROR_FILE_TOO_BIG', 'Letop: bestand tegroot om te versturen!<br>Opdracht kan worden geplaatst maar neem contact met ons op voor hulp met verzenden van uw bestand');
 // Einde iii toegevoegd
 
   define('TEXT_BEFORE_DOWN_FOR_MAINTENANCE', 'LET OP: In verband met gepland onderhoud zal deze site niet bereikbaar zijn op: ');
@@ -436,25 +400,25 @@
 
   define('TEXT_INVALID_SELECTION',' U heeft een ongeldige selectie gemaakt: ');
   define('TEXT_ERROR_OPTION_FOR',' bij de optie: ');
-  define('TEXT_INVALID_USER_INPUT', 'Interactie gebruiker nodig<br />');
+  define('TEXT_INVALID_USER_INPUT', 'Interactie gebruiker nodig<br>');
 
 // weergave artikelen
   define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Min: ');
   define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING','Aantal: ');
-  define('PRODUCTS_QUANTITY_IN_CART_LISTING','In winkelwagen:');
-  define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING','Voeg eventueel toe:');
 
   define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Max:');
+  define('TEXT_PRODUCT_MODEL', 'Model: ');
+  define('TABLE_HEADING_MODEL', 'Model');
 
   define('TEXT_PRODUCTS_MIX_OFF','*Mixed artikel UIT');
   define('TEXT_PRODUCTS_MIX_ON','*Mixed artikel AAN');
 
-  define('TEXT_PRODUCTS_MIX_OFF_SHOPPING_CART','<br />*U kunt de opties van dit item niet samenvoegen om te voldoen aan de minimum aantal eis<br />');
-  define('TEXT_PRODUCTS_MIX_ON_SHOPPING_CART','*Optie diversen samenvoegen staat AAN<br />');
+  define('TEXT_PRODUCTS_MIX_OFF_SHOPPING_CART','<br>*U kunt de opties van dit item niet samenvoegen om te voldoen aan de minimum aantal eis<br>');
+  define('TEXT_PRODUCTS_MIX_ON_SHOPPING_CART','*Optie diversen samenvoegen staat AAN<br>');
 
   define('ERROR_MAXIMUM_QTY','Maximum toegevoegd - Maximum aantal aan winkelwagen toegevoegd ');
-  define('ERROR_CORRECTIONS_HEADING','Corrigeer alstublieft: <br />');
-  define('ERROR_QUANTITY_ADJUSTED', 'Fout bij veranderen aantal<br />');
+  define('ERROR_CORRECTIONS_HEADING','Corrigeer alstublieft: <br>');
+  define('ERROR_QUANTITY_ADJUSTED', 'Fout bij veranderen aantal<br>');
   define('ERROR_QUANTITY_CHANGED_FROM', ', is aangepast van: ');
   define('ERROR_QUANTITY_CHANGED_TO', ' naar ');
 
@@ -466,14 +430,14 @@
   define('TEXT_FILESIZE_UNKNOWN', 'Onbekend');
 
 // fouten winkelwagentje
-  define('ERROR_PRODUCT','Artikel: ');
-  define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br />Helaas is dit artikel momenteel niet leverbaar.<br />Het artikel is uit uw winkelwagen verwijderd.');
-  define('ERROR_PRODUCT_ATTRIBUTES','<br />Het item: ');
-  define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br />Het spijt ons, maar de geselecteerde opties zijn veranderd voor dit product en zijn verwijderd uit onze voorraad op dit moment.<br /> Dit item is verwijderd uit uw winkelwagen.');
+  define('ERROR_PRODUCT','<br>Het item: ');
+  define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br>Helaas is dit artikel momenteel niet leverbaar.<br>Het artikel is uit uw winkelwagen verwijderd.');
+  define('ERROR_PRODUCT_ATTRIBUTES','<br>Het item: ');
+  define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br>Het spijt ons, maar de geselecteerde opties zijn veranderd voor dit product en zijn verwijderd uit onze voorraad op dit moment.<br> Dit item is verwijderd uit uw winkelwagen.');
   define('ERROR_PRODUCT_QUANTITY_MIN',',  ... Minimum aantal - ');
   define('ERROR_PRODUCT_QUANTITY_UNITS',' ... hoeveelheden fout - ');
-  define('ERROR_PRODUCT_OPTION_SELECTION','<br /> ... waarde van een optie niet mogelijk ');
-  define('ERROR_PRODUCT_QUANTITY_ORDERED','<br /> Totaal aantal artikelen besteld: ');
+  define('ERROR_PRODUCT_OPTION_SELECTION','<br> ... waarde van een optie niet mogelijk ');
+  define('ERROR_PRODUCT_QUANTITY_ORDERED','<br> Totaal aantal artikelen besteld: ');
   define('ERROR_PRODUCT_QUANTITY_MAX',' ...maximum aantal fout - ');
   define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',', ... minimum aantal fout - ');
   define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ... hoeveelheden fout - ');
@@ -481,11 +445,11 @@
 
   define('WARNING_SHOPPING_CART_COMBINED', 'NB: Voor uw gemak hebben wij de inhoud van het winkelwagen van uw laatste bezoek alvast toegevoegd aan uw huidige winkelwagen. Controleer de inhoud van uw winkelwagen alvorens af te rekenen.');
   define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Het aantal is aangepast aan het aantal op voorraad. ');
-  define('OUT_OF_STOCK_CANT_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad, of er zijn niet voldioende op voorraad voor uw bestelling.<br />Pas aub de hoeveelheid van de  producten gemarkeerd met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Bednkt');
-  define('OUT_OF_STOCK_CAN_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad.<br />Items die niet op voorraad zijn worden in backorder geplaatst.');
+  define('OUT_OF_STOCK_CANT_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad, of er zijn niet voldioende op voorraad voor uw bestelling.<br>Pas aub de hoeveelheid van de  producten gemarkeerd met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Bednkt');
+  define('OUT_OF_STOCK_CAN_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad.<br>Items die niet op voorraad zijn worden in backorder geplaatst.');
 
 // fout tijdens betalingverwerking $_SESSION['customers_id' komt niet voor in de tabel customers
-  define('ERROR_CUSTOMERS_ID_INVALID', 'Klant gegevens kunnen niet worden gevonden!<br />Alstublieft inloggen of een nieuw account aanmaken...');
+  define('ERROR_CUSTOMERS_ID_INVALID', 'Klant gegevens kunnen niet worden gevonden!<br>Alstublieft inloggen of een nieuw account aanmaken...');
 
   define('TABLE_HEADING_FEATURED_PRODUCTS','Aanbiedingen');
 
@@ -495,10 +459,11 @@
   define('TABLE_HEADING_SPECIALS_INDEX', 'Maandelijkse aanbieding voor %s');
 
   define('CAPTION_UPCOMING_PRODUCTS','Dit artikel is binnenkort weer voorradig.');
-  define('SUMMARY_TABLE_UPCOMING_PRODUCTS','in deze lijst ziet u producten die binnenkort weer voorradig zijn en de verwachte datum van beschikbaarheid.');
 
 // meta tags speciale definities
   define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','GRATIS!');
+
+  define('ASK_A_QUESTION', 'Stel een vraag over dit item');
 
 // klant login
   define('TEXT_SHOWCASE_ONLY','Neem contact op');
@@ -517,10 +482,10 @@
 
 // tekstprijzen
   define('TEXT_CHARGES_WORD','Berekende toeslag:');
-  define('TEXT_PER_WORD','<br />Prijs per woord: ');
+  define('TEXT_PER_WORD','<br>Prijs per woord: ');
   define('TEXT_WORDS_FREE',' Woord(en) gratis ');
   define('TEXT_CHARGES_LETTERS','Berekende toeslag:');
-  define('TEXT_PER_LETTER','<br />Prijs per letter: ');
+  define('TEXT_PER_LETTER','<br>Prijs per letter: ');
   define('TEXT_LETTERS_FREE',' Letter(s) gratis ');
   define('TEXT_ONETIME_CHARGES','*eenmalige toeslag = ');
   define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*eenmalige toeslag = ');
@@ -531,26 +496,18 @@
 
 // invoegvelden voor tekstveld
   define('TEXT_MAXIMUM_CHARACTERS_ALLOWED',' maximum aantal toegestane karakters');
-  define('TEXT_REMAINING','beschikbaar');
 
 // Verzendkosten calculator
   define('CART_SHIPPING_OPTIONS', 'bereken verzendkosten');
-  define('CART_SHIPPING_OPTIONS_LOGIN', 'Alstublieft <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">inloggen</span></a>om uw persoonlijke verzendkosten weer te geven.');
   define('CART_SHIPPING_METHOD_TEXT', 'Beschikbare leveringsmethoden');
   define('CART_SHIPPING_METHOD_RATES', 'Tarieven');
   define('CART_SHIPPING_METHOD_TO','Afleveradres: ');
-  define('CART_SHIPPING_METHOD_TO_NOLOGIN', 'Afleveradres: <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">inloggen</span></a>');
   define('CART_SHIPPING_METHOD_FREE_TEXT','Gratis versturen');
   define('CART_SHIPPING_METHOD_ALL_DOWNLOADS','- Downloads');
-  define('CART_SHIPPING_METHOD_RECALCULATE','Herberekenen');
   define('CART_SHIPPING_METHOD_ZIP_REQUIRED','true');// NIET VERTALEN!!!
   define('CART_SHIPPING_METHOD_ADDRESS','Adres:');
-  define('CART_OT','Indicatie totale verzendkosten:');
-  define('CART_OT_SHOW','true'); // instellen op false als u ordertotalen niet wil gebruiken. Waarde NIET VERTALEN!!!
   define('CART_ITEMS','Artikelen in winkelwagen: ');
-  define('CART_SELECT','Kies');
-  define('ERROR_CART_UPDATE', 'Alstublieft order aanpassen...<br />');
-  define('IMAGE_BUTTON_UPDATE_CART', 'Aanpassen');
+  define('ERROR_CART_UPDATE', 'Alstublieft order aanpassen...<br>');
   define('EMPTY_CART_TEXT_NO_QUOTE', 'Whoops! Uw sessie is verlopen... Om uw verzendkosten te berekenen moet u eerst uw winkelwagen verversen...');
   define('CART_SHIPPING_QUOTE_CRITERIA', 'Verzendkosten zijn gebaseerd op het door u geselecteerde adres:');
 
@@ -577,7 +534,6 @@
   define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Model');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Datum toegevoegd - nieuw -> oud');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Dattum toegevoegd - oud -> nieuw');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Standaard weergave');
 
 // defenities voor de download module
   define('TABLE_HEADING_DOWNLOAD_DATE', 'Link vervalt');
@@ -590,7 +546,6 @@
   define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
 
 // misc
-  define('COLON_SPACER', ':&nbsp;&nbsp;');
   define('PAYMENT_JAVASCRIPT_DISABLED', 'We could not continue with checkout as Javascript is disabled. You must enable it to continue');
 
 // Tabel kopteksten van winkelwagentje en binnenkort verwachte artikelen
@@ -627,13 +582,31 @@
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER', '');
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES', 'Items beginnen met...');
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Herstellen --');
+  
+// The following message, with the associated severity, is displayed in the storefront header when an admin has logged into
+// a customer's account.
+
+// -----
+// init_customer_auth.php substitutes the customer's name (%$1s) and customer's email address (%$2s)
+// into this message.
+//
+define('EMP_SHOPPING_FOR_MESSAGE', 'Momenteel aan het winkelen voor %1$s (%2$s).');
+
+// -----
+// Identify the messageStack "severity" to be applied to the above message, one of 'success',
+// 'warning', 'caution', 'error' (defaults to 'success').
+//
+define('EMP_SHOPPING_FOR_MESSAGE_SEVERITY', 'success');
+
+// Constants shared between multiple pages
+define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
 
 ///////////////////////////////////////////////////////////
 
-  $file_list = array(FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS); 
+  $file_list = [FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS];
   foreach ($file_list as $file) { 
     $file = str_replace(".php","",$file); 
-    require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/', $file . '.php', 'false'));
+    require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . "/", $file . '.php', 'false'));
   }
 
 // END OF EXTERNAL LANGUAGE LINKS

@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: account_history_info.php 3027 2006-02-13 17:15:51Z drbyte $
+ * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE', 'Mijn account');
@@ -17,7 +16,6 @@ define('HEADING_TITLE', 'Order informatie');
 
 define('HEADING_ORDER_NUMBER', 'Ordernr. %s');
 define('HEADING_ORDER_DATE', 'Orderdatum:');
-define('HEADING_ORDER_TOTAL', 'Ordertotaal:');
 
 define('HEADING_DELIVERY_ADDRESS', 'Afleveradres');
 define('HEADING_SHIPPING_METHOD', 'Verzendmethode');
@@ -31,11 +29,8 @@ define('HEADING_BILLING_ADDRESS', 'Factuuradres');
 define('HEADING_PAYMENT_METHOD', 'Betalingsmethode');
 
 define('HEADING_ORDER_HISTORY', 'Status orderhistorie & opmerkingen');
-define('TEXT_NO_COMMENTS_AVAILABLE', 'Geen opmerkingen gevonden.');
 define('TABLE_HEADING_STATUS_DATE', 'Datum');
 define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Orderstatus');
 define('TABLE_HEADING_STATUS_COMMENTS', 'Opmerkingen');
 define('QUANTITY_SUFFIX', '&nbsp;x  ');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
-define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
-?>

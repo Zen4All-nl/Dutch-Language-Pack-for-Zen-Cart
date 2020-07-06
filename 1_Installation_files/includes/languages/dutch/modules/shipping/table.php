@@ -6,9 +6,9 @@
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
 // | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |   
-// | http://www.zen-cart.com/index.php                                    |   
-// |                                                                      |   
+// |                                                                      |
+// | http://www.zen-cart.com/index.php                                    |
+// |                                                                      |
 // | Portions Copyright (c) 2003 osCommerce                               |
 // +----------------------------------------------------------------------+
 // | This source file is subject to version 2.0 of the GPL license,       |
@@ -25,6 +25,3 @@
 define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Tabeltarief');
 define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Tabeltarief');
 define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'Standaard verzending');
-define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', 'Gewicht');
-define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', 'Hoeveelheid');
-?>

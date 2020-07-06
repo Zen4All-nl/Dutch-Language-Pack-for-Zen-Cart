@@ -1,17 +1,15 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Thu Nov 29 13:31:36 2018 +0100 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
-define('HEADING_TITLE', 'Artikel Prijsmanager');
+define('HEADING_TITLE', 'Product Prijsmanager');
 define('HEADING_TITLE_PRODUCT_SELECT','Selecteer een categorie en artikelen om de prijsinformatie te laten zien van.....');
 
-define('TABLE_HEADING_PRODUCTS', 'Artikelen');
-define('TABLE_HEADING_PRODUCTS_MODEL','Model');
+define('TABLE_HEADING_PRODUCTS', 'Producten');
 define('TABLE_HEADING_PRODUCTS_PRICE', 'Prijs');
 define('TABLE_HEADING_PRODUCTS_PERCENTAGE','Percentage');
 define('TABLE_HEADING_AVAILABLE_DATE', 'Beschikbaar');
@@ -19,24 +17,23 @@ define('TABLE_HEADING_EXPIRES_DATE','Vervaldatum');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_PRODUCT_INFO', 'Artikel info:');
-define('TEXT_PRODUCTS_PRICE_INFO', 'Prijs info:');
-define('TEXT_PRODUCTS_MODEL','Model:');
+define('TEXT_PRODUCT_INFO', 'Product info:');
+define('TEXT_PRODUCTS_PRICE_INFO', 'Product Prijs Info:');
 define('TEXT_PRICE', 'Prijs');
 define('TEXT_PRICE_NET', 'Prijs (Netto)');
 define('TEXT_PRICE_GROSS', 'Prijs (Bruto)');
-define('TEXT_PRODUCT_AVAILABLE_DATE', 'Startdatum:');
-define('TEXT_PRODUCTS_STATUS', 'Status:');
-define('TEXT_PRODUCT_AVAILABLE', 'Aan');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
+define('TEXT_PRODUCT_AVAILABLE_DATE', 'Beschikbare datum:');
+define('TEXT_PRODUCTS_STATUS', 'Product Status:');
+define('TEXT_PRODUCT_AVAILABLE', 'Ingeschakeld');
+define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uitgeschakeld');
 
 
-define('TEXT_PRODUCT_INFO_NONE', 'Selecteer een van bovenstaande artikelen ...');
-  define('TEXT_PRODUCT_IS_FREE','Artikel is GRATIS:');
-  define('TEXT_PRODUCTS_IS_FREE_EDIT','<br />* Artikel GRATIS ');
-  define('TEXT_PRODUCT_IS_CALL','Informeer naar prijs bij dit artikel:');
-  define('TEXT_PRODUCTS_IS_CALL_EDIT','<br />* Informeer naar prijs bij dit artikel');
-  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES','Vanaf prijs i.c.m. uitbreidingsopties:');
+define('TEXT_PRODUCT_INFO_NONE', 'Selecteer hierboven een product ...');
+  define('TEXT_PRODUCT_IS_FREE','Product is GRATIS:');
+  define('TEXT_PRODUCTS_IS_FREE_EDIT','<br />*Product gemarkeerd als GRATIS');
+  define('TEXT_PRODUCT_IS_CALL','Informeer naar prijsl:');
+  define('TEXT_PRODUCTS_IS_CALL_EDIT','<br />*Product gemarkeerd Informeer naar prijs');
+  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES','Vanaf prijs i.c.m. opties:');
   define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE','Ja');
   define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE','Nee');
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT','<br />*Getoonde prijs bestaat uit prijs inclusief standaardopties en eventueel gekozen opties');
@@ -77,20 +74,13 @@ define('TEXT_INFO_DATE_ADDED', 'Datum toegevoegd:');
 define('TEXT_INFO_LAST_MODIFIED', 'Datum laatste wijziging:');
 define('TEXT_INFO_NEW_PRICE', 'Nieuwe prijs:');
 define('TEXT_INFO_ORIGINAL_PRICE', 'Originele prijs:');
-define('TEXT_INFO_PERCENTAGE', 'Percentage:');
-define('TEXT_INFO_AVAILABLE_DATE', 'Startdatum:');
-define('TEXT_INFO_EXPIRES_DATE', 'Vervaldatum:');
 define('TEXT_INFO_STATUS_CHANGE', 'Laatste wijziging status:');
-define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
 
 define('TEXT_INFO_HEADING_DELETE_FEATURED', 'Verwijder deze "....in  de schijnwerpers"');
 define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je dit "artikel in de schijnwerpers" wilt verwijderen?');
 
   define('TEXT_ATTRIBUTES_INSERT_INFO', '<strong>Bepaal de instellingen voor de optie en voeg deze toe</strong>');
-  define('TEXT_PRICED_BY_ATTRIBUTES', 'Prijs mbv opties');
   define('TEXT_PRODUCTS_PRICE', 'Artikelprijs: ');
-  define('TEXT_SPECIAL_PRICE', 'Aanbiedingsprijs: ');
-  define('TEXT_SALE_PRICE', 'Prijs SALE: ');
   define('TEXT_FREE', 'GRATIS');
   define('TEXT_CALL_FOR_PRICE', 'Informeer naar prijs');
 
@@ -101,15 +91,11 @@ define('TEXT_PRODUCTS_DISCOUNT_QTY_TITLE', 'Kortingsniveau');
 define('TEXT_PRODUCTS_DISCOUNT','Korting');
 define('TEXT_PRODUCTS_DISCOUNT_QTY','Minimum hoeveelheid');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE','Korting/Nieuwe prijs');
-define('TEXT_PRODUCTS_DISCOUNT_TYPE','Type');
 
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EACH','Bereken prijs p.st.:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED','Samengestelde prijs:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EACH_TAX','Bereken<br />prijs: &nbsp; incl. BTW:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED_TAX','Samengestelde<br />Prijs: &nbsp; incl. BTW:');
-
-define('TEXT_EACH','per stuk');
-define('TEXT_EXTENDED','totaal');
 
 define('TEXT_DISCOUNT_TYPE_INFO', 'Kortings info:');
 define('TEXT_DISCOUNT_TYPE','Soort korting:');
@@ -128,7 +114,6 @@ define('TEXT_UPDATE_COMMIT','Bijwerken alle veranderingen zoals getoond op beeld
 define('TEXT_PRODUCTS_TAX_CLASS', 'Tariefgroep belasting:');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID_WARNING', '<strong>Waarschuwing:</strong> De hoofdcategorie ID# %s komt niet overeen met de huidige categorie ID %s en het artikel wordt niet gekoppeld!');
-define('TEXT_INFO_MASTER_CATEGORIES_CURRENT', ' Huidige categorie ID %s komt overeen met hoofdcategorie ID# %s');
 define('TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE_TO_CURRENT', 'Werk hoofdcategorie ID %s bij zodat deze overeenkomt met huidige categorie ID %s');
 
 define('PRODUCT_WARNING_UPDATE', 'Maak wijzigingen en druk op Update om te bewaren');

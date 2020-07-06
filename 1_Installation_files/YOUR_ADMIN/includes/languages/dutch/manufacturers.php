@@ -35,7 +35,6 @@ define('TEXT_DATE_ADDED', 'Datum toegevoegd:');
 define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging:');
 define('TEXT_PRODUCTS', 'Artikelen:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Opslaan in directory:');
-define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
 define('TEXT_MANUFACTURERS_IMAGE_MANUAL', '<strong>of, selecteer een bestaande afbeelding van de server, bestandsnaam:</strong>');
 
 define('TEXT_NEW_INTRO', 'Vul de volgende informatie in voor de nieuwe fabrikant');
@@ -50,6 +49,3 @@ define('TEXT_DELETE_IMAGE', 'Verwijder afbeelding fabrikant?');
 define('TEXT_DELETE_PRODUCTS', 'Verwijder artikelen van deze fabrikant? (inclusief recensies, aanbiedingen en verwachte artikelen)');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing: </b>er zijn nog steeds %s artikelen gekoppeld aan deze fabrikant!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Foutmelding: Er is geen toegang en mogelijheid tot schrijven in deze directory. Zorg voor de juiste gebruikersrechten op: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Foutmelding: Directory bestaat niet: %s');
-?>

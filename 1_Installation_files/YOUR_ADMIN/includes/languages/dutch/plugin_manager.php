@@ -1,0 +1,36 @@
+<?php
+
+define('HEADING_TITLE', 'Plugin Manager');
+define('TABLE_HEADING_ACTION', 'Acties');
+define('TABLE_HEADING_KEY', 'Plugin Key');
+define('TABLE_HEADING_NAME', 'Naam');
+define('TABLE_HEADING_STATUS', 'Status');
+define('TABLE_HEADING_FILE_SPACE', 'Bestandsruimte');
+define('TABLE_HEADING_VERSION_INSTALLED', 'Versie');
+define('TEXT_INSTALL', 'Installeren');
+define('TEXT_UNINSTALL', 'de-installeren');
+define('TEXT_DISABLE', 'Uitzetten');
+define('TEXT_ENABLE', 'Aanzetten');
+define('TEXT_CLEANUP', 'Opschonen');
+define('TEXT_UPGRADE', 'Upgrade');
+define('TEXT_CONFIRM', 'Bevestig');
+define('TEXT_INFO_DESCRIPTION', 'Plugin omschrijving:');
+define('TEXT_INFO_CLEANUP', 'Verwijder mappen met ongewenste plug-inversies');
+define('TEXT_INFO_SELECT_CLEAN', 'Selecteer versies die u wilt verwijderen');
+define('TEXT_INSTALLED_ENABLED', 'Geïnstalleerd (ingeschakeld)');
+define('TEXT_INSTALLED_DISABLED', 'Geïnstalleerd (uitgeschakeld)');
+define('TEXT_NOT_INSTALLED', 'Niet geïnstalleerd');
+define('TEXT_INSTALL_SUCCESS', 'Plug-in succesvol geïnstalleerd');
+define('TEXT_UNINSTALL_SUCCESS', 'Plug-in succesvol verwijderd');
+define('TEXT_DISABLE_SUCCESS', 'Plug-in succesvol uitgeschakeld');
+define('TEXT_ENABLE_SUCCESS', 'Plug-in succesvol ingeschakeld');
+define('TEXT_UPGRADE_AVAILABLE', 'Upgrade beschikbaar');
+define('TEXT_VERSION_INSTALLED', 'Geïnstalleerde versie: %s');
+define('TEXT_CONFIRM_UNINSTALL', 'Weet u zeker dat u deze plug-in wilt verwijderen?');
+define('TEXT_CONFIRM_UPGRADE', 'Weet je zeker dat je deze plug-in wilt upgraden?');
+define('TEXT_CONFIRM_DISABLE', 'Weet je zeker dat je deze plug-in wilt uitschakelen?');
+define('TEXT_CONFIRM_ENABLE', 'Weet je zeker dat je deze plug-in wilt inschakelen?');
+define('TEXT_INFO_UPGRADE', 'Selecteer de versie waarnaar u wilt upgraden.');
+define('TEXT_INFO_UPGRADE_CONFIRM', 'Upgrade versie %s');
+define('TEXT_INFO_UPGRADE_WARNING', 'Waarschuwing: bla bla');
+define('TEXT_INFO_CONFIRM_CLEAN', 'Bevestig versie mappen om op te schonen / te verwijderen');

@@ -54,8 +54,6 @@ define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', ' De pagina wordt getoond, z
 
 define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Toon <b>%d</b> tot <b>%d</b> (van <b>%d</b> pagina\'s)');
 define('IMAGE_NEW_PAGE', 'Nieuwe Pagina');
-define('TEXT_INFO_PAGE_IMAGE', 'Afbeelding');
-define('TEXT_INFO_CURRENT_IMAGE', 'Huidige afbeelding:');
 define('TEXT_INFO_PAGES_ID', 'ID: ');
 define('TEXT_INFO_PAGES_ID_SELECT', 'Kies een pagina ...');
 
@@ -88,4 +86,3 @@ define('TEXT_SORT_PAGE_ID_TITLE', 'Pagina ID, Titel');
 
 define('TEXT_PAGE_TITLE', 'Titel:');
 define('TEXT_WARNING_MULTIPLE_SETTINGS', '<strong>WAARSCHUWING: Meerdere Link Definities</strong>');
-?>

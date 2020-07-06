@@ -1,10 +1,9 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte Sat Jul 5 15:44:37 2014 -0400 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Bannermanager');
@@ -67,8 +66,6 @@ define('SUCCESS_BANNER_STATUS_UPDATED', 'De status van de banner is met succes g
 
 define('ERROR_BANNER_TITLE_REQUIRED', 'Foutmelding: naam van de banner is nodig.');
 define('ERROR_BANNER_GROUP_REQUIRED', 'Foutmelding: banner moet aan groep worden toegewezen.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Foutmelding: directory bestaat niet: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Foutmelding: directory heeft geen schrijfrechten: %s');
 define('ERROR_IMAGE_DOES_NOT_EXIST', 'Foutmelding: afbeelding komt niet voor.');
 define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Foutmelding: afbeelding kan niet worden verwijderd.');
 define('ERROR_UNKNOWN_STATUS_FLAG', 'Foutmelding: onbekende optie instelling.');

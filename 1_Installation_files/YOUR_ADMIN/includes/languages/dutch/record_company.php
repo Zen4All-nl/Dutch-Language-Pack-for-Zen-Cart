@@ -38,9 +38,7 @@
   define('TEXT_HEADING_DELETE_RECORD_COMPANY', 'Verwijder platenmaatschappij');
   define('TEXT_DATE_ADDED', 'Datum toegevoegd');
   define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging');
-  define('TEXT_IMAGE_NONEXISTENT', 'Afbeelding komt niet voor');
   define('TEXT_PRODUCTS', 'Gekoppelde artikelen');
   define('TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES', 'Platenmaatschappij <strong>%d</strong> tot <strong>%d</strong> (van <strong>%d</strong> platenmaatschappijen)');
   define('TEXT_DELETE_PRODUCTS', 'Verwijder de platenmaatschappiij en alle gekoppelde artikelen?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<strong>Waarschuwing: </strong>er zijn nog steeds %s artikelen gekoppeld aan deze platenmaatschappij!');
-?>

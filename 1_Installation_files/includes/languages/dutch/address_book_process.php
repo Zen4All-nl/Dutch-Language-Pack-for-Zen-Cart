@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2008 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: address_book_process.php 9647 2008-09-17 00:10:08Z drbyte $
+ * @version $Id: Scott C Wilson 2020 Apr 12 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE_1', 'Mijn account');
@@ -20,12 +19,8 @@ define('HEADING_TITLE_MODIFY_ENTRY', '<h1>Adres veranderen</h1>');
 define('HEADING_TITLE_DELETE_ENTRY', '<h1>Verwijderen van een adres</h1>');
 define('HEADING_TITLE', 'Adresdetails');
 
-define('DELETE_ADDRESS_TITLE', 'Verwijder adres');
 define('DELETE_ADDRESS_DESCRIPTION', 'Weet u zeker dat u het geselecteerde adres wil verwijderen uit uw adressenboek?');
 
-define('NEW_ADDRESS_TITLE', 'Nieuw adres toevoegen');
-
-define('SELECTED_ADDRESS', 'Gekozen adres');
 define('SET_AS_PRIMARY', 'Instellen als hoofdadres.');
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'Het gekozen adres is sucesvol verwijderd uit uw adressenboek.');

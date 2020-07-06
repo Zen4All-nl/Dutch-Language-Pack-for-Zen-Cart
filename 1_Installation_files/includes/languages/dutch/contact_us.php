@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: contact_us.php 18695 2011-05-04 05:24:19Z drbyte $
+ * @version $Id: Scott C Wilson 2019 Jul 22 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Contactinformatie');
@@ -15,6 +14,7 @@ define('EMAIL_SUBJECT', 'e-mail van ' . STORE_NAME);
 
 define('ENTRY_NAME', 'Voor- en achternaam:');
 define('ENTRY_EMAIL', 'Uw e-mailadres:');
+define('ENTRY_TELEPHONE', 'Telefoonnummer:');
 define('ENTRY_ENQUIRY', 'Bericht:');
 
 define('SEND_TO_TEXT','Stuur e-mail naar:');

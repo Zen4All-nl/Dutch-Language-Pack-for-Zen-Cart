@@ -1,10 +1,9 @@
 <?php
 /**
- * @ Maintained by Zen4All (https://zen4all.nl)
  * @package admin
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 27 Modified in v1.5.6b $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Kolom sideBox');
@@ -23,12 +22,10 @@ define('TEXT_INFO_LAYOUT_BOX_NAME', 'Naam sidebox:');
 define('TEXT_INFO_LAYOUT_BOX_LOCATION','Positie: (enkele kolom negeert deze instelling)');
 define('TEXT_INFO_LAYOUT_BOX_STATUS', 'Links/Rechts kolom status: ');
 define('TEXT_INFO_LAYOUT_BOX_STATUS_SINGLE', 'Enkele kolom status: ');
-define('TEXT_INFO_LAYOUT_BOX_STATUS_INFO','AAN= 1 UIT=0');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER', 'Links/Rechts kolom rangschikking:');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER_SINGLE', 'Enkel kolom rangschikking:');
 define('TEXT_INFO_INSERT_INTRO', 'Voer de nieuwe sidebox in met alle relevante gegevens');
 define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je deze sidebox wilt verwijderen?');
-define('TEXT_INFO_HEADING_NEW_BOX', 'Nieuwe sidebox');
 define('TEXT_INFO_HEADING_EDIT_BOX', 'Wijzig sidebox');
 define('TEXT_INFO_HEADING_DELETE_BOX', 'Verwijder sidebox');
 define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Verwijder ontbrekende sidebox van template: ');
@@ -39,8 +36,6 @@ define('TEXT_INFO_BOX_DETAILS','Sidebox details: ');
 
 ////////////////
 
-define('HEADING_TITLE_LAYOUT_TEMPLATE', 'Site Template Layout');
-
 define('TABLE_HEADING_LAYOUT_TITLE', 'Titel');
 define('TABLE_HEADING_LAYOUT_VALUE', 'Waarde');
 
@@ -50,10 +45,6 @@ define('TEXT_WARNING_NEW_BOXES_FOUND', 'WAARSCHUWING: Nieuw boxen gevonden: ');
 define('TEXT_MODULE_DIRECTORY', 'Site Layout Directory:');
 define('TEXT_INFO_DATE_ADDED', 'Datum toegevoegd:');
 define('TEXT_INFO_LAST_MODIFIED', 'Datum laatste wijziging:');
-
-// layout box text in includes/boxes/layout.php
-define('BOX_HEADING_LAYOUT', 'Layout');
-define('BOX_LAYOUT_COLUMNS', 'Kolom Beheertool');
 
 // file exists
 define('TEXT_GOOD_BOX',' ');

@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2017 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Modified in v1.5.5 $
+ * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE_1', 'Afrekenen - Stap 1');
@@ -20,7 +19,6 @@ define('TITLE_BILLING_ADDRESS', 'Factuuradres:');
 define('TABLE_HEADING_PAYMENT_METHOD', 'Betaalmethode');
 define('TEXT_SELECT_PAYMENT_METHOD', 'Kies een betaalmethode.');
 define('TITLE_PLEASE_SELECT', 'Maak keuze');
-define('TEXT_ENTER_PAYMENT_INFORMATION', '');
 define('TABLE_HEADING_COMMENTS', 'Speciale instructies of opmerkingen bestelling');
 
 define('TITLE_NO_PAYMENT_OPTIONS_AVAILABLE', 'Momenteel niet beschikbaar');
@@ -33,5 +31,4 @@ define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">Voorwaarden en
 define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">Lees en accepteer alstublieft de voorwaarden en betalingscondities die op de bestelling van toepassing zijn door het selectievakje aantevinken. De voorwaarden en betalingscondities kunt u <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" target="_blank"><span class="pseudolink">hier [klik]</span></a>lezen.</span>');
 define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">Ik heb de voorwaarden en betalingscondities zoals van toepassing op deze bestelling gelezen en ga hier uitdrukkelijk mee akkoord.</span>');
 
-define('TEXT_CHECKOUT_AMOUNT_DUE', 'Totaal te voldoen: ');
 define('TEXT_YOUR_TOTAL','Uw totaal');

@@ -25,6 +25,10 @@ define('HEADING_TITLE', 'Status bestellingen');
 
 define('TABLE_HEADING_ORDERS_STATUS', 'Status bestellingen');
 define('TABLE_HEADING_ACTION', 'Actie');
+define('TABLE_HEADING_ORDERS_STATUS_ID', 'Ordertatus ID');
+define('TABLE_HEADING_SORT_ORDER', 'Sorteervolgorde');
+
+define('TEXT_INFO_SORT_ORDER', 'Sorteervolgorde: ');
 
 define('TEXT_INFO_EDIT_INTRO', 'Maak de noodzakelijke wijziging(en)');
 define('TEXT_INFO_ORDERS_STATUS_NAME', 'Status bestellingen:');
@@ -37,4 +41,3 @@ define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'Verwijder status bestellingen'
 define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', 'Foutmelding: de standaard "status bestelling" kan niet worden verwijderd. Stel een nieuwe standaard in en probeer het nogmaals.');
 define('ERROR_STATUS_USED_IN_ORDERS', 'Foutmelding: deze status bestelling" is op dit moment in gebruik bij bestellingen.');
 define('ERROR_STATUS_USED_IN_HISTORY', 'Foutmelding: deze status bestelling" is op dit moment in gebruik in de bestelhistorie.');
-?>

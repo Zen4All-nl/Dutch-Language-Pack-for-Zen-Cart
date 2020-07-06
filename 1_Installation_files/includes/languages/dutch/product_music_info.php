@@ -1,37 +1,29 @@
 <?php
 /**
- * @package languageDefines Dutch Zen Cart Version 1.5.3
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: product_music_info.php 6371 2007-05-25 19:55:59Z ajeh $
+ * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
 define('TEXT_PRODUCT_NOT_FOUND', 'Helaas is het artikel niet gevonden.');
 define('TEXT_CURRENT_REVIEWS', 'Huidige recensies:');
 define('TEXT_RECORD_COMPANY_URL', 'Voor meer informatie bezoek de <a href="%s" target="_blank">website van dit artikel</a>.');
-define('TEXT_ARTIST_URL', 'Voor meer informatie bezoek de <a href="%s" target="_blank">website van deze artiest</a>.');
 define('TEXT_DATE_ADDED', 'Artikel opgenomen in ons assortiment op %s.');
 define('TEXT_DATE_AVAILABLE', 'Artikel weer op voorraad %s.');
 define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Klanten die dit artikel kochten hebben ook onderstaande artikelen gekocht...');
 define('TEXT_PRODUCT_OPTIONS', 'Maak keuze: ');
-define('TEXT_PRODUCT_RECORD_COMPANY', 'Platenmaatschappij: ');
 define('TEXT_PRODUCT_ARTIST', 'Artiest: ');
 define('TEXT_PRODUCT_MUSIC_GENRE', 'Muziek genre: ');
 define('TEXT_PRODUCT_WEIGHT', 'Verzendgewicht: ');
 define('TEXT_PRODUCT_QUANTITY', ' aantal op voorraad');
-define('TEXT_PRODUCT_MODEL', 'Model: ');
 define('TEXT_PRODUCT_COLLECTIONS', 'Media collectie: ');
 
 
 
 // volgend vorig artikel
 define('PREV_NEXT_PRODUCT', 'Artikel ');
-define('PREV_NEXT_FROM', ' van ');
-define('IMAGE_BUTTON_PREVIOUS','Vorig artikel');
-define('IMAGE_BUTTON_NEXT','Volgend artikel');
-define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','Terug naar artikeloverzicht');
 
 // missende artikelen
 //define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
@@ -50,4 +42,3 @@ define('ATTRIBUTES_PRICE_DELIMITER_SUFFIX', ' )');
 define('ATTRIBUTES_WEIGHT_DELIMITER_PREFIX', ' (');
 define('ATTRIBUTES_WEIGHT_DELIMITER_SUFFIX', ') ');
 
-?>

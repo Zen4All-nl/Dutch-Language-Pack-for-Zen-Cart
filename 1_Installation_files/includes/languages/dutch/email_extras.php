@@ -1,11 +1,10 @@
 <?php
 /**
- * @package languageDefines
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2017 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  July 2017 Modified in v1.5.6 $
+ * @version $Id: DrByte 2020 Jun 19 Modified in v1.5.7 $
  */
 
 define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder
@@ -22,9 +21,6 @@ define ('EMAIL_EXTRA_HEADER_INFO', '');
 // office use only
 define('OFFICE_FROM','<strong>Van:</strong>');
 define('OFFICE_EMAIL','<strong>E-mailadres afzender:</strong>');
-
-define('OFFICE_SENT_TO','<strong>Verstuurd naar:</strong>');
-define('OFFICE_EMAIL_TO','<strong>E-mailadres ontvanger:</strong>');
 
 define('OFFICE_USE','<strong>Alleen t.b.v. intern gebruik:</strong>');
 define('OFFICE_LOGIN_NAME','<strong>Gebruikersnaam:</strong>');
@@ -57,7 +53,6 @@ define('EMAIL_ADVISORY_INCLUDED_WARNING', '<strong>Dit bericht zal worden toegev
 define('SEND_EXTRA_CREATE_ACCOUNT_EMAILS_TO_SUBJECT','[ACCOUNT AANMAKEN]');
 define('SEND_EXTRA_GV_CUSTOMER_EMAILS_TO_SUBJECT','[CADEAUBON VERSTUURD DOOR KLANT]');
 define('SEND_EXTRA_NEW_ORDERS_EMAILS_TO_SUBJECT','[NIEUWE BESTELLING]');
-define('SEND_EXTRA_CC_EMAILS_TO_SUBJECT','[EXTRA info CC BESTELLING] Nr.');
 
 // e-mails t.b.v. laag voorraadnivo
 define('EMAIL_TEXT_SUBJECT_LOWSTOCK','Let op: Voorraadniveau laag');

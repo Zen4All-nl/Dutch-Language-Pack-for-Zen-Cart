@@ -68,4 +68,3 @@ define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je deze UITVERKOOP wilt verw
 define('TEXT_MORE_INFO', '(Meer Info)');
 
 define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Waarschuwing : %s uitverkoop zijn reeds incluis in deze categorie');
-?>
