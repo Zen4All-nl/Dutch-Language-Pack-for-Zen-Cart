@@ -1,13 +1,13 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Tue Jan 9 13:12:24 2018 -0500 Modified in v1.5.6 $
- */
+ * @version $Id:
+*/
 
+$define = [
 define('HEADING_TITLE', 'Admin Activiteiten Log Manager');
 define('HEADING_SUB1', 'Bekijk of exporteer Logs');
 define('HEADING_SUB2', 'Loggeschiedenis opschonen');
