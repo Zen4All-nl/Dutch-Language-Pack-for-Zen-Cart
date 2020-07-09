@@ -275,7 +275,7 @@ define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'Fout: Sorry, er is een fout opget
 
 // images
 //define('IMAGE_ANI_SEND_EMAIL', 'Sending E-Mail');
-define('IMAGE_BACKUP', 'Backup');
+define('IMAGE_BACK', 'Terug');
 define('IMAGE_CANCEL', 'Annuleer');
 define('IMAGE_CONFIRM', 'Bevestigen');
 define('IMAGE_COPY', 'Kopieer');
