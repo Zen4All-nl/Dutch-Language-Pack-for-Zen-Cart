@@ -28,7 +28,7 @@
   define('OFFICE_USE','Alleen eigen gebruik:');
   define('OFFICE_LOGIN_NAME','Gebruikersnaam:');
   define('OFFICE_LOGIN_EMAIL','Aanmelden e-mail:');
-  define('OFFICE_LOGIN_PHONE','<strong>Telefoon:</strong>');
+  define('OFFICE_LOGIN_PHONE','Telefoon:');
   define('OFFICE_IP_ADDRESS','IP adres:');
   define('OFFICE_HOST_ADDRESS','Hostadres:');
   define('OFFICE_DATE_TIME','Datum en tijd:');
@@ -36,7 +36,7 @@
 // e-mail disclaimer
   define('EMAIL_DISCLAIMER', "\n" . 'Dit e-mailadres is door u of één van onze klanten aan ons verstrekt. Indien u vindt dat u deze e-mail niet had willen of mogen ontvangen of heeft ontvangen als gevolg van een fout kunt u een e-mail sturen aan %s ');
   define('EMAIL_SPAM_DISCLAIMER','Indien uw e-mailadres uit ons bestand moet worden verwijderd ontvangen wij dit verzoek graag als reply op dit adres. Uw verzoek wordt zo spoedig mogelijk, zonder verdere vragen, in behandeling genomen en uitgevoerd conform uw wens.');
-  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="https://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="https://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[door ADMIN verstuurd]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[Kortingsbonnen]');
   define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[STATUS BESTELLINGEN]');
