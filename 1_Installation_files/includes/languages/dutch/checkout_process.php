@@ -12,7 +12,7 @@ define('EMAIL_TEXT_FROM',' van ');  //toegevoegd aan EMAIL_TEXT_HEADER, alleen b
 define('EMAIL_THANKS_FOR_SHOPPING','Hartelijk bedankt voor Uw bestelling!');
 define('EMAIL_DETAILS_FOLLOW','Hieronder staan de details van uw bestelling.');
 define('EMAIL_TEXT_ORDER_NUMBER', 'Bestelnummer:');
-define('EMAIL_TEXT_INVOICE_URL', 'Controleer orderstatus:');
+define('EMAIL_TEXT_INVOICE_URL', 'Orderdetails:');
 define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier voor een gespecificeerde rekening');
 define('EMAIL_TEXT_DATE_ORDERED', 'Datum besteld:');
 define('EMAIL_TEXT_PRODUCTS', 'Artikelen');

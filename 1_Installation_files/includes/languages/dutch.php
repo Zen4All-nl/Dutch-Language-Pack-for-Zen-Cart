@@ -252,8 +252,8 @@ define('ARIA_PAGINATION_CURRENT_PAGE','Huidige pagina');
 define('ARIA_PAGINATION_CURRENTLY_ON',', nu op pagina %s');
 define('ARIA_PAGINATION_GOTO','Ga naar ');
 define('ARIA_PAGINATION_PAGE_NUM','Pagina %s');
-define('ARIA_PAGINATION_ELLIPSIS_PREVIOUS','Haal de vorige groep pagina's op');
-define('ARIA_PAGINATION_ELLIPSIS_NEXT','Haal de volgende groep pagina's op');
+define('ARIA_PAGINATION_ELLIPSIS_PREVIOUS','Haal de vorige groep pagina\'s op');
+define('ARIA_PAGINATION_ELLIPSIS_NEXT','Haal de volgende groep pagina\'s op');
 define('ARIA_PAGINATION_','');
 
   define('TEXT_BASE_PRICE','Vanaf: ');

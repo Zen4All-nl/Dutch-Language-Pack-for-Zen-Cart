@@ -13,7 +13,7 @@ define('HEADING_TITLE', 'Mijn account informatie');
 define('OVERVIEW_SHOW_ALL_ORDERS', '(alle bestellingen weergeven)');
 define('OVERVIEW_PREVIOUS_ORDERS', 'Vorige bestellingen');
 define('TABLE_HEADING_DATE', 'Datum');
-define('TABLE_HEADING_ORDER_NUMBER', 'Nr.');
+define('TABLE_HEADING_ORDER_NUMBER', 'Ordernummer');
 define('TABLE_HEADING_SHIPPED_TO', 'Verzenden naar');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_VIEW', 'Weergeven');
