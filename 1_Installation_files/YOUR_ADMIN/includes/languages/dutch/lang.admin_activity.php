@@ -1,25 +1,24 @@
 <?php
+
 /**
  * @ Maintained by Zen4All (https://zen4all.nl)
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id:
-*/
-
+ */
 $define = [
-define('HEADING_TITLE', 'Admin Activiteiten Log Manager');
-define('HEADING_SUB1', 'Bekijk of exporteer Logs');
-define('HEADING_SUB2', 'Loggeschiedenis opschonen');
-define('TEXT_ACTIVITY_EXPORT_FORMAT', 'Exporteer bestandsformaat:');
-define('TEXT_ACTIVITY_EXPORT_FILENAME', 'Exporteer filenaam:');
-define('TEXT_ACTIVITY_EXPORT_SAVETOFILE','Opslaan naar bestand op de server? (anders wordt het bestand direct gedownload van dit venster)');
-define('TEXT_ACTIVITY_EXPORT_DEST','Bestemming: ');
-define('TEXT_PROCESSED', ' Verwerkt.');
-define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Exporteren afgerond. ');
-define('FAILURE_EXPORT_ADMIN_ACTIVITY_LOG', 'Waarschuwing: Export is mislukt. Kan niet schrijven naar bestand ');
-
-define('TEXT_INSTRUCTIONS','<u>Instructies</u><br />
+  'HEADING_TITLE' => 'Admin Activiteiten Log Manager',
+  'HEADING_SUB1' => 'Bekijk of exporteer Logs',
+  'HEADING_SUB2' => 'Loggeschiedenis opschonen',
+  'TEXT_ACTIVITY_EXPORT_FORMAT' => 'Exporteer bestandsformaat:',
+  'TEXT_ACTIVITY_EXPORT_FILENAME' => 'Exporteer filenaam:',
+  'TEXT_ACTIVITY_EXPORT_SAVETOFILE' => 'Opslaan naar bestand op de server? (anders wordt het bestand direct gedownload van dit venster)',
+  'TEXT_ACTIVITY_EXPORT_DEST' => 'Bestemming: ',
+  'TEXT_PROCESSED' => ' Verwerkt.',
+  'SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG' => 'Exporteren afgerond. ',
+  'FAILURE_EXPORT_ADMIN_ACTIVITY_LOG' => 'Waarschuwing: Export is mislukt. Kan niet schrijven naar bestand ',
+  'TEXT_INSTRUCTIONS' => '<u>Instructies</u><br />
 U kunt deze pagina gebruken om uw Zen Cart&reg; Admin User Access Activity te exporteren naar een CSV file voor archivering.<br />
 U zou deze informatie moeten bewaren in het geval van fraude onderzoek, als uw site is gehacked. Dit is verplicht voor PCI Compliance.<br />
 <ol>
@@ -27,26 +26,22 @@ U zou deze informatie moeten bewaren in het geval van fraude onderzoek, als uw s
 <li>Geef een bestandsnaam op.(moet eindigen op en van deze: .csv .txt .htm .html .xml)</li>
 <li>Klick Opslaan om verder te gaan.</li>
 <li>Kies voor opene nof opslaan van het bestand, afhankelijk van wat uw browser aanbied.</li></ol>
-');
-
-define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>Leeg de Admin Activity Log tabel in de database<br />WAARSCHUWING: MAAK EERST EEN BACKUP VAN UW DATABASE voordat u deze update uitvoerd!</strong><br />The Admin Activity Log is een volgmethode dat de activiteit in de Admin vastlegt. <br />De log kan heel snel, heel groot worden, en moet van tijd tot tijd opgeschoond worden.<br />Waarschuwingen worden gegeven bij 50,000 records of 60 dagen, welke als eerste zich voordoet.<br /><span class="alert">OPMERKING: Voor PCI Compliance, u bent verplicht om de admin activity log geschiedenis te bewaren voor een periode van 12 maanden.<br />Het is het beste om uw logs te archiveren door te kiezen voor EXPORTEREN NAAT CSV en op save te klikken (zie hierboven), *VOORDAT* de log data geleegd wordt.</span>');
-define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">Waarschuwing!: U staat op het punt om *belangrijke* audit trail records uit uw database te VERWIJDEREN.</span></strong><br />You should FIRST confirm that you have a reliable BACKUP of your database before proceeding.<br />By proceeding you accept that this information will be deleted and understand your legal responsibilities regarding this data.<br /><br />I understand my responsibilities, and wish to proceed with the deletion by clicking Reset:<br />');
-define('SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG', 'Legen van de Admin Activiteiten Log is <strong>afgerond</strong>');
-define('TEXT_NO_RECORDS_FOUND', 'Geen records gevonden met het door u geselecteerde filter.');
-
-define('TEXT_EXPORTFORMAT0', 'Export als HTML (ideaal voor on-screen viewing)');
-define('TEXT_EXPORTFORMAT1', 'Export naar CSV (ideal voor het importeren in spreadsheets)');
-define('TEXT_EXPORTFORMAT2', 'Export naar TXT');
-define('TEXT_EXPORTFORMAT3', 'Export naar XML');
-
-define('TEXT_ACTIVITY_EXPORT_FILTER', 'Welke log data wilt u zien?');
-define('TEXT_EXPORTFILTER0', 'Alle gelogde data, ongeacht het ernstigheidslevel.');
-define('TEXT_EXPORTFILTER1', 'INFO - Algemeen gelogde informatie');
-define('TEXT_EXPORTFILTER2', 'OPMERKING - Belangrijke info, welke regelmatig bekeken zou moeten worden');
-define('TEXT_EXPORTFILTER3', 'WAARSCHUWING - Activitieten wleke dagelijks bekeken zouden moeten worden');
-define('TEXT_EXPORTFILTER4', 'Zowel een  OPMERKING als WAARSCHUWING (veel voorkomende combinatie om te inspecteren).');
-
-define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</strong></p><ul>
+',
+  'TEXT_INFO_ADMIN_ACTIVITY_LOG' => '<strong>Leeg de Admin Activity Log tabel in de database<br />WAARSCHUWING: MAAK EERST EEN BACKUP VAN UW DATABASE voordat u deze update uitvoerd!</strong><br />The Admin Activity Log is een volgmethode dat de activiteit in de Admin vastlegt. <br />De log kan heel snel, heel groot worden, en moet van tijd tot tijd opgeschoond worden.<br />Waarschuwingen worden gegeven bij 50,000 records of 60 dagen, welke als eerste zich voordoet.<br /><span class="alert">OPMERKING: Voor PCI Compliance, u bent verplicht om de admin activity log geschiedenis te bewaren voor een periode van 12 maanden.<br />Het is het beste om uw logs te archiveren door te kiezen voor EXPORTEREN NAAT CSV en op save te klikken (zie hierboven), *VOORDAT* de log data geleegd wordt.</span>',
+  'TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE' => '<strong><span class="alert">Waarschuwing!: U staat op het punt om *belangrijke* audit trail records uit uw database te VERWIJDEREN.</span></strong><br />You should FIRST confirm that you have a reliable BACKUP of your database before proceeding.<br />By proceeding you accept that this information will be deleted and understand your legal responsibilities regarding this data.<br /><br />I understand my responsibilities, and wish to proceed with the deletion by clicking Reset:<br />',
+  'SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG' => 'Legen van de Admin Activiteiten Log is <strong>afgerond</strong>',
+  'TEXT_NO_RECORDS_FOUND' => 'Geen records gevonden met het door u geselecteerde filter.',
+  'TEXT_EXPORTFORMAT0' => 'Export als HTML (ideaal voor on-screen viewing)',
+  'TEXT_EXPORTFORMAT1' => 'Export naar CSV (ideal voor het importeren in spreadsheets)',
+  'TEXT_EXPORTFORMAT2' => 'Export naar TXT',
+  'TEXT_EXPORTFORMAT3' => 'Export naar XML',
+  'TEXT_ACTIVITY_EXPORT_FILTER' => 'Welke log data wilt u zien?',
+  'TEXT_EXPORTFILTER0' => 'Alle gelogde data, ongeacht het ernstigheidslevel.',
+  'TEXT_EXPORTFILTER1' => 'INFO - Algemeen gelogde informatie',
+  'TEXT_EXPORTFILTER2' => 'OPMERKING - Belangrijke info, welke regelmatig bekeken zou moeten worden',
+  'TEXT_EXPORTFILTER3' => 'WAARSCHUWING - Activitieten wleke dagelijks bekeken zouden moeten worden',
+  'TEXT_EXPORTFILTER4' => 'Zowel een  OPMERKING als WAARSCHUWING (veel voorkomende combinatie om te inspecteren).',
+  'TEXT_INTERPRETING_LOG_DATA' => '<p><strong>Interpretatie van de log data</strong></p><ul>
 <li><strong>Ernst</strong> - De standaarden voor loggen beschrijven over het algemeen de ernst als volgt:
   <ul>
   <li><strong>INFO</strong> verwijst naar algemene activiteit. Dit kan al dan niet opmerkelijke details bevatten.</li>
@@ -61,4 +56,7 @@ define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretatie van de log data</
 <li><strong>attention</strong> - Dit zal suggesties bevatten met betrekking tot het soort verdachte activiteit dat moet worden beoordeeld in het veld "postdata" indien gemarkeerd. </li>
 <li><strong>logmessage</strong> - Deze bevat alle door het systeem geregistreerde berichten over de activiteit die plaatsvindt, zoals de installatie van een bepaalde module.</li>
 <li><strong>postdata</strong> - Dit bevat de onbewerkte POST-gegevens (met wat gevoelige informatie weggespoeld) voor eenvoudige beoordeling in geval van vermoedelijke kwaadaardige activiteiten.</li>
-</ul>');
+</ul>',
+];
+
+return $define;

@@ -1,36 +1,35 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2018 Zen Cart Development Team
- * @author inspired from sales_report_graphs.php,v 0.01 2002/11/27 19:02:22 cwi Exp  Released under the GNU General Public License $
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Mon Aug 7 23:27:01 2017 -0400 New in v1.5.6 $
+ * @version $Id:
  */
 
-define('FILTER_STATUS', '<b>Filter op Order Status</b>');
-define('FILTER_VALUE', '<b>Filter Aan/Uit</b>');
-define('HEADING_TITLE', 'Sales Rapport');
-define('TODAY_TO_DATE', 'Dagelijkse Totalen');
-define('WEEK_TO_DATE', 'Weekelijkse Totalen');
-define('MONTH_TO_DATE', 'Maandelijkse Totalen');
-define('AVERAGE_ORDER', 'Gemiddelde bestelhoeveelheid');
+$define = [
+  'FILTER_STATUS' => '<b>Filter op Order Status</b>',
+  'FILTER_VALUE' => '<b>Filter Aan/Uit</b>',
+  'HEADING_TITLE' => 'Sales Rapport',
+  'TODAY_TO_DATE' => 'Dagelijkse Totalen',
+  'WEEK_TO_DATE' => 'Weekelijkse Totalen',
+  'MONTH_TO_DATE' => 'Maandelijkse Totalen',
+  'AVERAGE_ORDER' => 'Gemiddelde bestelhoeveelheid',
+  'CHART_TOTAL_SALES' => 'Totale verkopen',
+  'CHART_AVERAGE_SALE_AMOUNT' => 'Gemiddelde verkoop hoeveelheid',
+  'TEXT_PREVIOUS_LINK' => '&lt;&lt;&nbsp;Vorige',
+  'TEXT_NEXT_LINK' => 'Volgende&nbsp;&gt;&gt;',
+  'REPORT_TEXT_ORDERS' => 'Bestelllingen',
+  'REPORT_TEXT_CONVERSION_PER_ORDER' => 'Conversie per Order',
+  'REPORT_TEXT_CONVERSION' => 'Conversie',
+  'REPORT_TEXT_VARIANCE' => 'Variance',
+  'REPORT_TEXT_HOURLY' => 'Per uur',
+  'REPORT_TEXT_DAILY' => 'Per dag',
+  'REPORT_TEXT_WEEKLY' => 'Per week',
+  'REPORT_TEXT_MONTHLY' => 'Per maand',
+  'REPORT_TEXT_YEARLY' => 'Per jaar',
+  'YEARLY_TOTAL' => 'Jaarlijks Totaal',
+  'CHART_TEXT_AVERAGE' => 'Gemiddelde',
+];
 
-define('CHART_TOTAL_SALES', 'Totale verkopen');
-define('CHART_AVERAGE_SALE_AMOUNT', 'Gemiddelde verkoop hoeveelheid');
-
-define('TEXT_PREVIOUS_LINK', '&lt;&lt;&nbsp;Vorige');
-define('TEXT_NEXT_LINK', 'Volgende&nbsp;&gt;&gt;');
-
-define('REPORT_TEXT_ORDERS', 'Bestelllingen');
-define('REPORT_TEXT_CONVERSION_PER_ORDER', 'Conversie per Order');
-define('REPORT_TEXT_CONVERSION', 'Conversie');
-define('REPORT_TEXT_VARIANCE', 'Variance');
-define('REPORT_TEXT_HOURLY', 'Per uur');
-define('REPORT_TEXT_DAILY', 'Per dag');
-define('REPORT_TEXT_WEEKLY', 'Per week');
-define('REPORT_TEXT_MONTHLY', 'Per maand');
-define('REPORT_TEXT_YEARLY', 'Per jaar');
-
-define('YEARLY_TOTAL', 'Jaarlijks Totaal');
-define('CHART_TEXT_AVERAGE', 'Gemiddelde');
+return $define;

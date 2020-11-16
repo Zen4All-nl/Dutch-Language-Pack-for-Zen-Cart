@@ -4,70 +4,59 @@
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
+ * @version $Id:
  */
 
-define('HEADING_TITLE', 'Kies een actie...');
+$define = [
+  'HEADING_TITLE' => 'Kies een actie...',
+  'BOX_TITLE_ORDERS' => 'Bestellingen',
+  'BOX_TITLE_STATISTICS' => 'Statistieken',
+  'BOX_TITLE_FEATURES_SALES' => 'Specials / Featured / Sales',
+  'WO_GRAPH_TITLE' => 'Who\'s Online:',
+  'WO_GRAPH_MORE' => 'meer...',
+  'WO_GRAPH_REGISTERED' => 'gebruiker:',
+  'WO_GRAPH_GUEST' => 'Gast:',
+  'WO_GRAPH_SPIDER' => 'Spider:',
+  'WO_GRAPH_TOTAL' => 'Totaal:',
+  'WHOS_ONLINE_ACTIVE_TEXT' => 'Actieve winkelwagen',
+  'WHOS_ONLINE_INACTIVE_TEXT' => 'Inactieve winkelwagen',
+  'WHOS_ONLINE_ACTIVE_NO_CART_TEXT' => 'Actief winkelwagen winkelwagen',
+  'WHOS_ONLINE_INACTIVE_NO_CART_TEXT' => 'Inactief winkelwagen winkelwagen',
+  'DASHBOARD_DAY' => 'Dag',
+  'DASHBOARD_SESSIONS' => 'Sessie',
+  'DASHBOARD_TOTAL' => 'Totaal',
+  'DASHBOARD_MONTH' => 'Maand',
+  'DASHBOARD_SALES' => 'Sales',
+  'TEXT_COUNTER_HISTORY_TITLE' => 'Bezoekers geschiedenis - Afgelopen 14 dagen',
+  'TEXT_MONTHLY_SALES_TITLE' => 'Maandelijkse Verkoop (exclusief transport)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
+  'TEXT_CLICK_FOR_COMPLETE_DETAILS' => 'Klik hier voor Alle details...',
+  'TEXT_SALES_TODAY' => 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%s</strong>',
+  'TEXT_SALES_YESTERDAY' => '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%s</strong>',
+  'BOX_ENTRY_CUSTOMERS' => 'Klanten:',
+  'BOX_ENTRY_NEWSLETTERS' => 'Nieuwsbrief abonnees:',
+  'BOX_ENTRY_PRODUCTS' => 'Artikelen:',
+  'BOX_ENTRY_PRODUCTS_OFF' => 'Artikelen non-actief:',
+  'BOX_ENTRY_REVIEWS' => 'Recensies:',
+  'BOX_ENTRY_REVIEWS_PENDING' => 'Recensie(s) wachtend op akkoord:',
+  'BOX_ENTRY_NEW_CUSTOMERS' => 'Nieuwe klanten:',
+  'BOX_ENTRY_NEW_ORDERS' => 'Nieuwe bestellingen:',
+  'BOX_ENTRY_SPECIALS_EXPIRED','Aanbiedingen verlopen',
+  'BOX_ENTRY_FEATURED_EXPIRED','..in de schijnwerper.. verlopen',
+  'BOX_ENTRY_SALEMAKER_EXPIRED','UITVERKOOP verlopen',
+  'BOX_ENTRY_SPECIALS_ACTIVE','Aanbiedingen lopend',
+  'BOX_ENTRY_FEATURED_ACTIVE','..in de schijnwerper lopend',
+  'BOX_ENTRY_SALEMAKER_ACTIVE','UITVERKOOP lopend',
+  'SESSION' => 'Sessie',
+  'TOTAL' => 'Totaal',
+  'TEXT_UPDATE' => 'Update',
+  'TEXT_STORE_NAME' => 'Je webwinkelnaam',
+  'TEXT_STORE_OWNER' => 'Winkel eigenaar',
+  'TEXT_STORE_OWNER_EMAIL' => 'Winkel eigenaar e-mailadres',
+  'TEXT_STORE_COUNTRY' => 'Winkel land',
+  'TEXT_STORE_ZONE' => 'Winkel provincie',
+  'TEXT_STORE_ADDRESS' => 'Winkel adres',
+  'HEADING_TITLE_WIZARD' => 'Initiele Setup Wizard',
+  'TEXT_STORE_DETAILS' => 'Geef alstublieft de details van je webwinkel. Alle velden zijn verplicht',
+];
 
-define('BOX_TITLE_ORDERS', 'Bestellingen');
-define('BOX_TITLE_STATISTICS', 'Statistieken');
-
-define('BOX_TITLE_FEATURES_SALES', 'Specials / Featured / Sales');
-
-define('WO_GRAPH_TITLE', 'Who\'s Online:');
-define('WO_GRAPH_MORE', 'meer...');
-define('WO_GRAPH_REGISTERED', 'gebruiker:');
-define('WO_GRAPH_GUEST', 'Gast:');
-define('WO_GRAPH_SPIDER', 'Spider:');
-define('WO_GRAPH_TOTAL', 'Totaal:');
-define('WHOS_ONLINE_ACTIVE_TEXT', 'Actieve winkelwagen');
-define('WHOS_ONLINE_INACTIVE_TEXT', 'Inactieve winkelwagen');
-define('WHOS_ONLINE_ACTIVE_NO_CART_TEXT', 'Actief winkelwagen winkelwagen');
-define('WHOS_ONLINE_INACTIVE_NO_CART_TEXT', 'Inactief winkelwagen winkelwagen');
-
-define('DASHBOARD_DAY', 'Dag');
-define('DASHBOARD_SESSIONS', 'Sessie');
-define('DASHBOARD_TOTAL', 'Totaal');
-define('DASHBOARD_MONTH', 'Maand');
-define('DASHBOARD_SALES', 'Sales');
-
-define('TEXT_COUNTER_HISTORY_TITLE', 'Bezoekers geschiedenis - Afgelopen 14 dagen');
-
-define('TEXT_MONTHLY_SALES_TITLE', 'Maandelijkse Verkoop (exclusief transport)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Klik hier voor Alle details...');
-
-define('TEXT_SALES_TODAY', 'Verkopen <strong>Vandaag</strong> (%s) &nbsp;<strong>$%s</strong>');
-define('TEXT_SALES_YESTERDAY', '<strong>Gisteren</strong> (%s) &nbsp;<strong>$%s</strong>');
-
-define('BOX_ENTRY_CUSTOMERS', 'Klanten:');
-define('BOX_ENTRY_NEWSLETTERS', 'Nieuwsbrief abonnees:');
-
-define('BOX_ENTRY_PRODUCTS', 'Artikelen:');
-define('BOX_ENTRY_PRODUCTS_OFF', 'Artikelen non-actief:');
-define('BOX_ENTRY_REVIEWS', 'Recensies:');
-define('BOX_ENTRY_REVIEWS_PENDING', 'Recensie(s) wachtend op akkoord:');
-
-define('BOX_ENTRY_NEW_CUSTOMERS', 'Nieuwe klanten:');
-define('BOX_ENTRY_NEW_ORDERS', 'Nieuwe bestellingen:');
-
-define('BOX_ENTRY_SPECIALS_EXPIRED','Aanbiedingen verlopen');
-define('BOX_ENTRY_FEATURED_EXPIRED','..in de schijnwerper.. verlopen');
-define('BOX_ENTRY_SALEMAKER_EXPIRED','UITVERKOOP verlopen');
-
-define('BOX_ENTRY_SPECIALS_ACTIVE','Aanbiedingen lopend');
-define('BOX_ENTRY_FEATURED_ACTIVE','..in de schijnwerper lopend');
-define('BOX_ENTRY_SALEMAKER_ACTIVE','UITVERKOOP lopend');
-
-define('SESSION', 'Sessie');
-define('TOTAL', 'Totaal');
-
-define('TEXT_UPDATE', 'Update');
-
-define('TEXT_STORE_NAME', 'Je webwinkelnaam');
-define('TEXT_STORE_OWNER', 'Webwinkel eigenaar');
-define('TEXT_STORE_OWNER_EMAIL', 'Webwinkel eigenaar e-mailadres');
-define('TEXT_STORE_COUNTRY', 'Webwinkel land');
-define('TEXT_STORE_ZONE', 'Webwinkel provincie');
-define('TEXT_STORE_ADDRESS', 'Webwinkel adres');
-define('HEADING_TITLE_WIZARD', 'Initiele Setup Wizard');
-define('TEXT_STORE_DETAILS', 'Geef alstublieft de details van je webwinkel. Alle velden zijn verplicht');
+return $define;

@@ -4,149 +4,130 @@
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 30 Modified in v1.5.7 $
+ * @version $Id:
  */
 
-define('HEADING_TITLE', 'Kortingsbonnen');
-define('HEADING_TITLE_STATUS', 'Status: ');
+$define = [
+  'HEADING_TITLE' => 'Kortingsbonnen',
+  'HEADING_TITLE_STATUS' => 'Status: ',
+  'TEXT_COUPON' => 'Naam kortingsbon',
+  'TEXT_COUPON_ALL' => 'Alle kortingsbonnen',
+  'TEXT_COUPON_ACTIVE' => 'Actieve kortingsbonnen',
+  'TEXT_COUPON_INACTIVE' => 'Inactieve kortingsbonnen',
+  'TEXT_SUBJECT' => 'Onderwerp:',
+  'TEXT_UNLIMITED' => 'Onbeperkt',
+  'TEXT_FROM' => 'Van:',
+  'TEXT_FREE_SHIPPING' => 'Gratis verzenden',
+  'TEXT_MESSAGE' => 'Boodschap:',
+  'TEXT_RICH_TEXT_MESSAGE','Rich-Text boodschap:',
+  'TEXT_CONFIRM_DELETE' => 'Weet je zeker dat je deze kortingsbon wilt verwijderen?',
+  'TEXT_SEE_RESTRICT' => 'Voor deze kortingsbon gelden beperkingen',
+  'TEXT_COUPON_ANNOUNCE','Het doet ons een genoegen u een kortingsbon voor ' . STORE_NAME . ' aan te kunnen bieden.',
+  'TEXT_TO_REDEEM' => 'U kunt het tegoed van deze kortingsbon inwisselen tijdens het afrekenen in onze winkel. U hoeft alleen de inwisselcode in te voeren in het veld dat daarvoor beschikbaar is en vervolgens op de knop "Volgende" te drukken. Uw tegoed wordt bijgeschreven in uw Account en is direct beschikbaar om te gebruiken.',
+  'TEXT_VOUCHER_IS' => 'De inwisselcode van de kortingsbon is ',
+  'TEXT_REMEMBER' => 'Wilt u er voor zorgen dat u de inwisselcode van uw kortingsbon veilig opslaat? Alleen dan kunt u profiteren van deze speciale aanbieding op ieder door u gewenst moment.',
+  'TEXT_VISIT' => 'Bezoek onze winkel op %s',
+  'TEXT_COUPON_HELP_DATE' => '<p>De kortingsbon is geldig tussen %s en %s</p>',
+  'HTML_COUPON_HELP_DATE' => '<p>De kortingsbon is geldig tussen %s en %s</p>',
+  'TABLE_HEADING_ACTION' => 'Actie',
+  'CUSTOMER_ID' => 'Klant ID',
+  'CUSTOMER_NAME' => 'Klantnaam',
+  'REDEEM_DATE' => 'Datum ingewisseld',
+  'IP_ADDRESS' => 'IP adres',
+  'TEXT_REDEMPTIONS' => 'Aantal keer inwisselen kortingsbonnen',
+  'TEXT_REDEMPTIONS_TOTAL' => 'Totaal',
+  'TEXT_REDEMPTIONS_CUSTOMER' => 'Door deze klant',
+  'TEXT_NO_FREE_SHIPPING' => 'Geen gratis verzending',
+  'NOTICE_EMAIL_SENT_TO' => 'Opmerking: e-mail verstuurd aan: %s',
+  'ERROR_NO_CUSTOMER_SELECTED' => 'Foutmelding: geen klant geselecteerd.',
+  'ERROR_NO_SUBJECT' => 'Foutmelding: geen onderwerp ingevuld.',
+  'COUPON_NAME' => 'Naam kortingsbon:',
+  'COUPON_AMOUNT' => 'Waarde kortingsbon:',
+  'TEXT_COUPON_PRODUCT_COUNT_PER_ORDER' => 'Per Order',
+  'TEXT_COUPON_PRODUCT_COUNT_PER_PRODUCT' => 'Per in aanmerking komend Item',
+  'COUPON_CODE' => 'Inwisselcode kortingsbon:',
+  'COUPON_STARTDATE' => 'Startdatum:',
+  'COUPON_FINISHDATE' => 'Vervaldatum:',
+  'COUPON_RESTRICTIONS' => 'Restricties',
+  'COUPON_FREE_SHIP' => 'Gratis verzenden:',
+  'COUPON_DESC' => 'Beschrijving kortingsbon:<br />(Is zichtbaar voor klant)',
+  'COUPON_MIN_ORDER' => 'Minimale bestelwaarde kortingsbon:',
+  'COUPON_TOTAL' => 'Coupon Minimum berekend vanaf: ',
+  'TEXT_COUPON_TOTAL_PRODUCTS' => 'Toegestane produkten',
+  'TEXT_COUPON_TOTAL_PRODUCTS_BASED' => '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Gebasseerd op Totaal van teogestane produkten volgens Coupon Restrictie Regels)',
+  'TEXT_COUPON_TOTAL_ORDER' => 'Alle Produkten',
+  'TEXT_COUPON_TOTAL_ORDER_BASED' => '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Gebasseerd op het Voledige Order Totaal van Alle Produkten Ongeacht of ze in aanmerking komen voor de Coupon Restricties)',
+  'COUPON_USES_COUPON' => 'Maximum aantal keer gebruik kortingsbon:',
+  'COUPON_USES_USER' => 'Maximum aantal keer gebruik kortingsbon per klant:',
+  'COUPON_PRODUCTS' => 'Geldige artikellijst',
+  'COUPON_CATEGORIES' => 'Geldige categorielijst',
+  'DATE_CREATED' => 'Datum toegevoegd',
+  'DATE_MODIFIED' => 'Datum laatste wijziging',
+  'TEXT_HEADING_NEW_COUPON' => 'Maak nieuwe kortingsbon',
+  'TEXT_NEW_INTRO' => 'Voer de nieuwe kortingsbon in met alle relevante gegevens<br />',
+  'COUPON_ZONE_RESTRICTION' => 'Coupon Zone Restrictie: ',
+  'TEXT_COUPON_ZONE_RESTRICTION' => 'Coupon Zone Restrictie is een optie.',
+  'COUPON_ORDER_LIMIT' => 'De vorige bestellingen van deze klant zijn minder dan: ',
+  'COUPON_ORDER_LIMIT_HELP' => 'De vorige bestellingen van de klant moeten minder zijn dan, laat leeg voor ongelimiteerd',
+  'COUPON_IS_VALID_FOR_SALES' => 'Coupon geldig voor uitverkoop:',
+  'TEXT_COUPON_IS_VALID_FOR_SALES' => 'Coupon IS toegestaan voor produkten in de uitverkoop',
+  'TEXT_COUPON_IS_VALID_FOR_SALES_EMAIL' => 'Coupon is geldig voor produkten in de uitverkoop of aanbieding',
+  'TEXT_NO_COUPON_IS_VALID_FOR_SALES' => 'Coupon NIET toegestaan voor produkten in de uitverkoop of aanbieding',
+  'TEXT_NO_COUPON_IS_VALID_FOR_SALES_EMAIL' => 'Coupon is niet geldig voor produkten in de uitverkoop of aanbieding',
+  'ERROR_NO_COUPON_AMOUNT' => 'Geen waarde van de kortingsbon ingevuld.',
+  'ERROR_NO_COUPON_NAME' => 'Geen naam van de kortingsbon ingevuld.',
+  'ERROR_COUPON_EXISTS' => 'Een kortingsbon met die code bestaat al.',
+  'COUPON_NAME_HELP' => 'Een korte naam voor de kortingsbon (bijv. NK1eB= NieuweKlant1eBezoek).',
+  'COUPON_AMOUNT_HELP' => 'De korting die deze bon geeft. Dit kan een vast bedrag zijn (bijv. &euro;5) of percentage (bijv. 3%) op het eindbedrag.',
+  'COUPON_CODE_HELP' => 'Indien niets ingevuld wordt er automatisch een code voor de kortingsbon aangemaakt en anders kun je zelf een code samenstellen.',
+  'COUPON_STARTDATE_HELP' => 'Deze coupon is geldig vanaf',
+  'COUPON_FINISHDATE_HELP' => 'Deze coupon verloopt op',
+  'COUPON_FREE_SHIP_HELP' => 'De kortingsbon geeft recht op <strong>gratis</strong> verzenden.',
+  'COUPON_DESC_HELP' => 'Een beschrijving van de kortingsbon als uitleg voor de klant.',
+  'COUPON_MIN_ORDER_HELP' => 'Minimum waarde van de bestelling voordat de kortingsbon geldig is en gebruikt kan worden (bijv. vanaf €50 bestelling excl. verzenden en BTW.)',
+  'COUPON_TOTAL_HELP' => 'Als je een minimum order grootte voor deze Kortingsbon specificeert,wil je dan dat de minimale hoeveelheid is gebasseerd op teogestane produkten volgens de Coupon Restrictie Regels of voor volledig order totaal,bij het bepalen of de Coupon minimale order is gehaald?<br />OPMERKING: Volledig Order Totaal betekend dat op zijn minst 1 van de in aanmerking komende produketen met restrictie in de winkelwagen aanwezigen moet zijn, om de kortingsbon te laten werken.',
+  'COUPON_SALE_HELP' => 'Als u kiest voor <i>NIET toegestaan</i>, worden producten die in de aanbieding zijn of speciaal niet verdisconteerd of meegeteld voor de minimale couponbestelling.',
+  'COUPON_USES_COUPON_HELP' => 'Het aantal keer dat de kortingsbon gebruikt kan worden door iedereen. Indien niet ingevuld is dit onbeperkt.',
+  'COUPON_USES_USER_HELP' => 'Het aantal keer dat de kortingsbon door <strong>één klant</strong> kan worden gebruikt. Indien niet ingevuld is dit onbeperkt.',
+  'COUPON_BUTTON_PREVIEW' => 'Voorvertoning',
+  'COUPON_BUTTON_CONFIRM' => 'Bevestig',
+  'COUPON_ACTIVE' => 'Status',
+  'COUPON_START_DATE' => 'Startdatum',
+  'COUPON_EXPIRE_DATE' => 'Vervaldatum',
+  'TEXT_INFO_DUPLICATE_MANAGEMENT' => '<strong>Meerdere Kortingsbonnen Management</strong><br /><br />Klik op de Kortingsbon waarop de wijzigingen gebasseerd worden<br />of gebruik de geselecteerde Basis bon code: <strong>%s</strong>',
+  'ERROR_DISCOUNT_COUPON_WELCOME' => 'De kortingsbon kan NIET ingetrokken worden. Deze kortingsbon is de Welkomst-kortingsbon<br /><br />Verander eerst de Welkomst-kortingsbon, probeer het dan opnieuw.',
+  'SUCCESS_COUPON_DISABLED' => 'Uitgevoerd! Kortingsbon is inactief ...',
+  'TEXT_COUPON_NEW' => 'Gebruik de NIEUWE kortingsbon-code:',
+  'ERROR_DISCOUNT_COUPON_DUPLICATE' => 'WAARSCHUWING! Duplicaat kortingsbon bestaat ... Kopieren niet uitgevoerd voor kortingsbon-code: ',
+  'TEXT_CONFIRM_COPY' => 'Weet u zeker dat u deze kortingsbonwenst te kopieren naar een andere kortingsbon?',
+  'SUCCESS_COUPON_DUPLICATE' => 'Uitgevoerd! Kortingsbon is gekopieerd...<br /><br />Controleer de kortingsbon-NAAM en geldigheidsdata ...',
+  'WARNING_COUPON_DUPLICATE' => 'Waarschuwing! Er zijn geen kortingsbonnen aangemaakt! Er is niet aangegeven hoeveel kortingsbonnen er gemaakt moesten worden ... ',
+    'WARNING_COUPON_DUPLICATE_FAILED' => 'Warning! Coupon duplication failed', 
+  'TEXT_COUPON_COPY_INFO' => 'Kopieer voor meerdere duplicaten',
+  'TEXT_COUPON_COPY_DUPLICATE' => 'Maak meerdere coupons met de basisboncode van: ',
+  'TEXT_COUPON_COPY_DUPLICATE_CNT' => 'Hoeveel dubbele kortingsbonnen wilt u maken? ',
+  'TEXT_CONFIRM_DELETE_DUPLICATE' => 'Verwijder alle overeenkomende kortingsbonnen op basis van de basiscouponcode<br>Voorbeeld: <strong>%s</strong> zou alle kortingsbonnencodes verwijderen die beginnen met: <strong>%s</strong>',
+  'TEXT_COUPON_DELETE_DUPLICATE' => 'Verwijder alle kortingsbonnen die overeenkomen met de basiscode: ',
+  'TEXT_DISCOUNT_COUPON_EMAIL' => 'Kortingsbonnen mailen',
+  'TEXT_DISCOUNT_COUPON_CONFIRM_DELETE' => 'Bevestig verwijderen kortingsbon',
+  'TEXT_DISCOUNT_COUPON_CONFIRM_RESTORE' => 'Bevestig herstellen kortingsbon',
+  'TEXT_DISCOUNT_COUPON_EDIT' => 'Kortingsbon aanpassen',
+  'TEXT_DISCOUNT_COUPON_DELETE' => 'Kortingsbon verwijderen',
+  'TEXT_DISCOUNT_COUPON_RESTORE' => 'Kortingsbon herstellen',
+  'TEXT_DISCOUNT_COUPON_RESTRICT' => 'Beperk kortingsbon',
+  'TEXT_DISCOUNT_COUPON_REPORT' => 'Kortingsbon rapport',
+  'TEXT_DISCOUNT_COUPON_COPY' => 'Kortingsbon kopieëren',
+  'TEXT_DISCOUNT_COUPON_COPY_MULTIPLE' => 'Kopieer meerdere kortingsbonnen',
+  'TEXT_DISCOUNT_COUPON_DELETE_MULTIPLE' => 'Verwijdere meerdere kortingsbonnen',
+  'TEXT_DISCOUNT_COUPON_REPORT_MULTIPLE' => 'Rapport met meerdere kortingsbonnen',
+  'TEXT_DISCOUNT_COUPON_DOWNLOAD' => 'Download meerdere bon codes',
+  'REDEEM_ORDER_ID' => 'Order #',
+  'SUCCESS_COUPON_REACTIVATE' => 'Succesvol geheractiveerd',
+  'TEXT_CONFIRM_REACTIVATE' => 'Weet he zeker dat je deze bon wilt herstellen?<br />OPMERKING: HErstellen heeft geen effect op begin/eind datums.<br />Herstellen heeft geen effect op beperkingen op het per bon/gebruikper klant als deze al geind is.',
+  'SUCCESS_COUPON_FOUND' => 'Kortingsbon gevonden!',
+  'ERROR_COUPON_NOT_FOUND' => 'Kortingsbon niet gevonden!',
+  'ERROR_NO_COUPON_CODE' => 'Kortingsbon boncode niet ingevoerd!',
+  'ERROR_NO_COUPONS' => 'Geen coupons',
+];
 
-define('TEXT_COUPON', 'Naam kortingsbon');
-define('TEXT_COUPON_ALL', 'Alle kortingsbonnen');
-define('TEXT_COUPON_ACTIVE', 'Actieve kortingsbonnen');
-define('TEXT_COUPON_INACTIVE', 'Inactieve kortingsbonnen');
-define('TEXT_SUBJECT', 'Onderwerp:');
-define('TEXT_UNLIMITED', 'Onbeperkt');
-define('TEXT_FROM', 'Van:');
-define('TEXT_FREE_SHIPPING', 'Gratis verzenden');
-define('TEXT_MESSAGE', 'Boodschap:');
-define('TEXT_RICH_TEXT_MESSAGE','Rich-Text boodschap:');
-define('TEXT_CONFIRM_DELETE', 'Weet je zeker dat je deze kortingsbon wilt verwijderen?');
-define('TEXT_SEE_RESTRICT', 'Voor deze kortingsbon gelden beperkingen');
-
-define('TEXT_COUPON_ANNOUNCE','Het doet ons een genoegen u een kortingsbon voor ' . STORE_NAME . ' aan te kunnen bieden.');
-
-define('TEXT_TO_REDEEM', 'U kunt het tegoed van deze kortingsbon inwisselen tijdens het afrekenen in onze winkel. U hoeft alleen de inwisselcode in te voeren in het veld dat daarvoor beschikbaar is en vervolgens op de knop "Volgende" te drukken. Uw tegoed wordt bijgeschreven in uw Account en is direct beschikbaar om te gebruiken.');
-define('TEXT_VOUCHER_IS', 'De inwisselcode van de kortingsbon is ');
-define('TEXT_REMEMBER', 'Wilt u er voor zorgen dat u de inwisselcode van uw kortingsbon veilig opslaat? Alleen dan kunt u profiteren van deze speciale aanbieding op ieder door u gewenst moment.');
-define('TEXT_VISIT', 'Bezoek onze winkel op %s');
-define('TEXT_COUPON_HELP_DATE', '<p>De kortingsbon is geldig tussen %s en %s</p>');
-define('HTML_COUPON_HELP_DATE', '<p>De kortingsbon is geldig tussen %s en %s</p>');
-
-define('TABLE_HEADING_ACTION', 'Actie');
-
-define('CUSTOMER_ID', 'Klant ID');
-define('CUSTOMER_NAME', 'Klantnaam');
-define('REDEEM_DATE', 'Datum ingewisseld');
-define('IP_ADDRESS', 'IP adres');
-
-define('TEXT_REDEMPTIONS', 'Aantal keer inwisselen kortingsbonnen');
-define('TEXT_REDEMPTIONS_TOTAL', 'Totaal');
-define('TEXT_REDEMPTIONS_CUSTOMER', 'Door deze klant');
-define('TEXT_NO_FREE_SHIPPING', 'Geen gratis verzending');
-
-define('NOTICE_EMAIL_SENT_TO', 'Opmerking: e-mail verstuurd aan: %s');
-define('ERROR_NO_CUSTOMER_SELECTED', 'Foutmelding: geen klant geselecteerd.');
-define('ERROR_NO_SUBJECT', 'Foutmelding: geen onderwerp ingevuld.');
-
-define('COUPON_NAME', 'Naam kortingsbon:');
-//define('COUPON_VALUE', 'Coupon Waarde');
-define('COUPON_AMOUNT', 'Waarde kortingsbon:');
-
-define('TEXT_COUPON_PRODUCT_COUNT_PER_ORDER', 'Per Order');
-define('TEXT_COUPON_PRODUCT_COUNT_PER_PRODUCT', 'Per in aanmerking komend Item');
-define('COUPON_CODE', 'Inwisselcode kortingsbon:');
-define('COUPON_STARTDATE', 'Startdatum:');
-define('COUPON_FINISHDATE', 'Vervaldatum:');
-define('COUPON_RESTRICTIONS', 'Restricties');
-define('COUPON_FREE_SHIP', 'Gratis verzenden:');
-define('COUPON_DESC', 'Beschrijving kortingsbon:<br />(Is zichtbaar voor klant)');
-define('COUPON_MIN_ORDER', 'Minimale bestelwaarde kortingsbon:');
-
-define('COUPON_TOTAL', 'Coupon Minimum berekend vanaf: ');
-define('TEXT_COUPON_TOTAL_PRODUCTS', 'Toegestane produkten');
-define('TEXT_COUPON_TOTAL_PRODUCTS_BASED', '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Gebasseerd op Totaal van teogestane produkten volgens Coupon Restrictie Regels)');
-define('TEXT_COUPON_TOTAL_ORDER', 'Alle Produkten');
-define('TEXT_COUPON_TOTAL_ORDER_BASED', '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Gebasseerd op het Voledige Order Totaal van Alle Produkten Ongeacht of ze in aanmerking komen voor de Coupon Restricties)');
-
-define('COUPON_USES_COUPON', 'Maximum aantal keer gebruik kortingsbon:');
-define('COUPON_USES_USER', 'Maximum aantal keer gebruik kortingsbon per klant:');
-define('COUPON_PRODUCTS', 'Geldige artikellijst');
-define('COUPON_CATEGORIES', 'Geldige categorielijst');
-define('DATE_CREATED', 'Datum toegevoegd');
-define('DATE_MODIFIED', 'Datum laatste wijziging');
-define('TEXT_HEADING_NEW_COUPON', 'Maak nieuwe kortingsbon');
-define('TEXT_NEW_INTRO', 'Voer de nieuwe kortingsbon in met alle relevante gegevens<br />');
-define('COUPON_ZONE_RESTRICTION', 'Coupon Zone Restrictie: ');
-define('TEXT_COUPON_ZONE_RESTRICTION', 'Coupon Zone Restrictie is een optie.');
-define('COUPON_ORDER_LIMIT', 'De vorige bestellingen van deze klant zijn minder dan: ');
-define('COUPON_ORDER_LIMIT_HELP', 'De vorige bestellingen van de klant moeten minder zijn dan, laat leeg voor ongelimiteerd');
-
-define('COUPON_IS_VALID_FOR_SALES', 'Coupon geldig voor uitverkoop:');
-define('TEXT_COUPON_IS_VALID_FOR_SALES', 'Coupon IS toegestaan voor produkten in de uitverkoop');
-define('TEXT_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is geldig voor produkten in de uitverkoop of aanbieding');
-define('TEXT_NO_COUPON_IS_VALID_FOR_SALES', 'Coupon NIET toegestaan voor produkten in de uitverkoop of aanbieding');
-define('TEXT_NO_COUPON_IS_VALID_FOR_SALES_EMAIL', 'Coupon is niet geldig voor produkten in de uitverkoop of aanbieding');
-
-
-define('ERROR_NO_COUPON_AMOUNT', 'Geen waarde van de kortingsbon ingevuld.');
-define('ERROR_NO_COUPON_NAME', 'Geen naam van de kortingsbon ingevuld.');
-define('ERROR_COUPON_EXISTS', 'Een kortingsbon met die code bestaat al.');
-
-
-define('COUPON_NAME_HELP', 'Een korte naam voor de kortingsbon (bijv. NK1eB= NieuweKlant1eBezoek).');
-define('COUPON_AMOUNT_HELP', 'De korting die deze bon geeft. Dit kan een vast bedrag zijn (bijv. &euro;5) of percentage (bijv. 3%) op het eindbedrag.');
-define('COUPON_CODE_HELP', 'Indien niets ingevuld wordt er automatisch een code voor de kortingsbon aangemaakt en anders kun je zelf een code samenstellen.');
-define('COUPON_STARTDATE_HELP', 'Deze coupon is geldig vanaf');
-define('COUPON_FINISHDATE_HELP', 'Deze coupon verloopt op');
-define('COUPON_FREE_SHIP_HELP', 'De kortingsbon geeft recht op <strong>gratis</strong> verzenden. <strong>Opmerking:</strong> dit gaat voor de waarde ingevuld bij COUPON_AMOUNT maar houd wel rekening met de minimale waarde van een bestelling.');
-define('COUPON_DESC_HELP', 'Een beschrijving van de kortingsbon als uitleg voor de klant.');
-define('COUPON_MIN_ORDER_HELP', 'Minimum waarde van de bestelling voordat de kortingsbon geldig is en gebruikt kan worden (bijv. vanaf €50 bestelling excl. verzenden en BTW.)');
-define('COUPON_TOTAL_HELP', 'Als je een minimum order grootte voor deze Kortingsbon specificeert,wil je dan dat de minimale hoeveelheid is gebasseerd op teogestane produkten volgens de Coupon Restrictie Regels of voor volledig order totaal,bij het bepalen of de Coupon minimale order is gehaald?<br />OPMERKING: Volledig Order Totaal betekend dat op zijn minst 1 van de in aanmerking komende produketen met restrictie in de winkelwagen aanwezigen moet zijn, om de kortingsbon te laten werken.');
-define('COUPON_SALE_HELP', 'Als u kiest voor <i>NIET toegestaan</i>, worden producten die in de aanbieding zijn of speciaal niet verdisconteerd of meegeteld voor de minimale couponbestelling.');
-define('COUPON_USES_COUPON_HELP', 'Het aantal keer dat de kortingsbon gebruikt kan worden door iedereen. Indien niet ingevuld is dit onbeperkt.');
-define('COUPON_USES_USER_HELP', 'Het aantal keer dat de kortingsbon door <strong>één klant</strong> kan worden gebruikt. Indien niet ingevuld is dit onbeperkt.');
-define('COUPON_BUTTON_PREVIEW', 'Voorvertoning');
-define('COUPON_BUTTON_CONFIRM', 'Bevestig');
-
-define('COUPON_ACTIVE', 'Status');
-define('COUPON_START_DATE', 'Startdatum');
-define('COUPON_EXPIRE_DATE', 'Vervaldatum');
-
-define('TEXT_INFO_DUPLICATE_MANAGEMENT', '<strong>Meerdere Kortingsbonnen Management</strong><br /><br />Klik op de Kortingsbon waarop de wijzigingen gebasseerd worden<br />of gebruik de geselecteerde Basis bon code: <strong>%s</strong>');
-define('ERROR_DISCOUNT_COUPON_WELCOME', 'De kortingsbon kan NIET ingetrokken worden. Deze kortingsbon is de Welkomst-kortingsbon<br /><br />Verander eerst de Welkomst-kortingsbon, probeer het dan opnieuw.');
-define('SUCCESS_COUPON_DISABLED', 'Uitgevoerd! Kortingsbon is inactief ...');
-define('TEXT_COUPON_NEW', 'Gebruik de NIEUWE kortingsbon-code:');
-define('ERROR_DISCOUNT_COUPON_DUPLICATE', 'WAARSCHUWING! Duplicaat kortingsbon bestaat ... Kopieren niet uitgevoerd voor kortingsbon-code: ');
-define('TEXT_CONFIRM_COPY', 'Weet u zeker dat u deze kortingsbonwenst te kopieren naar een andere kortingsbon?');
-define('SUCCESS_COUPON_DUPLICATE', 'Uitgevoerd! Kortingsbon is gekopieerd...<br /><br />Controleer de kortingsbon-NAAM en geldigheidsdata ...');
-define('WARNING_COUPON_DUPLICATE', 'Waarschuwing! Er zijn geen kortingsbonnen aangemaakt! Er is niet aangegeven hoeveel kortingsbonnen er gemaakt moesten worden ... ');
-
-define('TEXT_COUPON_COPY_INFO', 'Kopieer voor meerdere duplicaten');
-define('TEXT_COUPON_COPY_DUPLICATE', 'Maak meerdere coupons met de basisboncode van: ');
-define('TEXT_COUPON_COPY_DUPLICATE_CNT', 'Hoeveel dubbele kortingsbonnen wilt u maken? ');
-
-define('TEXT_CONFIRM_DELETE_DUPLICATE', 'Verwijder alle overeenkomende kortingsbonnen op basis van de basiscouponcode<br>Voorbeeld: <strong>%s</strong> zou alle kortingsbonnencodes verwijderen die beginnen met: <strong>%s</strong>');
-define('TEXT_COUPON_DELETE_DUPLICATE', 'Verwijder alle kortingsbonnen die overeenkomen met de basiscode: ');
-
-define('TEXT_DISCOUNT_COUPON_EMAIL', 'Kortingsbonnen mailen');
-define('TEXT_DISCOUNT_COUPON_CONFIRM_DELETE', 'Bevestig verwijderen kortingsbon');
-define('TEXT_DISCOUNT_COUPON_CONFIRM_RESTORE', 'Bevestig herstellen kortingsbon');
-
-define('TEXT_DISCOUNT_COUPON_EDIT', 'Kortingsbon aanpassen');
-define('TEXT_DISCOUNT_COUPON_DELETE', 'Kortingsbon verwijderen');
-define('TEXT_DISCOUNT_COUPON_RESTORE', 'Kortingsbon herstellen');
-define('TEXT_DISCOUNT_COUPON_RESTRICT', 'Beperk kortingsbon');
-define('TEXT_DISCOUNT_COUPON_REPORT', 'Kortingsbon rapport');
-define('TEXT_DISCOUNT_COUPON_COPY', 'Kortingsbon kopieëren');
-define('TEXT_DISCOUNT_COUPON_COPY_MULTIPLE', 'Kopieer meerdere kortingsbonnen');
-define('TEXT_DISCOUNT_COUPON_DELETE_MULTIPLE', 'Verwijdere meerdere kortingsbonnen');
-define('TEXT_DISCOUNT_COUPON_REPORT_MULTIPLE', 'Rapport met meerdere kortingsbonnen');
-define('TEXT_DISCOUNT_COUPON_DOWNLOAD', 'Download meerdere bon codes');
-define('REDEEM_ORDER_ID', 'Order #');
-define('SUCCESS_COUPON_REACTIVATE', 'Succesvol geheractiveerd');
-define('TEXT_CONFIRM_REACTIVATE', 'Weet he zeker dat je deze bon wilt herstellen?<br />OPMERKING: HErstellen heeft geen effect op begin/eind datums.<br />Herstellen heeft geen effect op beperkingen op het per bon/gebruikper klant als deze al geind is.');
-
-define('SUCCESS_COUPON_FOUND', 'Kortingsbon gevonden!');
-define('ERROR_COUPON_NOT_FOUND', 'Kortingsbon niet gevonden!');
-define('ERROR_NO_COUPON_CODE', 'Kortingsbon boncode niet ingevoerd!');
-define('ERROR_NO_COUPONS', 'Geen coupons'); 
+return $define;

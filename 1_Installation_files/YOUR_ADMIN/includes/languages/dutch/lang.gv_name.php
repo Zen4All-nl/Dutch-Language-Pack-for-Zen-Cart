@@ -1,14 +1,14 @@
 <?php
 /**
- * @package admin
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Feb 16 Modified in v1.5.7 $
+ * @version $Id:
  */
 
-// Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-define('TEXT_GV_NAME','Cadueabon');
-define('TEXT_GV_NAMES','Cadeuabonnen');
+$define = [
+  'TEXT_GV_NAME' => 'Cadueabon',
+  'TEXT_GV_NAMES' => 'Cadeuabonnen',
+  'TEXT_GV_REDEEM' => 'Inwisselcode',
+];
 
-// used for redeem code, redemption code, or redemption id
-define('TEXT_GV_REDEEM','Inwisselcode');
+return $define;

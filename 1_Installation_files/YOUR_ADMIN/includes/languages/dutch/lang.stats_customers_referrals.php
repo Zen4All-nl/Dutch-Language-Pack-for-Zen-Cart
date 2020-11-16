@@ -1,17 +1,20 @@
 <?php
 /**
- * @package admin
  * @ Maintained by Zen4All (https://zen4all.nl)
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Tue Jul 17 22:56:16 2012 -0400 Modified in v1.5.1 $
+ * @version $Id:
  */
 
-  define('HEADING_TITLE', 'Rapportage klanten referenties');
-  define('TEXT_INFO_SELECT_REFERRAL','Selecteer een Referentie/Kortingscoupon code');
-  define('TEXT_REFERRAL_UNKNOWN', 'Onbekend');
-  define('TEXT_INFO_START_DATE', 'Startdatum (dd-mm-jjjj)');
-  define('TEXT_INFO_END_DATE', 'Vervaldatum (dd-mm-jjjj)');
-  define('TEXT_ORDER_NUMBER', 'Ordernr.');
-  define('TEXT_COUPON_ID', 'Discount Coupon ID');
+$define = [
+    'HEADING_TITLE' => 'Rapportage klanten referenties',
+    'TEXT_INFO_SELECT_REFERRAL' => 'Selecteer een Referentie/Kortingscoupon code',
+    'TEXT_REFERRAL_UNKNOWN' => 'Onbekend',
+    'TEXT_INFO_START_DATE' => 'Startdatum (dd-mm-jjjj)',
+    'TEXT_INFO_END_DATE' => 'Vervaldatum (dd-mm-jjjj)',
+    'TEXT_ORDER_NUMBER' => 'Ordernr.',
+    'TEXT_COUPON_ID' => 'Kortingscoupon ID',
+];
+
+return $define;

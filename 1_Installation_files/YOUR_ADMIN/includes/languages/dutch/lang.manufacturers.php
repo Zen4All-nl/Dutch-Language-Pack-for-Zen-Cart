@@ -1,51 +1,37 @@
 <?php
-//
-// @ Maintained by Zen4All (https://zen4all.nl)
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: manufacturers.php 4808 2006-10-22 18:48:53Z ajeh $
-//
+/**
+ *@ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id:
+ */
 
-define('HEADING_TITLE', 'Fabrikanten');
+$define = [
+  'HEADING_TITLE' => 'Fabrikanten',
+  'TABLE_HEADING_MANUFACTURERS' => 'Fabrikanten',
+  'TABLE_HEADING_ACTION' => 'Actie',
+  'TEXT_HEADING_NEW_MANUFACTURER' => 'Nieuwe fabrikant',
+  'TEXT_HEADING_EDIT_MANUFACTURER' => 'Wijzig fabrikant',
+  'TEXT_HEADING_DELETE_MANUFACTURER' => 'Verwijder fabrikant',
+  'TEXT_MANUFACTURERS' => 'Fabrikanten:',
+  'TEXT_DATE_ADDED' => 'Datum toegevoegd:',
+  'TEXT_LAST_MODIFIED' => 'Datum laatste wijziging:',
+  'TEXT_PRODUCTS' => 'Artikelen:',
+  'TEXT_PRODUCTS_IMAGE_DIR' => 'Opslaan in directory:',
+  'TEXT_MANUFACTURERS_IMAGE_MANUAL' => '<strong>of, selecteer een bestaande afbeelding van de server, bestandsnaam:</strong>',
+  'TEXT_NEW_INTRO' => 'Vul de volgende informatie in voor de nieuwe fabrikant',
+  'TEXT_EDIT_INTRO' => 'Maak de noodzakelijke wijziging(en)',
+  'TEXT_MANUFACTURERS_NAME' => 'Naam fabrikant:',
+  'TEXT_MANUFACTURERS_IMAGE' => 'Afbeelding fabrikant:',
+  'TEXT_MANUFACTURERS_URL' => 'URL fabrikant (homepage):',
+  'TEXT_DELETE_INTRO' => 'Weet je zeker dat je deze fabrikant wilt verwijderen?',
+  'TEXT_DELETE_IMAGE' => 'Verwijder afbeelding fabrikant?',
+  'TEXT_DELETE_PRODUCTS' => 'Verwijder artikelen van deze fabrikant? (inclusief recensies, aanbiedingen en verwachte artikelen)',
+  'TEXT_DELETE_WARNING_PRODUCTS' => '<b>Waarschuwing: </b>er zijn nog steeds %s artikelen gekoppeld aan deze fabrikant!',
+  'TABLE_HEADING_MANUFACTURER_FEATURED' => 'Featured?',
+  'TEXT_MANUFACTURER_FEATURED_LABEL' => 'Featured?',
+  'TEXT_MANUFACTURER_IS_FEATURED' => 'Featured',
+];
 
-define('TABLE_HEADING_MANUFACTURERS', 'Fabrikanten');
-define('TABLE_HEADING_ACTION', 'Actie');
-
-define('TEXT_HEADING_NEW_MANUFACTURER', 'Nieuwe fabrikant');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Wijzig fabrikant');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Verwijder fabrikant');
-
-define('TEXT_MANUFACTURERS', 'Fabrikanten:');
-define('TEXT_DATE_ADDED', 'Datum toegevoegd:');
-define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging:');
-define('TEXT_PRODUCTS', 'Artikelen:');
-define('TEXT_PRODUCTS_IMAGE_DIR', 'Opslaan in directory:');
-define('TEXT_MANUFACTURERS_IMAGE_MANUAL', '<strong>of, selecteer een bestaande afbeelding van de server, bestandsnaam:</strong>');
-
-define('TEXT_NEW_INTRO', 'Vul de volgende informatie in voor de nieuwe fabrikant');
-define('TEXT_EDIT_INTRO', 'Maak de noodzakelijke wijziging(en)');
-
-define('TEXT_MANUFACTURERS_NAME', 'Naam fabrikant:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Afbeelding fabrikant:');
-define('TEXT_MANUFACTURERS_URL', 'URL fabrikant (homepage):');
-
-define('TEXT_DELETE_INTRO', 'Weet je zeker dat je deze fabrikant wilt verwijderen?');
-define('TEXT_DELETE_IMAGE', 'Verwijder afbeelding fabrikant?');
-define('TEXT_DELETE_PRODUCTS', 'Verwijder artikelen van deze fabrikant? (inclusief recensies, aanbiedingen en verwachte artikelen)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing: </b>er zijn nog steeds %s artikelen gekoppeld aan deze fabrikant!');
-
+return $define;

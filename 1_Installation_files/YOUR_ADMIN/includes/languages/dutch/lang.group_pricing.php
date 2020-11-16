@@ -1,50 +1,32 @@
 <?php
-//
-// @ Maintained by Zen4All (https://zen4all.nl)
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2004 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                                 |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: group_pricing.php 2770 2006-01-02 07:52:42Z drbyte $
-//
+/**
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id:
+*/
 
-define('HEADING_TITLE', 'Prijsgroep');
+$define = [
+  'HEADING_TITLE' => 'Prijsgroep',
+  'TABLE_HEADING_GROUP_ID' => 'Prijsgroep ID',
+  'TABLE_HEADING_GROUP_NAME' => 'Naam prijsgroep',
+  'TABLE_HEADING_GROUP_AMOUNT' => '% korting',
+  'TABLE_HEADING_ACTION' => 'Actie(s)',
+  'TEXT_HEADING_NEW_PRICING_GROUP' => 'Nieuwe prijsgroep',
+  'TEXT_HEADING_EDIT_PRICING_GROUP' => 'Wijzig prijsgroep',
+  'TEXT_HEADING_DELETE_PRICING_GROUP' => 'Verwijder prijsgroep',
+  'TEXT_NEW_INTRO' => 'Voer de nieuwe prijsgroep in met alle relevante gegevens',
+  'TEXT_EDIT_INTRO' => 'Maak de noodzakelijke wijziging(en)',
+  'TEXT_DELETE_INTRO' => 'Weet je zeker dat je deze prijsgroep wilt verwijderen?',
+  'TEXT_DELETE_PRICING_GROUP' => 'Verwijder prijsgroep',
+  'TEXT_DELETE_WARNING_GROUP_MEMBERS','<b>WAARSCHUWING:</b> Er zijn nog steeds %s klanten gekoppeld aan deze categorie!',
+  'TEXT_GROUP_PRICING_NAME' => 'Naam prijsgroep: ',
+  'TEXT_GROUP_PRICING_AMOUNT' => 'Kortingspercentage: ',
+  'TEXT_DATE_ADDED' => 'Datum toegevoegd:',
+  'TEXT_LAST_MODIFIED' => 'Datum laatste wijziging:',
+  'TEXT_CUSTOMERS' => 'Klanten in prijsgroep:',
+  'ERROR_GROUP_PRICING_CUSTOMERS_EXIST' => 'FOUT: Klanten zijn aanwezig in deze groep. Bevestig aub. dat alle leden van deze groep verwijderd moeten worden en dat ook de groep verwijderd wordt',
+  'ERROR_MODULE_NOT_CONFIGURED' => 'Let op: prijsgroepen zijn gedefiniëerd, maar nog niet geactiveerd in de ORDER TOTAAL Module.<br />Ga naar: Admin->Modules->Order Total->Membership Discount (ot_group_pricing) en installeer/configureer de module.',
+];
 
-define('TABLE_HEADING_GROUP_ID', 'Prijsgroep ID');
-define('TABLE_HEADING_GROUP_NAME', 'Naam prijsgroep');
-define('TABLE_HEADING_GROUP_AMOUNT', '% korting');
-define('TABLE_HEADING_ACTION', 'Actie(s)');
-
-define('TEXT_HEADING_NEW_PRICING_GROUP', 'Nieuwe prijsgroep');
-define('TEXT_HEADING_EDIT_PRICING_GROUP', 'Wijzig prijsgroep');
-define('TEXT_HEADING_DELETE_PRICING_GROUP', 'Verwijder prijsgroep');
-
-define('TEXT_NEW_INTRO', 'Voer de nieuwe prijsgroep in met alle relevante gegevens');
-define('TEXT_EDIT_INTRO', 'Maak de noodzakelijke wijziging(en)');
-define('TEXT_DELETE_INTRO', 'Weet je zeker dat je deze prijsgroep wilt verwijderen?');
-define('TEXT_DELETE_PRICING_GROUP', 'Verwijder prijsgroep');
-define('TEXT_DELETE_WARNING_GROUP_MEMBERS','<b>WAARSCHUWING:</b> Er zijn nog steeds %s klanten gekoppeld aan deze categorie!');
-
-define('TEXT_GROUP_PRICING_NAME', 'Naam prijsgroep: ');
-define('TEXT_GROUP_PRICING_AMOUNT', 'Kortingspercentage: ');
-define('TEXT_DATE_ADDED', 'Datum toegevoegd:');
-define('TEXT_LAST_MODIFIED', 'Datum laatste wijziging:');
-define('TEXT_CUSTOMERS', 'Klanten in prijsgroep:');
-
-define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','FOUT: Klanten zijn aanwezig in deze groep. Bevestig aub. dat alle leden van deze groep verwijderd moeten worden en dat ook de groep verwijderd wordt');
-define('ERROR_MODULE_NOT_CONFIGURED','Let op: prijsgroepen zijn gedefiniëerd, maar nog niet geactiveerd in de ORDER TOTAAL Module.<br />Ga naar: Admin->Modules->Order Total->Membership Discount (ot_group_pricing) en installeer/configureer de module.');
-
-?>
+return $define;

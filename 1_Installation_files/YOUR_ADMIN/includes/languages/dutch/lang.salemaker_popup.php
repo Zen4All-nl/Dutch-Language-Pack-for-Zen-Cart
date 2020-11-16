@@ -1,36 +1,24 @@
 <?php
-//
-// @ Maintained by Zen4All (https://zen4all.nl)
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: salemaker_popup.php 1105 2005-04-04 22:05:35Z birdbrain $
-//
+/**
+ * @ Maintained by Zen4All (https://zen4all.nl)
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id:
+ */
 
-define('HEADING_TITLE', 'Verkoopbevorderingstool');
-define('SUBHEADING_TITLE', 'Klik hier voor uitleg en tips over het gebruik van de Verkoopbevorderingstool:');
+$define = [
+  'HEADING_TITLE' => 'Verkoopbevorderingstool',
+  'SUBHEADING_TITLE' => 'Verkoopbevorderingstool gebruikstips:',
+  'TEXT_SALEMAKER_IMMEDIATELY' => 'Per direct',
+  'TEXT_SALEMAKER_NEVER' => 'Nooit',
+  'TEXT_CLOSE_WINDOW' => '[ sluit venster ]',
+  'TABLE_HEADING_SALE_NAME' => 'SALE naam',
+  'TABLE_HEADING_SALE_DEDUCTION' => 'Korting',
+  'TABLE_HEADING_SALE_DATE_START' => 'Startdatum',
+  'TABLE_HEADING_SALE_DATE_END' => 'Vervaldatum',
+  'TABLE_HEADING_STATUS' => 'Status',
+  'TABLE_HEADING_ACTION' => 'Actie',
+];
 
-define('TEXT_SALEMAKER_IMMEDIATELY', 'Per direct');
-define('TEXT_SALEMAKER_NEVER', 'Nooit');
-define('TEXT_CLOSE_WINDOW', '[ sluit venster ]');
-define('TABLE_HEADING_SALE_NAME', 'SALE (naam)');
-define('TABLE_HEADING_SALE_DEDUCTION', 'Korting');
-define('TABLE_HEADING_SALE_DATE_START', 'Startdatum');
-define('TABLE_HEADING_SALE_DATE_END', 'Vervaldatum');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Actie');
-?>
+return $define;

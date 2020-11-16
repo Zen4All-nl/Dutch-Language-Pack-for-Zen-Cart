@@ -5,84 +5,73 @@
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Steve 2020 Mar 30 Modified in v1.5.7 $
+ * @version $Id:
  */
 
+$define = [
+  'TEXT_PRODUCTS_STATUS' => 'Productstatus:',
+  'TEXT_PRODUCTS_VIRTUAL' => 'Artikel is virtueel:',
+  'TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING' => 'Gratis verzenden:',
+  'TEXT_PRODUCTS_QTY_BOX_STATUS' => 'Toon voorraad:',
+  'TEXT_PRODUCTS_DATE_AVAILABLE' => 'Startdatum:',
+  'TEXT_PRODUCT_AVAILABLE' => 'Aan',
+  'TEXT_PRODUCT_NOT_AVAILABLE' => 'Uit',
+  'TEXT_PRODUCT_IS_VIRTUAL' => 'Ja, sla het verzendadres over',
+  'TEXT_PRODUCT_NOT_VIRTUAL' => 'Nee, een verzendadres is nodig',
+  'TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING' => 'Ja, altijd gratis versturen',
+  'TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING' => 'Nee, nornamle verzendmethodes gelden',
+  'TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING' => 'Special, artikel/download combinatie dan is een afleveradres nodig',
+  'TEXT_PRODUCTS_QTY_BOX_STATUS_ON' => 'Ja, laat hoeveelheidsbox zien',
+  'TEXT_PRODUCTS_QTY_BOX_STATUS_OFF' => 'Nee, laat hoeveelheidsbox niet zien',
+  'TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT' => 'Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1',
+  'TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW' => 'Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1',
+  'TEXT_PRODUCTS_MANUFACTURER' => 'Fabrikant:',
+  'TEXT_PRODUCTS_NAME' => 'Naam artikel:',
+  'TEXT_PRODUCTS_DESCRIPTION' => 'Beschrijving artikel:',
+  'TEXT_PRODUCTS_QUANTITY' => 'Aantal in voorraad:',
+  'TEXT_PRODUCTS_IMAGE' => 'Productafbeelding:',
+  'TEXT_EDIT_PRODUCTS_IMAGE' => 'Productafbeelding wijzigen:',
+  'TEXT_PRODUCTS_IMAGE_DIR' => 'Opslaan in directory:',
+  'TEXT_PRODUCTS_URL' => 'URL artikel:',
+  'TEXT_PRODUCTS_URL_WITHOUT_HTTP' => '<small>(zonder http://)</small>',
+  'TEXT_PRODUCTS_PRICE_NET' => 'Artikelprijs (netto):',
+  'TEXT_PRODUCTS_PRICE_GROSS' => 'Artikelprijs (bruto):',
+  'TEXT_PRODUCTS_WEIGHT' => 'Gewicht artikel (kg):',
+  'TEXT_PRODUCT_IS_FREE' => 'Artikel is gratis:',
+  'TEXT_PRODUCTS_IS_FREE_PREVIEW' => '*Artikel is gratis',
+  'TEXT_PRODUCTS_IS_FREE_EDIT' => '*Artikel is gratis',
+  'TEXT_PRODUCT_IS_CALL' => 'Informeer naar prijs bij dit artikel:',
+  'TEXT_PRODUCTS_IS_CALL_PREVIEW' => '*Informeer naar prijs bij dit artikel',
+  'TEXT_PRODUCTS_IS_CALL_EDIT' => '*Informeer naar prijs bij dit artikel',
+  'TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES' => 'Vanaf prijs i.c.m. uitbreidingsopties:',
+  'TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE' => 'Ja',
+  'TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE' => 'Nee',
+  'TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW' => '*Getoonde prijs bestaat uit prijs inclusief standaardopties en eventueel gekozen opties',
+  'TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT' => '*Getoonde prijs bestaat uit prijs inclusief standaardopties en eventueel gekozen opties',
+  'TEXT_PRODUCTS_TAX_CLASS' => 'Tariefgroep belasting',
+  'TEXT_PRODUCTS_QUANTITY_MIN_RETAIL' => 'Minimum bestelhoeveelheid:',
+  'TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL' => 'Artikel verpakt per:',
+  'TEXT_PRODUCTS_QUANTITY_MAX_RETAIL' => 'Maximale bestelhoeveelheid:',
+  'TEXT_PRODUCTS_QTY_MIN_UNITS_PREVIEW' => 'Waarschuwing: minimum is minder dan eenheden',
+  'TEXT_PRODUCTS_QTY_MIN_UNITS_MISMATCH_PREVIEW' => 'Waarschuwing: Minimum is geen veelvoud van eenheden',
+  'TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT' => '0 = onbeperkt, 1 = geen hoeveelheidsbox',
+  'TEXT_PRODUCTS_MIXED' => 'Minimale bestelhoeveelheid / verpakkingseenheid mix:',
+  'TEXT_PRODUCTS_SORT_ORDER' => 'Rangschikking:',
+  'TEXT_PRODUCT_MORE_INFORMATION' => 'Meer informatie is te vinden op de <a href="http://%s" target="blank">website</a> van dit artikel.',
+  'TEXT_PRODUCT_DATE_ADDED' => 'Artikel is toegevoegd op %s.',
+  'TEXT_PRODUCT_DATE_AVAILABLE' => 'Dit artikel is weer in voorraad op %s.',
+  'TEXT_META_TAG_TITLE_INCLUDES' => '<strong>Vink aan wat in titel van het artikel als meta tag zichtbaar moet zijn:</strong>',
+  'TEXT_PRODUCTS_METATAGS_PRODUCTS_NAME_STATUS' => '<strong>Artikelnaam</strong>',
+  'TEXT_PRODUCTS_METATAGS_TITLE_STATUS' => '<strong>Titel:</strong>',
+  'TEXT_PRODUCTS_METATAGS_MODEL_STATUS' => '<strong>Model:</strong>',
+  'TEXT_PRODUCTS_METATAGS_PRICE_STATUS' => '<strong>Prijs:</strong>',
+  'TEXT_PRODUCTS_METATAGS_TITLE_TAGLINE_STATUS' => '<strong>Titel/Tagline:</strong>',
+  'TEXT_META_TAGS_TITLE' => '<strong>Meta tag Titel:</strong>',
+  'TEXT_META_TAGS_KEYWORDS' => '<strong>Meta tag trefwoord(en):</strong>',
+  'TEXT_META_TAGS_DESCRIPTION' => '<strong>Beschrijving meta tag:</strong>',
+  'TEXT_META_EXCLUDED' => '<span class="alert">UITGEZONDERD</span>',
+  'TEXT_TITLE_PLUS_TAGLINE' => 'Store Titel+Tagline',
+  'TEXT_PRODUCTS_PRICE_INFO' => 'Prijs:',
+];
 
-define('TEXT_PRODUCTS_STATUS', 'Productstatus:');
-define('TEXT_PRODUCTS_VIRTUAL', 'Artikel is virtueel:');
-define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', 'Gratis verzenden:');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Toon voorraad:');
-define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Startdatum:');
-define('TEXT_PRODUCT_AVAILABLE', 'Aan');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Uit');
-define('TEXT_PRODUCT_IS_VIRTUAL', 'Ja, sla het verzendadres over');
-define('TEXT_PRODUCT_NOT_VIRTUAL', 'Nee, een verzendadres is nodig');
-define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Ja, altijd gratis versturen');
-define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'Nee, nornamle verzendmethodes gelden');
-define('TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING', 'Special, artikel/download combinatie dan is een afleveradres nodig');
-
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Ja, laat hoeveelheidsbox zien');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'Nee, laat hoeveelheidsbox niet zien');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT','Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW','Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1');
-
-define('TEXT_PRODUCTS_MANUFACTURER', 'Fabrikant:');
-define('TEXT_PRODUCTS_NAME', 'Naam artikel:');
-define('TEXT_PRODUCTS_DESCRIPTION', 'Beschrijving artikel:');
-define('TEXT_PRODUCTS_QUANTITY', 'Aantal in voorraad:');
-define('TEXT_PRODUCTS_IMAGE', 'Productafbeelding:');
-define('TEXT_EDIT_PRODUCTS_IMAGE', 'Productafbeelding wijzigen:');
-define('TEXT_PRODUCTS_IMAGE_DIR', 'Opslaan in directory:');
-define('TEXT_PRODUCTS_URL', 'URL artikel:');
-define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(zonder http://)</small>');
-define('TEXT_PRODUCTS_PRICE_NET', 'Artikelprijs (netto):');
-define('TEXT_PRODUCTS_PRICE_GROSS', 'Artikelprijs (bruto):');
-define('TEXT_PRODUCTS_WEIGHT', 'Gewicht artikel (kg):');
-
-define('TEXT_PRODUCT_IS_FREE','Artikel is gratis:');
-define('TEXT_PRODUCTS_IS_FREE_PREVIEW','*Artikel is gratis');
-define('TEXT_PRODUCTS_IS_FREE_EDIT','*Artikel is gratis');
-
-define('TEXT_PRODUCT_IS_CALL','Informeer naar prijs bij dit artikel:');
-define('TEXT_PRODUCTS_IS_CALL_PREVIEW','*Informeer naar prijs bij dit artikel');
-define('TEXT_PRODUCTS_IS_CALL_EDIT','*Informeer naar prijs bij dit artikel');
-
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES','Vanaf prijs i.c.m. uitbreidingsopties:');
-define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE','Ja');
-define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE','Nee');
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW','*Getoonde prijs bestaat uit prijs inclusief standaardopties en eventueel gekozen opties');
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT','*Getoonde prijs bestaat uit prijs inclusief standaardopties en eventueel gekozen opties');
-
-define('TEXT_PRODUCTS_TAX_CLASS', 'Tariefgroep belasting');
-
-define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL','Minimum bestelhoeveelheid:');
-define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL','Artikel verpakt per:');
-define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL','Maximale bestelhoeveelheid:');
-define('TEXT_PRODUCTS_QTY_MIN_UNITS_PREVIEW', 'Waarschuwing: minimum is minder dan eenheden');
-define('TEXT_PRODUCTS_QTY_MIN_UNITS_MISMATCH_PREVIEW', 'Waarschuwing: Minimum is geen veelvoud van eenheden');
-
-define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT','0 = onbeperkt, 1 = geen hoeveelheidsbox');
-
-define('TEXT_PRODUCTS_MIXED','Minimale bestelhoeveelheid / verpakkingseenheid mix:');
-
-define('TEXT_PRODUCTS_SORT_ORDER', 'Rangschikking:');
-
-define('TEXT_PRODUCT_MORE_INFORMATION', 'Meer informatie is te vinden op de <a href="http://%s" target="blank">website</a> van dit artikel.');
-define('TEXT_PRODUCT_DATE_ADDED', 'Artikel is toegevoegd op %s.');
-define('TEXT_PRODUCT_DATE_AVAILABLE', 'Dit artikel is weer in voorraad op %s.');
-
-// meta tags
-define('TEXT_META_TAG_TITLE_INCLUDES','<strong>Vink aan wat in titel van het artikel als meta tag zichtbaar moet zijn:</strong>');
-define('TEXT_PRODUCTS_METATAGS_PRODUCTS_NAME_STATUS','<strong>Artikelnaam</strong>');
-define('TEXT_PRODUCTS_METATAGS_TITLE_STATUS','<strong>Titel:</strong>');
-define('TEXT_PRODUCTS_METATAGS_MODEL_STATUS','<strong>Model:</strong>');
-define('TEXT_PRODUCTS_METATAGS_PRICE_STATUS','<strong>Prijs:</strong>');
-define('TEXT_PRODUCTS_METATAGS_TITLE_TAGLINE_STATUS','<strong>Titel/Tagline:</strong>');
-define('TEXT_META_TAGS_TITLE','<strong>Meta tag Titel:</strong>');
-define('TEXT_META_TAGS_KEYWORDS','<strong>Meta tag trefwoord(en):</strong>');
-define('TEXT_META_TAGS_DESCRIPTION','<strong>Beschrijving meta tag:</strong>');
-define('TEXT_META_EXCLUDED', '<span class="alert">UITGEZONDERD</span>');
-define('TEXT_TITLE_PLUS_TAGLINE', 'Store Titel+Tagline'); // this refers to whatever rules the storeowner has built into customizing their catalog /includes/modules/meta_tags.php and its lang file.
-
-define('TEXT_PRODUCTS_PRICE_INFO', 'Prijs:');
+return $define;
