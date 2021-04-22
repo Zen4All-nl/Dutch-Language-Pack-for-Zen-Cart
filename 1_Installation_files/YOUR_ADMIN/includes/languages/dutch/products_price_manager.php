@@ -122,4 +122,4 @@ define('PRODUCT_WARNING_UPDATE_CANCEL', 'Wijzigingen zijn geannuleerd en niet op
 define('TEXT_INFO_EDIT_CAUTION', '<strong>Klik hier om te wijzigen ...</strong>');
 define('TEXT_INFO_PREVIEW_ONLY', 'Alleen voorvertoning ... Huidige prijs status ... Alleen voorvertoning');
 define('TEXT_INFO_UPDATE_REMINDER', '<strong>Wijzig artikelinformatie en vervolgens klik op Update om op te slaan</strong>');
-define('BUTTON_ADDITITONAL_ACTIONS', 'Extra Acties');
+define('BUTTON_ADDITIONAL_ACTIONS', 'Extra Acties');

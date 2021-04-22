@@ -17,4 +17,4 @@ define('OSH_EMAIL_TEXT_STATUS_UPDATED', 'De status van uw bestelling is aangepas
 define('OSH_EMAIL_TEXT_STATUS_NO_CHANGE', 'De status van uw bestelling in onveranderd:' . "\n");
 define('OSH_EMAIL_TEXT_STATUS_LABEL', '<strong>Huidige status: </strong> %s' . "\n\n");
 define('OSH_EMAIL_TEXT_STATUS_CHANGE', '<strong>Oude status:</strong> %1$s, <strong>Nieuwe status:</strong> %2$s' . "\n\n");
-define('OSH_EMAIL_TEXT_STATUS_PLEASE_REPLY', 'Heeft u vragen? Stuur een antwoord opdeze mail.' . "\n");
+define('OSH_EMAIL_TEXT_STATUS_PLEASE_REPLY', 'Heeft u vragen? Stuur een antwoord op deze mail.' . "\n");

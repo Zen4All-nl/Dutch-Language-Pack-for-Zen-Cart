@@ -35,7 +35,7 @@ define('TEXT_BANNERS_IMPRESSIONS', 'aantal keer bekeken.');
 define('TEXT_BANNERS_SCHEDULED_AT', 'Startdatum:');
 define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner aandachtspunten:</b><ul><li>Gebruik een een afbeelding of HTML voor de banner - niet beide.</li><li>HTML krijgt prioriteit ten opzichte van een afbeelding</li></ul>');
 define('TEXT_BANNERS_INSERT_NOTE', '<b>Afbeelding aandachtspunten:</b><ul><li>Uploading directories moeten geconfigureerd zijn met de juiste gebruikers (schrijf) rechten!</li><li>Vul niet het \'Afbeelding (opslaan in)\' veld in als een afbeelding niet wordt overgebracht naar een webserver (bijv. bij gebruik van een lokale (serverside) afbeelding).</li><li>Het \'Afbeelding (opslaan in)\' veld moet een bestaande directory zijn die eindigt op een slash (bijv: banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Verloopdatum aandachtspunten:</b><ul><li>Slechts één van de 2 velden moet worden ingevuld</li><li>Indien de banner geen automatische verloopdatum moet hebben dan hoeven deze gegevens niet worden ingevuld.</li></ul>');
+define('TEXT_BANNERS_EXPIRY_NOTE', '<b>Verloopdatum aandachtspunten:</b><ul><li>Slechts één van de 2 velden moet worden ingevuld</li><li>Indien de banner geen automatische verloopdatum moet hebben dan hoeven deze gegevens niet worden ingevuld.</li></ul>');
 define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Agenderen banners aandachtspunten:</b><ul><li>Indien een banner een toekomstige startdatum heeft dan wordt deze actief op deze datum.</li><li>Alle ge-agendeerde banners blijven inactief tot de datum dat ze als actief worden ingesteld.</li></ul>');
 define('TEXT_BANNERS_STATUS', 'Bannerstatus:');
 define('TEXT_BANNERS_ACTIVE', 'Actief');

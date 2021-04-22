@@ -12,7 +12,7 @@ define('HEADING_TITLE', 'Categorie');
 define('TEXT_EDIT_INTRO', 'Gelieve te bewerken zoals vereist');
 define('TEXT_EDIT_CATEGORIES_NAME', 'Categorienaam:');
 define('TEXT_CATEGORIES_DESCRIPTION', 'Categorie beschrijving:');
-define('TEXT_EDIT_CATEGORIES_IMAGE', 'Categorie afbeelding:');
+define('TEXT_CATEGORIES_IMAGE', 'Categorie afbeelding:');
 define('TEXT_FILENAME', 'Filenaam: %1$s (%2$upx x %3$upx / %4$ukB)');
 define('TEXT_EDIT_CATEGORIES_IMAGE', 'Categorie afbeelding bewerken:');
 define('TEXT_CATEGORIES_IMAGE_DIR', 'Upload naar / gebruik een bestaande afbeelding in:<br>/images/<em>(submap)</em>');

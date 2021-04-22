@@ -139,7 +139,7 @@ define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte artikelen');
 define('BOX_CATALOG_SALEMAKER', 'VerkoopBevorderingTool');
 define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Prijsbeheer');
 define('BOX_CATALOG_PRODUCT', 'Product');
-define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Produkten in Categorieën');
+define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Producten in Categorieën');
 define('BOX_CATALOG_CATEGORY', 'Categorie');
 
 // customers box text
@@ -610,6 +610,7 @@ define('TEXT_PRODUCT_POPUP_TITLE', 'Bestelde producten');
   define('TEXT_IMAGE_OVERWRITE_WARNING','Waarschuwing: bestandsnaam is gewijzigd maar niet overschreven ');
   define('TEXT_IMAGES_DELETE', '<strong>Verwijder afbeelding?</strong> Opmerking: Afbeelding wordt niet verwijderd van de server:');
   define('TEXT_IMAGE_CURRENT', 'Afbeeldingsnaam: ');
+  define('TEXT_IMAGE_NONEXISTENT', 'AFBEELDINGBESTAND ONTBREEKT');
 
   define('ERROR_DEFINE_OPTION_NAMES', 'Waarschuwing: geen optienaam gekozen');
   define('ERROR_DEFINE_OPTION_VALUES', 'Waarschuwing: geen optiewaarde gekozen');

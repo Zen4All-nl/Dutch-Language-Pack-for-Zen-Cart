@@ -11,7 +11,7 @@
 define('HEADING_TITLE', 'Aanbiedingen');
 
 define('TABLE_HEADING_PRODUCTS', 'Artikelen');
-define('TABLE_HEADING_PRODUCTS_MODEL','Model');
+define('TABLE_HEADING_STOCK', 'Voorraad');
 define('TABLE_HEADING_PRODUCTS_PRICE', 'Prijs/Aanbieding/Uitverkoop');
 define('TABLE_HEADING_AVAILABLE_DATE', 'Startdatum');
 define('TABLE_HEADING_EXPIRES_DATE','Vervaldatum');
@@ -34,7 +34,7 @@ define('TEXT_INFO_LAST_MODIFIED', 'Laatste wijziging:');
 define('TEXT_INFO_NEW_PRICE', 'Aanbiedingsprijs:');
 define('TEXT_INFO_ORIGINAL_PRICE', 'Originele prijs:');
 define('TEXT_INFO_DISPLAY_PRICE', 'Momenteel weergegeven prijs:');
-define('TEXT_INFO_STATUS_CHANGE', 'Status gewijzigd:');
+define('TEXT_INFO_STATUS_CHANGED', 'Status gewijzigd:');
 
 define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Verwijder aanbieding');
 define('TEXT_INFO_DELETE_INTRO', 'Weet je zeker dat je deze aanbieding wilt verwijderen?');

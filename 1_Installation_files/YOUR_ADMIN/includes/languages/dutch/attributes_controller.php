@@ -144,10 +144,10 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_INFO_PRODUCTS_OPTION_ID', '<strong>ID</strong>');
   define('SUCCESS_ATTRIBUTES_DELETED_OPTION_NAME_VALUES', 'Succesvol uitgevoerd: het verwijderen van ALLE artikeloptiewaarden van de optienaam: ');
 
-  define('BUTTON_ADDITITONAL_ACTIONS', 'Extra Acties');
+  define('BUTTON_ADDITIONAL_ACTIONS', 'Extra Acties');
   define('TEXT_EDIT_OPTION_VALUE', 'Optiewaarde bewerken');
   define('TEXT_DELETE_OPTION_VALUE', 'Optiewaarde verwijderen');
-  define('TEXT_UPDATE_DEFAULTE_SORT_ORDER', 'Update sorteervolgorde naar default');
+  define('TEXT_UPDATE_DEFAULT_SORT_ORDER', 'Update sorteervolgorde naar default');
   define('TEXT_DELETE_ALL_OPTIONS_FROM_PRODUCT', 'Verwijder alle opties van het product');
   define('TEXT_COPY_ALL_OPTIONS_TO_PRODUCT', 'Kopieer opties naar een ander product');
   define('TEXT_COPY_ALL_OPTIONS_TO_CATEGORY', 'Kopieer opties naar een hele catergorie');

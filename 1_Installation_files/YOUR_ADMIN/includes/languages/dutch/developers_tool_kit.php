@@ -65,6 +65,7 @@
   define('TEXT_ALL_FILES_LOOKUP_CURRENT', 'Alle bestanden - Catalog/Admin');
   define('TEXT_ALL_FILES_LOOKUP_CURRENT_CATALOG', 'Alle bestanden - Catalog');
   define('TEXT_ALL_FILES_LOOKUP_CURRENT_ADMIN', 'Alle bestanden - Admin');
+  define('TEXT_ALL_FILES_LOOKUP_CURRENT_PLUGINS', 'Alle bestanden - Plugins');
 
   define('TEXT_INFO_NO_EDIT_AVAILABLE','Geen wijziging beschikbaar');
   define('TEXT_INFO_CONFIGURATION_HIDDEN', ' of, VERBORGEN');

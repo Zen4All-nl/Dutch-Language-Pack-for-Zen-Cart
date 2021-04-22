@@ -273,7 +273,7 @@ define('ARIA_PAGINATION_','');
 
   define('TEXT_UNKNOWN_TAX_RATE', 'Btw');
 
-  define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kon de taalfile niet vinden: ');
+  define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kon het taalbestand niet vinden: ');
 
   define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Vervaldatum van uw creditcard is ongeldig. Controleer de datum en probeer het nogmaals.');
   define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'Dit creditcardnummer is ongeldig. Controleer het nummer en probeer het nogmaals.');

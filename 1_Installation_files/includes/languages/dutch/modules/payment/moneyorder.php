@@ -22,7 +22,7 @@
 //
 
   define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Vooruitbetalen');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Gaarne overmaken o.v.v. uw ordernummer dat u krijgt in de volgende stap, op rekeningnummer:<br />' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />ter attentie van:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'Uw bestelling zal worden verzonden nadat de betaling is bijgeschreven op onze rekening.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Gaarne overmaken o.v.v. uw ordernummer dat u krijgt in de volgende stap, op rekeningnummer:<br>' . (defined('MODULE_PAYMENT_MONEYORDER_PAYTO') ? MODULE_PAYMENT_MONEYORDER_PAYTO : '<br>(uw winkelnaam)') . '<br><br>ter attentie van:<br>' . nl2br(STORE_NAME_ADDRESS) . '<br><br>' . 'Uw bestelling zal worden verzonden nadat de betaling is bijgeschreven op onze rekening.');
 if (defined('MODULE_PAYMENT_MONEYORDER_STATUS')) {
   define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Graag overmaken o.v.v. uw ordernummer op rekeningnummer:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nter attentie van:\n" . STORE_NAME_ADDRESS . "\n\n" . 'Uw bestelling zal worden verzonden nadat de betaling is bijgeschreven op onze rekening.');
 }
